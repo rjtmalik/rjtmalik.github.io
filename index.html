@@ -7,11 +7,56 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <!-- Bootstrap JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+	<!-- Using Angular js-->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.10/angular.min.js"></script>
+	<!-- Adding the controller-->
+    <script src="script-ng.js"></script>
     <title>Job Billboard</title>
 </head>
-<body>
-    <div class="col-lg-6 col-md-6 col-sm-6">
-	<div class="panel panel-info">
+<body  ng-app ="GyaanCheck">
+<div class="col-lg-6 col-md-6 col-sm-6 jobs" ng-controller="getLeftPanel">
+        <div class={{section.HeadingTheme}} ng-repeat="section in sections">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><img src={{section.Logo}} alt={{section.AltText}} />{{section.Title}}<small> Published On: {{section.PublishedOn}}</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td>Apply on or before: {{section.ApplicationEndDt}}</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href={{section.DetailedNotification}}><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href={{section.GoToSite}}><span class="glyphicon glyphicon-share"></span></a>
+                                <br />
+                                Application Fee: Rs.{{section.ApplicationFee}}/-
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr colspan="2">
+                            <th style="text-align:left">Designation</th>
+                            <th style="text-align:left">Posts</th>
+							<th style="text-align:left">Eligibility</th>
+                            <th style="text-align:center">Pay Scale</th>
+                            <th style="text-align:left">Grade Pay</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="jobDetail in section.JobDetails">
+                            <td style="text-align:left">{{jobDetail.Designation}}</td>
+                            <td style="text-align:left">{{jobDetail.NoOfPosts}}</td>
+                            <td style="text-align:left">{{jobDetail.Eligibility}}</td>
+                            <td style="text-align:center">{{jobDetail.PayScale}}</td>
+                            <td style="text-align:center">{{jobDetail.GradePay}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+				<h6 style="text-align:right">Age: {{section.Age}}</h6>
+            </div>
+        </div>
+<div class="panel panel-info">
             <div class="panel-heading">
                 <table class="table table-borderless">
                     <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>Senior Mining Professional post at Steel Authority of India Ltd(SAIL)<small> Published On: 15/01/2015</small></th></tr></thead>
@@ -1576,9 +1621,50 @@
                 </table>
             </div>
         </div>
-    </div>
-    <div class="col-lg-6 col-md-6 col-sm-6">
-	<div class="panel panel-success">
+</div>
+    <div class="col-lg-6 col-md-6 col-sm-6 jobs" ng-controller="getRightPanel">
+        <div class={{section.HeadingTheme}} ng-repeat="section in sections">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><img src={{section.Logo}} alt={{section.AltText}} />{{section.Title}}<small> Published On: {{section.PublishedOn}}</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td>Apply on or before: {{section.ApplicationEndDt}}</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href={{section.DetailedNotification}}><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href={{section.GoToSite}}><span class="glyphicon glyphicon-share"></span></a>
+                                <br />
+                                Application Fee: Rs.{{section.ApplicationFee}}/-
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr colspan="2">
+                            <th style="text-align:left">Designation</th>
+                            <th style="text-align:left">Posts</th>
+							<th style="text-align:left">Eligibility</th>
+                            <th style="text-align:center">Pay Scale</th>
+                            <th style="text-align:left">Grade Pay</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="jobDetail in section.JobDetails">
+                            <td style="text-align:left">{{jobDetail.Designation}}</td>
+                            <td style="text-align:left">{{jobDetail.NoOfPosts}}</td>
+                            <td style="text-align:left">{{jobDetail.Eligibility}}</td>
+                            <td style="text-align:center">{{jobDetail.PayScale}}</td>
+                            <td style="text-align:center">{{jobDetail.GradePay}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+				<h6 style="text-align:right">Age: {{section.Age}}</h6>
+            </div>
+        </div>
+    <div class="panel panel-success">
             <div class="panel-heading">
                 <table class="table table-borderless">
                     <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>Head Constable Dresser Veterinary at Indo Tibetan Border Police(ITBP)<small> Published On: 2015</small></th></tr></thead>
@@ -3128,7 +3214,8 @@
                 </table>
             </div>
         </div>
-    </div>
+	</div>
+
 </body>
 </html>
 
