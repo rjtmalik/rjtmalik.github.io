@@ -195,7 +195,7 @@ var sectionRight = [
         },
 		{
             HeadingTheme: "panel panel-danger",
-            Title: "Union Public Service Commission(UPSC) Adv 02 for various jobs",
+            Title: "Institute of Himalayan Bioresource Technology (CSIR-IHBT) technical jobs",
             ApplicationEndDt: "09/02/2015",
             DetailedNotification: "http://www.ihbt.res.in/recruit/Advt13_2014.pdf",
             GoToSite: "http://www.ihbt.res.in/recruit/recruitNotice.php",
