@@ -332,7 +332,7 @@ var sectionLeft = [
             ApplicationFee: "50",
             PublishedOn: "2015",
 			Age: "21 - 27",
-			Logo:"ITBP.jpg",
+			Logo:"itbp.jpg",
 			AltText:"ITBP",
             JobDetails: [{
                 Designation: "Constable Driver",
