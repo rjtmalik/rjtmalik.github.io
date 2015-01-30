@@ -10,6 +10,47 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 
 var sectionLeft = [
 {
+            HeadingTheme: "panel panel-info",
+            Title: "Manager posts in National Small Industries corporation limited(NSIC)",
+            ApplicationEndDt: "17/02/2015",
+            DetailedNotification: "http://nsicnet.com/hrnsic15/Instruction.asp?Ad=2",
+            GoToSite: "http://nsicnet.com/hrnsic15/Instruction.asp?Ad=2",
+            ApplicationFee: "--",
+            PublishedOn: "24/01/2015",
+			Age: "read Adv",
+			Logo:"nsic.gif",
+			AltText:"NSIC job",
+            JobDetails: [{
+                Designation: "Chief Manager",
+                NoOfPosts: "05(UR-03,OBC-01, SC-01)",
+                PayScale: "24,900 - 50,500",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Chief Manager(Finance and Accounts)",
+                NoOfPosts: "05(UR-04, SC-01)",
+                PayScale: "24,900 - 50,500",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Deputy Manager",
+                NoOfPosts: "15(UR-06,OBC-06,ST-01, SC-02)",
+                PayScale: "16,400 - 40,500",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Chief Manager(Finance and Accounts)",
+                NoOfPosts: "05(UR-01,OBC-02, SC-02,ST-01)",
+                PayScale: "16,400 - 40,500",
+                GradePay: "--",
+                Eligibility: "--"
+            }
+            ]
+        },
+{
             HeadingTheme: "panel panel-danger",
             Title: "Officer posts in Allahbad Gramin Bank(AGB)",
             ApplicationEndDt: "12/02/2015",
@@ -306,6 +347,129 @@ var sectionLeft = [
 
 var sectionRight = [
 {
+            HeadingTheme: "panel panel-danger",
+            Title: "Officer and office assistant post at Madhyanchal Gramin Bank(MGBank)",
+            ApplicationEndDt: "13/02/2015",
+            DetailedNotification: "http://www.mgbank.co.in/recruitment/1422447994Final%20recruitment%20advt%202015.pdf",
+            GoToSite: "http://www.mgbank.co.in/career.php",
+            ApplicationFee: "--",
+            PublishedOn: "29/01/2015",
+			Age: "--",
+			Logo:"mgb.jpg",
+			AltText:"job at Madhyanchal Gramin Bank(MGBank)",
+            JobDetails: [{
+                Designation: "Officer scale I",
+                NoOfPosts: "100",
+                PayScale: "14,500 - 25,700",
+                GradePay: "--",
+                Eligibility: "qualified online CWB for RRBs conducted by IBPS during Sep/Oct 2014"
+            },
+			{
+                Designation: "Office Assistant(multi purpose)",
+                NoOfPosts: "350",
+                PayScale: "7200 - 19,300",
+                GradePay: "--",
+                Eligibility: "--"
+            }
+            ]
+        },
+{
+            HeadingTheme: "panel panel-warning",
+            Title: "Short service commission in meteorological branch of Indian Air force(IAF) for course commencing January 2016",
+            ApplicationEndDt: "14/02/2015",
+            DetailedNotification: "http://careerairforce.nic.in",
+            GoToSite: "http://careerairforce.nic.in/tview3.asp?link_temp_id=256&lid=124",
+            ApplicationFee: "--",
+            PublishedOn: "2015",
+			Age: "20 - 26 as on 01/01/2016",
+			Logo:"iaf.gif",
+			AltText:"job at Indian Air force(IAF)",
+            JobDetails: [{
+                Designation: "Short Service Commission",
+                NoOfPosts: "--",
+                PayScale: "15,600 - 39,100",
+                GradePay: "5400 plus 6000 MSP and other allowances",
+                Eligibility: "Post graduate degree and physical standards"
+            }
+            ]
+        },
+{
+            HeadingTheme: "panel panel-success",
+            Title: "Registrar and officer posts in Aryabhatta Knowledge University(AKU)",
+            ApplicationEndDt: "21/02/2015",
+            DetailedNotification: "http://www.akubihar.org/pdf/Notice/Appointment%20of%20ACE,%20SO%20&%20LO%20of%20AKU,%20Patna.pdf",
+            GoToSite: "http://www.akubihar.org/careers.html",
+            ApplicationFee: "500",
+            PublishedOn: "19/01/2015",
+			Age: "Read Adv",
+			Logo:"aku.jpg",
+			AltText:"government job in AKU",
+            JobDetails: [{
+                Designation: "Assistant Controller of examination",
+                NoOfPosts: "01",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "Read Adv"
+            },
+			{
+                Designation: "Section Officer",
+                NoOfPosts: "01",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "Read Adv"
+            },
+			{
+                Designation: "Liaison officer",
+                NoOfPosts: "01(purely on contract)",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "Read Adv"
+            },
+			{
+                Designation: "Registrar",
+                NoOfPosts: "01",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "Read Adv"
+            },
+			{
+                Designation: "Finance officer",
+                NoOfPosts: "01",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "Read Adv"
+            },
+			{
+                Designation: "Assistant Professor",
+                NoOfPosts: "02",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "Read Adv"
+            },
+			{
+                Designation: "Senior Technical assistant",
+                NoOfPosts: "01",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "Read Adv"
+            },
+			{
+                Designation: "Technical assistant",
+                NoOfPosts: "02",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "Read Adv"
+            },
+			{
+                Designation: "Laboratory Assistant",
+                NoOfPosts: "03",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "Read Adv"
+            }
+            ]
+        },
+{
             HeadingTheme: "panel panel-info",
             Title: "Officer posts in Central University of Kerela(CUK)",
             ApplicationEndDt: "01/03/2015",
@@ -552,8 +716,8 @@ var sectionRight = [
             ApplicationFee: "100",
             PublishedOn: "2014",
 			Age: "Refer Advertisement",
-			Logo:"upsc.jpg",
-			AltText:"UPSC",
+			Logo:"csir.png",
+			AltText:"Government Job at CSIR",
             JobDetails: [{
                 Designation: "Senior Technical Officer",
                 NoOfPosts: "02(OBC-01,UR-01)",
