@@ -742,8 +742,8 @@ var sectionRight = [
             ApplicationFee: "--",
             PublishedOn: "28/01/2015",
 			Age: "Refer Advertisement",
-			Logo:"hal.png",
-			AltText:"HAL jobs",
+			Logo:"hal.jpg",
+			AltText:"jobs at HAL",
             JobDetails: [{
                 Designation: "Assistant Engineer(Civil)",
                 NoOfPosts: "37",
