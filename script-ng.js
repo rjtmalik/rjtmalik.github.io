@@ -9,6 +9,229 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 });
 
 var sectionLeft = [
+	{
+            HeadingTheme: "panel panel-danger",
+            Title: "non faculty posts at Indira Gandhi National Tribal University(IGNTU)",
+            ApplicationEndDt: "28/02/2015",
+            DetailedNotification: "http://igntu.ac.in/recruitment/Advt_Non_Teaching_2015.pdf",
+            GoToSite: "http://igntu.ac.in/recruitment.htm",
+            ApplicationFee: "500",
+            PublishedOn: "20/01/2015",
+			Age: "read Adv",
+			Logo:"igntu.jpg",
+			AltText:"job at IGNTU",
+            JobDetails: [{
+                Designation: "Librarian",
+                NoOfPosts: "01",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Executive Engineer(Civil)",
+                NoOfPosts: "01",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Assistant Librarian",
+                NoOfPosts: "03(1 for regional campus Manipur)",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Public Relations Officer",
+                NoOfPosts: "01",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Information Scientist",
+                NoOfPosts: "01",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Section Officer",
+                NoOfPosts: "01",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Private Secretary",
+                NoOfPosts: "03",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Assistant Engineer(Civil)",
+                NoOfPosts: "01",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Security Officer",
+                NoOfPosts: "01",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Assistant",
+                NoOfPosts: "01",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Personal Assistant",
+                NoOfPosts: "02",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Professional Assistant",
+                NoOfPosts: "01",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Senior Technical Assistant",
+                NoOfPosts: "05",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Senior Technical Assistant(Computer)",
+                NoOfPosts: "02",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Junior Engineer(Civil)",
+                NoOfPosts: "01",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Semi Professional Assistant",
+                NoOfPosts: "01",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Technical Assistant",
+                NoOfPosts: "06",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Pharmacist",
+                NoOfPosts: "01",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Security Inspector",
+                NoOfPosts: "01",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Upper Divisional Clerk",
+                NoOfPosts: "03",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Library Assistant",
+                NoOfPosts: "01",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Laboratory Assistant",
+                NoOfPosts: "09",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Lower Divisional Clerk",
+                NoOfPosts: "11",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Driver",
+                NoOfPosts: "01",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Cook",
+                NoOfPosts: "02",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Library Attendant",
+                NoOfPosts: "02",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Laboratory Attendant",
+                NoOfPosts: "08",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Multi tasking staff",
+                NoOfPosts: "06",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Kitchen Attendant",
+                NoOfPosts: "02",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Hostel Attendant",
+                NoOfPosts: "02",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            }
+            ]
+        },
 {
             HeadingTheme: "panel panel-info",
             Title: "Manager posts in National Small Industries corporation limited(NSIC)",
