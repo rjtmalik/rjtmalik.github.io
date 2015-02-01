@@ -556,7 +556,7 @@ var sectionLeft = [
             PublishedOn: "2015",
 			Age: "21 - 27",
 			Logo:"itbp.jpg",
-			AltText:"ITBP",
+			AltText:"job at ITBP",
             JobDetails: [{
                 Designation: "Constable Driver",
                 NoOfPosts: "472",
