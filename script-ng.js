@@ -939,7 +939,7 @@ var sectionRight = [
             ApplicationFee: "100",
             PublishedOn: "2014",
 			Age: "Refer Advertisement",
-			Logo:"csir.png",
+			Logo:"csir.jpg",
 			AltText:"Government Job at CSIR",
             JobDetails: [{
                 Designation: "Senior Technical Officer",
