@@ -605,7 +605,7 @@ var sectionRight = [
             ApplicationFee: "--",
             PublishedOn: "2015",
 			Age: "20 - 26 as on 01/01/2016",
-			Logo:"iaf.gif",
+			Logo:"iaf.jpg",
 			AltText:"job at Indian Air force(IAF)",
             JobDetails: [{
                 Designation: "Short Service Commission",
