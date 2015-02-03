@@ -11,6 +11,269 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 var sectionLeft = [
 {
             HeadingTheme: "panel panel-info",
+            Title: "job posts at Bihar Agricultural University",
+            ApplicationEndDt: "16/02/2015",
+            DetailedNotification: "http://bausabour.ac.in.199-79-63-199.plesk-web24.webhostbox.net/bau/files/Advertisement/4e10b0c6-9b4d-40be-bed5-6aacb1e751d9-harshit01.docx",
+            GoToSite: "http://bausabour.ac.in.199-79-63-199.plesk-web24.webhostbox.net/bau/index.aspx",
+            ApplicationFee: "--",
+            PublishedOn: "02/02/2015",
+			Age: "--",
+			Logo:"bau.jpg",
+			AltText:"job at Bihar Agricultural University",
+            JobDetails: [{
+                Designation: "Deputy Director Research",
+                NoOfPosts: "01",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Deputy Director Training",
+                NoOfPosts: "01",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Deputy Comptroller",
+                NoOfPosts: "01",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Assistant Director Recruitment",
+                NoOfPosts: "01",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Assistant Director Administration",
+                NoOfPosts: "02",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Assistant Registrar",
+                NoOfPosts: "02",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Audit Officer",
+                NoOfPosts: "01",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            }
+},
+{
+            HeadingTheme: "panel panel-success",
+            Title: "Various Group-C posts at Uttarakhand Public Service Commission(UKPSC)",
+            ApplicationEndDt: "23/02/2015",
+            DetailedNotification: "http://ukpsc.gov.in/files/Group_C_Vigapati.pdf",
+            GoToSite: "http://ukpsc.gov.in/recruitment/view/331",
+            ApplicationFee: "--",
+            PublishedOn: "07/02/2015",
+			Age: "--",
+			Logo:"ukpsc.jpg",
+			AltText:"job at UKPSC",
+            JobDetails: [{
+                Designation: "Lecturer(Cookery, Bakery, Housekeeping, Restaurant, Reception)",
+                NoOfPosts: "01",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Deputy Sports Officer",
+                NoOfPosts: "03",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Technical Assistant Geophysics",
+                NoOfPosts: "01",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Technical Assistant Geology",
+                NoOfPosts: "02",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Technical Assistant Chemistry",
+                NoOfPosts: "01",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Mines Inspector",
+                NoOfPosts: "10",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Draughtsman",
+                NoOfPosts: "01",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Assistant Engineer(Civil)",
+                NoOfPosts: "05",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Head Clerk",
+                NoOfPosts: "24",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Surveyor",
+                NoOfPosts: "01",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            }
+},
+{
+            HeadingTheme: "panel panel-danger",
+            Title: "Various Group-B posts at Uttarakhand Public Service Commission(UKPSC)",
+            ApplicationEndDt: "18/02/2015",
+            DetailedNotification: "http://ukpsc.gov.in/files/Group_B.pdf",
+            GoToSite: "http://ukpsc.gov.in/recruitment/view/330",
+            ApplicationFee: "--",
+            PublishedOn: "31/01/2015",
+			Age: "--",
+			Logo:"ukpsc.jpg",
+			AltText:"job at UKPSC",
+            JobDetails: [{
+                Designation: "Principal Grade II",
+                NoOfPosts: "18",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Engineer",
+                NoOfPosts: "06",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Lecturer(Cookery, Bakery, Housekeeping, Restaurant, Reception)",
+                NoOfPosts: "04",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Lecturer(Food Science and nutrition)",
+                NoOfPosts: "01",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Personnel Officer",
+                NoOfPosts: "01",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Assistant Geologist",
+                NoOfPosts: "04",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Extension Officer",
+                NoOfPosts: "12",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "District Sports Officer",
+                NoOfPosts: "01",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Superintendent",
+                NoOfPosts: "05",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Assistant Director(Printing)",
+                NoOfPosts: "01",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "--"
+            }
+},
+{
+            HeadingTheme: "panel panel-warning",
+            Title: "Category II stipendiary trainee at Bhabha Atomic Research Centre(BARC)",
+            ApplicationEndDt: "23/02/2015",
+            DetailedNotification: "http://barc.gov.in/careers/vacancy242.pdf",
+            GoToSite: "http://barc.gov.in/careers/",
+            ApplicationFee: "--",
+            PublishedOn: "02/02/2015",
+			Age: "18 - 27",
+			Logo:"barc.jpg",
+			AltText:"job at BARC",
+            JobDetails: [{
+                Designation: "Category II stipendiary trainee",
+                NoOfPosts: "41(SC-13, OBC-28)",
+                PayScale: "5200 - 20200",
+                GradePay: "2400",
+                Eligibility: "--"
+            }
+},
+{
+            HeadingTheme: "panel panel-warning",
+            Title: "Coast guard Navik general duty",
+            ApplicationEndDt: "10/02/2015",
+            DetailedNotification: "http://www.joinindiancoastguard.gov.in/PDF/Advertisement/Navik%28GD%29.pdf",
+            GoToSite: "http://www.joinindiancoastguard.gov.in/",
+            ApplicationFee: "--",
+            PublishedOn: "02/02/2015",
+			Age: "18 - 22",
+			Logo:"coastguard.jpg",
+			AltText:"job at Coast Gaurd",
+            JobDetails: [{
+                Designation: "Navik(General Duty)",
+                NoOfPosts: "--",
+                PayScale: "5200 - 20200",
+                GradePay: "2200",
+                Eligibility: "10+2 with Maths and Physics"
+            }
+},
+{
+            HeadingTheme: "panel panel-info",
             Title: "Non faculty posts at Indira Gandhi National Tribal University(IGNTU)",
             ApplicationEndDt: "28/02/2015",
             DetailedNotification: "http://igntu.ac.in/recruitment/Advt_Non_Teaching_2015.pdf",
