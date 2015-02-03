@@ -68,7 +68,7 @@ var sectionLeft = [
                 PayScale: "--",
                 GradePay: "--",
                 Eligibility: "--"
-            }
+            }]
 },
 {
             HeadingTheme: "panel panel-success",
@@ -150,7 +150,7 @@ var sectionLeft = [
                 PayScale: "--",
                 GradePay: "--",
                 Eligibility: "--"
-            }
+            }]
 },
 {
             HeadingTheme: "panel panel-danger",
@@ -232,7 +232,7 @@ var sectionLeft = [
                 PayScale: "--",
                 GradePay: "--",
                 Eligibility: "--"
-            }
+            }]
 },
 {
             HeadingTheme: "panel panel-warning",
@@ -251,7 +251,7 @@ var sectionLeft = [
                 PayScale: "5200 - 20200",
                 GradePay: "2400",
                 Eligibility: "--"
-            }
+            }]
 },
 {
             HeadingTheme: "panel panel-warning",
@@ -270,7 +270,7 @@ var sectionLeft = [
                 PayScale: "5200 - 20200",
                 GradePay: "2200",
                 Eligibility: "10+2 with Maths and Physics"
-            }
+            }]
 },
 {
             HeadingTheme: "panel panel-info",
