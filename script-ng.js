@@ -838,7 +838,7 @@ var sectionRight = [
             ApplicationEndDt: "08/03/2015",
             DetailedNotification: "http://www.seci.gov.in/upload/uploadfiles/files/English%20Solar%20Energy%20Ad%20for%20Employment%20News.pdf",
             GoToSite: "http://www.seci.gov.in/content/news_update/recruitment-notification-no-12015.php",
-            ApplicationFee: "500",
+            ApplicationFee: "--",
             PublishedOn: "07/02/2015",
 			Age: "--",
 			Logo:"solar.jpg",
