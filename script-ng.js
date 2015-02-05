@@ -833,6 +833,60 @@ var sectionLeft = [
 
 var sectionRight = [
 {
+            HeadingTheme: "panel panel-warning",
+            Title: "Solar Energy Corporation Of India(SOLAR) invites application for Engineer and Assistant",
+            ApplicationEndDt: "08/03/2015",
+            DetailedNotification: "http://www.seci.gov.in/upload/uploadfiles/files/English%20Solar%20Energy%20Ad%20for%20Employment%20News.pdf",
+            GoToSite: "http://www.seci.gov.in/content/news_update/recruitment-notification-no-12015.php",
+            ApplicationFee: "500",
+            PublishedOn: "07/02/2015",
+			Age: "--",
+			Logo:"solar.jpg",
+			AltText:"Engineer posts at SOLAR",
+            JobDetails: [{
+                Designation: "Senior Engineer",
+                NoOfPosts: "13",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "Full time Engineering Graduate"
+            },
+			{
+                Designation: "Personal Assistant",
+                NoOfPosts: "01",
+                PayScale: "--",
+                GradePay: "--",
+                Eligibility: "Bachelors degree from recognised university"
+            }
+            ]
+        },
+{
+            HeadingTheme: "panel panel-info",
+            Title: "Last date extended for faculty posts at Motilal Nehru Instituteof Technology(MNNIT)",
+            ApplicationEndDt: "02/03/2015",
+            DetailedNotification: "http://mnnit.ac.in/images/newstories/Extension_Faculty_advertisement_No_new.pdf",
+            GoToSite: "http://mnnit.ac.in/index.php/faculty-positions",
+            ApplicationFee: "500",
+            PublishedOn: "04/02/2015",
+			Age: "--",
+			Logo:"mnnit.jpg",
+			AltText:"faculty posts at MNNIT",
+            JobDetails: [{
+                Designation: "Professor",
+                NoOfPosts: "--",
+                PayScale: "37,400 - 67,000",
+                GradePay: "10,500",
+                Eligibility: "--"
+            },
+			{
+                Designation: "Associate Professor",
+                NoOfPosts: "--",
+                PayScale: "37,400 - 67,000",
+                GradePay: "9500",
+                Eligibility: "--"
+            }
+            ]
+        },
+{
             HeadingTheme: "panel panel-danger",
             Title: "Officer and office assistant post at Madhyanchal Gramin Bank(MGBank)",
             ApplicationEndDt: "13/02/2015",
