@@ -833,6 +833,109 @@ var sectionLeft = [
 
 var sectionRight = [
 {
+            HeadingTheme: "panel panel-danger",
+            Title: "Job posts in Himachal Pradesh Public Service Commission(HPPSC)",
+            ApplicationEndDt: "05/03/2015",
+            DetailedNotification: "http://hp.gov.in/hppsc/file.axd?file=2015%2f2%2fAdvertisement+No.+8_2014+++(Various+Posts).pdf",
+            GoToSite: "http://hp.gov.in/hppsc/page/Latest-Advertisement.aspx",
+            ApplicationFee: "400",
+            PublishedOn: "2014",
+			Age: "--",
+			Logo:"hppsc.jpg",
+			AltText:"Various posts at HPPSC",
+            JobDetails: [{
+                Designation: "Assistant Professor(Nephrology)",
+                NoOfPosts: "02",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            },
+			{
+                Designation: "Principal(Department of Ayurveda)",
+                NoOfPosts: "01",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            },
+			{
+                Designation: "Lecturer(Samhita and Siddhanta)",
+                NoOfPosts: "01",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            },
+			{
+                Designation: "Lecturer(Rog Nidhan)",
+                NoOfPosts: "01",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            },
+			{
+                Designation: "Law Officer(English)",
+                NoOfPosts: "02",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            },
+			{
+                Designation: "Manager",
+                NoOfPosts: "02",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            },
+			{
+                Designation: "Accounts Officer",
+                NoOfPosts: "01",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            },
+			{
+                Designation: "Commandant / Junior Staff Officer",
+                NoOfPosts: "02",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            },
+			{
+                Designation: "Assistant Town Planner",
+                NoOfPosts: "01",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            }
+            ]
+        },
+{
+            HeadingTheme: "panel panel-info",
+            Title: "Job posts in Chaitanya Godavri Grameen Bank(CGGB)",
+            ApplicationEndDt: "18/02/2015",
+            DetailedNotification: "http://www.cggb.in/Final_approved_Advertisement_CGGB_for%20RRBs_2015_to%20IBPS.pdf",
+            GoToSite: "http://www.cggb.in/",
+            ApplicationFee: "",
+            PublishedOn: "07/02/2015",
+			Age: "--",
+			Logo:"cggb.jpg",
+			AltText:"Officer posts at CGGB",
+            JobDetails: [{
+                Designation: "Officer Scale I",
+                NoOfPosts: "69",
+                PayScale: "14,500 - 25700",
+                GradePay: "",
+                Eligibility: ""
+            },
+			{
+                Designation: "Office Assistant(Multi-purpose)",
+                NoOfPosts: "32",
+                PayScale: "7200 - 19300",
+                GradePay: "",
+                Eligibility: ""
+            }
+            ]
+        },
+{
             HeadingTheme: "panel panel-warning",
             Title: "Solar Energy Corporation Of India(SOLAR) invites application for Engineer and Assistant",
             ApplicationEndDt: "08/03/2015",
