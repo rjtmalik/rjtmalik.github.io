@@ -833,6 +833,143 @@ var sectionLeft = [
 
 var sectionRight = [
 {
+            HeadingTheme: "panel panel-success",
+            Title: "Recruitment of Personal Assistant / Stenographer in Patna High Court",
+            ApplicationEndDt: "13/03/2015",
+            DetailedNotification: "http://patnahighcourt.bih.nic.in/ViewPDF.aspx?File=UPLOADED/575.PDF",
+            GoToSite: "http://patnahighcourt.bih.nic.in/",
+            ApplicationFee: "200",
+            PublishedOn: "12/02/2015",
+			Age: "--",
+			Logo:"patna_high_court.jpg",
+			AltText:"Personal Assistant / Stenographer in Patna High Court",
+            JobDetails: [{
+                Designation: "Personal Assistant / Stenographer",
+                NoOfPosts: "64 +30(anticipated)",
+                PayScale: "9,300 - 34,800",
+                GradePay: "4,600",
+                Eligibility: ""
+            }]
+},
+{
+            HeadingTheme: "panel panel-warning",
+            Title: "Manager and officer posts at Hindustan Shipyard Limited(HSL)",
+            ApplicationEndDt: "28/02/2015",
+            DetailedNotification: "http://hsl.gov.in/WriteReadData/userfiles/file/Recruitment/ADVT_NO_HR_E_0102_01_2015_03Feb2015_Final.pdf",
+            GoToSite: "http://hsl.gov.in/content/200_1_Careers.aspx",
+            ApplicationFee: "100",
+            PublishedOn: "2015",
+			Age: "--",
+			Logo:"hsl.jpg",
+			AltText:"Manager and officer posts at HSL",
+            JobDetails: [{
+                Designation: "General Manager(Finance)",
+                NoOfPosts: "01",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            },
+			{
+                Designation: "Additional General Manager(Finance)",
+                NoOfPosts: "01",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            },
+			{
+               Designation: "Additional General Manager(Submarine Technical)",
+                NoOfPosts: "01",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            },
+			{
+                Designation: "Assistant Professor(Nephrology)",
+                NoOfPosts: "02",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            },
+			{
+                Designation: "Additional General Manager(Technical)",
+                NoOfPosts: "01",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            },
+			{
+                Designation: "Assistant Professor(Nephrology)",
+                NoOfPosts: "02",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            },
+			{
+                Designation: "Additional General Manager(Safety and Security)",
+                NoOfPosts: "01",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            },
+			{
+                Designation: "Deputy General Manager(Technical)",
+                NoOfPosts: "01",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            },
+			{
+                Designation: "Additional General Manager(Safety and Security)",
+                NoOfPosts: "01",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            },
+			{
+                Designation: "Deputy General Manager(Technical)",
+                NoOfPosts: "01",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            },
+			{
+                Designation: "Senior Manager(HR and Admin)",
+                NoOfPosts: "01",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            },
+			{
+                Designation: "Senior Manager(Purchase and Material)",
+                NoOfPosts: "02",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            },
+			{
+                Designation: "Dock Master",
+                NoOfPosts: "01",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            },
+			{
+                Designation: "Manager(HR and Admin)",
+                NoOfPosts: "01",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            },
+			{
+                Designation: "Management Trainee(Technical)",
+                NoOfPosts: "01",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            }
+			]
+},
+{
             HeadingTheme: "panel panel-danger",
             Title: "Job posts in Himachal Pradesh Public Service Commission(HPPSC)",
             ApplicationEndDt: "05/03/2015",
