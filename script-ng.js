@@ -833,6 +833,205 @@ var sectionLeft = [
 
 var sectionRight = [
 {
+            HeadingTheme: "panel panel-info",
+            Title: "Faculty posts in Institute of Microbial Technology(IMTECH) Chandigarh",
+            ApplicationEndDt: "12/03/2015",
+            DetailedNotification: "http://www.imtech.res.in/index.php?option=com_chronocontact&chronoformname=Job&task=summary&Itemid=123",
+            GoToSite: "http://www.imtech.res.in/",
+            ApplicationFee: "",
+            PublishedOn: "2015",
+			Age: "--",
+			Logo:"csir.jpg",
+			AltText:"Faculty posts in Berhampur University",
+            JobDetails: [{
+                Designation: "Senior Principal Scientist / Principal Scientist",
+                NoOfPosts: "04",
+                PayScale: "37,400 - 67,000",
+                GradePay: "8,900",
+                Eligibility: ""
+            },
+			{
+                Designation: "Senior Scientist / Scientist",
+                NoOfPosts: "11",
+                PayScale: "15,600 - 39,100",
+                GradePay: "6,600",
+                Eligibility: ""
+            }
+			]
+},
+{
+            HeadingTheme: "panel panel-info",
+            Title: "Faculty posts in Berhampur University",
+            ApplicationEndDt: "28/02/2015",
+            DetailedNotification: "http://www.buodisha.edu.in/",
+            GoToSite: "http://www.buodisha.edu.in/",
+            ApplicationFee: "1000",
+            PublishedOn: "2015",
+			Age: "--",
+			Logo:"berhampur_university.jpg",
+			AltText:"Faculty posts in Berhampur University",
+            JobDetails: [{
+                Designation: "Reader",
+                NoOfPosts: "03",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            },
+			{
+                Designation: "Lecturer",
+                NoOfPosts: "10",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            }
+			]
+},
+{
+            HeadingTheme: "panel panel-danger",
+            Title: "Faculty posts at All India Institute of Medical Sciences(AIIMS) Patna",
+            ApplicationEndDt: "14/03/2015",
+            DetailedNotification: "http://www.aiimspatna.org/news/Faculty%20Ad%20Employment%20News.pdf",
+            GoToSite: "http://www.aiimspatna.org/pages/recruitment.php",
+            ApplicationFee: "500",
+            PublishedOn: "07/02/2015",
+			Age: "--",
+			Logo:"aiims_patna.jpg",
+			AltText:"Faculty posts at AIIMS Patna",
+            JobDetails: [{
+                Designation: "Professor",
+                NoOfPosts: "29",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            },
+			{
+                Designation: "Additional Professor",
+                NoOfPosts: "23",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            },
+			{
+                Designation: "Associate Professor",
+                NoOfPosts: "60",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            },
+			{
+                Designation: "Assistant Professor",
+                NoOfPosts: "82",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            }
+			]
+},
+{
+            HeadingTheme: "panel panel-warning",
+            Title: "Faculty and non faculty posts at Tata Memorial Hospital(TMH)",
+            ApplicationEndDt: "20/02/2015",
+            DetailedNotification: "https://tmc.gov.in/work/Notification2015/work03_15.html",
+            GoToSite: "https://tmc.gov.in/work/Notification2015/work03_15.html",
+            ApplicationFee: "500",
+            PublishedOn: "30/01/2015",
+			Age: "--",
+			Logo:"tmh.jpg",
+			AltText:"Faculty and non faculty posts at TMH",
+            JobDetails: [{
+                Designation: "Professor 'G' / Associate Professor 'F' / Assistant Professor 'E' Gastroenterology",
+                NoOfPosts: "01",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            },
+			{
+                Designation: "Assistant Professor 'E' Gastroenterology",
+                NoOfPosts: "03",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            },
+			{
+                Designation: "Professor 'G' / Associate Professor 'F', Assistant Professor 'E' Gastroenterology",
+                NoOfPosts: "01",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            },
+			{
+                Designation: "Scientific Officer",
+                NoOfPosts: "03",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            },
+			{
+                Designation: "Officer In charge(Dispensary)",
+                NoOfPosts: "01",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            },
+			{
+                Designation: "Junior Engineer",
+                NoOfPosts: "03",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            },
+			{
+                Designation: "Assistant Dietician",
+                NoOfPosts: "01",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            },
+			{
+                Designation: "Scientific Assistant 'B'",
+                NoOfPosts: "13",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            },
+			{
+                Designation: "Pharmacist 'B'",
+                NoOfPosts: "01",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            },
+			{
+                Designation: "Technician 'C'",
+                NoOfPosts: "03",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            },
+			{
+                Designation: "Stenographer",
+                NoOfPosts: "04",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            },
+			{
+                Designation: "Technician 'A'",
+                NoOfPosts: "03",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            },
+			{
+                Designation: "Lower Divisional Clerk",
+                NoOfPosts: "15",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: ""
+            }
+			]
+},
+{
             HeadingTheme: "panel panel-success",
             Title: "Recruitment of Personal Assistant / Stenographer in Patna High Court",
             ApplicationEndDt: "13/03/2015",
