@@ -10,6 +10,168 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 
 var sectionLeft = [
 {
+            HeadingTheme: "panel panel-warning",
+            Title: "COMBINED STATE / UPPER SUBORDINATE SERVICES (GEN. RECTT.) EXAMINATION-2015",
+            ApplicationEndDt: "28/02/2015",
+            DetailedNotification: "http://uppsc.up.nic.in/View_Enclosure.aspx?ID=103&flag=E&FID=334",
+            GoToSite: "http://uppsc.up.nic.in/Notifications.aspx",
+            ApplicationFee: "115",
+            PublishedOn: "2015",
+			Age: "--",
+			Logo:"uppsc.jpg",
+			AltText:"COMBINED STATE / UPPER SUBORDINATE SERVICES (GEN. RECTT.) EXAMINATION-2015",
+            JobDetails: [{
+                Designation: "Multiple posts",
+                NoOfPosts: "450",
+                PayScale: "93,00 - 34,800",
+                GradePay: "4,200",
+                Eligibility: "Bachelors Degree"
+            }]
+},
+{
+            HeadingTheme: "panel panel-info",
+            Title: "Faculty posts at Benaras Hindu University(BHU)",
+            ApplicationEndDt: "20/02/2015",
+            DetailedNotification: "http://www.bhu.ac.in/rac/jan2015/RollingFinal.pdf",
+            GoToSite: "http://www.bhu.ac.in/rac/",
+            ApplicationFee: "--",
+            PublishedOn: "2015",
+			Age: "--",
+			Logo:"bhu.jpg",
+			AltText:"BHU recruitment 2015",
+            JobDetails: [{
+                Designation: "Professor",
+                NoOfPosts: "",
+                PayScale: "37,400 - 67,000",
+                GradePay: "10,000",
+                Eligibility: ""
+            },
+			{
+                Designation: "Reader",
+                NoOfPosts: "",
+                PayScale: "12000-420-18300",
+                GradePay: "",
+                Eligibility: ""
+            },
+			{
+                Designation: "Assistant Professor",
+                NoOfPosts: "",
+                PayScale: "15,600 - 39,100",
+                GradePay: "6,000",
+                Eligibility: ""
+            },
+			{
+                Designation: "Associate Professor",
+                NoOfPosts: "",
+                PayScale: "37,400 - 67,000",
+                GradePay: "9,000",
+                Eligibility: ""
+            }
+			]
+},
+{
+            HeadingTheme: "panel panel-info",
+            Title: "Non Managerial positions in Mangalore Refinery and Petrochemicals Limited(MRPL)",
+            ApplicationEndDt: "11/02/2015",
+            DetailedNotification: "http://www.mrpl.co.in/careers",
+            GoToSite: "http://www.mrpl.co.in/careers",
+            ApplicationFee: "--",
+            PublishedOn: "2015",
+			Age: "--",
+			Logo:"mrpl.jpg",
+			AltText:"MRPL Career 2015",
+            JobDetails: [{
+                Designation: "Workman(chemical)",
+                NoOfPosts: "92",
+                PayScale: "W2",
+                GradePay: "--",
+                Eligibility: ""
+            },
+			{
+                Designation: "Assistant(Materials)",
+                NoOfPosts: "04",
+                PayScale: "JMS",
+                GradePay: "--",
+                Eligibility: ""
+            },
+			{
+                Designation: "Assistant(Finance)",
+                NoOfPosts: "04",
+                PayScale: "JMS",
+                GradePay: "--",
+                Eligibility: ""
+            }
+			]
+},
+{
+            HeadingTheme: "panel panel-danger",
+            Title: "Recruitment Of Engineering Executive Trainee at NTPC through GATE-2015",
+            ApplicationEndDt: "03/03/2015",
+            DetailedNotification: "http://www.ntpccareers.net/et15/my_files/advt_et15.pdf",
+            GoToSite: "http://www.ntpccareers.net/et15/hm.php",
+            ApplicationFee: "--",
+            PublishedOn: "02/02/2015",
+			Age: "--",
+			Logo:"ntpc.jpg",
+			AltText:"ntpc recruitment through gate 2015",
+            JobDetails: [{
+                Designation: "Executive Trainee Engineer-Electrical",
+                NoOfPosts: "40",
+                PayScale: "24,900-3%-50,500",
+                GradePay: "--",
+                Eligibility: "Engineering Degree with minimum 65%"
+            },
+			{
+                Designation: "Executive Trainee Engineer-Mechanical",
+                NoOfPosts: "60",
+                PayScale: "24,900-3%-50,500",
+                GradePay: "--",
+                Eligibility: "Engineering Degree with minimum 65%"
+            },
+			{
+                Designation: "Executive Trainee Engineer-Instrumentation",
+                NoOfPosts: "10",
+                PayScale: "24,900-3%-50,500",
+                GradePay: "--",
+                Eligibility: "Engineering Degree with minimum 65%"
+            },
+			{
+                Designation: "Executive Trainee Engineer-Electronics",
+                NoOfPosts: "10",
+                PayScale: "24,900-3%-50,500",
+                GradePay: "--",
+                Eligibility: "Engineering Degree with minimum 65%"
+            }
+			]
+},
+{
+            HeadingTheme: "panel panel-success",
+            Title: "Project Scientist in Ministry of Earth Sciences on Contract Basis",
+            ApplicationEndDt: "21/02/2015",
+            DetailedNotification: "http://moes.gov.in/writereaddata/files/project%20scientist%20B%20%26%20C.pdf",
+            GoToSite: "http://moes.gov.in/",
+            ApplicationFee: "--",
+            PublishedOn: "06/02/2015",
+			Age: "--",
+			Logo:"moes.jpg",
+			AltText:"ministry of earth sciences recruitment",
+            JobDetails: [{
+                Designation: "Project Scientist 'B'",
+                NoOfPosts: "08",
+                PayScale: "21,000 + HRA + DA",
+                GradePay: "--",
+                Eligibility: "Post Graduate Degree"
+            },
+			{
+                Designation: "Project Scientist 'C'",
+                NoOfPosts: "04",
+                PayScale: "22,000 + HRA + DA",
+                GradePay: "--",
+                Eligibility: "Post Graduate Degree"
+            }
+			]
+},
+{
             HeadingTheme: "panel panel-info",
             Title: "job posts at Bihar Agricultural University",
             ApplicationEndDt: "16/02/2015",
@@ -833,6 +995,67 @@ var sectionLeft = [
 
 var sectionRight = [
 {
+            HeadingTheme: "panel panel-danger",
+            Title: "Various posts in Indian Institute Of Technology Bhubaneswar(IIT)",
+            ApplicationEndDt: "20/02/2015",
+            DetailedNotification: "http://www.iitbbs.ac.in/staffrecruitment/advt/postadvt_1422493625.pdf",
+            GoToSite: "http://www.iitbbs.ac.in/staffrecruitment/index.php",
+            ApplicationFee: "500",
+            PublishedOn: "30/01/2015",
+			Age: "--",
+			Logo:"iit_bhubaneswar.jpg",
+			AltText:"Indian Institute Of Technology Bhubaneswar recruitment 2015",
+            JobDetails: [{
+                Designation: "Junior Superintendent",
+                NoOfPosts: "05(UR-03, OBC-02)",
+                PayScale: "9,300 - 34,800",
+                GradePay: "4200",
+                Eligibility: ""
+            },
+			{
+                Designation: "Junior Assistant",
+                NoOfPosts: "05(UR-02, SC-01, ST-02)",
+                PayScale: "5,200 - 20,200",
+                GradePay: "2,000",
+                Eligibility: ""
+            }
+			]
+},
+{
+            HeadingTheme: "panel panel-warning",
+            Title: "Various posts in Tripura Public Service Commission(TPSC)",
+            ApplicationEndDt: "28/02/2015",
+            DetailedNotification: "http://www.tpsc.gov.in/2015/310115.pdf",
+            GoToSite: "http://www.tpsc.gov.in/examination.htm",
+            ApplicationFee: "200",
+            PublishedOn: "2015",
+			Age: "--",
+			Logo:"tpsc.jpg",
+			AltText:"Tripura Public Service Commission recruitment 2015",
+            JobDetails: [{
+                Designation: "Junior Medical Officer / General Duty Medical Officer",
+                NoOfPosts: "350",
+                PayScale: "13,575 - 37,000",
+                GradePay: "3,700",
+                Eligibility: ""
+            },
+			{
+                Designation: "Scientific Officer",
+                NoOfPosts: "03",
+                PayScale: "9,570 - 30,000",
+                GradePay: "3,500",
+                Eligibility: ""
+            },
+			{
+                Designation: "Statistical Officer",
+                NoOfPosts: "02",
+                PayScale: "9,570 - 30,000",
+                GradePay: "3,500",
+                Eligibility: ""
+            }
+			]
+},
+{
             HeadingTheme: "panel panel-info",
             Title: "Faculty posts in Institute of Microbial Technology(IMTECH) Chandigarh",
             ApplicationEndDt: "12/03/2015",
@@ -842,7 +1065,7 @@ var sectionRight = [
             PublishedOn: "2015",
 			Age: "--",
 			Logo:"csir.jpg",
-			AltText:"Faculty posts in Berhampur University",
+			AltText:"Faculty posts in IMTECH",
             JobDetails: [{
                 Designation: "Senior Principal Scientist / Principal Scientist",
                 NoOfPosts: "04",
