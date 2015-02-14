@@ -36,6 +36,13 @@
 <body  ng-app ="GyaanCheck">
 <div class="container-fluid">
 <div class="row">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+		<h1>GyaanCheck<small> Never miss a job opening by any government department.</small></h1>
+    </div>
+  </div>
+</nav>
 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 jobs" ng-controller="getLeftPanel">
         <div class={{section.HeadingTheme}} ng-repeat="section in sections">
             <div class="panel-heading">
@@ -45,9 +52,9 @@
                         <tr>
                             <td>Apply on or before: {{section.ApplicationEndDt}}</td>
                             <td align="right">
-                                <a title="Download Advertisement" target="_blank" href={{section.DetailedNotification}}><span class="glyphicon glyphicon-download"></span></a>
-                                <br />
                                 Application Fee: Rs.{{section.ApplicationFee}}/-
+                                <br />
+								<a title="Download Advertisement" target="_blank" href={{section.DetailedNotification}}>Download Advertisement <span class="glyphicon glyphicon-download"></span></a>
                             </td>
                         </tr>
                     </tbody>
