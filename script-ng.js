@@ -9,6 +9,130 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 });
 
 var sectionLeft = [
+    {
+        HeadingTheme: "panel panel-success",
+        Title: "Union Bank of India recruitment for Specialist Officer",
+        ApplicationEndDt: "28/02/2015",
+        DetailedNotification: "http://www.unionbankofindia.co.in/pdf/UBRP201516EnglishNotificationwebsite.pdf",
+        GoToSite: "http://www.unionbankofindia.co.in/abt_recruitmentaspx.aspx",
+        ApplicationFee: "600",
+        PublishedOn: "13/02/2015",
+        Age: "--",
+        Logo: "UnionBank.jpg",
+        AltText: "union bank of india recruitment",
+        JobDetails: [{
+            Designation: "Economist",
+            NoOfPosts: "02(UR-02)",
+            PayScale: "14500 - 25700",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Forex Officer II",
+            NoOfPosts: "11(UR-02, SC-02, ST-01)",
+            PayScale: "19400 - 28100",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Forex Officer I",
+            NoOfPosts: "36(UR-25, OBC-4, SC-05, ST-02)",
+            PayScale: "14500 - 25700",
+            GradePay: "",
+            Eligibility: ""
+        }
+        ]
+},
+    {
+        HeadingTheme: "panel panel-info",
+        Title: "Walkin for IT Professionals in HARTRON -27th/28 Feb and 3rd/4th March",
+        ApplicationEndDt: "",
+        DetailedNotification: "http://hartron.org.in/images/SDG/2015/SDGRoles1815.pdf",
+        GoToSite: "hartron.org.in/index.php/jobs-career/current-opening",
+        ApplicationFee: "",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "hartron.jpg",
+        AltText: "Walkin for IT Professionals in HARTRON -27th/28 Feb and 3rd/4th March",
+        JobDetails: [{
+            Designation: "Program Manager",
+            NoOfPosts: "1",
+            PayScale: "18+ Lacs",
+            GradePay: "",
+            Eligibility: "11+ Yrs experience"
+        },
+        {
+            Designation: "IT Infrastructure Manager (SWAN)",
+            NoOfPosts: "1",
+            PayScale: "10+ Lacs",
+            GradePay: "",
+            Eligibility: "7+ Yrs experience"
+        },
+        {
+            Designation: "Senior Database Analyst",
+            NoOfPosts: "1",
+            PayScale: "10+ Lacs",
+            GradePay: "",
+            Eligibility: "7+ Yrs experience"
+        },
+        {
+            Designation: "Service delivery manager",
+            NoOfPosts: "1",
+            PayScale: "10+ Lacs",
+            GradePay: "",
+            Eligibility: "7+ Yrs experience"
+        },
+        {
+            Designation: "Senior Security Analyst",
+            NoOfPosts: "1",
+            PayScale: "18+",
+            GradePay: "",
+            Eligibility: "11+ Yrs experience"
+        },
+        {
+            Designation: "Asstt. Manager IT (DevOps)",
+            NoOfPosts: "1",
+            PayScale: "18+",
+            GradePay: "",
+            Eligibility: "11+ Yrs experience"
+        },
+         {
+             Designation: "Database Analyst",
+             NoOfPosts: "2",
+             PayScale: "6+ Lacs",
+             GradePay: "",
+             Eligibility: "4+ Yrs experience"
+         },
+        {
+            Designation: "Software Developer",
+            NoOfPosts: "2",
+            PayScale: "6+ Lacs",
+            GradePay: "",
+            Eligibility: "4+ Yrs experience"
+        },
+        {
+            Designation: "Security Analyst",
+            NoOfPosts: "1",
+            PayScale: "6+ Lacs",
+            GradePay: "",
+            Eligibility: "4+ Yrs experience"
+        },
+        {
+            Designation: "Business Analyst",
+            NoOfPosts: "4",
+            PayScale: "6+ Lacs",
+            GradePay: "",
+            Eligibility: "4+ Yrs experience"
+        },
+        {
+            Designation: "IT Manager",
+            NoOfPosts: "1",
+            PayScale: "10+ Lacs",
+            GradePay: "",
+            Eligibility: "7+ Yrs experience"
+        }
+        ]
+    },
 {
             HeadingTheme: "panel panel-warning",
             Title: "COMBINED STATE / UPPER SUBORDINATE SERVICES (GEN. RECTT.) EXAMINATION-2015",
@@ -994,6 +1118,88 @@ var sectionLeft = [
 ];
 
 var sectionRight = [
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "Various posts by UPSC",
+        ApplicationEndDt: "05/03/2015",
+        DetailedNotification: "http://upsc.gov.in/recruitment/advt/2015/advt3&51_20015.pdf",
+        GoToSite: "http://upsconline.nic.in/ora/VacancyNoticePub.php",
+        ApplicationFee: "500",
+        PublishedOn: "14/02/2015",
+        Age: "--",
+        Logo: "upsc.jpg",
+        AltText: "UPSC vacancy",
+        JobDetails: [{
+            Designation: "Stores Officer",
+            NoOfPosts: "20(SC-03, ST-01, OBC-05, UR-11)",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Stores Officer",
+            NoOfPosts: "20(SC-03, ST-01, OBC-05, UR-11)",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Assistant Public Prosecutor",
+            NoOfPosts: "22(SC-02, ST-01, OBC-01, UR-13)",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Assistant Surveyor Officers",
+            NoOfPosts: "04(ST-01, OBC-01, UR-02)",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+         {
+             Designation: "Engineer and Ship Surveyor cum Deputy Director General(Tech.)",
+             NoOfPosts: "03(ST-01, OBC-01, UR-01)",
+             PayScale: "",
+             GradePay: "",
+             Eligibility: ""
+         }
+        ]
+},
+{
+    HeadingTheme: "panel panel-danger",
+    Title: "Uttar Pradesh National Rural Health Mission (UP NRHM) vacancy : Contract jobs",
+    ApplicationEndDt: "28/02/2015",
+    DetailedNotification: "http://upnrhm.gov.in/site-files/careers/JD_BCPM-NHM__SS-ARS-GN_3__1_.doc",
+    GoToSite: "http://upnrhm.gov.in/careers.php",
+    ApplicationFee: "500",
+    PublishedOn: "2015",
+    Age: "--",
+    Logo: "nrhm.jpg",
+    AltText: "UP NRHM vacancy",
+    JobDetails: [{
+        Designation: "Block Community Process Managers",
+        NoOfPosts: "820",
+        PayScale: "",
+        GradePay: "",
+        Eligibility: ""
+    },
+    {
+        Designation: "Rogi Sahayata Kendra Managers",
+        NoOfPosts: "50",
+        PayScale: "",
+        GradePay: "",
+        Eligibility: ""
+    },
+    {
+        Designation: "Rogi Sahayata Kendra Operators",
+        NoOfPosts: "200",
+        PayScale: "",
+        GradePay: "",
+        Eligibility: ""
+    }
+    ]
+},
 {
             HeadingTheme: "panel panel-danger",
             Title: "Various posts in Indian Institute Of Technology Bhubaneswar(IIT)",
