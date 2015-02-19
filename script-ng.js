@@ -18,7 +18,7 @@ var sectionLeft = [
         ApplicationFee: "600",
         PublishedOn: "13/02/2015",
         Age: "--",
-        Logo: "UnionBank.jpg",
+        Logo: "unionbank.jpg",
         AltText: "union bank of india recruitment",
         JobDetails: [{
             Designation: "Economist",
