@@ -1119,12 +1119,134 @@ var sectionLeft = [
 
 var sectionRight = [
     {
+        HeadingTheme: "panel panel-info",
+        Title: "Zone Wise Recruitment for Junior Engineer(Civil/Electrical/Mechanical), Assistant Grade II, Typist(Hindi) and Assistant Grade III at Food Corporation Of India(FCI)",
+        ApplicationEndDt: "17/03/2015",
+        DetailedNotification: "https://fcijobsportal.com/AGIII2014/pages/FCI_Advt_2015.pdf",
+        GoToSite: "https://fcijobsportal.com/AGIII2014/pages/fciindex.aspx",
+        ApplicationFee: "350",
+        PublishedOn: "16/02/2015",
+        Age: "--",
+        Logo: "fci.jpg",
+        AltText: "fci recruitment 2015",
+        JobDetails: [{
+            Designation: "Junior Engineer(Civil)",
+            NoOfPosts: "66",
+            PayScale: "11100-29950",
+            GradePay: "",
+            Eligibility: "Degree in Civil Engineering or Diploma in Civil Engineering with one year experience."
+        },
+        {
+            Designation: "Junior Engineer(Electrical)",
+            NoOfPosts: "17",
+            PayScale: "11100-29950",
+            GradePay: "",
+            Eligibility: "Degree in Electrical Engineering or Diploma in Electrical Engineering with one year experience in the case of Diploma holders only."
+        },
+        {
+            Designation: "Junior Engineer(Mechanical)",
+            NoOfPosts: "06",
+            PayScale: "11100-29950",
+            GradePay: "",
+            Eligibility: "Degree in Mechanical Engineering or Diploma in Mechanical Engineering with one year experience in the case of Diploma holders."
+        },
+        {
+            Designation: "AG-II (Hindi)",
+            NoOfPosts: "54",
+            PayScale: "9900 – 25530",
+            GradePay: "",
+            Eligibility: "1. Degree of a recognized University with Hindi as the main subject. 2. Proficiency in English. 3. One year experience of translation from English to Hindi and viceversa."
+        },
+        {
+            Designation: "Typist (Hindi)",
+            NoOfPosts: "100",
+            PayScale: "9900 – 25530",
+            GradePay: "",
+            Eligibility: "(1) Graduation or equivalent. (2) 30 W.P.M speed in Hindi Typing. (3) Preference will be given to the candidates knowing by-lingual typing (English and Hindi) and Computer knowledge."
+        },
+        {
+            Designation: "AG-III (General)",
+            NoOfPosts: "699",
+            PayScale: "9900 – 25530",
+            GradePay: "",
+            Eligibility: "Graduate Degree in any discipline from a recognized University with proficiency in use of computers."
+        },
+        {
+            Designation: "AG-III (Accounts)",
+            NoOfPosts: "269",
+            PayScale: "9900 – 25530",
+            GradePay: "",
+            Eligibility: "Bachelor of Commerce from a recognized University with proficiency in use of computers."
+        },
+        {
+            Designation: "AG-III (Technical)",
+            NoOfPosts: "1429",
+            PayScale: "9900 – 25530",
+            GradePay: "",
+            Eligibility: "1. B.Sc. in Agriculture from a recognized University. 2. Proficiency in use of computers."
+        },
+        {
+            Designation: "AG-III (Depot)",
+            NoOfPosts: "1652",
+            PayScale: "9900 – 25530",
+            GradePay: "",
+            Eligibility: "Graduate Degree in any discipline from a recognized University withproficiency in use of computers."
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "Container Corporation Of India Recruitment 2015 Management Trainee",
+        ApplicationEndDt: "08/03/2015",
+        DetailedNotification: "http://careers1.concorindia.co.in/AdvEng.Pdf",
+        GoToSite: "http://www.concorindia.com/recruitment_notices.aspx",
+        ApplicationFee: "350",
+        PublishedOn: "14/02/2015",
+        Age: "--",
+        Logo: "concor.jpg",
+        AltText: "container corporation of india recruitment 2012 management trainee",
+        JobDetails: [{
+            Designation: "Management Trainee",
+            NoOfPosts: "25",
+            PayScale: "16400 - 40500",
+            GradePay: "",
+            Eligibility: "Graduate with minimum 55% marks and 2 years full time MBA"
+        },
+        {
+            Designation: "Assistant Company Secretary",
+            NoOfPosts: "01",
+            PayScale: "11800 - 28600",
+            GradePay: "",
+            Eligibility: "Commerce Graduate with minimum 60% marks and membership of ICSI"
+        }
+        ]
+    },
+  {
+      HeadingTheme: "panel panel-success",
+      Title: "Indian Navy SSC Technical Recruitment JAn 2016 course",
+      ApplicationEndDt: "04/03/2015",
+      DetailedNotification: "http://www.nausena-bharti.nic.in/pdf/Triadentry/sscxtechsubmjan16.pdf",
+      GoToSite: "http://www.nausena-bharti.nic.in/forthcomingOfficer.php",
+      ApplicationFee: "",
+      PublishedOn: "14/02/2015",
+      Age: "--",
+      Logo: "indiannavy.jpg",
+      AltText: "Indian Navy SSC Technical Recruitment 2015",
+      JobDetails: [{
+          Designation: "SSC Technical",
+          NoOfPosts: "71",
+          PayScale: "15600 - 39100",
+          GradePay: "5400",
+          Eligibility: "B.E./B.Tech Engineering with minimum 65%"
+      }]
+  },
+    {
         HeadingTheme: "panel panel-warning",
-        Title: "BPCL Kochi Refinery Workmen Recruitment",
+        Title: "BPCL Kochi Refinery Workman Recruitment",
         ApplicationEndDt: "28/02/2015",
         DetailedNotification: "http://www.bharatpetroleum.com/Kochicareers/pdf/advertisement%20feb%202015.pdf",
         GoToSite: "http://www.bpclcareers.in/joblisting.aspx",
-        ApplicationFee: "500",
+        ApplicationFee: "",
         PublishedOn: "14/02/2015",
         Age: "--",
         Logo: "bpcl.jpg",
