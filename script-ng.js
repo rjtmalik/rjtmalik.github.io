@@ -1120,6 +1120,25 @@ var sectionLeft = [
 var sectionRight = [
     {
         HeadingTheme: "panel panel-warning",
+        Title: "BPCL Kochi Refinery Workmen Recruitment",
+        ApplicationEndDt: "28/02/2015",
+        DetailedNotification: "http://www.bharatpetroleum.com/Kochicareers/pdf/advertisement%20feb%202015.pdf",
+        GoToSite: "http://www.bpclcareers.in/joblisting.aspx",
+        ApplicationFee: "500",
+        PublishedOn: "14/02/2015",
+        Age: "--",
+        Logo: "bpcl.jpg",
+        AltText: "BPCL recruitment",
+        JobDetails: [{
+            Designation: "General Workman",
+            NoOfPosts: "71",
+            PayScale: "5.51 CTC",
+            GradePay: "",
+            Eligibility: "First class Diploma in Engineering"
+        }]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
         Title: "Various posts by UPSC",
         ApplicationEndDt: "05/03/2015",
         DetailedNotification: "http://upsc.gov.in/recruitment/advt/2015/advt3&51_20015.pdf",
