@@ -1270,6 +1270,162 @@ var sectionLeft = [
 
 var sectionRight = [
     {
+        HeadingTheme: "panel panel-warning",
+        Title: "Recruitment of HEad Constable(Ministerial) at Central Industrial Security Force(CISF)",
+        ApplicationEndDt: "14/03/2015",
+        DetailedNotification: "http://www.cisf.gov.in/wp-content/uploads/2015/02/HC_MIN_2015_ENGLISH.pdf",
+        GoToSite: "http://www.cisf.gov.in/head-constablemin-2015/",
+        ApplicationFee: "50",
+        PublishedOn: "",
+        Age: "--",
+        Logo: "cisf.jpg",
+        AltText: "Recruitment at Central Industrial Security Force(CISF)",
+        JobDetails: [{
+            Designation: "Head Constable(Ministerial)",
+            NoOfPosts: "700",
+            PayScale: "5200 - 20200",
+            GradePay: "2400",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "Advertisement for the post of Resident Medical Officer at IISER Bhopal",
+        ApplicationEndDt: "10/03/2015",
+        DetailedNotification: "https://www.iiserb.ac.in/PDF/Advertisement_for_the_post_of_Resident_Medical_Officer.pdf",
+        GoToSite: "https://www.iiserb.ac.in/page.php?bulletin=Vacancies-&type=NonAcademic&id=87",
+        ApplicationFee: "",
+        PublishedOn: "",
+        Age: "--",
+        Logo: "iiser.jpg",
+        AltText: "IISER Bhopal Recruitment for Resident Medical Officer",
+        JobDetails: [{
+            Designation: "Resident Medical Officer",
+            NoOfPosts: "02",
+            PayScale: "57,500 Gross Salary",
+            GradePay: "",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "Faculty Position Under Special Recruitment Drive For SC/ST at IISER Thiruvananthapuram",
+        ApplicationEndDt: "31/03/2015",
+        DetailedNotification: "http://www.orientalinsurance.org.in/Career.jsp",
+        GoToSite: "http://www.iisertvm.ac.in/openings/faculty_special_recruitment_drive.phpx",
+        ApplicationFee: "",
+        PublishedOn: "",
+        Age: "--",
+        Logo: "iiser.jpg",
+        AltText: "Faculty Position Under Special Recruitment Drive For SC/ST at Indian Institue of Science Education and Reserch(IISER)",
+        JobDetails: [{
+            Designation: "Assistant Professor ( on contract)",
+            NoOfPosts: "",
+            PayScale: "15600-39100",
+            GradePay: "6000",
+            Eligibility: ""
+        },
+        {
+            Designation: "Assistant Professor (Regular)",
+            NoOfPosts: "",
+            PayScale: "15600-39100",
+            GradePay: "6000",
+            Eligibility: "PhD with a very good academic record throughout and at least three years "
+        }
+        ]
+    },
+   {
+       HeadingTheme: "panel panel-danger",
+       Title: "Recruitment of Administrative Officers (Scale-I)-2015 in Oriental Insurance Co. Ltd",
+       ApplicationEndDt: "20/03/2015",
+       DetailedNotification: "http://www.orientalinsurance.org.in/Career.jsp",
+       GoToSite: "http://www.orientalinsurance.org.in/Career.jsp",
+       ApplicationFee: "600",
+       PublishedOn: "27/02/2015",
+       Age: "--",
+       Logo: "orientalinsurance.jpg",
+       AltText: "Recruitment of Administrative Officers (Scale-I)-2015 in Oriental Insurance Co. Ltd",
+       JobDetails: [{
+           Designation: "Administrative Officer",
+           NoOfPosts: "246",
+           PayScale: "17,240-840(14)-29,000-910(4)-32640",
+           GradePay: "",
+           Eligibility: ""
+       },
+       ]
+   },
+    {
+        HeadingTheme: "panel panel-info",
+        Title: "Center For Development of Advanced Computing(CDAC) invites applications for Group A non Technical posts",
+        ApplicationEndDt: "05/03/2015",
+        DetailedNotification: "http://cdac.in/index.aspx?id=ca_pune_feb_general_terms",
+        GoToSite: "http://cdac.in/index.aspx?id=job_pune_feb_2015",
+        ApplicationFee: "500",
+        PublishedOn: "17/02/2015",
+        Age: "--",
+        Logo: "cdac.jpg",
+        AltText: "CDAC Recruitment 2015",
+        JobDetails: [{
+            Designation: "Senior HRD Officer",
+            NoOfPosts: "02",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Senior Finance Officer",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Senior Admin Officer(Chief Executive Office/Registrar Office)",
+            NoOfPosts: "02",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "HRD Officer",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Admin Officer(Legal)",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Admin Officer",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Finance Officer",
+            NoOfPosts: "02",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Purchase Officer",
+            NoOfPosts: "02",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
         HeadingTheme: "panel panel-info",
         Title: "Zone Wise Recruitment for Junior Engineer(Civil/Electrical/Mechanical), Assistant Grade II, Typist(Hindi) and Assistant Grade III at Food Corporation Of India(FCI)",
         ApplicationEndDt: "17/03/2015",
