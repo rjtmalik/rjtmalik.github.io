@@ -10,6 +10,157 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 
 var sectionLeft = [
     {
+        HeadingTheme: "panel panel-info",
+        Title: "Indian Oil Corporation invites applications for Junior Engineer at Mathura Refinery(IOCL Recruitment)",
+        ApplicationEndDt: "16/03/2015",
+        DetailedNotification: "https://www.iocl.com/download/Mathura_Refinery_AD_2015.pdf",
+        GoToSite: "https://www.iocl.com/PeopleCareers/job.aspx",
+        ApplicationFee: "100",
+        PublishedOn: "20/02/2015",
+        Age: "--",
+        Logo: "iocl.jpg",
+        AltText: "Indian Oil Corporation invites applications for Junior Engineer at Mathura Refinery(IOCL Recruitment)",
+        JobDetails: [{
+            Designation: "Jr. Engineering Assistant-IV (Production)",
+            NoOfPosts: "17",
+            PayScale: "11900 - 32000",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Jr. Engineering Assistant-IV (Power & Utility)",
+            NoOfPosts: "02",
+            PayScale: "11900 - 32000",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Jr. Engineering Assistant-IV (Mechanical Maintenance)",
+            NoOfPosts: "10",
+            PayScale: "11900 - 32000",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Jr. Engineering Assistant-IV(Instrumentation)",
+            NoOfPosts: "05",
+            PayScale: "11900 - 32000",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Jr. Engineering Assistant-IV(Instrumentation)",
+            NoOfPosts: "07",
+            PayScale: "11900 - 32000",
+            GradePay: "",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "Rajasthan Marudhara Gramin Bank recruitment by IBPS",
+        ApplicationEndDt: "26/02/2015",
+        DetailedNotification: "http://www.mgbbank.com/IBPSAPPFinal.pdf",
+        GoToSite: "http://www.mgbbank.com/",
+        ApplicationFee: "100",
+        PublishedOn: "12/02/2015",
+        Age: "--",
+        Logo: "rmgb.jpg",
+        AltText: "rajasthan marudhara gramin bank recruitment",
+        JobDetails: [{
+            Designation: "Officer Scale-III",
+            NoOfPosts: "17",
+            PayScale: "25700-800/5-29700-900/2-31500",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Officer Scale-II (General Banking Officer)",
+            NoOfPosts: "69",
+            PayScale: "19400-700/1-20100-800/10-28100",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Officer Scale-II (IT)",
+            NoOfPosts: "04",
+            PayScale: "19400-700/1-20100-800/10-28100",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Officer Scale-II (CA)",
+            NoOfPosts: "01",
+            PayScale: "19400-700/1-20100-800/10-28100",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Officer Scale-II (Law)",
+            NoOfPosts: "01",
+            PayScale: "19400-700/1-20100-800/10-28100",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Officer Scale-II (Treasury Manager)",
+            NoOfPosts: "01",
+            PayScale: "19400-700/1-20100-800/10-28100",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Officer Scale-I",
+            NoOfPosts: "153",
+            PayScale: "14500 - 600/7 - 18700 - 700/2 – 20100 - 800/7 – 25700",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Office Assistant (Multipurpose)",
+            NoOfPosts: "262",
+            PayScale: "7200-400/3-8400-500/3-9900-600/4-12300-700/7-17200-1300/1-18500-800/1-19300",
+            GradePay: "",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "Shipping Corporation Of India Recruitment For Management Posts",
+        ApplicationEndDt: "09/03/2015",
+        DetailedNotification: "http://www.shipindia.com/uploaded_pdfs/career/detailed%20ad.pdf",
+        GoToSite: "http://www.shipindia.com/careers/shore-details.aspx?NjY.",
+        ApplicationFee: "1000",
+        PublishedOn: "14/02/2015",
+        Age: "--",
+        Logo: "sci.jpg",
+        AltText: "shipping corporation of india recruitment",
+        JobDetails: [{
+            Designation: "Assistant Manager",
+            NoOfPosts: "62",
+            PayScale: "20600 - 46500",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Manager(Company Secretary)",
+            NoOfPosts: "01",
+            PayScale: "29100 - 54500",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Deputy General Manager",
+            NoOfPosts: "17",
+            PayScale: "32900 - 58000",
+            GradePay: "",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
         HeadingTheme: "panel panel-success",
         Title: "Union Bank of India recruitment for Specialist Officer",
         ApplicationEndDt: "28/02/2015",
