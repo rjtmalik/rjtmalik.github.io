@@ -10,6 +10,260 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 
 var sectionLeft = [
     {
+        HeadingTheme: "panel panel-danger",
+        Title: "CIIL Requirement of Project Staff for various Schemes",
+        ApplicationEndDt: "05/03/2015",
+        DetailedNotification: "http://www.ciil.org/Download/CIIL_Project_Staff_2015.pdf",
+        GoToSite: "http://www.ciil.org/AnnCIIL2015.aspx",
+        ApplicationFee: "",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "ciil.jpg",
+        AltText: "CIIL Requirement of Project Staff for various Schemes",
+        JobDetails: [{
+            Designation: "Chief Resource Officer",
+            NoOfPosts: "08",
+            PayScale: "43636 Monthly",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Senior Resource Person - I",
+            NoOfPosts: "14",
+            PayScale: "40738 Monthly",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Senior Resource Person - II",
+            NoOfPosts: "09",
+            PayScale: "38813 Monthly",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Junior Resource Person - I",
+            NoOfPosts: "37",
+            PayScale: "38212 Monthly",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Junior Resource Person - II",
+            NoOfPosts: "44",
+            PayScale: "35482 Monthly",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Junior Resource Person (Technical)- I",
+            NoOfPosts: "12",
+            PayScale: "38212 Monthly",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Junior Resource Person (Technical)- II",
+            NoOfPosts: "04",
+            PayScale: "35480 Monthly",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Office Supervisor",
+            NoOfPosts: "03",
+            PayScale: "37571 Monthly",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Accounts Assistant",
+            NoOfPosts: "05",
+            PayScale: "23515 Monthly",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Library Assistant",
+            NoOfPosts: "03",
+            PayScale: "23515 Monthly",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Office Assistant",
+            NoOfPosts: "07",
+            PayScale: "20515 Monthly",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Data Input Operator",
+            NoOfPosts: "12",
+            PayScale: "23515 Monthly",
+            GradePay: "",
+            Eligibility: ""
+        },
+         {
+             Designation: "Office Helper",
+             NoOfPosts: "06",
+             PayScale: "14490 Monthly",
+             GradePay: "",
+             Eligibility: ""
+         }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-success",
+        Title: "NIT Meghalaya Faculty Recruitment",
+        ApplicationEndDt: "31/03/2015",
+        DetailedNotification: "http://nitmeghalaya.in/nitm/notifications/recruitments/docs/advtFacultyFebruary2015_full.pdf",
+        GoToSite: "http://nitmeghalaya.in/nitm/notifications/recruitments/faculty_feb2015.html",
+        ApplicationFee: "",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "nit_meghalya.jpg",
+        AltText: "NIT Meghalaya faculty recruitment",
+        JobDetails: [{
+            Designation: "Asst. Professor",
+            NoOfPosts: "",
+            PayScale: " PB3 Min Basic: 30,000",
+            GradePay: "8000",
+            Eligibility: "Ph. D. with 1st Class at UG & PG levels"
+        },
+        {
+            Designation: "Asst. Professor(On Contract)",
+            NoOfPosts: "",
+            PayScale: " PB3 + 07 increments",
+            GradePay: "7000",
+            Eligibility: "Ph. D. with 1st Class at UG & PG levels"
+        },
+        {
+            Designation: "Asst. Professor(On Contract)",
+            NoOfPosts: "",
+            PayScale: " PB3 + 07 increments",
+            GradePay: "6000",
+            Eligibility: "Ph. D. with 1st Class at UG & PG levels"
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-success",
+        Title: "Recruitment of Trainee Teacher at NIT Meghalya(National Institute of Technology)",
+        ApplicationEndDt: "01/04/2015",
+        DetailedNotification: "http://nitmeghalaya.in/nitm/notifications/recruitments/docs/trainee%20teacher%20scheme.pdf",
+        GoToSite: "http://nitmeghalaya.in/nitm/notifications/recruitments/Trainee_techerFeb2015.html",
+        ApplicationFee: "",
+        PublishedOn: "09/02/2015",
+        Age: "--",
+        Logo: "nit_meghalya.jpg",
+        AltText: "Recruitment of Trainee Teacher at NIT Meghalya",
+        JobDetails: [{
+            Designation: "Trainee Teacher",
+            NoOfPosts: "",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "Candidates within top 15% in other AICTE recognized institutions and having valid GATE score are also eligible for the position."
+        }]
+    },
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "National Institute of Technical Teachers Training and Reserch(NITTR) recruitment for various posts",
+        ApplicationEndDt: "27/03/2015",
+        DetailedNotification: "http://www.nitttrchd.ac.in/sitenew1/pdf/Adv.142_2015.pdf",
+        GoToSite: "http://recruit.nitttrchd.ac.in/",
+        ApplicationFee: "100",
+        PublishedOn: "09/02/2015",
+        Age: "--",
+        Logo: "nitttrchd.jpg",
+        AltText: "National Institute of Technical Teachers Training and Reserch(NITTR) recruitment for various posts",
+        JobDetails: [{
+            Designation: "Sr. Administrative Officer",
+            NoOfPosts: "01",
+            PayScale: "PB-3 15600-39100",
+            GradePay: "6600",
+            Eligibility: ""
+        },
+        {
+            Designation: "Research Assistant",
+            NoOfPosts: "01",
+            PayScale: "PB-3 15600-39100",
+            GradePay: "5400",
+            Eligibility: ""
+        },
+        {
+            Designation: "Senior Production Assistant",
+            NoOfPosts: "03",
+            PayScale: "PB-2 9300-34800",
+            GradePay: "4200",
+            Eligibility: ""
+        },
+        {
+            Designation: "Accounts Officer",
+            NoOfPosts: "01",
+            PayScale: "PB-2 9300-34800",
+            GradePay: "4600",
+            Eligibility: ""
+        },
+        {
+            Designation: "Accountant",
+            NoOfPosts: "01",
+            PayScale: "PB-2 9300-34800",
+            GradePay: "4200",
+            Eligibility: ""
+        },
+        {
+            Designation: "Hindi Translator",
+            NoOfPosts: "01",
+            PayScale: "PB-2 9300-34800",
+            GradePay: "4200",
+            Eligibility: ""
+        },
+        {
+            Designation: "Technicians",
+            NoOfPosts: "11",
+            PayScale: "PB-1 5200-20200",
+            GradePay: "2800",
+            Eligibility: ""
+        },
+        {
+            Designation: "Estate Assistant",
+            NoOfPosts: "01",
+            PayScale: "PB-1 5200-20200",
+            GradePay: "2800",
+            Eligibility: ""
+        },
+        {
+            Designation: "Stenographer Grade-II",
+            NoOfPosts: "06",
+            PayScale: "PB-1 5200-20200",
+            GradePay: "2400",
+            Eligibility: ""
+        },
+        {
+            Designation: "Lower Division Clerks",
+            NoOfPosts: "07",
+            PayScale: "PB-1 5200-20200",
+            GradePay: "1900",
+            Eligibility: ""
+        },
+        {
+            Designation: "Drivers",
+            NoOfPosts: "02",
+            PayScale: "PB-1 5200-20200",
+            GradePay: "1900",
+            Eligibility: ""
+        },
+        {
+            Designation: "Multi Skilled Attendants (MSA)",
+            NoOfPosts: "16",
+            PayScale: "PB-1 5200-20200",
+            GradePay: "1800",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
         HeadingTheme: "panel panel-info",
         Title: "Indian Oil Corporation invites applications for Junior Engineer at Mathura Refinery(IOCL Recruitment)",
         ApplicationEndDt: "16/03/2015",
@@ -1271,7 +1525,7 @@ var sectionLeft = [
 var sectionRight = [
     {
         HeadingTheme: "panel panel-warning",
-        Title: "Recruitment of HEad Constable(Ministerial) at Central Industrial Security Force(CISF)",
+        Title: "Recruitment of Head Constable(Ministerial) at Central Industrial Security Force(CISF)",
         ApplicationEndDt: "14/03/2015",
         DetailedNotification: "http://www.cisf.gov.in/wp-content/uploads/2015/02/HC_MIN_2015_ENGLISH.pdf",
         GoToSite: "http://www.cisf.gov.in/head-constablemin-2015/",
