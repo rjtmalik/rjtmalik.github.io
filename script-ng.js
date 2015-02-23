@@ -10,6 +10,135 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 
 var sectionLeft = [
     {
+        HeadingTheme: "panel panel-info",
+        Title: "Faculty position at Rajiv Gandhi University, Arunachal Pradesh",
+        ApplicationEndDt: "06/03/2015",
+        DetailedNotification: "http://rgu.ac.in/downloads/Advno6jan15.pdf",
+        GoToSite: "http://rgu.ac.in/jobsatrgu.html",
+        ApplicationFee: "400",
+        PublishedOn: "12/02/2015",
+        Age: "--",
+        Logo: "rgu.jpg",
+        AltText: "Faculty position at Rajiv Gandhi University",
+        JobDetails: [{
+            Designation: "Professor",
+            NoOfPosts: "11",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Associate Professor",
+            NoOfPosts: "12",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Assistant Professor",
+            NoOfPosts: "04",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        }
+        ]
+        },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "Officer posts in FCI Aravali Gypsum And Minerals India Limited(FAGMIL)",
+        ApplicationEndDt: "16/03/2015",
+        DetailedNotification: "http://fagmil.nic.in/images/Careers/recruitment2015.pdf",
+        GoToSite: "http://fagmil.nic.in/index.php/en/services/careers",
+        ApplicationFee: "200",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "fagmil.jpg",
+        AltText: "FCI Aravali Gypsum And Minerals India Limited(FAGMIL) Recruitment",
+        JobDetails: [{
+            Designation: "Asstt. Finance Manager",
+            NoOfPosts: "01",
+            PayScale: "24900-3%-50500",
+            GradePay: "",
+            Eligibility: "CA OR ICWA"
+        },
+        {
+            Designation: "Accounts Officer Grade-II",
+            NoOfPosts: "02",
+            PayScale: "16400-3%-40500",
+            GradePay: "",
+            Eligibility: "CA OR ICWA"
+        },
+        {
+            Designation: "Asstt. Mining Engineer",
+            NoOfPosts: "01",
+            PayScale: "16400-3%-40500",
+            GradePay: "",
+            Eligibility: "Degree in Mining Engg./AMIE with Second Class Mine Manager’s Certificate of Competency (Restricted) under MMR, 1961."
+        },
+        {
+            Designation: "Asstt. Engineer (Project)",
+            NoOfPosts: "01",
+            PayScale: "16400-3%-40500",
+            GradePay: "",
+            Eligibility: "Full time B.E./B.Tech. in IT/Mechanical from a recognized university"
+        },
+        {
+            Designation: "Jr. Chemist",
+            NoOfPosts: "01",
+            PayScale: "12600-3%-32500",
+            GradePay: "",
+            Eligibility: "(i) Regular course in M.Sc. (Chemistry) from a recognized university. (ii) Basic knowledge of computer."
+        },
+        {
+            Designation: "Jr. Geologist",
+            NoOfPosts: "01",
+            PayScale: "12600-3%-32500",
+            GradePay: "",
+            Eligibility: "(i) Regular course in M.Sc. (Geology) from a recognized university. (ii) Basic knowledge of computer"
+        },
+        {
+            Designation: "Quarry Foreman",
+            NoOfPosts: "03",
+            PayScale: "11600-3%-26250",
+            GradePay: "",
+            Eligibility: "1) (i) 12th Pass (ii) Should possess Mine Foreman’s Certificate (Restricted) under MMR , 1961 OR Diploma in Mining & Mine Surveying With Mine Foreman’s Certificate (Restricted) under MMR 1961. 2) Basic knowledge of computer."
+        },
+        {
+            Designation: "Mining Mate",
+            NoOfPosts: "05",
+            PayScale: "9550-3%-21300",
+            GradePay: "",
+            Eligibility: "(i) 12th Pass (ii) Should possess Mining Mate’s Certificate under MMR, 1961 (iii) Basic knowledge of computer."
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "Officer posts in Sutlej Gramin Bank",
+        ApplicationEndDt: "03/03/2015",
+        DetailedNotification: "http://sgbbathinda.co.in/Downloads/adsgb2015.pdf",
+        GoToSite: "http://sgbbathinda.co.in/Recruitment.aspx",
+        ApplicationFee: "",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "sgb.jpg",
+        AltText: "Sutlej Gramin Bank recruitment",
+        JobDetails: [{
+            Designation: "Officer Scale-I",
+            NoOfPosts: "21",
+            PayScale: "14500-600/7, 18700-700/2, 20100-800/7, 25700",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Office Assistant (Multipurpose)",
+            NoOfPosts: "20",
+            PayScale: "7200-400/3, 8400-500/3, 9900-600/4, 12300-700/7, 17200-1300/1,18500-800/1,19300.",
+            GradePay: "",
+            Eligibility: ""
+        }]
+        },
+    {
         HeadingTheme: "panel panel-danger",
         Title: "CIIL Requirement of Project Staff for various Schemes",
         ApplicationEndDt: "05/03/2015",
@@ -1523,6 +1652,40 @@ var sectionLeft = [
 ];
 
 var sectionRight = [
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "Recruitment Of Meritorious Sportsperson in the Income Tax Department, Chennai",
+        ApplicationEndDt: "06/04/2015",
+        DetailedNotification: "http://tnincometax.gov.in/vdo_library/902e9550-b988-11e4-9f25-5254005c208b.pdf",
+        GoToSite: "http://tnincometax.gov.in/vdo_library/902e9550-b988-11e4-9f25-5254005c208b.pdf",
+        ApplicationFee: "",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "tn_it.jpg",
+        AltText: "Recruitment Of Meritorious Sportsperson in the Income Tax Department, Chennai",
+        JobDetails: [{
+            Designation: "Income Tax Inspectors",
+            NoOfPosts: "07",
+            PayScale: "9300 - 34800",
+            GradePay: "4600",
+            Eligibility: ""
+        },
+        {
+            Designation: "Tax Assistant",
+            NoOfPosts: "20",
+            PayScale: "5200 - 20200",
+            GradePay: "2400",
+            Eligibility: ""
+        },
+        {
+            Designation: "Multi Tasking Officer",
+            NoOfPosts: "10",
+            PayScale: "5200 - 20200",
+            GradePay: "1800",
+            Eligibility: ""
+        }
+        ]
+    },
     {
         HeadingTheme: "panel panel-warning",
         Title: "Recruitment of Head Constable(Ministerial) at Central Industrial Security Force(CISF)",
