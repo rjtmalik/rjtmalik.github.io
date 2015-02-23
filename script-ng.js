@@ -1653,6 +1653,74 @@ var sectionLeft = [
 
 var sectionRight = [
     {
+        HeadingTheme: "panel panel-info",
+        Title: "UPSC Indian Economic Service Examination 2015",
+        ApplicationEndDt: "20/03/2015",
+        DetailedNotification: "http://upsc.gov.in/exams/notifications/2015/IES_ISS/Notice_IES_ISS_Exam_2015_English.pdf",
+        GoToSite: "http://upsconline.nic.in/mainmenu2.php",
+        ApplicationFee: "200",
+        PublishedOn: "21/02/2015",
+        Age: "--",
+        Logo: "upsc.jpg",
+        AltText: "UPSC Indian Economic Service Examination 2015",
+        JobDetails: [{
+            Designation: "Indian Economic Service",
+            NoOfPosts: "06",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Indian Statistical Service",
+            NoOfPosts: "55",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-success",
+        Title: "UPSC Combined Geo-Scientist And Geologist Examination 2015",
+        ApplicationEndDt: "23/03/2015",
+        DetailedNotification: "http://upsc.gov.in/exams/notifications/2015/Geol/Notice_Geol_2015_English.pdf",
+        GoToSite: "http://upsconline.nic.in/mainmenu2.php",
+        ApplicationFee: "200",
+        PublishedOn: "21/02/2015",
+        Age: "--",
+        Logo: "upsc.jpg",
+        AltText: "UPSC Combined Geo-Scientist And Geologist Examination 2015",
+        JobDetails: [{
+            Designation: "Geologist Group A",
+            NoOfPosts: "150",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Geophysicist Group A",
+            NoOfPosts: "40",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Jr. HydroGeologist(Scientist B)",
+            NoOfPosts: "29",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Chemist Group A",
+            NoOfPosts: "50",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
         HeadingTheme: "panel panel-danger",
         Title: "Recruitment Of Meritorious Sportsperson in the Income Tax Department, Chennai",
         ApplicationEndDt: "06/04/2015",
