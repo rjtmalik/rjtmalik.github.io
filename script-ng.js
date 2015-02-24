@@ -1722,6 +1722,46 @@ var sectionLeft = [
 var sectionRight = [
     {
         HeadingTheme: "panel panel-success",
+        Title: "NTPC Special Drive for Finance Executive: National Thermal Power Corporation recruitment 2015",
+        ApplicationEndDt: "16/03/2015",
+        DetailedNotification: "http://open.ntpccareers.net/fin15/index.php",
+        GoToSite: "http://open.ntpccareers.net/fin15/index.php",
+        ApplicationFee: "250",
+        PublishedOn: "24/02/2015",
+        Age: "--",
+        Logo: "ntpc.jpg",
+        AltText: "National Thermal Power Corporation recruitment 2015:NTPC recruitment 2015",
+        JobDetails: [{
+            Designation: "Finance Executives",
+            NoOfPosts: "15 posts in E2/E3/E4",
+            PayScale: "(E2 24900 - 50500)/(E3 29100-54500)/(E4 32900-58000)",
+            GradePay: "",
+            Eligibility: "CA/ICWA with 2/4/6 years of experience"
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "NPCIL recruitment 2015 for Engineers:Executive Trainee at Nuclear Power Corporation of India Ltd.",
+        ApplicationEndDt: "15/03/2015",
+        DetailedNotification: "http://www.npcil.nic.in/",
+        GoToSite: "http://www.npcil.nic.in/",
+        ApplicationFee: "250",
+        PublishedOn: "28/02/2015",
+        Age: "--",
+        Logo: "npcil.jpg",
+        AltText: "NPCIL Recruitment 2015",
+        JobDetails: [{
+            Designation: "Executive Trainee(ET)",
+            NoOfPosts: "110",
+            PayScale: "15600 - 39100",
+            GradePay: "6000",
+            Eligibility: "Full Time B.E./B.Tech/B.Sc. Engineering"
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-success",
         Title: "Faculty posts at Hemwati Nandan Bahuguna Garhwal University, Srinagar (Garhwal), Uttarakhand – 246 174",
         ApplicationEndDt: "30/04/2015",
         DetailedNotification: "http://www.recruitmenthnbgu.co.in/GENERAL%20INSTRUCTIONS%20TEACHING.pdf",
