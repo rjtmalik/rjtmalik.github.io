@@ -10,6 +10,74 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 
 var sectionLeft = [
     {
+        HeadingTheme: "panel panel-danger",
+        Title: "Applications are invited for the Post of Lecturer on contract in various departments of NIT Hamirpur",
+        ApplicationEndDt: "17/03/2015",
+        DetailedNotification: "http://www.nith.ac.in/recruitment/2015/sodr.pdf",
+        GoToSite: "http://www.nith.ac.in/recruitment/index.htm",
+        ApplicationFee: "",
+        PublishedOn: "11/02/2015",
+        Age: "--",
+        Logo: "nit_hamirpur.jpg",
+        AltText: "NIT Hamirpur recruitment 2015",
+        JobDetails: [{
+            Designation: "Deputy Registrar",
+            NoOfPosts: "01",
+            PayScale: "15600 - 39100",
+            GradePay: "7600",
+            Eligibility: "Master's Degree in any discipline with atleast 55% marks"
+        },
+        {
+            Designation: "Sr. Scientific/Technical Officer",
+            NoOfPosts: "03(regular) 01(deputation)",
+            PayScale: "15600 - 39100",
+            GradePay: "7600",
+            Eligibility: "B.E. or B.Tech. or M.Sc./MCA Degree in relevant field with first class"
+        },
+        {
+            Designation: "Assistant Librarian",
+            NoOfPosts: "01",
+            PayScale: "15600 - 39100",
+            GradePay: "7600",
+            Eligibility: "Master's Degree in Library Science"
+        },
+        {
+            Designation: "Scientific/Technical Officer",
+            NoOfPosts: "01(deputation)",
+            PayScale: "38000 consolidated per month",
+            GradePay: "",
+            Eligibility: "B.E. or B.Tech. or M.Sc./MCA Degree in relevant field with first class"
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "Applications are invited for the Post of Lecturer on contract in various departments of NIT Hamirpur",
+        ApplicationEndDt: "16/03/2015",
+        DetailedNotification: "http://www.nith.ac.in/recruitment/2015/lectform.pdf",
+        GoToSite: "http://www.nith.ac.in/recruitment/index.htm",
+        ApplicationFee: "",
+        PublishedOn: "11/02/2015",
+        Age: "--",
+        Logo: "nit_hamirpur.jpg",
+        AltText: "NIT Hamirpur recruitment 2015",
+        JobDetails: [{
+            Designation: "Lecturer",
+            NoOfPosts: "",
+            PayScale: "47200 Consolidatd monthly salary",
+            GradePay: "",
+            Eligibility: "Ph.D. with First Class both at U.G. and P.G. Level"
+        },
+        {
+            Designation: "Trainee Teacher",
+            NoOfPosts: "10",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        }
+        ]
+        },
+    {
         HeadingTheme: "panel panel-info",
         Title: "Faculty position at Rajiv Gandhi University, Arunachal Pradesh",
         ApplicationEndDt: "06/03/2015",
@@ -1652,6 +1720,72 @@ var sectionLeft = [
 ];
 
 var sectionRight = [
+    {
+        HeadingTheme: "panel panel-success",
+        Title: "Faculty posts at Hemwati Nandan Bahuguna Garhwal University, Srinagar (Garhwal), Uttarakhand – 246 174",
+        ApplicationEndDt: "30/04/2015",
+        DetailedNotification: "http://www.recruitmenthnbgu.co.in/GENERAL%20INSTRUCTIONS%20TEACHING.pdf",
+        GoToSite: "http://www.recruitmenthnbgu.co.in/",
+        ApplicationFee: "",
+        PublishedOn: "28/02/2015",
+        Age: "--",
+        Logo: "hnbgu.jpg",
+        AltText: "Hemwati Nandan Bahuguna Garhwal University recruitment 2015",
+        JobDetails: [{
+            Designation: "Assistant Professor",
+            NoOfPosts: "88",
+            PayScale: "15600 - 39100",
+            GradePay: "6000",
+            Eligibility: "Ph.D."
+        },
+        {
+            Designation: "Associate Professor",
+            NoOfPosts: "46",
+            PayScale: "37400 - 67000",
+            GradePay: "9000",
+            Eligibility: "Ph.D."
+        },
+        {
+            Designation: "Professor",
+            NoOfPosts: "29",
+            PayScale: "37400 - 67000",
+            GradePay: "10000",
+            Eligibility: "Ph.D."
+        }]
+    },
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "Recruitment at Indian Institute of Information Technology, Una (saloh) Himachal Pradesh 2015(IIIT Una)",
+        ApplicationEndDt: "16/03/2015",
+        DetailedNotification: "http://www.nith.ac.in/recruitment/2015/iiituna.pdf",
+        GoToSite: "http://www.nith.ac.in/recruitment/index.htm",
+        ApplicationFee: "",
+        PublishedOn: "11/02/2015",
+        Age: "--",
+        Logo: "iiit_una.jpg",
+        AltText: "Recruitment at Indian Institute of Information Technology, Una (saloh) Himachal Pradesh 2015(IIIT Una)",
+        JobDetails: [{
+            Designation: "Lecturer(on Contract)",
+            NoOfPosts: "",
+            PayScale: "47200 consolidated",
+            GradePay: "",
+            Eligibility: "Ph.D. with First Class both at UG and PG level"
+        },
+        {
+            Designation: "Data Entry Operator",
+            NoOfPosts: "03",
+            PayScale: "13500 consolidated monthly",
+            GradePay: "",
+            Eligibility: "Graduate in any discipline alongwith PGDCAor DOEACC 'A' level Computer course"
+        },
+        {
+            Designation: "Officer on Special Duty",
+            NoOfPosts: "01",
+            PayScale: "49400 consolidated monthly",
+            GradePay: "",
+            Eligibility: "Retired officers from central of state government"
+        }]
+    },
     {
         HeadingTheme: "panel panel-info",
         Title: "UPSC Indian Economic Service Examination 2015",
