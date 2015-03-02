@@ -10,6 +10,101 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 
 var sectionLeft = [
     {
+        HeadingTheme: "panel panel-warning",
+        Title: ":Steel Authority of India Ltd: SAIL recruitment of Management Trainee 2015",
+        ApplicationEndDt: "18/03/2015",
+        DetailedNotification: "http://182.18.162.54/cpsailoreg/Document/AdvtPDF/Management%20Trainee%20-%20Technical.pdf",
+        GoToSite: "http://182.18.162.54/cpsailoreg/FrmJobDetails.aspx",
+        ApplicationFee: "500",
+        PublishedOn: "26/02/2015",
+        Age: "--",
+        Logo: "sail.jpg",
+        AltText: "SAIL recruitment Management Trainee",
+        JobDetails: [{
+            Designation: " Management Trainee (Technical)",
+            NoOfPosts: "246",
+            PayScale: "20600-3%-46500",
+            GradePay: "",
+            Eligibility: "Degree in Engineering(full time)with 65% marks (average of all semesters), in the disciplines of Mechanical, Electrical, Metallurgy, Electronics&Instrumentation, Ceramics, Civil,Computer Science, MiningorChemical Engineering. For Computer Science discipline, MCA (3 years full time)with 65% marks(average of all semesters) are also eligible. "
+        },
+        {
+            Designation: "Management Trainee (Administration)",
+            NoOfPosts: "100",
+            PayScale: "20600-3%-46500",
+            GradePay: "",
+            Eligibility: " Bachelors’ degree in any discipline with 60% marks (average of all subjects of all years)with at least two years full time MBA/PG Diploma in Management with 60% marksin Human Resources/Personnel Management&Industrial Relations/Personnel Management/Masters in Human Resources & Organizational Development for HR discipline,Marketing for Marketing disciplineand Production/Operations/Materials/Logistics/Supply Chain Management for Materials discipline"
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "Faculty posts in Tezpur University",
+        ApplicationEndDt: "25/03/2015",
+        DetailedNotification: "http://www.tezu.ernet.in/other/jobs.htm",
+        GoToSite: "http://www.tezu.ernet.in/other/jobs.htm",
+        ApplicationFee: "",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "tezpur_university.jpg",
+        AltText: "Tezpur University recruitment faculty",
+        JobDetails: [{
+            Designation: "Professor",
+            NoOfPosts: "02",
+            PayScale: "37400 - 67000",
+            GradePay: "10000",
+            Eligibility: "Ph.D."
+        },
+        {
+            Designation: "Associate Professor",
+            NoOfPosts: "02",
+            PayScale: "37400 - 67000",
+            GradePay: "9000",
+            Eligibility: "Ph.D."
+        },
+        {
+            Designation: "Assistant Professor",
+            NoOfPosts: "03",
+            PayScale: "15600 - 39100",
+            GradePay: "6000",
+            Eligibility: "Ph.D."
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-success",
+        Title: "Indian Institute of Information Technology Guwahati: IIIT: Guwahati Recruitment for Faculty",
+        ApplicationEndDt: "27/03/2015",
+        DetailedNotification: "http://www.iiitg.ac.in/IIITG%20-%20Home%20Page_files/factad-update.html#img",
+        GoToSite: "http://www.iiitg.ac.in/",
+        ApplicationFee: "",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "iiit_guwahati.jpg",
+        AltText: "IIIT Guwahati recruitment faculty",
+        JobDetails: [{
+            Designation: "Assistant Professor",
+            NoOfPosts: "",
+            PayScale: "15600 - 39100",
+            GradePay: "6000",
+            Eligibility: "Ph.D."
+        },
+        {
+            Designation: "Associate Professor",
+            NoOfPosts: "",
+            PayScale: "37400 - 67000",
+            GradePay: "9000",
+            Eligibility: "Ph.D."
+        },
+        {
+            Designation: "Professor",
+            NoOfPosts: "",
+            PayScale: "37400 - 67000",
+            GradePay: "10000",
+            Eligibility: "Ph.D."
+        }
+        ]
+    },
+    {
         HeadingTheme: "panel panel-danger",
         Title: "RPSC Medical Officer Exam 2015(Rajasthan Public Service Commission)",
         ApplicationEndDt: "18/03/2015",
@@ -1917,6 +2012,183 @@ var sectionLeft = [
 ];
 
 var sectionRight = [
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "Kochi Metro Rail Corporation: KMRL Recruitment for managers",
+        ApplicationEndDt: "18/03/2015",
+        DetailedNotification: "http://kochimetro.org/wp-content/uploads/2015/02/Phase_I_Advertisement_-23.02.2015.pdf",
+        GoToSite: "http://www.iob.in/Credit2015.aspx",
+        ApplicationFee: "250",
+        PublishedOn: "23/02/2015",
+        Age: "--",
+        Logo: "kmrl.jpg",
+        AltText: "KMRL recruitment 2014 various managers",
+        JobDetails: [{
+            Designation: "Operations Department",
+            NoOfPosts: "74",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Maintenance Department",
+            NoOfPosts: "67",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Customer Relations and Business Development",
+            NoOfPosts: "08",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Health and Safety Department",
+            NoOfPosts: "03",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Finance and Accounts Department",
+            NoOfPosts: "08",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Human Resources Department",
+            NoOfPosts: "05",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "IOB Recruitment: LATERAL RECRUITMENT OF CREDIT OFFICERS IN MMG SCALE III – 2014-15(Indian Overseas Bank)",
+        ApplicationEndDt: "06/03/2015",
+        DetailedNotification: "http://www.iob.in/uploads/CEDocuments/2%20%20LATERAL%20RECRUITMENT%20OF%20CREDIT%20OFFICERS%202015.pdf",
+        GoToSite: "http://www.iob.in/Credit2015.aspx",
+        ApplicationFee: "500",
+        PublishedOn: "18/02/2015",
+        Age: "--",
+        Logo: "iob.jpg",
+        AltText: "IOB Recruitment 2015",
+        JobDetails: [{
+            Designation: "Senior Manager-Credit",
+            NoOfPosts: "100",
+            PayScale: "25700 – 800/5 / 29700 – 900/2 - 31500",
+            GradePay: "",
+            Eligibility: ""
+        }]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "CDAC Recruitment for Project posts(Center for Development of Advanced Computing)",
+        ApplicationEndDt: "13/03/2015",
+        DetailedNotification: "http://www.cdac.in/index.aspx?id=current_jobs",
+        GoToSite: "http://www.cdac.in/index.aspx?id=current_jobs",
+        ApplicationFee: "500",
+        PublishedOn: "25/02/2015",
+        Age: "--",
+        Logo: "asrb.jpg",
+        AltText: "CDAC Recruitment 2015",
+        JobDetails: [{
+            Designation: "Chief Project Manager",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Project Manager",
+            NoOfPosts: "02",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Assistant Project Manager",
+            NoOfPosts: "04",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Project Engineer",
+            NoOfPosts: "02",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Project Assistant",
+            NoOfPosts: "03",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "ASRB Scientist Recruitment 2015(AGRICUL AGRICULTURAL SCIENTISTS RECRUITMENT BOARD)",
+        ApplicationEndDt: "24/03/2015",
+        DetailedNotification: "http://asrb.org.in/administrator/uploads_dir/1424859407english.pdf",
+        GoToSite: "http://asrb.org.in/index.php?option=com_vacancy&Itemid=56",
+        ApplicationFee: "500",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "asrb.jpg",
+        AltText: "ASRB Scientist Recruitment 2015",
+        JobDetails: [{
+            Designation: "Senior Reserch Management Position(SRMP)",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Reserch Management Position(RMP)",
+            NoOfPosts: "26",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Project Coordinator",
+            NoOfPosts: "06",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Head of Division(HoD/equivalent)",
+            NoOfPosts: "23",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Principal Scientist",
+            NoOfPosts: "08",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Senior Scientist/Programme Coordinator",
+            NoOfPosts: "07",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        }
+        ]
+    },
     {
         HeadingTheme: "panel panel-success",
         Title: "Recruitment at Hidayatullah National Law University(HNLU Raipur)",
