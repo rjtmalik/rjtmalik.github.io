@@ -11,6 +11,203 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 var sectionLeft = [
     {
         HeadingTheme: "panel panel-danger",
+        Title: "RPSC Medical Officer Exam 2015(Rajasthan Public Service Commission)",
+        ApplicationEndDt: "18/03/2015",
+        DetailedNotification: "http://rpsc.rajasthan.gov.in/pdf_reports_files/corrigendum_Medical_24022015.pdf",
+        GoToSite: "http://rpsc.rajasthan.gov.in/Recruitment_Advertisement.aspx",
+        ApplicationFee: "",
+        PublishedOn: "24/02/2015",
+        Age: "--",
+        Logo: "rpsc.jpg",
+        AltText: "RPSC medical officer exam 2015",
+        JobDetails: [{
+            Designation: "Assistant Professor",
+            NoOfPosts: "142",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Senior Demonstrator",
+            NoOfPosts: "349(Pathology-234, Biochemistry-115)",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Biochemist",
+            NoOfPosts: "26",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "UTTARAKHAND PUBLIC SERVICE COMMISSION: Computer Staff Exam-2014",
+        ApplicationEndDt: "11/03/2015",
+        DetailedNotification: "http://ukpsc.gov.in/files/adv._for_IT_cell.pdf",
+        GoToSite: "http://ukpsc.gov.in/recruitment/view/338",
+        ApplicationFee: "",
+        PublishedOn: "19/02/2015",
+        Age: "--",
+        Logo: "ukpsc.jpg",
+        AltText: "UKPSC assistant accountant Exam",
+        JobDetails: [{
+            Designation: "System Analyst",
+            NoOfPosts: "01",
+            PayScale: "15600 - 39100",
+            GradePay: "6600",
+            Eligibility: ""
+        },
+        {
+            Designation: "Programmer",
+            NoOfPosts: "01",
+            PayScale: "15600 - 39100",
+            GradePay: "5400",
+            Eligibility: ""
+        },
+        {
+            Designation: "Assistant Programmer",
+            NoOfPosts: "01",
+            PayScale: "9300 - 34800",
+            GradePay: "4200",
+            Eligibility: ""
+        },
+        {
+            Designation: "Data Entry Operator",
+            NoOfPosts: "02",
+            PayScale: "9300 - 34800",
+            GradePay: "4200",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "UTTARAKHAND PUBLIC SERVICE COMMISSION: Assistant Accountant and Junior Auditor Exam-2014 in Excise Department",
+        ApplicationEndDt: "17/03/2015",
+        DetailedNotification: "http://ukpsc.gov.in/files/advertizment__for_Accountant_Excise.pdf",
+        GoToSite: "http://ukpsc.gov.in/recruitment/view/339",
+        ApplicationFee: "25",
+        PublishedOn: "25/02/2015",
+        Age: "--",
+        Logo: "ukpsc.jpg",
+        AltText: "UKPSC assistant accountant Exam",
+        JobDetails: [{
+            Designation: "Assistant Accountant",
+            NoOfPosts: "14",
+            PayScale: "5200 - 20200",
+            GradePay: "2400",
+            Eligibility: ""
+        },
+        {
+            Designation: "Junior Auditor",
+            NoOfPosts: "01",
+            PayScale: "5200 - 20200",
+            GradePay: "2400",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "Recruitment to the post of Yantrik in the Indian Coast Guard, an Armed Force of the Union",
+        ApplicationEndDt: "09/03/2015",
+        DetailedNotification: "http://www.joinindiancoastguard.gov.in/PDF/Advertisement/YANTRIK.pdf",
+        GoToSite: "http://www.joinindiancoastguard.gov.in/",
+        ApplicationFee: "",
+        PublishedOn: "01/03/2015",
+        Age: "--",
+        Logo: "icg.jpg",
+        AltText: "Indian Coast Guard Recruitment 2015 Yantrik",
+        JobDetails: [{
+            Designation: "Yantrik (3 years Mechanical/ Electrical/Electronic Diploma holders – 02/2015 batch)",
+            NoOfPosts: "",
+            PayScale: "5200-20200",
+            GradePay: "2400",
+            Eligibility: "Matriculate and three years Diploma in Mechanical / Electrical/ Electronic Engg. with 60% in aggregate from Board/Institute recognised by Board of Central/State Government. "
+        }]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "UPSC INVITES ONLINE RECRUITMENT APPLICATIONS (ORA*) FOR RECRUITMENT BY SELECTION TO THE FOLLOWING POSTS(Union Public Service Commission)",
+        ApplicationEndDt: "17/03/2015",
+        DetailedNotification: "http://upsconline.nic.in/ora/oraauth/candidate/download_ad.php?id=80",
+        GoToSite: "http://upsconline.nic.in/ora/VacancyNoticePub.php",
+        ApplicationFee: "25",
+        PublishedOn: "28/02/2015",
+        Age: "--",
+        Logo: "upsc.jpg",
+        AltText: "UPSC recruitment 2015",
+        JobDetails: [{
+            Designation: "Joint Director(Crop Development Division)",
+            NoOfPosts: "02",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Scientist 'B' Chemical",
+            NoOfPosts: "04",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Drugs Inspector",
+            NoOfPosts: "147",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Architect",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Professor Information Technology(IT)",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Professor Civil Engineering",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Associate Professor Information Technology(IT)",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Associate Professor Civil Engineering",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Assistant Professor(Unani)",
+            NoOfPosts: "13",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-danger",
         Title: "Applications are invited for the Post of Lecturer on contract in various departments of NIT Hamirpur",
         ApplicationEndDt: "17/03/2015",
         DetailedNotification: "http://www.nith.ac.in/recruitment/2015/sodr.pdf",
@@ -1720,6 +1917,221 @@ var sectionLeft = [
 ];
 
 var sectionRight = [
+    {
+        HeadingTheme: "panel panel-success",
+        Title: "Recruitment at Hidayatullah National Law University(HNLU Raipur)",
+        ApplicationEndDt: "31/03/2015",
+        DetailedNotification: "https://www.hnlu.ac.in/upload2015/Reg/Appointment_cum_Corrigendum_Notification_No._HNLU_14473_2015.pdf",
+        GoToSite: "https://www.hnlu.ac.in/index.php/17-what-s-new/169-appointment-cum-corrigendum-notification",
+        ApplicationFee: "500",
+        PublishedOn: "14/02/2015",
+        Age: "--",
+        Logo: "hnlu.jpg",
+        AltText: "HNLU recruitment 2015",
+        JobDetails: [{
+            Designation: "Professor (Law)",
+            NoOfPosts: "08",
+            PayScale: " As prescribed by UGC",
+            GradePay: " As prescribed by UGC",
+            Eligibility: " As prescribed by UGC"
+        },
+        {
+            Designation: "Associate Professor (Law)",
+            NoOfPosts: "13",
+            PayScale: " As prescribed by UGC",
+            GradePay: " As prescribed by UGC",
+            Eligibility: " As prescribed by UGC"
+        },
+        {
+            Designation: "Assistant Professor (Law)",
+            NoOfPosts: "27",
+            PayScale: " 15600 - 39100",
+            GradePay: " 6000",
+            Eligibility: " As prescribed by UGC"
+        },
+        {
+            Designation: "Registrar",
+            NoOfPosts: "01",
+            PayScale: " As prescribed by UGC",
+            GradePay: " As prescribed by UGC",
+            Eligibility: " As prescribed by UGC"
+        },
+        {
+            Designation: "Residential Male Doctor",
+            NoOfPosts: "01",
+            PayScale: " As prescribed by UGC",
+            GradePay: " As prescribed by UGC",
+            Eligibility: "M.D.OR MBBS with Three years’ post qualification experience."
+        },
+        {
+            Designation: "Residential Female Doctor",
+            NoOfPosts: "01",
+            PayScale: " 15600 - 39100",
+            GradePay: " 5400",
+            Eligibility: "M.D.OR MBBS with Three years’ post qualification experience."
+        },
+        {
+            Designation: "Assistant Registrar ",
+            NoOfPosts: "01",
+            PayScale: " 15600-39100",
+            GradePay: "5400",
+            Eligibility: "Good academic record plus Master’s degree with at least 55% of the marks or its equivalent grade of B in the UGC Seven Point Scale "
+        },
+        {
+            Designation: "Placement-cum-Public Relations Officer",
+            NoOfPosts: "01",
+            PayScale: " 15600-39100",
+            GradePay: "5400",
+            Eligibility: "M.D.OR MBBS with Three years’ post qualification experience."
+        },
+        {
+            Designation: "Placement-cum-Public Relations Officer",
+            NoOfPosts: "01",
+            PayScale: " 15600 - 39100",
+            GradePay: " 5400",
+            Eligibility: "Must have obtained minimum 55% of marks in LL.B. and MBA (HR)/ Must have obtained minimum 55% of marks in LL.M. with P.G. Diploma (H.R.) from a recognized and reputed institution"
+        },
+        {
+            Designation: "Administrative-cum-Liaison Officer",
+            NoOfPosts: "01",
+            PayScale: " 15600-39100",
+            GradePay: "5400",
+            Eligibility: "Good academic record plus Master’s degree with at least 55% of the marks or its equivalent grade of B in the UGC Seven Point Scale"
+        },
+        {
+            Designation: "Estate Officer",
+            NoOfPosts: "01",
+            PayScale: " 15600-39100",
+            GradePay: "5400",
+            Eligibility: "Good academic record plus Master’s degree with at least 55% of the marks or its equivalent grade of B in the UGC Seven Point Scale"
+        },
+        {
+            Designation: "Assistant Grade-III",
+            NoOfPosts: "01",
+            PayScale: "5200-20200",
+            GradePay: "2400",
+            Eligibility: "Bachelor’s degree from a recognized/reputed University and Knowledge of Computer Applications"
+        },
+        {
+            Designation: "Girls’ Hostel Assistant (Female)",
+            NoOfPosts: "01",
+            PayScale: " 5200-20200",
+            GradePay: "2400",
+            Eligibility: "Bachelor’s degree from a recognized/reputed University and Knowledge of Computer Applications"
+        },
+        {
+            Designation: "Sub-Engineer (Civil)",
+            NoOfPosts: "01",
+            PayScale: "5200-20200",
+            GradePay: "2400",
+            Eligibility: "Diploma in Civil Engineering, Three years post qualification experience. "
+        },
+        {
+            Designation: "Sports Assistant-cum-Gym Instructor (Male)",
+            NoOfPosts: "01",
+            PayScale: "5200-20200",
+            GradePay: "2400",
+            Eligibility: "(i) Bachelor’s degree from a recognized & reputed institution. (ii) Must have represented the University/College at the interUniversity/inter-college competitions OR the State in National Championships."
+        },
+        {
+            Designation: "Sports Assistant-cum-GymInstructor (Female)",
+            NoOfPosts: "01",
+            PayScale: " 5200-20200",
+            GradePay: "2400",
+            Eligibility: "(i) Bachelor’s degree from a recognized & reputed institution. (ii) Must have represented the University/College at the interUniversity/inter-college competitions OR the State in National Championships"
+        },
+        {
+            Designation: "Outsourcing Supervisor",
+            NoOfPosts: "01",
+            PayScale: "5200-20200",
+            GradePay: "2400",
+            Eligibility: "Bachelor’s Degree and Knowledge of Computer Applications."
+        },
+        {
+            Designation: "Driver",
+            NoOfPosts: "05",
+            PayScale: "5200-20200",
+            GradePay: "1900",
+            Eligibility: "Driving License for four wheelers/heavy vehicles. Must have passed fifth standard. Proper eye-sight and vision."
+        },
+        {
+            Designation: "Motor Mechanic-cum Driver",
+            NoOfPosts: "01",
+            PayScale: " 5200-20200",
+            GradePay: "1900",
+            Eligibility: "Driving License for four wheelers/heavy vehicles. Must have passed fifth standard. Proper eye-sight and vision."
+        },
+        {
+            Designation: "Library Attendant",
+            NoOfPosts: "06",
+            PayScale: "5200-20200",
+            GradePay: "1800",
+            Eligibility: "Must have passed eighth standard"
+        },
+        {
+            Designation: "Field Assistant",
+            NoOfPosts: "01",
+            PayScale: "5200-20200",
+            GradePay: "1800",
+            Eligibility: "Must have passed eighth standard."
+        },
+        {
+            Designation: "Caretaker-cum-Office Assistant",
+            NoOfPosts: "01",
+            PayScale: " 5200-20200",
+            GradePay: "1800",
+            Eligibility: "Must have passed Tenth standard"
+        },
+        {
+            Designation: "Cook-cum-Attendant",
+            NoOfPosts: "04",
+            PayScale: "4440-7440",
+            GradePay: "1300",
+            Eligibility: "Must have passed fifth standard."
+        },
+        {
+            Designation: "Gardener-cum-Attendant",
+            NoOfPosts: "04",
+            PayScale: "5200-20200",
+            GradePay: "1300",
+            Eligibility: "Must have passed fifth standard."
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "Recruitment For The Post Of Deputy Commissioner, Assistant Commissioner And Principal For The Years 2014-15 And 2015-16.",
+        ApplicationEndDt: "30/03/2015",
+        DetailedNotification: "https://jobapply.in/KVS2015DCACPR/Adv-Eng.pdf",
+        GoToSite: "https://jobapply.in/KVS2015DCACPR/",
+        ApplicationFee: "1200",
+        PublishedOn: "21/02/2015",
+        Age: "--",
+        Logo: "kvs.jpg",
+        AltText: "KVS recruitment 2014/KVS recruitment 2015",
+        JobDetails: [{
+            Designation: "Deputy Commissioner (DC)",
+            NoOfPosts: "02",
+            PayScale: "15600 - 39100",
+            GradePay: "7600",
+            Eligibility: "1. Atleast a second class Master’s degree 2. B.Ed. or equivalent degree. 3. 05 years regular service as Assistant Commissioner."
+        },
+        {
+            Designation: "Assistant Commissioner (AC) ",
+            NoOfPosts: "03",
+            PayScale: "15600 - 39100",
+            GradePay: "7600",
+            Eligibility: "Master Degree from recognized University with atleast 45% marks. ii) B.Ed or equivalent degree."
+        },
+        {
+            Designation: "Principal (PPL)",
+            NoOfPosts: "90",
+            PayScale: "15600 - 39100",
+            GradePay: "7600",
+            Eligibility: "i) Master’s Degree from recognized university with atleast 45% marks in aggregate. ii) B.Ed. or equivalent teaching degree"
+        }
+        ]
+        },
     {
         HeadingTheme: "panel panel-success",
         Title: "NTPC Special Drive for Finance Executive: National Thermal Power Corporation recruitment 2015",
