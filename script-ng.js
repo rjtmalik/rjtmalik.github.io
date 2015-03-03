@@ -11,6 +11,158 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 var sectionLeft = [
     {
         HeadingTheme: "panel panel-warning",
+        Title: ":The West Bengal National University of Judicial Sciences: Faculty posts in WBNUJS",
+        ApplicationEndDt: "20/03/2015",
+        DetailedNotification: "http://www.nujs.edu/careers/adver_fac_24_02_15.pdf",
+        GoToSite: "http://www.nujs.edu/",
+        ApplicationFee: "1000",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "wbnujs.jpg",
+        AltText: "Faculty posts in WBNUJS",
+        JobDetails: [{
+            Designation: "Professor(Law)",
+            NoOfPosts: "02",
+            PayScale: "37000 - 67000",
+            GradePay: "10000",
+            Eligibility: ""
+        },
+        {
+            Designation: "IPR Chair Professor",
+            NoOfPosts: "01",
+            PayScale: "37000 - 67000",
+            GradePay: "10000",
+            Eligibility: ""
+        },
+        {
+            Designation: "Professor(Law - Leave Vacancy)",
+            NoOfPosts: "01",
+            PayScale: "37000 - 67000",
+            GradePay: "10000",
+            Eligibility: ""
+        },
+        {
+            Designation: "Assistant Professor(Law)",
+            NoOfPosts: "01(PWD)",
+            PayScale: "15600 - 39100",
+            GradePay: "6000",
+            Eligibility: ""
+        },
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: ":Electronics Corporation of India Ltd: ECIL recruitment for Senior Management",
+        ApplicationEndDt: "13/03/2015",
+        DetailedNotification: "https://ecil.gov.in/login.php",
+        GoToSite: "https://ecil.gov.in/login.php",
+        ApplicationFee: "",
+        PublishedOn: "26/02/2015",
+        Age: "--",
+        Logo: "ecil.jpg",
+        AltText: "ECIL recruitment Senior Management",
+        JobDetails: [{
+            Designation: " Executive Director(Nuclear)",
+            NoOfPosts: "01",
+            PayScale: "1,63,250 monthly",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Executive Director(Nuclear)",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Executive Director(Telecom)",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "General Manager(Instruments and System)",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "General Manager(Defence System)",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "General Manager(Information Technology and e-Governance)",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "General Manager(Control Systems)",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "General Manager(R&D)",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "General Manager(Finance)",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Additional General Manager(Production)",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Additional General Manager(Contracts and Materials Management)",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Additional General Manager(P & A)",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Additional General Manager/Sr. Deputy General Manager(HR)",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Sr. Deputy General Manager(Purchase)",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
         Title: ":Steel Authority of India Ltd: SAIL recruitment of Management Trainee 2015",
         ApplicationEndDt: "18/03/2015",
         DetailedNotification: "http://182.18.162.54/cpsailoreg/Document/AdvtPDF/Management%20Trainee%20-%20Technical.pdf",
@@ -2013,6 +2165,109 @@ var sectionLeft = [
 
 var sectionRight = [
     {
+        HeadingTheme: "panel panel-success",
+        Title: "National Textile Corporation Ltd Recruitment",
+        ApplicationEndDt: "25/03/2015",
+        DetailedNotification: "http://ntcltd.co.in:84/uploads/advertisement-it-cell.pdf",
+        GoToSite: "http://ntcltd.co.in:84/index.php?option=com_career&view=career&Itemid=143&lang=en",
+        ApplicationFee: "300",
+        PublishedOn: "25/02/2015",
+        Age: "--",
+        Logo: "ntc.jpg",
+        AltText: "National Textile Corporation Ltd Recruitment 2015",
+        JobDetails: [{
+            Designation: "Chief General Manager (Information Technology and Communication system)",
+            NoOfPosts: "01",
+            PayScale: "43200-66000",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Dy General Manager (Information Technology and Communication system)",
+            NoOfPosts: "03",
+            PayScale: "32900- 58000",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Deputy Manager (IT)",
+            NoOfPosts: "04",
+            PayScale: "16400- 40500",
+            GradePay: "",
+            Eligibility: ""
+        },
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "IIM Rohtak Recruitment For Non Teaching Posts",
+        ApplicationEndDt: "17/03/2015",
+        DetailedNotification: "http://www.iimrohtak.ac.in/staff-positions-feb2015.html",
+        GoToSite: "http://www.iimrohtak.ac.in/staff-positions-feb2015.html",
+        ApplicationFee: "",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "iim_rohtak.jpg",
+        AltText: "IIM rohtak recruitment",
+        JobDetails: [{
+            Designation: "Librarian",
+            NoOfPosts: "01",
+            PayScale: "15600-39100",
+            GradePay: "7600",
+            Eligibility: ""
+        },
+        {
+            Designation: "Administrative Officer(PRogramme)",
+            NoOfPosts: "01",
+            PayScale: "9300-34800",
+            GradePay: "5400",
+            Eligibility: ""
+        },
+        {
+            Designation: "Superintendant(Establishment and Administration)",
+            NoOfPosts: "01",
+            PayScale: "9300-34800",
+            GradePay: "4600",
+            Eligibility: ""
+        },
+        {
+            Designation: "Programmer",
+            NoOfPosts: "01",
+            PayScale: "9300-34800",
+            GradePay: "4600",
+            Eligibility: ""
+        },
+        {
+            Designation: "Office Assistant",
+            NoOfPosts: "02",
+            PayScale: "9300-34800",
+            GradePay: "4200",
+            Eligibility: ""
+        },
+        {
+            Designation: "Personal Assistant",
+            NoOfPosts: "02",
+            PayScale: "9300-34800",
+            GradePay: "4200",
+            Eligibility: ""
+        },
+        {
+            Designation: "Driver",
+            NoOfPosts: "01",
+            PayScale: "5200-20200",
+            GradePay: "1900",
+            Eligibility: ""
+        },
+        {
+            Designation: "Attendant",
+            NoOfPosts: "01",
+            PayScale: "5200-20200",
+            GradePay: "1800",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
         HeadingTheme: "panel panel-danger",
         Title: "Kochi Metro Rail Corporation: KMRL Recruitment for managers",
         ApplicationEndDt: "18/03/2015",
@@ -2486,7 +2741,7 @@ var sectionRight = [
         ApplicationFee: "",
         PublishedOn: "11/02/2015",
         Age: "--",
-        Logo: "iiit_una.jpg",
+        Logo: "iiit_guwahati.jpg",
         AltText: "Recruitment at Indian Institute of Information Technology, Una (saloh) Himachal Pradesh 2015(IIIT Una)",
         JobDetails: [{
             Designation: "Lecturer(on Contract)",
