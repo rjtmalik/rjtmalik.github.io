@@ -2166,6 +2166,95 @@ var sectionLeft = [
 var sectionRight = [
     {
         HeadingTheme: "panel panel-success",
+        Title: "Doon University Faculty Recruitment",
+        ApplicationEndDt: "30/03/2015",
+        DetailedNotification: "http://uk.gov.in/app/webroot/files/Announcements/Recruitment_2015.pdf",
+        GoToSite: "http://uk.gov.in/announcements/view/96",
+        ApplicationFee: "1000",
+        PublishedOn: "03/03/2015",
+        Age: "--",
+        Logo: "doon_university.jpg",
+        AltText: "Doon University Faculty Recruitment 2015",
+        JobDetails: [{
+            Designation: "Professor",
+            NoOfPosts: "08",
+            PayScale: "37400 - 67000",
+            GradePay: "10000",
+            Eligibility: ""
+        },
+        {
+            Designation: "Associate Professor",
+            NoOfPosts: "14",
+            PayScale: "15600 - 39100",
+            GradePay: "9000",
+            Eligibility: ""
+        },
+        {
+            Designation: "Assistant Professor",
+            NoOfPosts: "20",
+            PayScale: "15600 - 39100",
+            GradePay: "6000",
+            Eligibility: ""
+        },
+        {
+            Designation: "Librarian",
+            NoOfPosts: "01",
+            PayScale: "37400 - 67000",
+            GradePay: "10000",
+            Eligibility: ""
+        },
+        {
+            Designation: "Deputy Librarian",
+            NoOfPosts: "01",
+            PayScale: "15600 - 39100",
+            GradePay: "8000",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "RBI Recruitment: Reserve Bank of India invites application for Managers",
+        ApplicationEndDt: "23/03/2015",
+        DetailedNotification: "http://rbi.org.in/",
+        GoToSite: "http://rbi.org.in/",
+        ApplicationFee: "",
+        PublishedOn: "09/03/2015",
+        Age: "--",
+        Logo: "rbi.jpg",
+        AltText: "RBI Recruitment 2015",
+        JobDetails: [{
+            Designation: "Assistant Manager(Rajbhasha)",
+            NoOfPosts: "06",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Manager (Technical-Civil)",
+            NoOfPosts: "02",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Manager (Technical-Electrical)",
+            NoOfPosts: "06",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Assistant Manager(Security)",
+            NoOfPosts: "09",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-success",
         Title: "National Textile Corporation Ltd Recruitment",
         ApplicationEndDt: "25/03/2015",
         DetailedNotification: "http://ntcltd.co.in:84/uploads/advertisement-it-cell.pdf",
