@@ -51,49 +51,49 @@
   </div>
 </nav>
 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 jobs" ng-controller="getLeftPanel">
-        <div class={{section.HeadingTheme}} ng-repeat="section in sections">
-            <div class="panel-heading">
-                <table class="table table-borderless">
-                    <thead><tr><th colspan="2" style="text-align:left"><img ng-src={{section.Logo}} alt={{section.AltText}}></img><a title="Apply for job" target="_blank" href={{section.GoToSite}}>{{section.Title}}</a><small> Published On: {{section.PublishedOn}}</small></th></tr></thead>
-                    <tbody>
-                        <tr>
-                            <td>Last Date: {{section.ApplicationEndDt}}</td>
-                            <td align="right">
-                                Application Fee: Rs.{{section.ApplicationFee}}/-
-                                <br />
-								<a title="Download Advertisement" target="_blank" href={{section.DetailedNotification}}>Download Advertisement <span class="glyphicon glyphicon-download"></span></a>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="panel-body">
-                <table class="table table-striped">
-                    <thead>
-                        <tr colspan="2">
-                            <th style="text-align:left">Designation</th>
-                            <th style="text-align:left">Posts</th>
-							<th style="text-align:left">Eligibility</th>
-                            <th style="text-align:center">Pay Scale</th>
-                            <th style="text-align:left">Grade Pay</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr ng-repeat="jobDetail in section.JobDetails">
-                            <td style="text-align:left">{{jobDetail.Designation}}</td>
-                            <td style="text-align:left">{{jobDetail.NoOfPosts}}</td>
-                            <td style="text-align:left">{{jobDetail.Eligibility}}</td>
-                            <td style="text-align:center">{{jobDetail.PayScale}}</td>
-                            <td style="text-align:center">{{jobDetail.GradePay}}</td>
-                        </tr>
-                    </tbody>
-                </table>
-				<a class="twitter-share-button" href="http://gyaancheck.com/" data-size="small" data-count="none">Tweet</a>
-                <a href="https://plus.google.com/share?url=http://gyaancheck.com" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
-                    <img style="vertical-align:top" src="gplus-16.png" alt="Share on Google+" />
-                </a>
-            </div>
+    <div class={{section.HeadingTheme}} ng-repeat="section in sections" itemscope itemtype="http://schema.org/JobPosting">
+        <div class="panel-heading">
+            <table class="table table-borderless">
+                <thead><tr><th colspan="2" style="text-align:left"><img itemprop="image" ng-src={{section.Logo}} alt={{section.AltText}}></img><a title="Apply for job" target="_blank" href={{section.GoToSite}}><span itemprop="name">{{section.Title}}</span></a><small> Published On: <span itemprop="datePublished">{{section.PublishedOn}}</span></small></th></tr></thead>
+                <tbody>
+                    <tr>
+                        <td>Last Date: {{section.ApplicationEndDt}}</td>
+                        <td align="right">
+                            Application Fee: Rs.{{section.ApplicationFee}}/-
+                            <br />
+                            <a itemprop="url" title="Download Advertisement" target="_blank" href={{section.DetailedNotification}}>Download Advertisement <span class="glyphicon glyphicon-download"></span></a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
+        <div class="panel-body">
+            <table class="table table-striped">
+                <thead>
+                    <tr colspan="2">
+                        <th style="text-align:left">Designation</th>
+                        <th style="text-align:left">Posts</th>
+                        <th style="text-align:left">Eligibility</th>
+                        <th style="text-align:center">Pay Scale</th>
+                        <th style="text-align:left">Grade Pay</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="jobDetail in section.JobDetails">
+                        <td style="text-align:left" itemprop="title">{{jobDetail.Designation}}</td>
+                        <td style="text-align:left">{{jobDetail.NoOfPosts}}</td>
+                        <td style="text-align:left" itemprop="experienceRequirements">{{jobDetail.Eligibility}}</td>
+                        <td style="text-align:center" itemprop="baseSalary">{{jobDetail.PayScale}}</td>
+                        <td style="text-align:center" itemprop="benefits">{{jobDetail.GradePay}}</td>
+                    </tr>
+                </tbody>
+            </table>
+            <a class="twitter-share-button" href="http://gyaancheck.com/" data-size="small" data-count="none">Tweet</a>
+            <a href="https://plus.google.com/share?url=http://gyaancheck.com" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+                <img style="vertical-align:top" src="gplus-16.png" alt="Share on Google+" />
+            </a>
+        </div>
+    </div>
 <div class="panel panel-info">
             <div class="panel-heading">
                 <table class="table table-borderless">
@@ -1661,17 +1661,17 @@
         </div>
 </div>
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 jobs" ng-controller="getRightPanel">
-        <div class={{section.HeadingTheme}} ng-repeat="section in sections">
+        <div class={{section.HeadingTheme}} ng-repeat="section in sections" itemscope itemtype="http://schema.org/JobPosting">
             <div class="panel-heading">
                 <table class="table table-borderless">
-                    <thead><tr><th colspan="2" style="text-align:left"><img ng-src={{section.Logo}} alt={{section.AltText}}></img><a title="Apply for job" target="_blank" href={{section.GoToSite}}>{{section.Title}}</a><small> Published On: {{section.PublishedOn}}</small></th></tr></thead>
+                    <thead><tr><th colspan="2" style="text-align:left"><img itemprop="image" ng-src={{section.Logo}} alt={{section.AltText}}></img><a title="Apply for job" target="_blank" href={{section.GoToSite}}><span itemprop="name">{{section.Title}}</span></a><small> Published On: <span itemprop="datePublished">{{section.PublishedOn}}</span></small></th></tr></thead>
                     <tbody>
                         <tr>
                             <td>Last Date: {{section.ApplicationEndDt}}</td>
                             <td align="right">
                                 Application Fee: Rs.{{section.ApplicationFee}}/-
                                 <br />
-                                <a title="Download Advertisement" target="_blank" href={{section.DetailedNotification}}>Download Advertisement <span class="glyphicon glyphicon-download"></span></a>
+                                <a itemprop="url" title="Download Advertisement" target="_blank" href={{section.DetailedNotification}}>Download Advertisement <span class="glyphicon glyphicon-download"></span></a>
                             </td>
                         </tr>
                     </tbody>
@@ -1680,7 +1680,7 @@
             <div class="panel-body">
                 <table class="table table-striped">
                     <thead>
-                        <tr colspan="2">
+                        <tr>
                             <th style="text-align:left">Designation</th>
                             <th style="text-align:left">Posts</th>
                             <th style="text-align:left">Eligibility</th>
@@ -1690,11 +1690,11 @@
                     </thead>
                     <tbody>
                         <tr ng-repeat="jobDetail in section.JobDetails">
-                            <td style="text-align:left">{{jobDetail.Designation}}</td>
+                            <td style="text-align:left" itemprop="title">{{jobDetail.Designation}}</td>
                             <td style="text-align:left">{{jobDetail.NoOfPosts}}</td>
-                            <td style="text-align:left">{{jobDetail.Eligibility}}</td>
-                            <td style="text-align:center">{{jobDetail.PayScale}}</td>
-                            <td style="text-align:center">{{jobDetail.GradePay}}</td>
+                            <td style="text-align:left" itemprop="experienceRequirements">{{jobDetail.Eligibility}}</td>
+                            <td style="text-align:center" itemprop="baseSalary">{{jobDetail.PayScale}}</td>
+                            <td style="text-align:center" itemprop="benefits">{{jobDetail.GradePay}}</td>
                         </tr>
                     </tbody>
                 </table>
