@@ -10,8 +10,191 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 
 var sectionLeft = [
     {
+        HeadingTheme: "panel panel-danger",
+        Title: "Mazagaon Dock Limited: MDL Recruitment of Senior Engineer through GATE 2013 & GATE 2014 Score",
+        ApplicationEndDt: "02/04/2015",
+        DetailedNotification: "http://mazagondock.gov.in/newsite2010/pdf_doc/career_March15/Instructions_MDL_HR_CR_REC_33_2015.pdf",
+        GoToSite: "http://mazagondock.gov.in/newsite2010/career_executives.htm",
+        ApplicationFee: "",
+        PublishedOn: "04/03/2015",
+        Age: "--",
+        Logo: "mdl.jpg",
+        AltText: "MDL recruitment 2015",
+        JobDetails: [{
+            Designation: "Senior Engineer E1",
+            NoOfPosts: "14",
+            PayScale: "16,400-40,500",
+            GradePay: "",
+            Eligibility: ""
+        }]
+    },
+    {
         HeadingTheme: "panel panel-warning",
-        Title: ":The West Bengal National University of Judicial Sciences: Faculty posts in WBNUJS",
+        Title: "Indian Maritime University: Faculty recruitment at IMU",
+        ApplicationEndDt: "20/04/2015",
+        DetailedNotification: "http://imu.edu.in/index.php?latestnews=1&newsid=343",
+        GoToSite: "http://imu.edu.in/index.php?latestnews=1&newsid=343",
+        ApplicationFee: "",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "imu.jpg",
+        AltText: "IMU recruitment 2015",
+        JobDetails: [{
+            Designation: "Professor",
+            NoOfPosts: "08",
+            PayScale: "37400 - 67000",
+            GradePay: "10000",
+            Eligibility: ""
+        },
+        {
+            Designation: "Associate Professor",
+            NoOfPosts: "20",
+            PayScale: "37400 - 67000",
+            GradePay: "9000",
+            Eligibility: ""
+        },
+        {
+            Designation: "Assistant Professor",
+            NoOfPosts: "26",
+            PayScale: "15600 - 39100",
+            GradePay: "6000",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-info",
+        Title: "Rajiv Gandhi Natioal Institute of Youth Development: RGNIYD Invites application for the posts of Professors",
+        ApplicationEndDt: "06/04/2015",
+        DetailedNotification: "http://rgniyd.gov.in/sites/default/files/pdfs/advt_prof/prof_advt_02_03.pdf",
+        GoToSite: "http://www.rgniyd.gov.in/content/invites-application-posts-professors",
+        ApplicationFee: "",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "rgniyd.jpg",
+        AltText: "RGNIYD recruitment 2015",
+        JobDetails: [{
+            Designation: "Professor",
+            NoOfPosts: "05",
+            PayScale: "37400 - 67000",
+            GradePay: "10000",
+            Eligibility: ""
+        }]
+    },
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "Join Indian Army as Short Service Commission Officer(SSC 2015)",
+        ApplicationEndDt: "31/03/2015",
+        DetailedNotification: "http://www.amcsscentry.gov.in/uploads/not/20150307_122506.pdf",
+        GoToSite: "http://www.amcsscentry.gov.in/",
+        ApplicationFee: "200",
+        PublishedOn: "09/03/2015",
+        Age: "--",
+        Logo: "indianarmy.jpg",
+        AltText: "INDIAN Army SSC recruitment 2015",
+        JobDetails: [{
+            Designation: "Short Service Commission Officer",
+            NoOfPosts: "400",
+            PayScale: "17160 - 39100",
+            GradePay: "6100",
+            Eligibility: ""
+        }]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "CIL Recruitment 2015(Coal India Limited): Recruitment of medical Executives",
+        ApplicationEndDt: "04/04/2015",
+        DetailedNotification: "https://www.coalindia.in/Portals/13/PDF/Advertisement_03032015.pdf",
+        GoToSite: "https://www.coalindia.in/career/RecruitmentOfMedicalExe.aspx",
+        ApplicationFee: "500",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "cil.jpg",
+        AltText: "CIL recruitment 2015",
+        JobDetails: [{
+            Designation: "Senior Medical Specialist E4 Grade",
+            NoOfPosts: "112",
+            PayScale: "29100 - 54000",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Medical Specialist E3 Grade",
+            NoOfPosts: "169",
+            PayScale: "24900 - 50500",
+            GradePay: "",
+            Eligibility: ""
+        }]
+    },
+    {
+        HeadingTheme: "panel panel-success",
+        Title: "DMRC Recruitment 2015(Delhi Metro Rail Corporation): REQUIREMENT OF RETIRED / EXPERIENCED CIVIL ENGINEERS/MECHANICAL ENGINEERS, ON RE-EMPLOYMENT/CONTRACT BASIS (FROM GOVT./PSU/ ORGANISATIONS)",
+        ApplicationEndDt: "24/03/2015",
+        DetailedNotification: "http://www.delhimetrorail.com/CareerDocuments/Ad64.pdf",
+        GoToSite: "http://www.delhimetrorail.com/career.aspx",
+        ApplicationFee: "",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "dmrc.jpg",
+        AltText: "DMRC recruitment 2015",
+        JobDetails: [{
+            Designation: "Assistant Manager/ Civil ( Track )Post Code -AMC-1",
+            NoOfPosts: "05",
+            PayScale: "41060",
+            GradePay: "",
+            Eligibility: "Degree/Diploma in Civil Engineering"
+        },
+        {
+            Designation: "Section Engineer/Junior Engineer(Civil/Track)Post Code -SEC/JEC-02",
+            NoOfPosts: "08",
+            PayScale: "35880",
+            GradePay: "",
+            Eligibility: "Diploma in Civil Engineering"
+        },
+        {
+            Designation: "Jr.Engineer (Tie Track Tamper Operator) Post Code JETTTO-03",
+            NoOfPosts: "03",
+            PayScale: "27,260",
+            GradePay: "",
+            Eligibility: "Diploma in Mechanical Engineering"
+        }]
+    },
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "MIDHANI Recruitment 2015: SOT and JOT posts",
+        ApplicationEndDt: "20/03/2015",
+        DetailedNotification: "http://nadrsgis1.nic.in/midhani/JOTSOTJA2015advt.pdf",
+        GoToSite: "http://nadrsgis1.nic.in/midhani/",
+        ApplicationFee: "100",
+        PublishedOn: "28/02/2015",
+        Age: "--",
+        Logo: "midhani.jpg",
+        AltText: "MIDHANI recruitment 2015",
+        JobDetails: [{
+            Designation: "Senior Operative Trainee Technical(SOT)(WG-4)",
+            NoOfPosts: "11",
+            PayScale: "8500-3%-20850",
+            GradePay: "",
+            Eligibility: "Diploma in relevant discipline with minimum 60% of marks with minimum 2 years post qualification industrial experience in the relevant area"
+        },
+        {
+            Designation: "Junior Operative Trainee Technical(JOT)(WG-2)",
+            NoOfPosts: "51",
+            PayScale: "7750-3%-19040",
+            GradePay: "",
+            Eligibility: "SSC+ITI in relevant trade with NAC"
+        },
+        {
+            Designation: "Junior Assistant(WG-4)",
+            NoOfPosts: "11",
+            PayScale: "8500-3%-20850",
+            GradePay: "",
+            Eligibility: "Graduation (except professional courses like Engineering/Technology/Medicine) with relevant certificate course in PC operation (MS-office) from reputed/recognizer institution OR Degree having PC operation(MS-Office as one of the subjects is essential with minimum 2 years post qualification experience in relevant area, pass in type writing higher(English/Hindi) is preferable."
+        }]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "The West Bengal National University of Judicial Sciences: Faculty posts in WBNUJS",
         ApplicationEndDt: "20/03/2015",
         DetailedNotification: "http://www.nujs.edu/careers/adver_fac_24_02_15.pdf",
         GoToSite: "http://www.nujs.edu/",
@@ -2164,6 +2347,154 @@ var sectionLeft = [
 ];
 
 var sectionRight = [
+    {
+        HeadingTheme: "panel panel-info",
+        Title: "Indian Institute of Management: IIM Indore Faculty Recruitment 2015",
+        ApplicationEndDt: "24/03/2015",
+        DetailedNotification: "http://www.iimidr.ac.in/iimi/images/careers/Application%20Format-IIMIFaculty.pdf",
+        GoToSite: "http://www.iimidr.ac.in/iimi/index.php/faculty-positions",
+        ApplicationFee: "",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "iim_indore.jpg",
+        AltText: "IIM Indore Faculty Recruitment 2015",
+        JobDetails: [{
+            Designation: "Professor",
+            NoOfPosts: "",
+            PayScale: "37400 – 67000",
+            GradePay: "10500",
+            Eligibility: "Ph.D or equivalent in appropriate branch with first class or equivalent (in terms of grades, etc.), at the preceding degree with a very good academic record throughout."
+        },
+        {
+            Designation: "Associate Professor",
+            NoOfPosts: "",
+            PayScale: "37400-67000",
+            GradePay: "9500",
+            Eligibility: "Ph.D or equivalent in appropriate branch with first class or equivalent (in terms of grades, etc.), at the preceding degree with a very good academic record throughout."
+        },
+        {
+            Designation: "Assistant Professor",
+            NoOfPosts: "",
+            PayScale: "15600-39100",
+            GradePay: "8000",
+            Eligibility: "Ph.D or equivalent in appropriate branch with first class or equivalent (in terms of grades, etc.), at the preceding degree with a very good academic record throughout."
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "Institute for Development and Research in Banking Technology: IDRBT invites top talent with high passion for Research and Academics and Practice in the area of BANKING TECHNOLOGY for the positions of ASSOCIATE PROFESSOR AND ASSISTANT PROFESSOR.",
+        ApplicationEndDt: "31/03/2015",
+        DetailedNotification: "http://www.idrbt.ac.in/PDFs/Facultyad_Mar_2015.pdf",
+        GoToSite: "http://www.idrbt.ac.in/careers.html",
+        ApplicationFee: "",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "idrbt.jpg",
+        AltText: "IDRBT Recruitment 2015",
+        JobDetails: [{
+            Designation: "Associate Professor",
+            NoOfPosts: "",
+            PayScale: "37400 – 67000",
+            GradePay: "9500",
+            Eligibility: "Ph.D in Computer Science / Information Technology / Information Systems / Information Security / Banking Technologies"
+        },
+        {
+            Designation: "Assistant Professor",
+            NoOfPosts: "",
+            PayScale: "15600 – 39100",
+            GradePay: "8000",
+            Eligibility: "Ph.D in Computer Science / Information Technology / Information Systems / Information Security / Banking Technologies"
+        },
+        {
+        Designation: "Associate Professor",
+        NoOfPosts: "",
+        PayScale: "15600 – 39100",
+        GradePay: "6000",
+        Eligibility: "Ph.D in Computer Science / Information Technology / Information Systems / Information Security / Banking Technologies"
+        }   
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-success",
+        Title: "NMDC Steel Limited (NSL) and NMDC Limited is looking for Executive Trainee (Technical) and Executive Trainee (Administration)",
+        ApplicationEndDt: "24/03/2015",
+        DetailedNotification: "https://www.nmdc.co.in/Docs/Careers/NMDC%20ET%20ADVERTISEMENT.pdf",
+        GoToSite: "https://www.nmdc.co.in/Careers/Default.aspx",
+        ApplicationFee: "300",
+        PublishedOn: "20/02/2015",
+        Age: "--",
+        Logo: "nmdc.jpg",
+        AltText: "NMDC Recruitment 2015",
+        JobDetails: [{
+            Designation: "Executive Trainee (Technical)",
+            NoOfPosts: "169(NSL) + 32(NMDC)",
+            PayScale: "20600-3%-46500",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Executive Trainee (Administration)",
+            NoOfPosts: "208(NSL) + 42(NMDC)",
+            PayScale: "20600-3%-46500",
+            GradePay: "",
+            Eligibility: ""
+        }]
+    },
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "Indian Institute of Madras: Faculty Recruitment at IIT Madras 2015",
+        ApplicationEndDt: "27/03/2015",
+        DetailedNotification: "https://www.iitm.ac.in/sites/default/files/notices/fac_ad_2015-website.pdf",
+        GoToSite: "https://www.iitm.ac.in/content/faculty-recruitment-2015",
+        ApplicationFee: "",
+        PublishedOn: "25/02/2015",
+        Age: "--",
+        Logo: "iit_madras.jpg",
+        AltText: "IIT Madras Faculty Recruitment 2015",
+        JobDetails: [{
+            Designation: "Assistant Professor",
+            NoOfPosts: "",
+            PayScale: "15600-39100",
+            GradePay: "8000",
+            Eligibility: "Ph.D., with first class or equivalent at the preceding degree in the appropriate branch with consistently good academic record throughout."
+        },
+        {
+            Designation: "Associate Professor",
+            NoOfPosts: "",
+            PayScale: "37400-67000",
+            GradePay: "9500",
+            Eligibility: "Ph.D., with first class or equivalent at the preceding degree in the appropriate branch with consistently good academic record throughout."
+        },
+        {
+            Designation: "Assistant Professor",
+            NoOfPosts: "",
+            PayScale: "37400-67000",
+            GradePay: "10500",
+            Eligibility: "Ph.D., with first class or equivalent at the preceding degree in the appropriate branch with consistently good academic record throughout."
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-success",
+        Title: "Tehri Hydro Development Corporation Ltd(THDC Recruitment): Recruitment of Executive Trainees(Law) through CLAT-2015",
+        ApplicationEndDt: "15/05/2015",
+        DetailedNotification: "http://thdc.gov.in/writereaddata/English/PDF/DetailedAdvtCLAT.pdf",
+        GoToSite: "http://www.thdc.gov.in/English/Scripts/Consultancy_Clients.aspx",
+        ApplicationFee: "",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "thdc.jpg",
+        AltText: "THDC Recruitment 2015",
+        JobDetails: [{
+            Designation: "Executive Trainee (Law)",
+            NoOfPosts: "",
+            PayScale: "20,600-3%-46500",
+            GradePay: "",
+            Eligibility: "Full time regular Bachelor’s Degree in Law (Three Years/Five Years integrated course) from recognized Indian Universities / Institutes. The degree should also enjoy recognition by the Bar Council."
+        }
+        ]
+    },
     {
         HeadingTheme: "panel panel-success",
         Title: "Doon University Faculty Recruitment",
