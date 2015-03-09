@@ -10,6 +10,193 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 
 var sectionLeft = [
     {
+        HeadingTheme: "panel panel-warning",
+        Title: "Composite Regional Centre for Persons with Disabilities : CRC Recruitment of Faculty and other Non Teaching Posts",
+        ApplicationEndDt: "30 days from date of publication",
+        DetailedNotification: "http://www.niepmd.tn.nic.in/documents/crck_emp-012015.pdf",
+        GoToSite: "http://www.niepmd.tn.nic.in/recruitment.php",
+        ApplicationFee: "",
+        PublishedOn: "06/03/2015",
+        Age: "--",
+        Logo: "niepmd.jpg",
+        AltText: "NIEPMD Recruitment 2015",
+        JobDetails: [{
+            Designation: "Director",
+            NoOfPosts: "01",
+            PayScale: "15600-39100",
+            GradePay: "7600",
+            Eligibility: "(1) Master’s degree in any discipline of rehabilitation (Recognized by RCI/MCI). (2) 10 years’ experience in related field. (3) 2-5 years of Experience in Administration (4) RCI registration as Professional"
+        },
+        {
+            Designation: "Assistant Professor",
+            NoOfPosts: "01",
+            PayScale: "15600-39100",
+            GradePay: "6600",
+            Eligibility: "(1) MBBS with PG Diploma from a MCI recognized Institute. (2) Minimum 5 Years’ experience in teaching/research in the field of Rehabilitation."
+        },
+        {
+            Designation: "Assistant Professor (Speech and Hearing)",
+            NoOfPosts: "01",
+            PayScale: "15600-39100",
+            GradePay: "6600",
+            Eligibility: "(1) Master’s degree in Speech and Hearing (Recognised by RCI). (2) Minimum 5 years’ experience in teaching /research in the field of Rehabilitation (3) RCI registration as Professional."
+        },
+        {
+            Designation: "Assistant Professor (Clinical Psychology)",
+            NoOfPosts: "01",
+            PayScale: "15600-39100",
+            GradePay: "6600",
+            Eligibility: "(1) M.Phil in Clinical or Rehabilitation Psychology from a RCI recognized Institute. (2) Minimum 5 years’ experience in teaching /research in the field of Rehabilitation (3) RCI registration as Professional."
+        },
+        {
+            Designation: "Assistant Professor (Special Education)",
+            NoOfPosts: "01",
+            PayScale: "15600-39100",
+            GradePay: "6600",
+            Eligibility: "(1) Master’s degree with M.Ed (Special Education) in any category marks from a RCI recognized Institute with minimum of 55% of marks (2) Minimum 5 years’ experience in teaching/research in the field of Rehabilitation (3) RCI registration as Professional."
+        },
+        {
+            Designation: "Assistant Professor (Speech and Hearing)",
+            NoOfPosts: "01",
+            PayScale: "15600-39100",
+            GradePay: "6600",
+            Eligibility: "(1) Master’s degree in Speech and Hearing (Recognised by RCI). (2) Minimum 5 years’ experience in teaching /research in the field of Rehabilitation (3) RCI registration as Professional."
+        },
+        {
+            Designation: "Lecturer (Physiotherapy)",
+            NoOfPosts: "01",
+            PayScale: "15600-39100",
+            GradePay: "5400",
+            Eligibility: "(1) Masters in Physiotherapy from a recognized Institute. (2) Minimum 3 years of experience teaching/ research in the field of Rehabilitation."
+        },
+        {
+            Designation: "Lecturer (Occupational Therapy)",
+            NoOfPosts: "01",
+            PayScale: "15600-39100",
+            GradePay: "5400",
+            Eligibility: "(1) Masters in Occupational Therapy from a recognized Institute. (2) Minimum 3 years’ experience teaching/research in the field of Rehabilitation."
+        },
+        {
+            Designation: "Administrative Officer",
+            NoOfPosts: "01",
+            PayScale: "15600-39100",
+            GradePay: "6600",
+            Eligibility: "(1) Post Graduate Degree/MBA from recognized University (2) Minimum 3 years of experience in Establishment/Administration matters in a Government organization in the G.P of Rs.4800/- (or) 5 years’ experience in the G.P of Rs.4600/- (or) 8 years’ experience in the G.P of Rs.4200/- . "
+        },
+        {
+            Designation: "Rehabilitation Officer (Social Work & Placement)",
+            NoOfPosts: "01",
+            PayScale: "9300-34800",
+            GradePay: "4600",
+            Eligibility: " (1) Post Graduate Degree in Social Work / Rehabilitation work/ Sociology/ Psychology or equivalent from a recognized university (2) Minimum 4 years’ experience in Vocational training and guidance as Social Worker or in other related field of rehabilitation (3) RCI registration as Professional."
+        },
+        {
+            Designation: "Prosthetist & Orthotist",
+            NoOfPosts: "01",
+            PayScale: "9300-34800",
+            GradePay: "4600",
+            Eligibility: "(1) Degree from a recognized institute in Prosthetics & orthotics (2) Minimum 4 years’ experience of having worked in the related field (3) RCI registration as Professional."
+        },
+        {
+            Designation: "Accountant",
+            NoOfPosts: "01",
+            PayScale: "9300-34800",
+            GradePay: "4200",
+            Eligibility: "(1) Commerce Graduate from a recognized University with hands on knowledge of computers (2) Minimum 5 years’ experience in handling accounts/cash of which minimum 3 years’ experience in Govt or Semi Govt establishments"
+        },
+        {
+            Designation: "Special Educator",
+            NoOfPosts: "01",
+            PayScale: "9300-34800",
+            GradePay: "4200",
+            Eligibility: "(1) Graduate with Diploma in Special Education (2) Minimum of 5 Years’ experience in Teaching and training in the related field (3) RCI registration as Professional."
+        },
+        {
+            Designation: "Orientation & Mobility Instructor",
+            NoOfPosts: "01",
+            PayScale: "9300-34800",
+            GradePay: "4200",
+            Eligibility: " (1) Diploma in Orientation & Mobility Instruction (2) 5 years’ experience in Teaching and training in the related field (3) RCI registration as Professional."
+        },
+        {
+            Designation: "Vocational Instructor",
+            NoOfPosts: "01",
+            PayScale: "9300-34800",
+            GradePay: "4200",
+            Eligibility: "(1) SSC and Diploma in Vocational Training from a reputed training institute in related field (2) 5 years’ experience including 2 years in organising/conducting vocational training programs (3) RCI registration as Professional."
+        },
+        {
+            Designation: "Assistant",
+            NoOfPosts: "01",
+            PayScale: "9300-34800",
+            GradePay: "4200",
+            Eligibility: "(1) Graduate from a recognized University with hands on knowledge of computers (2) Minimum 5 years of experience in administrative works"
+        },
+        {
+            Designation: "Clinical Assistants",
+            NoOfPosts: "01",
+            PayScale: "9300-34800",
+            GradePay: "4200",
+            Eligibility: " B.Sc (Sp&Hg) or BRS (MR) equivalent degree from a recognized Institution/University (2) Minimum 2 years’ experience as Clinician or Research Assistant"
+        },
+        {
+            Designation: "Workshop Supervisor-cumstore Keeper",
+            NoOfPosts: "01",
+            PayScale: "5200-20200",
+            GradePay: "2400",
+            Eligibility: "(1) 10+2 or equivalent (2) Minimum 5 years’ experience in the concerned area as Store Keeper. "
+        },
+        {
+            Designation: "Typist/Clerk",
+            NoOfPosts: "01",
+            PayScale: "5200-20200",
+            GradePay: "2400",
+            Eligibility: " (1) 10+2 or equivalent. Typing speed 35 wpm with computer knowledge (2) Minimum 2 years of experience"
+        },
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-success",
+        Title: "The Gujrat Cancer and Research Institute: GCRI Recruitment Of Faculty And Non Teaching Posts",
+        ApplicationEndDt: "24/03/2015",
+        DetailedNotification: "http://www.gcriindia.org/Employment/2015/Advt.%20Teaching,%20Non-Teaching%20Post%20&%20Project.pdf",
+        GoToSite: "http://www.gcriindia.org/",
+        ApplicationFee: "",
+        PublishedOn: "07/03/2015",
+        Age: "--",
+        Logo: "gcri.jpg",
+        AltText: "GCRI recruitment 2015",
+        JobDetails: [{
+            Designation: "Associate Professor",
+            NoOfPosts: "05",
+            PayScale: "As per Government rules.",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Assistant Professor",
+            NoOfPosts: "06",
+            PayScale: "As per Government rules.",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Senior Resident",
+            NoOfPosts: "05",
+            PayScale: "45,000/- P.M.",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Various non Teaching posts",
+            NoOfPosts: "36",
+            PayScale: "45,000/- P.M.",
+            GradePay: "",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
         HeadingTheme: "panel panel-danger",
         Title: "Mazagaon Dock Limited: MDL Recruitment of Senior Engineer through GATE 2013 & GATE 2014 Score",
         ApplicationEndDt: "02/04/2015",
@@ -2347,6 +2534,33 @@ var sectionLeft = [
 ];
 
 var sectionRight = [
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "King George's Medical University Lucknow: KGMU Nurse Recruitment",
+        ApplicationEndDt: "18/03/2015",
+        DetailedNotification: "http://14.139.237.164/kgmu_nursing/",
+        GoToSite: "http://14.139.237.164/kgmu_nursing/",
+        ApplicationFee: "1000",
+        PublishedOn: "11/02/2015",
+        Age: "--",
+        Logo: "kgmu.jpg",
+        AltText: "KGMU Nurse Recruitment 2015",
+        JobDetails: [{
+            Designation: "Staff Nurse (Female)",
+            NoOfPosts: "341",
+            PayScale: "9300-34800",
+            GradePay: "4600",
+            Eligibility: ""
+        },
+        {
+            Designation: "Staff Nurse (Male)",
+            NoOfPosts: "18",
+            PayScale: "9300-34800",
+            GradePay: "4600",
+            Eligibility: ""
+        }
+        ]
+    },
     {
         HeadingTheme: "panel panel-info",
         Title: "Indian Institute of Management: IIM Indore Faculty Recruitment 2015",
