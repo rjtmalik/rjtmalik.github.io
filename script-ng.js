@@ -10,6 +10,65 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 
 var sectionLeft = [
     {
+        HeadingTheme: "panel panel-danger",
+        Title: "MADHYA PRADESH MADHYA KSHETRA VIDYUT VITARAN COMPANY LIMITED : Recruitment of AE(IT) and JE(T&D-Network)on contract basis",
+        ApplicationEndDt: "27/03/2015",
+        DetailedNotification: "http://www.mpcz.co.in/ShowProperty/UCMRepository/Contribution%20Folders/Bhopal/PDF/Careers/Recruitment%202015/AE_JE_Network/advert_AE_JE_contract.pdf",
+        GoToSite: "http://www.mpcz.co.in/portal/Bhopal_home.portal?_nfpb=true&_pageLabel=careers_opening_bpl",
+        ApplicationFee: "1500",
+        PublishedOn: "09/03/2015",
+        Age: "--",
+        Logo: "mpcz.jpg",
+        AltText: "MPCZ Recruitment of IT Engineers 2015",
+        JobDetails: [{
+            Designation: "A.E.(IT)",
+            NoOfPosts: "17 ",
+            PayScale: "43,260 per month",
+            GradePay: "",
+            Eligibility: "B.E./B. tech/M. Tech(IT/CS/EC/EI/EE), MCA,MSC(CS,IT) from recognized university."
+        },
+        {
+            Designation: "J.E(T&DNetwork)",
+            NoOfPosts: "34",
+            PayScale: "28,758 per month",
+            GradePay: "",
+            Eligibility: "Any Graduate in (IT/CS/EC/EE/EI/Computer application) with recognized university or After 10th ,three(3) years Diploma in (IT/CS/EC/EE/EI)."
+        }]
+    },
+    {
+        HeadingTheme: "panel panel-info",
+        Title: "Central University of Kerela: CUK Faculty Recruitment 2015",
+        ApplicationEndDt: "20/04/2015",
+        DetailedNotification: "http://cukerala.ac.in/images/PdfDocs/Empl2015/cuk_r_re_5_2015.pdf",
+        GoToSite: "http://cukerala.ac.in/index.php?option=com_content&view=article&id=776:employment-re-notification-no-re-5-15-teaching-posts&catid=25:career-oppurtunities&Itemid=185&lang=en",
+        ApplicationFee: "300",
+        PublishedOn: "05/03/2015",
+        Age: "--",
+        Logo: "cuk.jpg",
+        AltText: "CUK Faculty Recruitment 2015",
+        JobDetails: [{
+            Designation: "Professor",
+            NoOfPosts: "05",
+            PayScale: "37400 - 67000",
+            GradePay: "10000",
+            Eligibility: ""
+        },
+        {
+            Designation: "Associate Professor",
+            NoOfPosts: "13",
+            PayScale: "37400 - 67000",
+            GradePay: "9000",
+            Eligibility: ""
+        },
+        {
+            Designation: "Assistant Professor",
+            NoOfPosts: "08",
+            PayScale: "15600-39100",
+            GradePay: "6600",
+            Eligibility: ""
+        }]
+    },
+    {
         HeadingTheme: "panel panel-warning",
         Title: "Composite Regional Centre for Persons with Disabilities : CRC Recruitment of Faculty and other Non Teaching Posts",
         ApplicationEndDt: "30 days from date of publication",
@@ -2534,6 +2593,123 @@ var sectionLeft = [
 ];
 
 var sectionRight = [
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "Rashtriya Chemicals and Fertilizers Ltd: Recruitment of Finance Officers at RCFL",
+        ApplicationEndDt: "21/03/2015",
+        DetailedNotification: "http://www.rcfltd.com/webdocs/3040/2015/03/Final_Advertisement.pdf",
+        GoToSite: "http://www.rcfltd.com/index.php/hrmain/recruitment/10942-officer-finance-recruitment-2015",
+        ApplicationFee: "500",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "rcfl.jpg",
+        AltText: "Recruitment of Finance Officers at RCFL",
+        JobDetails: [{
+            Designation: "Officer (Finance)",
+            NoOfPosts: "12",
+            PayScale: "16400-40500",
+            GradePay: "",
+            Eligibility: "B.Com plus Chartered Accountant/Cost and Management Accountant"
+        }]
+    },
+    {
+        HeadingTheme: "panel panel-info",
+        Title: "Oil and Natural Gas Limited: Recruitment of Assistant Legal Advisor  through CLAT 2015 Examination  for LLM",
+        ApplicationEndDt: "15/05/2015",
+        DetailedNotification: "http://www.ongcindia.com/wps/wcm/connect/16f58b45-58a7-4672-927d-57583ebf2dd7/1advtengmar04.pdf?MOD=AJPERES&CACHEID=16f58b45-58a7-4672-927d-57583ebf2dd7",
+        GoToSite: "http://www.ongcindia.com/wps/wcm/connect/ongcindia/home/career/recruitment+notices/assistant+legal+advisor",
+        ApplicationFee: "",
+        PublishedOn: "16/04/2015",
+        Age: "--",
+        Logo: "ongc.jpg",
+        AltText: "Recruitment of Assistant Legal Advisor  through CLAT 2015 Examination  for LLM",
+        JobDetails: [{
+            Designation: "Assistant Legal Advisor",
+            NoOfPosts: "17",
+            PayScale: "24900 - 50500",
+            GradePay: "",
+            Eligibility: "Graduate Degree in Law(Professional) with minimum 60% marks. Practicing advocate with 3 years experience would be preferred for all categories"
+        }]
+    },
+    {
+        HeadingTheme: "panel panel-success",
+        Title: "Railtel Corporation Of India Limited: Recruitment of Office Assistants on Contract Basis through Walk-in-interview",
+        ApplicationEndDt: "27/03/2015",
+        DetailedNotification: "http://www.railtelindia.com/images/stories/OA%20vacancy%20notice-%20detailed.pdf",
+        GoToSite: "http://www.railtelindia.com/index.php?option=com_content&view=article&id=67&Itemid=140&lang=en",
+        ApplicationFee: "",
+        PublishedOn: "07/03/2015",
+        Age: "--",
+        Logo: "railtel.jpg",
+        AltText: "Recruitment of Office Assistants on Contract Basis through Walk-in-interview",
+        JobDetails: [{
+            Designation: "Office Assistant (on Contract basis) Corporate Office, Gurgaon",
+            NoOfPosts: "02",
+            PayScale: "19000 per month",
+            GradePay: "",
+            Eligibility: "Graduation from any stream. Proficiency in MS Office (MS word, MS Excel and Power Point) will be a pre-requisite."
+        },
+        {
+            Designation: "Office Assistant (on Contract basis) Secunderabad/Chennai under RO/ Secunderabad",
+            NoOfPosts: "02",
+            PayScale: "19000 per month",
+            GradePay: "",
+            Eligibility: "Graduation from any stream. Proficiency in MS Office (MS word, MS Excel and Power Point) will be a pre-requisite."
+        },
+        {
+            Designation: "Office Assistant (on Contract basis) Mumbai/Ahmedabad under RO/ Mumbai",
+            NoOfPosts: "02",
+            PayScale: "19000 per month",
+            GradePay: "",
+            Eligibility: "Graduation from any stream. Proficiency in MS Office (MS word, MS Excel and Power Point) will be a pre-requisite."
+        },
+        {
+            Designation: "Office Assistant (on Contract basis) Kolkata/Guwahati under RO/ Kolkata ",
+            NoOfPosts: "02",
+            PayScale: "19000 per month",
+            GradePay: "",
+            Eligibility: "Graduation from any stream. Proficiency in MS Office (MS word, MS Excel and Power Point) will be a pre-requisite."
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-success",
+        Title: "IRCON International Limited: Recruitment of Junior Engineer/Electrical on regular basis",
+        ApplicationEndDt: "27/03/2015",
+        DetailedNotification: "http://www.ircon.org/images/file/Recruitment_vacancy/2015/JE-%20Elect.%20-%20Detailed%20Ad_upload.pdf",
+        GoToSite: "http://www.rvnl.org/opportunity02.php",
+        ApplicationFee: "",
+        PublishedOn: "07/03/2015",
+        Age: "--",
+        Logo: "ircon.jpg",
+        AltText: "IRCON Recruitment of Engineers 2015",
+        JobDetails: [{
+            Designation: "Junior Engineer /Electrical – NE-7",
+            NoOfPosts: "10",
+            PayScale: "10700 – 21400",
+            GradePay: "",
+            Eligibility: "3 years Engineering Diploma in Electrical Discipline with not less than 60% marks"
+        }]
+    },
+    {
+        HeadingTheme: "panel panel-info",
+        Title: "Rail Vikas Nigam Limited: Recruitment of Site Engineer(Civil, Electrical and Signals)",
+        ApplicationEndDt: "20/03/2015",
+        DetailedNotification: "http://www.rvnl.org/admin/uploaded1/opportunity_form/20150305154312_Advertisement.pdf",
+        GoToSite: "http://www.rvnl.org/opportunity02.php",
+        ApplicationFee: "",
+        PublishedOn: "10/03/2015",
+        Age: "--",
+        Logo: "rvnl.jpg",
+        AltText: "RVNL Recruitment of Engineers 2015",
+        JobDetails: [{
+            Designation: "Site Engineer ( Civil, Electrical & Signals)",
+            NoOfPosts: "",
+            PayScale: "27,000/- per month",
+            GradePay: "",
+            Eligibility: "B.E./B. Tech in Civil Engineering, Electrical Engineering & Electronics & Communication Engineering with valid GATE 2014 or 2015 Score. "
+        }]
+    },
     {
         HeadingTheme: "panel panel-danger",
         Title: "King George's Medical University Lucknow: KGMU Nurse Recruitment",
