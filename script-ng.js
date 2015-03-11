@@ -10,6 +10,44 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 
 var sectionLeft = [
     {
+        HeadingTheme: "panel panel-info",
+        Title: "Steel Authority of India Limited : SAIL recruitment for Junior Assistant",
+        ApplicationEndDt: "09/04/2015",
+        DetailedNotification: "http://103.241.144.145/index.php",
+        GoToSite: "http://103.241.144.145/index.php",
+        ApplicationFee: "250",
+        PublishedOn: "11/03/2015",
+        Age: "--",
+        Logo: "sail.jpg",
+        AltText: "SAIL recruitment for Junior Assistant 2015",
+        JobDetails: [{
+            Designation: "Junior Assistant (Trainee)",
+            NoOfPosts: "100",
+            PayScale: "9260 - 3% - 13150",
+            GradePay: "",
+            Eligibility: ""
+        }]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "Mazagaon Dock Limited : Recruitment of Executive Trainee(Finance) at MDL",
+        ApplicationEndDt: "09/04/2015",
+        DetailedNotification: "http://mazagondock.gov.in/newsite2010/pdf_doc/career_March15/Advertisement_MDL_HR_CR_REC_34_2015.pdf",
+        GoToSite: "http://mazagondock.gov.in/newsite2010/index.htm",
+        ApplicationFee: "300",
+        PublishedOn: "11/03/2015",
+        Age: "--",
+        Logo: "mdl.jpg",
+        AltText: "MDL Recruitment of Executive Trainee(Finance) 2015",
+        JobDetails: [{
+            Designation: "Executive Trainee (Finance)",
+            NoOfPosts: "11",
+            PayScale: "16400 - 40500",
+            GradePay: "",
+            Eligibility: "CA/ CMA OR Two years Full Time MBA (Finance)/ MMS (Finance) from a recognized University or Deemed University or Institute recognized by AICTE with First Class or 60% Marks"
+        }]
+    },
+    {
         HeadingTheme: "panel panel-danger",
         Title: "MADHYA PRADESH MADHYA KSHETRA VIDYUT VITARAN COMPANY LIMITED : Recruitment of AE(IT) and JE(T&D-Network)on contract basis",
         ApplicationEndDt: "27/03/2015",
@@ -2593,6 +2631,25 @@ var sectionLeft = [
 ];
 
 var sectionRight = [
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "Bharat Electronics Ltd: Recruitment of Deputy Engineer(E-II) at BEL",
+        ApplicationEndDt: "31/03/2015",
+        DetailedNotification: "http://www.bel-india.com/sites/default/files/Recruitments/website-AD-English-1-10-March-2015.pdf",
+        GoToSite: "http://www.bel-india.com/recruitment",
+        ApplicationFee: "500",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "bel.jpg",
+        AltText: "Recruitment of Deputy Engineer at BEL",
+        JobDetails: [{
+            Designation: "Deputy Engineer(E-II)",
+            NoOfPosts: "04",
+            PayScale: " 16,400/- 3% - 40,500",
+            GradePay: "",
+            Eligibility: "Full time M.E. / M. Tech/MS graduates from any AICTE approved institution with First Class for General & OBC candidates and Pass for SC/ST/PWD candidates in the following disciplines: i) M.E./M. Tech/MS in Electronics & Communications Engineering with specialization in RF & Microwave Engg./ Radar Engg. / Embedded Systems / Digital Signal Processing only. ii) Prior to M.E/M.Tech, the candidates must have successfully completed B.E/B.Tech in electronics/Telecom from any AICTE institution with aggregate first class for General/OBC candidates and pass class for SC/ST/PWD candidates. "
+        }]
+    },
     {
         HeadingTheme: "panel panel-warning",
         Title: "Rashtriya Chemicals and Fertilizers Ltd: Recruitment of Finance Officers at RCFL",
