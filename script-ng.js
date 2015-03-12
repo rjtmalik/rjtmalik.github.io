@@ -10,6 +10,61 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 
 var sectionLeft = [
     {
+        HeadingTheme: "panel panel-success",
+        Title: "Atomic Energy Education Society : AEES Recruitment of Principal, Teaching and Non-Teaching staff",
+        ApplicationEndDt: "30/03/2015",
+        DetailedNotification: "http://aees.gov.in/htmldocs/downloads/open_advertisement_aees_01_2015.pdf",
+        GoToSite: "http://aees.gov.in/htmldocs/recruitment.html",
+        ApplicationFee: "500",
+        PublishedOn: "07/03/2015",
+        Age: "--",
+        Logo: "aees.jpg",
+        AltText: "AEES Recruitment of Principal, Teaching and Non-Teaching staff",
+        JobDetails: [{
+            Designation: "Principal",
+            NoOfPosts: "01",
+            PayScale: "15600 - 39100 (PB-3) ",
+            GradePay: "7600",
+            Eligibility: "(i) Master’s Degree from recognized university with at least 50% marks in aggregate. (ii) B.Ed. or equivalent teaching degree. "
+        },
+        {
+            Designation: "Post Graduate Teacher (PGT) ",
+            NoOfPosts: "14",
+            PayScale: "9300 - 34800 (PB-2)",
+            GradePay: "4800",
+            Eligibility: ""
+        },
+        {
+            Designation: "Trained Graduate Teacher (TGT)",
+            NoOfPosts: "24",
+            PayScale: "9300 - 34800 (PB-2)",
+            GradePay: "4600",
+            Eligibility: ""
+        },
+        {
+            Designation: "Trained Graduate Teacher (Librarian)",
+            NoOfPosts: "01",
+            PayScale: "9300 - 34800 (PB-2)",
+            GradePay: "4600",
+            Eligibility: "Bachelor’s Degree in Library Science from a recognized university with a minimum of 50% aggregate marks OR Graduate with a minimum 50% aggregate marks with one year Diploma in Library Science from a recognized Institution. "
+        },
+        {
+            Designation: "Trained Graduate Teacher (Special Educator)",
+            NoOfPosts: "07",
+            PayScale: "9300 - 34800 (PB-2)",
+            GradePay: "4600",
+            Eligibility: "(i) Graduate with at least 50% marks from recognized university. (ii) B.Ed (Special Education) OR B.Ed with a two years Diploma in Special Education from recognized university OR Post Graduate Professional Diploma in Special Education from recognized university OR Any other equivalent qualification approved by Rehabilitation Council of India. (iii) Pass in the Central Teacher Eligibility Test (CTET), conducted by CBSE in accordance with the guidelines framed by the NCTE for the purpose. "
+        },
+        {
+            Designation: "Junior Hindi Translator",
+            NoOfPosts: "01",
+            PayScale: "9300 - 34800 (PB-2)",
+            GradePay: "4200",
+            Eligibility: "Bachelor’s degree from recognized university & Post Graduate Diploma in Hindi/English Translation."
+        }
+        ]
+    },
+    {
         HeadingTheme: "panel panel-info",
         Title: "Steel Authority of India Limited : SAIL recruitment for Junior Assistant",
         ApplicationEndDt: "09/04/2015",
@@ -2631,6 +2686,25 @@ var sectionLeft = [
 ];
 
 var sectionRight = [
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "Council for Scientific and Industrial Research: Joint CSIR-UGC Test For Junior Research Fellowship And Eligibility for Lectureship Tentatively on 21st June, 2015",
+        ApplicationEndDt: "25/03/2015",
+        DetailedNotification: "http://www.csirhrdg.res.in/notification_main_june2015.pdf",
+        GoToSite: "http://www.csirhrdg.res.in/",
+        ApplicationFee: "1000",
+        PublishedOn: "13/02/2015",
+        Age: "--",
+        Logo: "csir.jpg",
+        AltText: "CSIR JRF NET June 2015",
+        JobDetails: [{
+            Designation: "CSIR JRF NET 2015",
+            NoOfPosts: "",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "BS-4 years program/BE/BTech/BPharma/MBBS/Integrated BS-MS/MSc or equivalent degree with at least 55% marks for general and OBC-Non Creamy layer candidates (50% for SC/ST candidates, physically and Visually Handicapped candidates)."
+        }]
+    },
     {
         HeadingTheme: "panel panel-danger",
         Title: "Bharat Electronics Ltd: Recruitment of Deputy Engineer(E-II) at BEL",
