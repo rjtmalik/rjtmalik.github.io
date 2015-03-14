@@ -10,6 +10,66 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 
 var sectionLeft = [
     {
+        HeadingTheme: "panel panel-danger",
+        Title: "Union Public Service Commission: UPSC Combined Medical Services Examination 2015",
+        ApplicationEndDt: "10/04/2015",
+        DetailedNotification: "http://upsc.gov.in/exams/notifications/2015/CMS_2015/final%20page%20en%20%2850%29%2036-41.pdf",
+        GoToSite: "http://upsc.gov.in/",
+        ApplicationFee: "200",
+        PublishedOn: "14/03/2015",
+        Age: "--",
+        Logo: "upsc.jpg",
+        AltText: "UPSC Combined Medical Services Examination 2015",
+        JobDetails: [{
+            Designation: "Assistant Divisional Medical Officer in the Railways",
+            NoOfPosts: "600",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Assistant Medical Officer in Indian Ordnance Factories Health Services",
+            NoOfPosts: "39",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Junior Scale Posts in Central Health Services",
+            NoOfPosts: "391",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "General Duty Medical Officer in Grade II",
+            NoOfPosts: "372",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "All India Institutue of Medical Sciences: AIIMS Patna Recruitment staff Nurse",
+        ApplicationEndDt: "19/04/2015",
+        DetailedNotification: "http://www.aiimspatna.org/news/Advertisement%20Nursing%20-%20Group%20B.14.03.2015.pdf",
+        GoToSite: "http://www.aiimspatna.org/pages/recruitment.php",
+        ApplicationFee: "",
+        PublishedOn: "20/03/2015",
+        Age: "--",
+        Logo: "aiims_patna.jpg",
+        AltText: "AIIMS Patna Recruitment staff Nurse",
+        JobDetails: [{
+            Designation: "Nurse",
+            NoOfPosts: "441",
+            PayScale: "9300 - 34800",
+            GradePay: "4600",
+            Eligibility: "i) Matriculation or its equivalent from a recognised university/Board. ii) Certification in General Nursing and Midwifery from a recognised Institution or Equivalent. iii)Should be a registered 'A' grade Nurse and Midwife with a State Nursing Council or equivalent qualification for male nurses."
+        }]
+    },
+    {
         HeadingTheme: "panel panel-success",
         Title: "Atomic Energy Education Society : AEES Recruitment of Principal, Teaching and Non-Teaching staff",
         ApplicationEndDt: "30/03/2015",
@@ -2686,6 +2746,109 @@ var sectionLeft = [
 ];
 
 var sectionRight = [
+    {
+        HeadingTheme: "panel panel-info",
+        Title: "Staff Selection Commission : SSC Recruitment for Assistants(Multiple Departments)",
+        ApplicationEndDt: "13/04/2015",
+        DetailedNotification: "http://sscer.org/MATTER/IMPORTANT_NOTICE.html",
+        GoToSite: "http://sscer.org/MATTER/IMPORTANT_NOTICE.html",
+        ApplicationFee: "50",
+        PublishedOn: "14/03/2015",
+        Age: "--",
+        Logo: "ssc.jpg",
+        AltText: "SSC Recruitment for Assistants(Multiple Departments)",
+        JobDetails: [{
+            Designation: "Junior Geographical Assistant",
+            NoOfPosts: "02",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "",
+        },
+        {
+            Designation: "Statistical Assistant",
+            NoOfPosts: "02",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "Candidate must hold a Degree in Engineering",
+        },
+        {
+            Designation: "Technical Assistant(Process)",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "",
+        },
+        {
+            Designation: "Research Assitant",
+            NoOfPosts: "02",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "",
+        },
+        {
+            Designation: "Assistant Pharmacognocist",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "",
+        },
+        {
+            Designation: "Assistant Chemist",
+            NoOfPosts: "02",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "",
+        },
+        {
+            Designation: "Assistant BioChemist",
+            NoOfPosts: "02",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "",
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-success",
+        Title: "Union Public Service Commission: UPSC Engineering Services Examination-2015 for filling 475 posts",
+        ApplicationEndDt: "10/04/2015",
+        DetailedNotification: "http://upsconline.nic.in/mainmenu2.php",
+        GoToSite: "http://upsconline.nic.in/mainmenu2.php",
+        ApplicationFee: "200",
+        PublishedOn: "14/03/2015",
+        Age: "--",
+        Logo: "upsc.jpg",
+        AltText: "UPSC Engineering Services Examination-2015",
+        JobDetails: [{
+            Designation: "Civil Engineering",
+            NoOfPosts: "",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "Candidate must hold a Degree in Engineering",
+        },
+        {
+            Designation: "Mechanical Engineering",
+            NoOfPosts: "",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "Candidate must hold a Degree in Engineering",
+        },
+        {
+            Designation: "Electrical Engineering",
+            NoOfPosts: "",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "Candidate must hold a Degree in Engineering",
+        },
+        {
+            Designation: "Electronics and Telecommunication Engineering",
+            NoOfPosts: "",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "Candidate must hold a Degree in Engineering",
+        }
+        ]
+    },
     {
         HeadingTheme: "panel panel-warning",
         Title: "Lucknow Metro Rail Corporation : LMRC Recruitment of Dy. CE/Quality, Dy CE/Safety & AM/Environment",
