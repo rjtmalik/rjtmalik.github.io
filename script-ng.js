@@ -10,6 +10,201 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 
 var sectionLeft = [
     {
+        HeadingTheme: "panel panel-success",
+        Title: "Himachal Pradesh Public Service Commission: HPPSC  Recruitment for Teaching and non Teaching  Posts 2015",
+        ApplicationEndDt: "10/04/2015",
+        DetailedNotification: "http://hp.gov.in/hppsc/file.axd?file=2015%2f3%2fAdvertisement+No.+9_2014.pdf",
+        GoToSite: "http://hp.gov.in/hppsc/page/Latest-Advertisement.aspx",
+        ApplicationFee: "400",
+        PublishedOn: "12/03/2015",
+        Age: "--",
+        Logo: "hppsc.jpg",
+        AltText: "HPPSC  Recruitment Multiple Posts 2015",
+        JobDetails: [{
+            Designation: "Associate Professor (Forensic Medicine) Class-I (Gazetted)",
+            NoOfPosts: "01",
+            PayScale: "37400-67000",
+            GradePay: "8900",
+            Eligibility: "MD (Forensic Medicine)"
+        },
+        {
+            Designation: "Assistant District Attorney, Class-I (Gazetted) (On Contract basis)",
+            NoOfPosts: "26",
+            PayScale: "10300 - 34800",
+            GradePay: "4400",
+            Eligibility: "i) Professional degree in Law from a recognized University or its equivalent; and ii) At least two years experience as an advocate. The candidate is required to produce experience certificate duly signed by the President, District Bar Association concerned/ Bar Council."
+        },
+        {
+            Designation: "Divisional Fire Officer/ Fire Prevention Officer, ClassII (Non- Gazetted) (On contract basis)",
+            NoOfPosts: "01",
+            PayScale: "10300 - 34800",
+            GradePay: "4200",
+            Eligibility: "B.E. (Fire Engineering) Degree from the National Fire Service College, Nagpur."
+        },
+        {
+            Designation: "Acharya (Sanskrit College Cadre) Class-I (Gazetted) (on Contract basis)",
+            NoOfPosts: "06",
+            PayScale: "21,600/- p.m. ",
+            GradePay: "",
+            Eligibility: "A good academic record with at least 55 % marks or an equivalent of 55 %, (Wherever the grading system is followed) in Acharya Degree in the relevant subject from an Indian University or an equivalent degree from foreign University recognized by the Govt. of India."
+        },
+        {
+            Designation: "Name of the post: Principal, ITI, Class-I (Gazetted)",
+            NoOfPosts: "42",
+            PayScale: "10300 - 34800",
+            GradePay: "5000",
+            Eligibility: "Bachelor’s Degree of any Branch of Engineering or its equivalent from a recognized University with at least three years experience in reputed industrial concern or in a training institute. "
+        },
+        {
+            Designation: "Name of the post: Professor (Mechanical Engineering) Class-I (Gazetted)",
+            NoOfPosts: "03",
+            PayScale: "37400-67000",
+            GradePay: "10,000",
+            Eligibility: "BE / B. Tech. and ME / M. Tech. in the relevant branch of Engineering with First Class or equivalent either in BE/B. Tech. or ME/M. Tech. and Ph.D. or equivalent in the appropriate discipline. Post Ph.D. publication and guiding Ph.D. students is highly desirable. "
+        },
+        {
+            Designation: "Professor (Civil Engineering) Class-I (Gazetted)",
+            NoOfPosts: "02",
+            PayScale: "37400-67000",
+            GradePay: "10,000",
+            Eligibility: "BE / B. Tech. and ME / M. Tech. in the relevant branch of Engineering with First Class or equivalent either in BE/B. Tech. or ME/M. Tech. and Ph.D. or equivalent in the appropriate discipline. Post Ph.D. publication and guiding Ph.D. students is highly desirable. "
+        },
+        {
+            Designation: "Professor (Textile Engineering) Class-I (Gazetted)",
+            NoOfPosts: "02",
+            PayScale: "37400-67000",
+            GradePay: "10,000",
+            Eligibility: "BE / B. Tech. and ME / M. Tech. in the relevant branch of Engineering with First Class or equivalent either in BE/B. Tech. or ME/M. Tech. and Ph.D. or equivalent in the appropriate discipline. Post Ph.D. publication and guiding Ph.D. students is highly desirable. "
+        },
+        {
+            Designation: "Professor (Electronics & TeleCommunication Engineering) Class-I (Gazetted) ",
+            NoOfPosts: "01",
+            PayScale: "37400-67000",
+            GradePay: "10,000",
+            Eligibility: "BE / B. Tech. and ME / M. Tech. in the relevant branch of Engineering with First Class or equivalent either in BE/B. Tech. or ME/M. Tech. and Ph.D. or equivalent in the appropriate discipline. Post Ph.D. publication and guiding Ph.D. students is highly desirable. "
+        },
+        {
+            Designation: "Lecturer (Civil Engineering) (Polytechnic) Class-I (Gazetted) (on Contract basis)",
+            NoOfPosts: "08",
+            PayScale: "21,000/- per month",
+            GradePay: "",
+            Eligibility: "First Class Bachelor’s Degree in appropriate branch of Engineering/ Technology or equivalent"
+        },
+        {
+            Designation: "Lecturer in Electrical Engineering (Polytechnic), Class-I (Gazetted) (On Contract basis)",
+            NoOfPosts: "05",
+            PayScale: "21,000/- per month",
+            GradePay: "",
+            Eligibility: "First Class Bachelor’s Degree in appropriate branch of Engineering/ Technology or equivalent"
+        },
+        {
+            Designation: "Assistant Architect, Class-I (Gazetted) (on Contract basis)",
+            NoOfPosts: "02",
+            PayScale: "21,000/- per month",
+            GradePay: "",
+            Eligibility: "(i) Degree in Architecture or its equivalent from a recognized University or an institute duly recognized by the Central/ State Govt. (ii) At least two years experience in the field on Architecture after qualifying for the degree in Architecture. Preference will be given to those Architects who get registration under the Architect Act, 1972."
+        },
+        {
+            Designation: "Assistant Engineer (Civil), Class-I (on Contract basis)",
+            NoOfPosts: "01",
+            PayScale: "21,000/- per month",
+            GradePay: "",
+            Eligibility: "First Class Bachelor’s Degree in appropriate branch of Engineering/ Technology or equivalent"
+        },
+        {
+            Designation: "Assistant Engineer (Mechanical), Class-I (on Contract basis)",
+            NoOfPosts: "01",
+            PayScale: "16650 - 39100",
+            GradePay: "5800",
+            Eligibility: "Regular / full time Degree in Civil/ Mech. from a recognized Institution / University duly approved by the AICTE or AMIE from Institution of Engineers (India Calcutta) or Ex-Servicemen, who have the relevant equivalence to a recognized Degree in above stream / discipline recognized by the Govt. of India, for AE (C/M) posts."
+        },
+        {
+            Designation: "Assistant Engineer (Electrical), Class-I (on Contract basis)",
+            NoOfPosts: "20",
+            PayScale: "16650 - 39100",
+            GradePay: "5800",
+            Eligibility: "Regular / full time Degree in Electrical Engineering or Electrical & Electronics Engineering from a recognized Institution/ University duly approved by the AICTE or AMIE from Institution of Engineers (India Calcutta) or ExServicemen, who have the relevant equivalence to a recognized Degree in above stream / discipline recognized by the Govt. of India, for AE (E) posts."
+        },
+        {
+            Designation: "Law Officer GradeI, Class-II (on Contract basis)",
+            NoOfPosts: "03",
+            PayScale: "10900 - 34800",
+            GradePay: "4900",
+            Eligibility: "(i) Degree of Bachelor of Laws of a recognized University. (ii) At least 5 years practical experience in various courts or having work experience of at least 5 years in various Govt./ autonomous bodies / Statutory bodies/ PSUs etc. on the legal side / courts etc. or practical experience of working in courts or a combination of both. "
+        },
+        {
+            Designation: "Accounts Officer, Class-I",
+            NoOfPosts: "02",
+            PayScale: "16650 - 39100",
+            GradePay: "5800",
+            Eligibility: "From persons having degree of ICWA or CA from recognized Institute or on secondment basis."
+        },
+        {
+            Designation: "Assistant Engineer (Executive Trainee- Electrical), Class-I(on Contract basis)",
+            NoOfPosts: "07",
+            PayScale: "22,450/- per month",
+            GradePay: "",
+            Eligibility: "Full time B.E. / B. Tech. (Electrical) and B.E./ B. Tech. (Electrical and Electronics)/ M. Tech. (Electrical)/ PG Diploma in Hydro Power Plant Engineering from a recognized University / Institute of India with at least 55% marks in case of SC/ST/internal (HPPCL) candidates and 60% marks in case of other categories. "
+        },
+        {
+            Designation: "Assistant Engineer (Executive Trainee- Civil), Class-I (on Contract basis)",
+            NoOfPosts: "09",
+            PayScale: "22,450/- per month.",
+            GradePay: "",
+            Eligibility: "Full time Degree in Civil Engineering discipline/ M. Tech. (Civil)/ Post Graduate Diploma in Hydro Power Plant Engineering from a recognized University / Institute of India with at least 60% marks. "
+        },
+        {
+            Designation: "Assistant Finance Officer (Executive Trainee- Finance), Class-I (on Contract basis)",
+            NoOfPosts: "07",
+            PayScale: "22,450/- per month.",
+            GradePay: "",
+            Eligibility: "Full time CA/ ICWA/ M.Com/ MBA (Finance) with at least 50 % marks in case of SC/ST/ internal (HPPCL) candidates and 55% marks in case of other categories from a recognized University/ Institute. Note:- Candidates with M.Com/ MBA (Finance) should have also passed B.Com at Graduation level."
+        },
+        {
+            Designation: "Assistant Engineer (Executive Trainee- Electrical), Class-I(on Contract basis)",
+            NoOfPosts: "07",
+            PayScale: "22,450/- per month",
+            GradePay: "",
+            Eligibility: "Full time B.E. / B. Tech. (Electrical) and B.E./ B. Tech. (Electrical and Electronics)/ M. Tech. (Electrical)/ PG Diploma in Hydro Power Plant Engineering from a recognized University / Institute of India with at least 55% marks in case of SC/ST/internal (HPPCL) candidates and 60% marks in case of other categories. "
+        },
+        {
+            Designation: "Assistant Officer (Executive Trainee- Relief & Rehabilitation) Class-I (on Contract basis) ",
+            NoOfPosts: "02",
+            PayScale: "22,450/- per month fixed.",
+            GradePay: "",
+            Eligibility: "Full time BE in Rural Engineering or equivalent or M. Phil (Sociology/ Social Work) with at least 55% marks. Preference shall be given to the candidates having R&R experience in hydropower sector. "
+        },
+        {
+            Designation: "Law Officer, ClassII (Gazetted) (on Contract basis) ",
+            NoOfPosts: "01",
+            PayScale: "10300 - 34800",
+            GradePay: "4400",
+            Eligibility: "Should possess a professional degree in Law or its equivalent from any recognized University in India with 3 years experience as a practicing advocateor 5 years experience while working in a Govt. / Semi Govt. Institution."
+        },
+        {
+            Designation: "Mining Officer, Class-II (Gazetted) (on Contract basis)",
+            NoOfPosts: "03",
+            PayScale: "14,500/- p.m.",
+            GradePay: "",
+            Eligibility: "M.Sc. Degree in Geology or Applied Geology or B.Sc. (Hons.) in Geology or Applied Geology from a recognized University / institution or its equivalent."
+        },
+        {
+            Designation: "Planning Officer, Class-I (Gazetted) (on Contract basis)",
+            NoOfPosts: "03",
+            PayScale: "10300 - 34800",
+            GradePay: "5000",
+            Eligibility: "B. Tech. Degree in Urban/ City/ Town/ Regional Planning from a University or Institute duly recognized by H.P. Government / Central Government. "
+        },
+        {
+            Designation: "- Assistant Research Officer, Class-II (Non-Gazetted) (on Contract basis)",
+            NoOfPosts: "02",
+            PayScale: "10300 - 34800",
+            GradePay: "4200",
+            Eligibility: "Master’s degree in Economics with Statistics/ Master’s degree in Mathematics/ Master’s degree in Statistics or its equivalent from a recognized University."
+        }
+        ]
+    },
+    {
         HeadingTheme: "panel panel-danger",
         Title: "Union Public Service Commission: UPSC Combined Medical Services Examination 2015",
         ApplicationEndDt: "10/04/2015",
@@ -2746,6 +2941,25 @@ var sectionLeft = [
 ];
 
 var sectionRight = [
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "National Institute Of Technology Durgapur : NIT Durgapur Faculty Recruitment",
+        ApplicationEndDt: "17/04/2015",
+        DetailedNotification: "http://nitdgp.ac.in/tender15/_FINAL_ADV.pdf",
+        GoToSite: "http://nitdgp.ac.in/",
+        ApplicationFee: "600",
+        PublishedOn: "11/03/2015",
+        Age: "--",
+        Logo: "nit_durgapur.jpg",
+        AltText: "NIT Durgapur Faculty Recruitment",
+        JobDetails: [{
+            Designation: "Assistant Professor",
+            NoOfPosts: "59",
+            PayScale: "15600 - 39100",
+            GradePay: "6000/7000/8000",
+            Eligibility: "As per MHRD OM (F. No. 33-9/2011- TS.III dated 15th January,2014 ) (Refer Page No: 3 to 9)",
+        }]
+    },
     {
         HeadingTheme: "panel panel-info",
         Title: "Staff Selection Commission : SSC Recruitment for Assistants(Multiple Departments)",
