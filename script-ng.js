@@ -11,6 +11,257 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 var sectionLeft = [
     {
         HeadingTheme: "panel panel-success",
+        Title: "Projects and Development India Limited: PDIL Recruitment Multiple Posts 2015",
+        ApplicationEndDt: "25/03/2015",
+        DetailedNotification: "http://careers.pdilin.com/15-mar-regular/",
+        GoToSite: "http://careers.pdilin.com/15-mar-regular/",
+        ApplicationFee: "",
+        PublishedOn: "11/03/2015",
+        Age: "--",
+        Logo: "pdil.jpg",
+        AltText: "PDIL Recruitment Multiple Posts 2015",
+        JobDetails: [{
+            Designation: "DY.General Manager(E6 Grade)",
+            NoOfPosts: "",
+            PayScale: "36600- 62000",
+            GradePay: "",
+            Eligibility: "Engineering Degree in: Chemical Technology"
+        },
+        {
+            Designation: "Chief Engineer ( E5 Grade )",
+            NoOfPosts: "",
+            PayScale: "32900 - 58000",
+            GradePay: "",
+            Eligibility: "Engineering Degree in: Civil Structural Engineering"
+        },
+        {
+            Designation: "Addl. Chief Engineer Chemical(E4 Grade )",
+            NoOfPosts: "",
+            PayScale: "29100-54500",
+            GradePay: "",
+            Eligibility: "Engineering Degree in: • Chemical • Chemical Technology"
+        },
+        {
+            Designation: "Addl. Chief Engineer Mechanical (Machinery E4 Grade )",
+            NoOfPosts: "",
+            PayScale: "29100-54500",
+            GradePay: "",
+            Eligibility: "Engineering Degree in: •Mechanical"
+        },
+        {
+            Designation: "Dy.Chief Engineer Chemical (E3 Grade)",
+            NoOfPosts: "",
+            PayScale: "24900 - 50500",
+            GradePay: "",
+            Eligibility: "Engineering Degree in: • Chemical • Chemical Technology"
+        },
+        {
+            Designation: "Dy.Chief Engineer Civil (E3 Grade)",
+            NoOfPosts: "",
+            PayScale: "24900 - 50500",
+            GradePay: "",
+            Eligibility: "Engineering Degree in: • Civil • Structural Engineering"
+        },
+        {
+            Designation: "DY. Manager Business Development(E3 Grade)",
+            NoOfPosts: "",
+            PayScale: "24900 - 50500",
+            GradePay: "",
+            Eligibility: "Degree in Mechanical/ Chemical Engineering preferably with MBA/PG Diploma of 2 years duration in management with specialization in Marketing Management"
+        },
+        {
+            Designation: "DY. Manager Finance(E3 Grade)",
+            NoOfPosts: "",
+            PayScale: "24900 - 50500",
+            GradePay: "",
+            Eligibility: "CA / ICWA"
+        },
+        {
+            Designation: "DY. Manager Materials Management(E3 Grade)",
+            NoOfPosts: "",
+            PayScale: "24900 - 50500",
+            GradePay: "",
+            Eligibility: "Degree in Engineering OR PG Degree/PG Diploma of 2 years duration in management with specialization in Materials Management"
+        },
+        {
+            Designation: "Sr. Engineer Chemical( E2 Grade )",
+            NoOfPosts: "",
+            PayScale: "20600 - 46500",
+            GradePay: "",
+            Eligibility: "Engineering Degree in: • Chemical • Chemical Technology"
+        },
+        {
+            Designation: "Sr. Engineer Civil( E2 Grade )",
+            NoOfPosts: "",
+            PayScale: "20600 - 46500",
+            GradePay: "",
+            Eligibility: "Engineering Degree in: • Civil • Structural Engineering"
+        },
+        {
+            Designation: "Sr. Engineer Civil(Constn.)( E2 Grade )",
+            NoOfPosts: "",
+            PayScale: "20600 - 46500",
+            GradePay: "",
+            Eligibility: "Engineering Degree in: • Civil • Structural Engineering"
+        },
+        {
+            Designation: "Sr. Engineer Planning( E2 Grade )",
+            NoOfPosts: "",
+            PayScale: "20600 - 46500",
+            GradePay: "",
+            Eligibility: "Engineering Degree in: • Chemical • Chemical Technology."
+        },
+        {
+            Designation: "Sr. Engineer Instrument-Inspection( E2 Grade )",
+            NoOfPosts: "",
+            PayScale: "20600 - 46500",
+            GradePay: "",
+            Eligibility: "Degree in Engineering in any discipline : • Instrumentation & Control • Applied Instrumentation • Electronics & Instrumentation • Electronics, Instrumentation & Control • Electronics & Communication • Electronics & Telecommunication • Instrumentation • Electrical & Electronics"
+        },
+        {
+            Designation: "Engineer Chemical( E1 Grade )",
+            NoOfPosts: "",
+            PayScale: "16400 - 40500",
+            GradePay: "",
+            Eligibility: "Engineering Degree in: • Chemical • Chemical Technology"
+        },
+        {
+            Designation: "Engineer Civil( E1 Grade )",
+            NoOfPosts: "",
+            PayScale: "16400 - 40500",
+            GradePay: "",
+            Eligibility: "Engineering Degree in: • Civil • Structural Engineering"
+        },
+        {
+            Designation: "Engineer Environment and Impact Analysis (EIA,RA & Hazop study)( E1 Grade )",
+            NoOfPosts: "",
+            PayScale: "16400 - 40500",
+            GradePay: "",
+            Eligibility: "Engineering Degree in: • Chemical • Environmental"
+        },
+        {
+            Designation: "Engineer Environment and Impact Analysis-(ENV.LAB)( E1 Grade )",
+            NoOfPosts: "",
+            PayScale: "16400 - 40500",
+            GradePay: "",
+            Eligibility: "M.Sc./B.Tech. Degree as per CPCB Guidelines"
+        },
+        {
+            Designation: "Engineer Mechanical (Piping)( E1 Grade )",
+            NoOfPosts: "",
+            PayScale: "16400 - 40500",
+            GradePay: "",
+            Eligibility: "Engineering Degree in • Mechanical"
+        },
+        {
+            Designation: "Officer Business Development(E1 Grade)",
+            NoOfPosts: "",
+            PayScale: "16400 - 40500",
+            GradePay: "",
+            Eligibility: "Degree in Mechanical/ Chemical Engineering preferably with MBA/PG Diploma of 2 years duration in management with specialization in Marketing Management"
+        },
+        {
+            Designation: "Officer Finance(E1 Grade)",
+            NoOfPosts: "",
+            PayScale: "16400 - 40500",
+            GradePay: "",
+            Eligibility: "CA / ICWA"
+        },
+        {
+            Designation: "Officer C-P&A(E1 Grade)",
+            NoOfPosts: "",
+            PayScale: "16400 - 40500",
+            GradePay: "",
+            Eligibility: "Post Graduate Degree/ PG Diploma(2 years regular course) in Personnel Management/ HR/ PM&IR/ Labour & Social Welfare Labour Relations(LSW)/ MBA with major as PM&IR/ HR"
+        },
+        {
+            Designation: "Officer Materials Management(E1 Grade)",
+            NoOfPosts: "",
+            PayScale: "16400 - 40500",
+            GradePay: "",
+            Eligibility: "Degree in Engineering OR PG Degree/PG Diploma of 2 years duration in management with specialization in Materials Management"
+        },
+        {
+            Designation: "Research Chemist Catalyst Research(E0 Grade)",
+            NoOfPosts: "",
+            PayScale: "12600 - 32500",
+            GradePay: "",
+            Eligibility: "M.Sc.(Chemistry) with specialization in Physical/ Inorganic/ Applied Chemistry. Candidate must have passed with Physics, Chemistry and Mathematics in graduation level"
+        },
+        {
+            Designation: "Jr.Designer Mechanical (Piping)(E0 Grade)",
+            NoOfPosts: "",
+            PayScale: "12600 - 32500",
+            GradePay: "",
+            Eligibility: "Diploma in : Mechanical"
+        },
+        {
+            Designation: "Jr.Designer Chemical (3-D Modeller) (E0 Grade)",
+            NoOfPosts: "",
+            PayScale: "12600 - 32500",
+            GradePay: "",
+            Eligibility: "Diploma in : Mechanical"
+        },
+        {
+            Designation: "Jr.Designer Mech.-Piping (3-D Modeller)(E0 Grade)",
+            NoOfPosts: "",
+            PayScale: "12600 - 32500",
+            GradePay: "",
+            Eligibility: "Diploma in : Mechanical"
+        },
+        {
+            Designation: "Sr. Draftsman Chemical( WM6 Grade )",
+            NoOfPosts: "",
+            PayScale: "11900 - 30450",
+            GradePay: "",
+            Eligibility: "Diploma in Chemical"
+        },
+        {
+            Designation: "Sr. Draftsman Mechanical (Piping)( WM6 Grade )",
+            NoOfPosts: "",
+            PayScale: "11900 - 30450",
+            GradePay: "",
+            Eligibility: "Diploma in Mechanical"
+        },
+        {
+            Designation: "Sr. Draftsman Civil (3-D Modeller)( WM6 Grade )",
+            NoOfPosts: "",
+            PayScale: "11900 - 30450",
+            GradePay: "",
+            Eligibility: "Diploma in Civil"
+        },
+        {
+            Designation: "Sr. Draftsman Mech.-Piping (3-D Modeller)( WM6 Grade )",
+            NoOfPosts: "",
+            PayScale: "11900 - 30450",
+            GradePay: "",
+            Eligibility: "Diploma in Mechanical"
+        },
+        {
+            Designation: "Sr. Draftsman Chemical( WM6 Grade )",
+            NoOfPosts: "",
+            PayScale: "11900 - 30450",
+            GradePay: "",
+            Eligibility: "Diploma in Chemical"
+        },
+        {
+            Designation: "Draftsman-I Mechanical (Piping)( WM5 Grade )",
+            NoOfPosts: "",
+            PayScale: "10550-25950",
+            GradePay: "",
+            Eligibility: "Diploma in : Mechanical"
+        },
+        {
+            Designation: "Jr.Draftsman Mechanical (Piping)( WM4 Grade )",
+            NoOfPosts: "",
+            PayScale: "9750 - 23150",
+            GradePay: "",
+            Eligibility: "ITI, D/Manship"
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-success",
         Title: "Himachal Pradesh Public Service Commission: HPPSC  Recruitment for Teaching and non Teaching  Posts 2015",
         ApplicationEndDt: "10/04/2015",
         DetailedNotification: "http://hp.gov.in/hppsc/file.axd?file=2015%2f3%2fAdvertisement+No.+9_2014.pdf",
@@ -2941,6 +3192,107 @@ var sectionLeft = [
 ];
 
 var sectionRight = [
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "Water And Power Consultancy Services : WAPCOS Recruitment For Engineers",
+        ApplicationEndDt: "31/03/2015",
+        DetailedNotification: "http://wapcos.gov.in/Applicant/AdvertisementList.aspx",
+        GoToSite: "http://wapcos.gov.in/Applicant/AdvertisementList.aspx",
+        ApplicationFee: "",
+        PublishedOn: "17/03/2015",
+        Age: "--",
+        Logo: "wapcos.jpg",
+        AltText: "WAPCOS Recruitment For Engineers",
+        JobDetails: [{
+            Designation: "Engineer Civil",
+            NoOfPosts: "05",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "",
+        },
+        {
+            Designation: "Surveyor",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "",
+        },
+        {
+            Designation: "Geologist",
+            NoOfPosts: "04",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "",
+        },
+        {
+            Designation: "Geophysicist",
+            NoOfPosts: "04",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "",
+        },
+        {
+            Designation: "Sr. Engineer",
+            NoOfPosts: "03",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "",
+        },
+        {
+            Designation: "Dy. Chief Engineer",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "",
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "Vasantrao Naik Marathwada Krishi Vidyapeeth : VNKMV Revruitment for Assistant Professor and Assistant Registrar",
+        ApplicationEndDt: "10/04/2015",
+        DetailedNotification: "http://jipmer.edu.in/wp-content/uploads/2015/02/SPECIAL-RECRUITMENT-DRIVE-FOR-FILLING-UP-THE-POST-OF-STAFF-NURSE-UNDER-ST-CATEGORY-ONLY.pdf",
+        GoToSite: "http://mkv2.mah.nic.in/reg/advt.html",
+        ApplicationFee: "1000",
+        PublishedOn: "10/03/2015",
+        Age: "--",
+        Logo: "vnmkv.jpg",
+        AltText: "VNKMV Revruitment for Assistant Professor and Assistant Registrar",
+        JobDetails: [{
+            Designation: "Assistant Professor",
+            NoOfPosts: "44",
+            PayScale: "15600 - 39100",
+            GradePay: "6000",
+            Eligibility: "",
+        },
+        {
+            Designation: "Assistant Registrar",
+            NoOfPosts: "05",
+            PayScale: "9300 - 34800",
+            GradePay: "4600",
+            Eligibility: "",
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "Jawaharlal Institute Of Postgraduate Medical Education And Research : JIPMER Special Recruitment Drive for the post of Staff Nurse For Scheduled Tribes (ST)-2015",
+        ApplicationEndDt: "03/04/2015",
+        DetailedNotification: "http://jipmer.edu.in/wp-content/uploads/2015/02/SPECIAL-RECRUITMENT-DRIVE-FOR-FILLING-UP-THE-POST-OF-STAFF-NURSE-UNDER-ST-CATEGORY-ONLY.pdf",
+        GoToSite: "http://jipmer.edu.in/category/jobs/",
+        ApplicationFee: "250",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "jipmer.jpg",
+        AltText: "JIPMER Special Recruitment Drive for the post of Staff Nurse For Scheduled Tribes (ST)-2015",
+        JobDetails: [{
+            Designation: "Staff Nurse",
+            NoOfPosts: "40",
+            PayScale: "9300 - 34800",
+            GradePay: "",
+            Eligibility: "",
+        }]
+    },
     {
         HeadingTheme: "panel panel-danger",
         Title: "Delhi Metro Rail Corporation: DMRC Recruitment for Executive & Non Executive posts",
