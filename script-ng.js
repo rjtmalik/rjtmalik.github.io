@@ -10,6 +10,130 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 
 var sectionLeft = [
     {
+        HeadingTheme: "panel panel-warning",
+        Title: "Oil And Natural Gas Corporation Limited : ONGC Recruitment of Graduate Trainees/Graduate Engineer through GATE",
+        ApplicationEndDt: "10/04/2015",
+        DetailedNotification: "http://www.ongcindia.com/job/receng.pdf",
+        GoToSite: "http://ongcindia.ongc.co.in/wps/wcm/connect/ongcindia/home/career/recruitment+notices/recruitment-gt-trainees2014",
+        ApplicationFee: "",
+        PublishedOn: "21/03/2015",
+        Age: "--",
+        Logo: "ongc.jpg",
+        AltText: "ONGC Recruitment of Graduate Trainees through GATE",
+        JobDetails: [{
+            Designation: "Graduate Trainee",
+            NoOfPosts: "745",
+            PayScale: "24900 - 50500",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Assistant Executive Engineer(Environment)",
+            NoOfPosts: "06",
+            PayScale: "24900 - 50500",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Finance And Accounts",
+            NoOfPosts: "56",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Fire Officer",
+            NoOfPosts: "08",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "HR Executive",
+            NoOfPosts: "27",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Medical Officer",
+            NoOfPosts: "24",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Security Officer",
+            NoOfPosts: "07",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "Central Madhya Pradesh Gramin Bank: CMPGB Recruitment for Officer Posts 2015 through IBPS",
+        ApplicationEndDt: "25/03/2015",
+        DetailedNotification: "http://centralmpgraminbank.com/Recruitment%20advertisement_10032015.pdf",
+        GoToSite: "http://centralmpgraminbank.com/advertisement.htm",
+        ApplicationFee: "100",
+        PublishedOn: "10/03/2015",
+        Age: "--",
+        Logo: "cmpgb.jpg",
+        AltText: "CMPGB Recruitment for Officer Posts 2015 through IBPS",
+        JobDetails: [{
+            Designation: "Officer Scale‐III",
+            NoOfPosts: "04",
+            PayScale: "25700-800/5-29700-900/2-31500",
+            GradePay: "",
+            Eligibility: "RRBs CWE-III Advertisement published in Employment News/Rozgar Samachar Issue Dated 28th June–4th July, 2014released by IBPS and posted on the IBPS’s website www.ibps.in"
+        },
+        {
+            Designation: "Officer Scale‐II   (General Banking Officer)",
+            NoOfPosts: "23",
+            PayScale: "19400-700/1-20100-800/10-28100",
+            GradePay: "",
+            Eligibility: "RRBs CWE-III Advertisement published in Employment News/Rozgar Samachar Issue Dated 28th June–4th July, 2014released by IBPS and posted on the IBPS’s website www.ibps.in"
+        },
+        {
+            Designation: "Officer Scale‐II (IT)",
+            NoOfPosts: "10",
+            PayScale: "19400-700/1-20100-800/10-28100",
+            GradePay: "",
+            Eligibility: "RRBs CWE-III Advertisement published in Employment News/Rozgar Samachar Issue Dated 28th June–4th July, 2014released by IBPS and posted on the IBPS’s website www.ibps.in"
+        },
+        {
+            Designation: "Officer Scale‐II (CA)",
+            NoOfPosts: "01",
+            PayScale: "19400-700/1-20100-800/10-28100",
+            GradePay: "",
+            Eligibility: "RRBs CWE-III Advertisement published in Employment News/Rozgar Samachar Issue Dated 28th June–4th July, 2014released by IBPS and posted on the IBPS’s website www.ibps.in"
+        },
+        {
+            Designation: "Officer Scale‐II (Law)",
+            NoOfPosts: "10",
+            PayScale: "19400-700/1-20100-800/10-28100",
+            GradePay: "",
+            Eligibility: "RRBs CWE-III Advertisement published in Employment News/Rozgar Samachar Issue Dated 28th June–4th July, 2014released by IBPS and posted on the IBPS’s website www.ibps.in"
+        },
+        {
+            Designation: "Officer Scale‐I",
+            NoOfPosts: "145",
+            PayScale: " 14500-600/7-18700-700/2-20100-800/7-25700",
+            GradePay: "",
+            Eligibility: "RRBs CWE-III Advertisement published in Employment News/Rozgar Samachar Issue Dated 28th June–4th July, 2014released by IBPS and posted on the IBPS’s website www.ibps.in"
+        },
+        {
+            Designation: "Office Assistant (Multipurpose)",
+            NoOfPosts: "86",
+            PayScale: "7200-400/3-8400-500/3-9900-600/4-12300-700/7-17200-1300/1-18500-800/1-19300",
+            GradePay: "",
+            Eligibility: "RRBs CWE-III Advertisement published in Employment News/Rozgar Samachar Issue Dated 28th June–4th July, 2014released by IBPS and posted on the IBPS’s website www.ibps.in"
+        }
+        ]
+    },
+    {
         HeadingTheme: "panel panel-success",
         Title: "Projects and Development India Limited: PDIL Recruitment Multiple Posts 2015",
         ApplicationEndDt: "25/03/2015",
@@ -3192,6 +3316,74 @@ var sectionLeft = [
 ];
 
 var sectionRight = [
+    {
+        HeadingTheme: "panel panel-success",
+        Title: "Bharat Earth Movers Limited : BEML Recruitment for Managers and Rajbhasha Officers",
+        ApplicationEndDt: "13/04/2015",
+        DetailedNotification: "http://www.bemlindia.com/documents/jobs/Advt_KP_S_1_2015.pdf",
+        GoToSite: "http://www.bemlindia.com/Job_KP_S_01_2015.php",
+        ApplicationFee: "200",
+        PublishedOn: "25/03/2015",
+        Age: "--",
+        Logo: "beml.jpg",
+        AltText: "BEML Recruitment for Managers and Rajbhasha Officers",
+        JobDetails: [{
+            Designation: "Deputy General Manager",
+            NoOfPosts: "19",
+            PayScale: "36600 - 62000",
+            GradePay: "",
+            Eligibility: "",
+        },
+        {
+            Designation: "Assistant General Manager",
+            NoOfPosts: "21",
+            PayScale: "32900 - 58000",
+            GradePay: "",
+            Eligibility: "",
+        },
+        {
+            Designation: "Assistant Officer(Rajbhasha)",
+            NoOfPosts: "01",
+            PayScale: "12600 - 32500",
+            GradePay: "",
+            Eligibility: "",
+        },
+        {
+            Designation: "Office Assistant Trainee(Rajbhasha)",
+            NoOfPosts: "01",
+            PayScale: "7000 - 20000",
+            GradePay: "",
+            Eligibility: "",
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-info",
+        Title: "Center For Development Of Advanced Computing : CDAC Recruitment For Engineers",
+        ApplicationEndDt: "06/04/2015",
+        DetailedNotification: "http://www.cdac.in/index.aspx?id=ca_pune_march_technical",
+        GoToSite: "http://www.cdac.in/index.aspx?id=ca_pune_march_2015",
+        ApplicationFee: "500",
+        PublishedOn: "17/03/2015",
+        Age: "--",
+        Logo: "cdac.jpg",
+        AltText: "CDAC Recruitment For Engineers",
+        JobDetails: [{
+            Designation: "Senior Technical Officer/ Senior Engineer",
+            NoOfPosts: "12",
+            PayScale: "PB3 15600-39100",
+            GradePay: "6600",
+            Eligibility: "a. 1st class B. E./ B. Tech./ MCA/ or equivalent degree in relevant discipline with 3 years experience OR Postgraduate in Engineering/Technology in relevant discipline with 1 year experience 1st class Postgraduate degree in relevant discipline with 3 years experience or Postgraduate degree in domain specific discipline. with 3 years experience PhD in relevant discipline.",
+        },
+        {
+            Designation: "Technical Officer/ Engineer",
+            NoOfPosts: "92",
+            PayScale: "PB3 15600-39100",
+            GradePay: "5400",
+            Eligibility: "a. 1st class B. E./ B. Tech./ MCA/ or equivalent degree in relevant discipline. OR Postgraduate in Engineering/Technology in relevant discipline. OR 1st class Postgraduate degree in Science in relevant discipline or Postgraduate degree in domain specific discipline.",
+        }
+        ]
+    },
     {
         HeadingTheme: "panel panel-danger",
         Title: "Water And Power Consultancy Services : WAPCOS Recruitment For Engineers",
