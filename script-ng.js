@@ -10,6 +10,235 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 
 var sectionLeft = [
     {
+        HeadingTheme: "panel panel-info",
+        Title: "Staff Selection Commission : SSC Recruitment for Multiple Posts",
+        ApplicationEndDt: "21/04/2015",
+        DetailedNotification: "http://www.sscwr.net/",
+        GoToSite: "http://www.sscwr.net/",
+        ApplicationFee: "50",
+        PublishedOn: "",
+        Age: "--",
+        Logo: "ssc.jpg",
+        AltText: "SSC Recruitment for Multiple Posts",
+        JobDetails: [{
+            Designation: "Court Master",
+            NoOfPosts: "03",
+            PayScale: "9300 - 34800",
+            GradePay: "4200",
+            Eligibility: ""
+        },
+        {
+            Designation: "Library And Information Assistant",
+            NoOfPosts: "01",
+            PayScale: "9300 - 34800",
+            GradePay: "4200",
+            Eligibility: ""
+        },
+        {
+            Designation: "Speech Therapist",
+            NoOfPosts: "03",
+            PayScale: "9300 - 34800",
+            GradePay: "4200",
+            Eligibility: ""
+        },
+        {
+            Designation: "Technical Superintendant(Weaving)",
+            NoOfPosts: "04",
+            PayScale: "9300 - 34800",
+            GradePay: "4200",
+            Eligibility: ""
+        },
+        {
+            Designation: "Textile Designer",
+            NoOfPosts: "02",
+            PayScale: "9300 - 34800",
+            GradePay: "4200",
+            Eligibility: ""
+        },
+        {
+            Designation: "Technical Superintendant(Processing)",
+            NoOfPosts: "01",
+            PayScale: "9300 - 34800",
+            GradePay: "4200",
+            Eligibility: ""
+        },
+        {
+            Designation: "Wildlife Inspector",
+            NoOfPosts: "01",
+            PayScale: "9300 - 34800",
+            GradePay: "4200",
+            Eligibility: ""
+        },
+        {
+            Designation: "Senior Technical Assistant",
+            NoOfPosts: "02",
+            PayScale: "9300 - 34800",
+            GradePay: "4200",
+            Eligibility: ""
+        },
+        {
+            Designation: "Field Inspector",
+            NoOfPosts: "01",
+            PayScale: "9300 - 34800",
+            GradePay: "4200",
+            Eligibility: ""
+        },
+        {
+            Designation: "VTS Console Operator Gr II",
+            NoOfPosts: "09",
+            PayScale: "9300 - 34800",
+            GradePay: "4200",
+            Eligibility: ""
+        },
+        {
+            Designation: "Scientific Assistant",
+            NoOfPosts: "01",
+            PayScale: "9300 - 34800",
+            GradePay: "4200",
+            Eligibility: ""
+        },
+        {
+            Designation: "Junior Chemist",
+            NoOfPosts: "07",
+            PayScale: "5200 - 20200",
+            GradePay: "2800",
+            Eligibility: ""
+        },
+        {
+            Designation: "Junior Librarian",
+            NoOfPosts: "01",
+            PayScale: "5200 - 20200",
+            GradePay: "2800",
+            Eligibility: ""
+        },
+        {
+            Designation: "Taxidermist Grade-III",
+            NoOfPosts: "01",
+            PayScale: "5200 - 20200",
+            GradePay: "2800",
+            Eligibility: ""
+        },
+        {
+            Designation: "Hostel Warden",
+            NoOfPosts: "01",
+            PayScale: "5200 - 20200",
+            GradePay: "2400",
+            Eligibility: ""
+        },
+        {
+            Designation: "Fieldman",
+            NoOfPosts: "02",
+            PayScale: "5200 - 20200",
+            GradePay: "1900",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-success",
+        Title: "National Institute of Unani Medicine: NIUM Recruitment of Professors and non teaching posts",
+        ApplicationEndDt: "19/04/2015",
+        DetailedNotification: "http://www.nium.in/rtiofficers/rtimanualyrtilinks142682618711.pdf",
+        GoToSite: "http://www.nium.in/careers.php",
+        ApplicationFee: "",
+        PublishedOn: "20/03/2015",
+        Age: "--",
+        Logo: "nium.jpg",
+        AltText: "NIUM Recruitment of Professors and non teaching posts",
+        JobDetails: [{
+            Designation: "Professor",
+            NoOfPosts: "06",
+            PayScale: "37,400 – 67,000",
+            GradePay: "8700",
+            Eligibility: "Degree in Unani Medicine with 60% marks from a University established by Law or Statutory board / Faculty / Examining Body of Indian medicine included in the II schedule of IMCC Act, 1970. 2) Post Graduate qualification in Unani Medicine in the concerned discipline from a recognized University established by Law or Statutory board / Faculty / Examining Body of Indian medicine included in the II schedule of IMCC Act, 1970. 3) Teaching experience in arecognized Institution for 10 years. 4) Original published papers / books on the subject. "
+        },
+        {
+            Designation: "Reader",
+            NoOfPosts: "01",
+            PayScale: "15600 - 39100",
+            GradePay: "7600",
+            Eligibility: ""
+        },
+         {
+             Designation: "Lecturer",
+             NoOfPosts: "01",
+             PayScale: "15600 - 39100",
+             GradePay: "5400",
+             Eligibility: ""
+         },
+          {
+              Designation: "Anasthetist",
+              NoOfPosts: "02",
+              PayScale: "15600 - 39100",
+              GradePay: "5400",
+              Eligibility: ""
+          },
+         {
+             Designation: "Resident Medical Officer",
+             NoOfPosts: "01",
+             PayScale: "15600 - 39100",
+             GradePay: "5400",
+             Eligibility: ""
+         },
+          {
+              Designation: "Radiologist",
+              NoOfPosts: "01",
+              PayScale: "15600 - 39100",
+              GradePay: "5400",
+              Eligibility: ""
+          },
+        {
+            Designation: "Staff Nurse",
+            NoOfPosts: "04",
+            PayScale: "9300 - 34800",
+            GradePay: "4200",
+            Eligibility: ""
+        },
+        {
+            Designation: "EEG Technician",
+            NoOfPosts: "01",
+            PayScale: "5200 - 20200",
+            GradePay: "2800",
+            Eligibility: ""
+        },
+        {
+            Designation: "Store Keeper/Upper Division Clerk",
+            NoOfPosts: "01",
+            PayScale: "5200 - 20200",
+            GradePay: "2400",
+            Eligibility: ""
+        },
+        {
+            Designation: "Jr. Stenographer",
+            NoOfPosts: "02",
+            PayScale: "5200 - 20200",
+            GradePay: "2400",
+            Eligibility: ""
+        },
+        {
+            Designation: "Electrician",
+            NoOfPosts: "01",
+            PayScale: "5200 - 20200",
+            GradePay: "2400",
+            Eligibility: ""
+        },
+        {
+            Designation: "LDC / Cashier",
+            NoOfPosts: "03",
+            PayScale: "5200 - 20200",
+            GradePay: "1900",
+            Eligibility: ""
+        },
+        {
+            Designation: "Jr. Library Assistant",
+            NoOfPosts: "01",
+            PayScale: "5200 - 20200",
+            GradePay: "1900",
+            Eligibility: ""
+        }
+        ]
+        },
+    {
         HeadingTheme: "panel panel-success",
         Title: "Bharat Electronics Limited: BEL Recruitment of Engineers",
         ApplicationEndDt: "26/03/2015",
@@ -3391,6 +3620,174 @@ var sectionLeft = [
 ];
 
 var sectionRight = [
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "Bharat Electronics Limited : Recruitment of ME/M.TECH Engineers For BEL HYD UNIT",
+        ApplicationEndDt: "31/03/2015",
+        DetailedNotification: "http://bel-india.com/sites/default/files/Recruitments/website-AD-English-1-10-March-2015.pdf",
+        GoToSite: "http://bel-india.com/recruitment",
+        ApplicationFee: "",
+        PublishedOn: "",
+        Age: "--",
+        Logo: "bel.jpg",
+        AltText: "Recruitment of ME/M.TECH Engineers For BEL HYD UNIT",
+        JobDetails: [{
+            Designation: "Deputy Engineer",
+            NoOfPosts: "04",
+            PayScale: "16,400/- 3% - Rs. 40,500",
+            GradePay: "",
+            Eligibility: "Full time M.E. / M. Tech/MS graduates from any AICTE approved institution with First Class for General & OBC candidates and Pass for SC/ST/PWD candidates in the following discipline"
+        }]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "Bharat Electronics Limited : Engineer Recruitment at BEL",
+        ApplicationEndDt: "01/04/2015",
+        DetailedNotification: "http://bel-india.com/sites/default/files/Recruitments/Chemical%20Engineer%20web%20ad.pdf",
+        GoToSite: "http://bel-india.com/recruitment",
+        ApplicationFee: "",
+        PublishedOn: "",
+        Age: "--",
+        Logo: "bel.jpg",
+        AltText: "Engineer Recruitment at BEL",
+        JobDetails: [{
+            Designation: "Deputy Engineer",
+            NoOfPosts: "02",
+            PayScale: "16400 - 40500",
+            GradePay: "",
+            Eligibility: "B.E./B.Tech in Chemical Engineering"
+        }]
+    },
+    {
+        HeadingTheme: "panel panel-success",
+        Title: "Mahatma Gandhi Antarrashtriya Vishwavidyalya: Faculty Recruitment at MGAHV",
+        ApplicationEndDt: "22/04/2015",
+        DetailedNotification: "http://www.mgahv.in/Pdf/ADVT/Advt._No.__Dated_27.02.Pdf",
+        GoToSite: "http://www.mgahv.in/",
+        ApplicationFee: "",
+        PublishedOn: "27/02/2015",
+        Age: "--",
+        Logo: "mgahv.jpg",
+        AltText: "Faculty Recruitment at MGAHV",
+        JobDetails: [{
+            Designation: "Professor",
+            NoOfPosts: "07",
+            PayScale: "37400 - 67000",
+            GradePay: "10000",
+            Eligibility: ""
+        },
+        {
+            Designation: "Associate Professor",
+            NoOfPosts: "05",
+            PayScale: "37400 - 67000",
+            GradePay: "9000",
+            Eligibility: ""
+        },
+        {
+            Designation: "Assistant Professor",
+            NoOfPosts: "20",
+            PayScale: "15600 - 39100",
+            GradePay: "6000",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "Narmada Jhabua Gramin Bank : NJBG post of Officer for those who are declared qualified at the Online CWE for RRBs conducted by IBPS during September/ October 2014",
+        ApplicationEndDt: "08/04/2015",
+        DetailedNotification: "http://www.njgb.in/pdf/career/advertisement.pdf",
+        GoToSite: "http://www.njgb.in/career/advertisment.php",
+        ApplicationFee: "100",
+        PublishedOn: "24/03/2015",
+        Age: "--",
+        Logo: "njgb.jpg",
+        AltText: "NJGB recruitment through IBPS",
+        JobDetails: [{
+            Designation: "Officer Scale-II (General Banking Officer)",
+            NoOfPosts: "10",
+            PayScale: "19400-700/1-20100-800/10-28100",
+            GradePay: "",
+            Eligibility: "Eligibility Criteria is to be considered as per RRBs CWE-III Advertisement published in Employment News/Rozgar Samachar Issue Dated 28th June – 4th July, 2014 released by IBPS and posted on the IBPS’s website www.ibps.in."
+        },
+        {
+            Designation: "Officer Scale-II (IT)",
+            NoOfPosts: "03",
+            PayScale: "19400-700/1-20100-800/10-28100",
+            GradePay: "",
+            Eligibility: "Eligibility Criteria is to be considered as per RRBs CWE-III Advertisement published in Employment News/Rozgar Samachar Issue Dated 28th June – 4th July, 2014 released by IBPS and posted on the IBPS’s website www.ibps.in."
+        },
+        {
+            Designation: "Officer Scale-II (CA)",
+            NoOfPosts: "01",
+            PayScale: "19400-700/1-20100-800/10-28100",
+            GradePay: "",
+            Eligibility: "Eligibility Criteria is to be considered as per RRBs CWE-III Advertisement published in Employment News/Rozgar Samachar Issue Dated 28th June – 4th July, 2014 released by IBPS and posted on the IBPS’s website www.ibps.in."
+        },
+        {
+            Designation: "Officer Scale-II (Treasury Manager)",
+            NoOfPosts: "01",
+            PayScale: "19400-700/1-20100-800/10-28100",
+            GradePay: "",
+            Eligibility: "Eligibility Criteria is to be considered as per RRBs CWE-III Advertisement published in Employment News/Rozgar Samachar Issue Dated 28th June – 4th July, 2014 released by IBPS and posted on the IBPS’s website www.ibps.in."
+        },
+        {
+            Designation: "Officer Scale-II (Agricultural Officer)",
+            NoOfPosts: "03",
+            PayScale: "19400-700/1-20100-800/10-28100",
+            GradePay: "",
+            Eligibility: "Eligibility Criteria is to be considered as per RRBs CWE-III Advertisement published in Employment News/Rozgar Samachar Issue Dated 28th June – 4th July, 2014 released by IBPS and posted on the IBPS’s website www.ibps.in."
+        },
+        {
+            Designation: "Officer Scale-I",
+            NoOfPosts: "114",
+            PayScale: "14500-600/7-18700-700/2-20100-800/7-25700",
+            GradePay: "",
+            Eligibility: "Eligibility Criteria is to be considered as per RRBs CWE-III Advertisement published in Employment News/Rozgar Samachar Issue Dated 28th June – 4th July, 2014 released by IBPS and posted on the IBPS’s website www.ibps.in."
+        },
+        {
+            Designation: "Office Assistant (Multipurpose)",
+            NoOfPosts: "218",
+            PayScale: "7200-400/3-8400-500/3-9900-600/4-12300-700/7-17200-1300/1-18500-800/1-19300",
+            GradePay: "",
+            Eligibility: "Eligibility Criteria is to be considered as per RRBs CWE-III Advertisement published in Employment News/Rozgar Samachar Issue Dated 28th June – 4th July, 2014 released by IBPS and posted on the IBPS’s website www.ibps.in."
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-info",
+        Title: "Rajendra Institute of Medical Sciences : Faculty Recruitment at RIMS",
+        ApplicationEndDt: "30/04/2015",
+        DetailedNotification: "http://www.rimsranchi.org/current/recruitment.htm",
+        GoToSite: "http://www.rimsranchi.org/current/recruitment.htm",
+        ApplicationFee: "500",
+        PublishedOn: "12/03/2015",
+        Age: "--",
+        Logo: "rims.jpg",
+        AltText: "Faculty Recruitment at RIMS",
+        JobDetails: [{
+            Designation: "Professor",
+            NoOfPosts: "03",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "",
+        },
+        {
+            Designation: "Associate Professor",
+            NoOfPosts: "08",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "",
+        },
+        {
+            Designation: "Assistant Professor",
+            NoOfPosts: "11",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "",
+        }
+        ]
+    },
     {
         HeadingTheme: "panel panel-danger",
         Title: "Telangana Grameen Bank : TBG Recuitment of Officers through IBPS(September/October 2014)",
