@@ -10,6 +10,81 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 
 var sectionLeft = [
     {
+        HeadingTheme: "panel panel-success",
+        Title: "Bharat Electronics Limited: BEL Recruitment of Engineers",
+        ApplicationEndDt: "26/03/2015",
+        DetailedNotification: "http://bel-india.com/sites/default/files/Recruitments/Web%20Ad-Comp%20Smart%20Cards-26.03.2015.pdf",
+        GoToSite: "http://bel-india.com/recruitment",
+        ApplicationFee: "",
+        PublishedOn: "19/03/2015",
+        Age: "--",
+        Logo: "bel.jpg",
+        AltText: "BEL Recruitment of Engineers",
+        JobDetails: [{
+            Designation: "Data Center & Application Development",
+            NoOfPosts: "19",
+            PayScale: "18,000 p.m.",
+            GradePay: "",
+            Eligibility: "First class in BE/ B.Tech (Computer Science, Computer Engineering, Computer Science and Information Technology, Information Technology, Electronics & Communication, Electrical & Electronics, Telecommunication, MCA, M.Sc (CS, IT) from a recognized University/ institution."
+        },
+        {
+            Designation: "Technical Support & Development",
+            NoOfPosts: "08",
+            PayScale: "18,000 p.m.",
+            GradePay: "",
+            Eligibility: "First class in BE/ B.Tech (Computer Science, Computer Engineering, Computer Science and Information Technology, Information Technology, Electronics, Electronics & Communication, Electrical & Electronics, Telecommunication, Electronics , MCA, M.Sc (CS, IT) from a recognized University/ institution."
+        },
+        {
+            Designation: " PROJECT COORDINATION & LOGISTICS",
+            NoOfPosts: "06",
+            PayScale: "18,000 p.m.",
+            GradePay: "",
+            Eligibility: "First class for General & OBC candidates and Pass Class for SC/ST/PWD (People with Disability) in BE/ B.Tech (Industrial Engineering/ Mechanical) from a recognized University/ institution."
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-info",
+        Title: "Gujrat Public Service Commission: GPSC Recruitment of Section Officers",
+        ApplicationEndDt: "31/03/2015",
+        DetailedNotification: "http://www.gpsc.gujarat.gov.in/pdf/Advt-51-2014-15-Gujarati-English.pdf",
+        GoToSite: "http://www.gpsc.gujarat.gov.in/advertisements.html",
+        ApplicationFee: "",
+        PublishedOn: "12/03/2015",
+        Age: "--",
+        Logo: "gpsc.jpg",
+        AltText: "GPSC Recruitment of Section Officers",
+        JobDetails: [{
+            Designation: "Deputy Section Officer (Secretariate)",
+            NoOfPosts: "318",
+            PayScale: "9300 - 34800",
+            GradePay: "4400",
+            Eligibility: "Graduation Degree"
+        },
+        {
+            Designation: "Deputy Section Officer (Gujarat Legislature Secretariate) ",
+            NoOfPosts: "10",
+            PayScale: "9300 - 34800",
+            GradePay: "4400",
+            Eligibility: "Graduation Degree"
+        },
+        {
+            Designation: "Deputy Section Officer (Gujarat Public Service Commission) ",
+            NoOfPosts: "05",
+            PayScale: "9300 - 34800",
+            GradePay: "4400",
+            Eligibility: "Graduation Degree"
+        },
+        {
+            Designation: "Deputy Section Officer(Gujarat Public Service Commission) ",
+            NoOfPosts: "400",
+            PayScale: "9300 - 34800",
+            GradePay: "4400",
+            Eligibility: "Graduation Degree"
+        }
+        ]
+    },
+    {
         HeadingTheme: "panel panel-warning",
         Title: "Oil And Natural Gas Corporation Limited : ONGC Recruitment of Graduate Trainees/Graduate Engineer through GATE",
         ApplicationEndDt: "10/04/2015",
