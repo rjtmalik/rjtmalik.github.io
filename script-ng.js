@@ -10,6 +10,172 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 
 var sectionLeft = [
     {
+        HeadingTheme: "panel panel-danger",
+        Title: "Mangalore Refineries Private Limited : MRPL Recruitment For Management Cadre Employees",
+        ApplicationEndDt: "04/04/2015",
+        DetailedNotification: "http://www.mrpl.co.in/sites/default/files/WEB%20ADVT%20NO%2056_0.pdf",
+        GoToSite: "http://www.mrpl.co.in/careers",
+        ApplicationFee: "",
+        PublishedOn: "",
+        Age: "--",
+        Logo: "mrpl.jpg",
+        AltText: "MRPL Recruitment For Management Cadre Employees",
+        JobDetails: [{
+            Designation: "Chief Manager (Polymer Business ) E6 grade",
+            NoOfPosts: "01",
+            PayScale: "51300 - 73000",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Sr. Manager (Marketing Operations ) E5 grade",
+            NoOfPosts: "01",
+            PayScale: "43200 - 66000",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Sr. Manager (Sales ) E5 grade",
+            NoOfPosts: "01",
+            PayScale: "43200 - 66000",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Manager ( Marketing Operations ) E4 grade",
+            NoOfPosts: "01",
+            PayScale: "36600 - 62000 ",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Manager ( Consumer Sales ) E4 grade",
+            NoOfPosts: "01",
+            PayScale: "36600 - 62000",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Manager ( Finance) E4 Grade",
+            NoOfPosts: "01",
+            PayScale: "36600 - 62000",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Deputy Company Secretary- E4 grade",
+            NoOfPosts: "01",
+            PayScale: "36600 - 62000",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Deputy Manager (Polymer Sales) E3 Grade",
+            NoOfPosts: "01",
+            PayScale: "32900 - 58000",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Deputy Manager (Technical Sales) - Polymers E3 grade",
+            NoOfPosts: "02",
+            PayScale: "32900 - 58000",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Sr. Executive ( Marketing Finance ) E2 grade",
+            NoOfPosts: "02",
+            PayScale: "29100 - 54500",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Senior Executives (Marketing Operations ) E2 grade",
+            NoOfPosts: "03",
+            PayScale: "29100 - 54500",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Senior. Executives (Sales) E2 grade ",
+            NoOfPosts: "03",
+            PayScale: "29100 - 54500",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Senior Executives (Retail Engg) E2 grade ",
+            NoOfPosts: "01",
+            PayScale: "29100 - 54500",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Sr. Executive (Corporate Communications) –E2 grade",
+            NoOfPosts: "01",
+            PayScale: "29100 - 54500",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Engineer (Fire) – E 1 grade",
+            NoOfPosts: "01",
+            PayScale: "24900 - 50500",
+            GradePay: "",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "Indian National Centere For Ocean Information Studies : INCOIS Recruitment for Officers on Contract",
+        ApplicationEndDt: "27/03/2015",
+        DetailedNotification: "http://www.incois.gov.in/jobs/vac0215t/docs/advertisement_RMT_0215.pdf",
+        GoToSite: "http://www.incois.gov.in/portal/temporary.jsp",
+        ApplicationFee: "",
+        PublishedOn: "",
+        Age: "--",
+        Logo: "incois.jpg",
+        AltText: "INCOIS Recruitment for Officers on Contract",
+        JobDetails: [{
+            Designation: "Project Scientist ‘B’",
+            NoOfPosts: "06",
+            PayScale: "49,770 p.m.",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Senior Executive",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Project Assistant",
+            NoOfPosts: "02",
+            PayScale: "31,995 p.m.",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Personal Assistant(Coordinator-III)",
+            NoOfPosts: "01",
+            PayScale: "31,995 p.m.",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Office Assistant",
+            NoOfPosts: "01",
+            PayScale: "31,995 p.m.",
+            GradePay: "",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
         HeadingTheme: "panel panel-info",
         Title: "Staff Selection Commission : SSC Recruitment for Multiple Posts",
         ApplicationEndDt: "21/04/2015",
@@ -130,6 +296,27 @@ var sectionLeft = [
             NoOfPosts: "02",
             PayScale: "5200 - 20200",
             GradePay: "1900",
+            Eligibility: ""
+        },
+        {
+            Designation: "Technical Superitendant(Weaving)",
+            NoOfPosts: "07",
+            PayScale: "9300 - 34800",
+            GradePay: "4200",
+            Eligibility: ""
+        },
+        {
+            Designation: "Technical Superitendant(Processing)",
+            NoOfPosts: "04",
+            PayScale: "9300 - 34800",
+            GradePay: "4200",
+            Eligibility: ""
+        },
+        {
+            Designation: "Technical Designer",
+            NoOfPosts: "03",
+            PayScale: "9300 - 34800",
+            GradePay: "4200",
             Eligibility: ""
         }
         ]
