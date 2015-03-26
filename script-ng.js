@@ -3808,6 +3808,233 @@ var sectionLeft = [
 
 var sectionRight = [
     {
+        HeadingTheme: "panel panel-warning",
+        Title: "Sikkim University : Sikkim University Faculty Recruitment",
+        ApplicationEndDt: "30/04/2015",
+        DetailedNotification: "http://www.cus.ac.in/images/contents/Dya/ad/2015/recruitment_2015/SU_Ad_Teaching_Recruitment_2015.pdf",
+        GoToSite: "http://www.cus.ac.in/index.php/su-rec-teaching-2015",
+        ApplicationFee: "300",
+        PublishedOn: "22/03/2015",
+        Age: "--",
+        Logo: "sikkim_university.jpg",
+        AltText: "Sikkim University Faculty Recruitment",
+        JobDetails: [{
+            Designation: "Professor",
+            NoOfPosts: "",
+            PayScale: "37400 - 67000",
+            GradePay: "10000",
+            Eligibility: "An eminent scholar with Ph.D. degree in the concerned/allied/relevant discipline and published work of high quality, actively engaged in research with evidence of published work with at least 10 publications as books and/or research/policy papers in indexed/ISBN/ISSN numbered journals and/orISBN/ISSN numbered books."
+        },
+        {
+            Designation: "Associate Professor",
+            NoOfPosts: "",
+            PayScale: "37400 - 67000",
+            GradePay: "9000",
+            Eligibility: "Good academic record with a Ph.D. degree in the concerned/allied/relevant disciplines"
+        },
+        {
+            Designation: "Assistant Professor",
+            NoOfPosts: "",
+            PayScale: "15600 - 39100",
+            GradePay: "6000",
+            Eligibility: "Good academic record as defined by the concerned university with at least 55% marks or equivalent grade where grading system is practiced at the Master’s degree level in a relevant subject from an Indian University, or an equivalent degree from an accredited foreign university. 5% relaxation shall be made for DA/SC/ST/OBC candidates and those with PhD prior to September 1991."
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "Mega Metro : Gujrat Metro Recruitment For Appointment On Contract Basis",
+        ApplicationEndDt: "30/04/2015",
+        DetailedNotification: "http://www.gujaratmetrorail.com/Career_Documents/18.03.2015/Recruitment%20Notification%20-%20Technical%20Staff%202015.pdf",
+        GoToSite: "http://www.gujaratmetrorail.com/career.html",
+        ApplicationFee: "",
+        PublishedOn: "17/03/2015",
+        Age: "--",
+        Logo: "mega_metro.jpg",
+        AltText: "Gujrat Metro Recruitment For Appointment On Contract Basis",
+        JobDetails: [{
+            Designation: "Deputy General Manager (Construction)",
+            NoOfPosts: "01",
+            PayScale: " 90000/- to Rs.120000/- p.m.",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Assistant General Manager (QA & QC)",
+            NoOfPosts: "01",
+            PayScale: "75000/- to 100000/- p.m.",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Assistant General Manager (Architect)",
+            NoOfPosts: "01",
+            PayScale: "75000/- to 100000/- p.m.",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Manager (Civil)",
+            NoOfPosts: "05",
+            PayScale: "50000/- to 65000/- p.m.",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Deputy Manager (Civil)",
+            NoOfPosts: "05",
+            PayScale: "40000/- to 55000/- p.m.",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Assistant Manager (Civil)",
+            NoOfPosts: "05",
+            PayScale: "25000/- to 40000/- p.m.",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Engineer (Civil)",
+            NoOfPosts: "05",
+            PayScale: "20000/- to 30000/- p.m.",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Deputy Manager (Electrical - Traction)",
+            NoOfPosts: "01",
+            PayScale: "40000/- to 55000/- p.m.",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Deputy Manager (Electrical - E& M) ",
+            NoOfPosts: "01",
+            PayScale: "40000/- to 55000/- p.m.",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Deputy Manager (Signaling)",
+            NoOfPosts: "01",
+            PayScale: "40000/- to 55000/- p.m.",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Assistant Manager (Electrical - Traction)",
+            NoOfPosts: "01",
+            PayScale: "25000/- to 40000/- p.m.",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Assistant Manager (Signaling)",
+            NoOfPosts: "01",
+            PayScale: "25000/- to 40000/- p.m.",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Assistant Manager (Telecom)",
+            NoOfPosts: "01",
+            PayScale: "25000/- to 40000/- p.m.",
+            GradePay: "",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-success",
+        Title: "Ministry Of Environment, Forest And Climate Change: Filling up of vacant 25 Group 'A' Scientific posts in the Ministry",
+        ApplicationEndDt: "30/04/2015",
+        DetailedNotification: "http://envfor.nic.in/sites/default/files/ADv_dated_23_03_2015.pdf",
+        GoToSite: "http://envfor.nic.in/tenders-advertisements/filling-vacant-25-group-scientific-posts-ministry",
+        ApplicationFee: "",
+        PublishedOn: "21/03/2015",
+        Age: "--",
+        Logo: "envfor.jpg",
+        AltText: "Filling up of vacant 25 Group 'A' Scientific posts in the Ministry",
+        JobDetails: [{
+            Designation: "Scientist 'F'",
+            NoOfPosts: "05",
+            PayScale: "37400 - 67000",
+            GradePay: "8900",
+            Eligibility: ""
+        },
+        {
+            Designation: "Scientist 'D'",
+            NoOfPosts: "10",
+            PayScale: "15600 - 39100",
+            GradePay: "7600",
+            Eligibility: ""
+        },
+        {
+            Designation: "Scientist 'C'",
+            NoOfPosts: "08",
+            PayScale: "15600 - 39100",
+            GradePay: "6600",
+            Eligibility: ""
+        },
+        {
+            Designation: "Scientist 'B'",
+            NoOfPosts: "02",
+            PayScale: "15600 - 39100",
+            GradePay: "5400",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "Defence Research And Development Organisation : DRDO Special Recruitment Drive for the post of Scientist ‘B’ For OBC/SC/ST Candidates",
+        ApplicationEndDt: "10/04/2015",
+        DetailedNotification: "http://rac.gov.in/cgibin/2015/advt_117/public/pdf/advt_117.pdf?82b12f18816fe7964eb15fc1d52ccf51=1",
+        GoToSite: "http://rac.gov.in/index.php?lang=en&id=0",
+        ApplicationFee: "",
+        PublishedOn: "",
+        Age: "--",
+        Logo: "drdo.jpg",
+        AltText: "DRDO Special Recruitment Drive for the post of Scientist ‘B’ For OBC/SC/ST Candidates",
+        JobDetails: [{
+            Designation: "Electronics & Communication Engg",
+            NoOfPosts: "06",
+            PayScale: "15,600 - 39,100",
+            GradePay: "5,400",
+            Eligibility: "At least First Class Bachelor's Degree in Engineering or Technology in Electronics & Communication Engg. only, from a recognized university or equivalent. "
+        },
+        {
+            Designation: "Computer Sc. & Engg.",
+            NoOfPosts: "04",
+            PayScale: "15,600 - 39,100",
+            GradePay: "5,400",
+            Eligibility: "At least First Class Bachelor's Degree in Engineering or Technology in Computer Sc. & Engg. only, from a recognized university or equivalent."
+        },
+        {
+            Designation: "Mechanical Engg.",
+            NoOfPosts: "08",
+            PayScale: "15,600 - 39,100",
+            GradePay: "5,400",
+            Eligibility: "At least First Class Bachelor's Degree in Engineering or Technology in Mechanical Engg. only, from a recognized university or equivalent."
+        },
+        {
+            Designation: "Aeronautical Engg.",
+            NoOfPosts: "03",
+            PayScale: "15,600 - 39,100",
+            GradePay: "5,400",
+            Eligibility: "At least First Class Bachelor's Degree in Engineering or Technology in Aeronautical Engg. only, from a recognized university or equivalent."
+        },
+        {
+            Designation: "Electrical Engg",
+            NoOfPosts: "06",
+            PayScale: "15,600 - 39,100",
+            GradePay: "5,400",
+            Eligibility: "At least First Class Bachelor's Degree in Engineering or Technology in Electrical Engg. only, from a recognized university or equivalent."
+        }
+        ]
+    },
+    {
         HeadingTheme: "panel panel-danger",
         Title: "Bharat Electronics Limited : Recruitment of ME/M.TECH Engineers For BEL HYD UNIT",
         ApplicationEndDt: "31/03/2015",
