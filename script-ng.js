@@ -11,6 +11,63 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 var sectionLeft = [
     {
         HeadingTheme: "panel panel-danger",
+        Title: "Can Fin Homes Ltd. : Can Fin Homes Ltd. Recruitment Of Junior Officers",
+        ApplicationEndDt: "07/04/2015",
+        DetailedNotification: "http://www.canfinhomes.com/announcements.html",
+        GoToSite: "http://www.canfinhomes.com/announcements.html",
+        ApplicationFee: "",
+        PublishedOn: "100",
+        Age: "--",
+        Logo: "canfinhomes.jpg",
+        AltText: "Can Fin Homes Ltd. Recruitment Of Junior Officers",
+        JobDetails: [{
+            Designation: "Junior Officers",
+            NoOfPosts: "30",
+            PayScale: "16,000 p.m.",
+            GradePay: "",
+            Eligibility: ""
+        }]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "Mahesh Bank : Mahesh Bank Recruitment of Probationary Officers",
+        ApplicationEndDt: "13/04/2015",
+        DetailedNotification: "http://www.apmaheshbank.com/sites/all/themes/maheshbank/files/po-recruitments-2015.pdf",
+        GoToSite: "http://www.apmaheshbank.com/careers",
+        ApplicationFee: "600",
+        PublishedOn: "31/03/2015",
+        Age: "--",
+        Logo: "mahesh_bank.jpg",
+        AltText: "Mahesh Bank Recruitment of Probationary Officers",
+        JobDetails: [{
+            Designation: "Probationary Officers",
+            NoOfPosts: "",
+            PayScale: "14,500 - 25,700",
+            GradePay: "",
+            Eligibility: "Second Class Degree of a recognized University / Post Graduate / Double Graducation with minimum 50% marks. The Candidate should have passed the degree examination in single attempt."
+        }]
+    },
+    {
+        HeadingTheme: "panel panel-info",
+        Title: "Indian Navy: Indian Navy Recruitment Pilot / Observer(Short Service Commission)",
+        ApplicationEndDt: "28/04/2015",
+        DetailedNotification: "http://www.joinindiannavy.gov.in/pdf/pilotobserver/sscpilobs.pdf",
+        GoToSite: "http://www.joinindiannavy.gov.in/forthcomingOfficer.php",
+        ApplicationFee: "",
+        PublishedOn: "28/03/2015",
+        Age: "--",
+        Logo: "indiannavy.jpg",
+        AltText: "Indian Navy Recruitment Pilot / Observer",
+        JobDetails: [{
+            Designation: "Pilot / Observer",
+            NoOfPosts: "",
+            PayScale: "87600 p.m.",
+            GradePay: "",
+            Eligibility: ""
+        }]
+    },
+    {
+        HeadingTheme: "panel panel-danger",
         Title: "Mangalore Refineries Private Limited : MRPL Recruitment For Management Cadre Employees",
         ApplicationEndDt: "04/04/2015",
         DetailedNotification: "http://www.mrpl.co.in/sites/default/files/WEB%20ADVT%20NO%2056_0.pdf",
@@ -3807,6 +3864,143 @@ var sectionLeft = [
 ];
 
 var sectionRight = [
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "Brahmaputra Valley Fertilizer Corporation Limited : BFVCL Recruitment Of Management Trainee",
+        ApplicationEndDt: "08/05/2015",
+        DetailedNotification: "http://www.bvfcl.com/Uploads/File/Careers/Ad-MT-240315.pdf",
+        GoToSite: "http://www.bvfcl.com/showpage.asp?id=56",
+        ApplicationFee: "500",
+        PublishedOn: "25/03/2015",
+        Age: "--",
+        Logo: "bfvcl.jpg",
+        AltText: "BFVCL Recruitment Of Management Trainee",
+        JobDetails: [{
+            Designation: "Management Trainee Chemical",
+            NoOfPosts: "15",
+            PayScale: "8600 - 250 - 14600",
+            GradePay: "",
+            Eligibility: "Full time BE / B.Tech in Chemical Engineering"
+        },
+        {
+            Designation: "Management Trainee Mechanical",
+            NoOfPosts: "05",
+            PayScale: "8600 - 250 - 14600",
+            GradePay: "",
+            Eligibility: "Full time BE/B.Tech in Mechanical Eng ineering"
+        },
+        {
+            Designation: "Management Trainee Electrical",
+            NoOfPosts: "05",
+            PayScale: "8600 - 250 - 14600",
+            GradePay: "",
+            Eligibility: "Full time BE/B.Tech in Electrical Engineering "
+        },
+        {
+            Designation: "Management Trainee Instrumentation",
+            NoOfPosts: "05",
+            PayScale: "8600 - 250 - 14600",
+            GradePay: "",
+            Eligibility: "Full time BE/B.Tech in Instrumentation OR Electronics Engineering"
+        },
+        {
+            Designation: "Management Trainee Civil",
+            NoOfPosts: "02",
+            PayScale: "8600 - 250 - 14600",
+            GradePay: "",
+            Eligibility: "Full time BE / B.Tech in Civil Engineering"
+        },
+        {
+            Designation: "Management Trainee Materials Management",
+            NoOfPosts: "04",
+            PayScale: "8600 - 250 - 14600",
+            GradePay: "",
+            Eligibility: "Full time Degree in Engineering or Two year full time MBA/ P.G Diploma with spec ialization in Materials Management."
+        },
+        {
+            Designation: "Management Trainee Finance & Accounts",
+            NoOfPosts: "07",
+            PayScale: "8600 - 250 - 14600",
+            GradePay: "",
+            Eligibility: "Graduate with CA/ICWA"
+        },
+        {
+            Designation: "Management Trainee Personnel & Administration",
+            NoOfPosts: "02",
+            PayScale: "8600 - 250 - 14600",
+            GradePay: "",
+            Eligibility: "Two year full time P.G. degree or diploma in PM&IR/HRM/ Labour & Social Works/ MBA with specialisation in PM &IR /HRM."
+        },
+        {
+            Designation: "Management Trainee Legal",
+            NoOfPosts: "01",
+            PayScale: "8600 - 250 - 14600",
+            GradePay: "",
+            Eligibility: "Full time regular BL or L.LB. degree with minimum 02 years experience of legal practice"
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "National Institute Of Technology Goa : NIT Goa Recruitment of Professors, Assistant Professors and Associate Professors",
+        ApplicationEndDt: "24/04/2015",
+        DetailedNotification: "http://www.nitgoa.ac.in/fac_rec/FacultyRecruitement/845Faculty%20advt%2026mar15.pdf",
+        GoToSite: "http://www.nitgoa.ac.in/fac_rec/fac_rec.aspx",
+        ApplicationFee: "",
+        PublishedOn: "26/03/2015",
+        Age: "--",
+        Logo: "nit_goa.jpg",
+        AltText: "Recruitment of Professors, Assistant Professors and Associate Professors",
+        JobDetails: [{
+            Designation: "Assistant Professor",
+            NoOfPosts: "08",
+            PayScale: "15600 - 39100",
+            GradePay: "6,000",
+            Eligibility: "Ph.D. "
+        },
+        {
+            Designation: "Associate Professor",
+            NoOfPosts: "09",
+            PayScale: "37400 - 67000",
+            GradePay: "9,500",
+            Eligibility: "Ph.D. "
+        },
+        {
+            Designation: "Professor",
+            NoOfPosts: "05",
+            PayScale: "37400 - 67000",
+            GradePay: "10,500",
+            Eligibility: "Ph.D. "
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "Saha Institute Of Nuclear Physics : Recruitment of Scientific Assistant-‘B’ & Technician-‘B’",
+        ApplicationEndDt: "20/05/2015",
+        DetailedNotification: "http://www.saha.ac.in/web/portal/applications/vacancy/file/25_03_2015.pdf",
+        GoToSite: "http://www.saha.ac.in/web/job-opportunities",
+        ApplicationFee: "",
+        PublishedOn: "25/03/2015",
+        Age: "--",
+        Logo: "saha_institute.jpg",
+        AltText: "Saha Institute Of Nuclear Physics Recruitment of Scientific Assistant-‘B’ & Technician-‘B’",
+        JobDetails: [{
+            Designation: "Scientific Assistant-‘B’",
+            NoOfPosts: "05",
+            PayScale: "9300 - 34800",
+            GradePay: "4,200",
+            Eligibility: ""
+        },
+        {
+            Designation: "Technician-‘B’",
+            NoOfPosts: "06",
+            PayScale: ".5200 - 20200",
+            GradePay: "2,000",
+            Eligibility: ""
+        }
+        ]
+    },
     {
         HeadingTheme: "panel panel-warning",
         Title: "Sikkim University : Sikkim University Faculty Recruitment",
