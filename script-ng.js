@@ -10,6 +10,228 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 
 var sectionLeft = [
     {
+        HeadingTheme: "panel panel-info",
+        Title: "King George's Medical University, Lucknow : Recruitment OF Professors And Assistant Professor",
+        ApplicationEndDt: "30/04/2015",
+        DetailedNotification: "http://kgmu.org/upload_file/user_download/d0eab0fada62e79099553eb409c8fcb1.pdf",
+        GoToSite: "http://kgmu.org/job-opportunities.php",
+        ApplicationFee: "1500",
+        PublishedOn: "26/03/2015",
+        Age: "--",
+        Logo: "king_george_lucknow.jpg",
+        AltText: "Recruitment OF Professors And Assistant Professor",
+        JobDetails: [{
+            Designation: "Professors",
+            NoOfPosts: "02",
+            PayScale: "37,400 - 67,000",
+            GradePay: "10,000",
+            Eligibility: ""
+        },
+        {
+            Designation: "Assistant Professor",
+            NoOfPosts: "34",
+            PayScale: "15,600 - 39,100",
+            GradePay: "6,600",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "Uttar Pradesh Public Service Commission : UPPSC Recruitmenf of Various Officers",
+        ApplicationEndDt: "18/04/2015",
+        DetailedNotification: "http://uppsc.up.nic.in/View_Enclosure.aspx?ID=520&flag=E&FID=346",
+        GoToSite: "http://uppsc.up.nic.in/Notifications.aspx",
+        ApplicationFee: "95",
+        PublishedOn: "17/03/2015",
+        Age: "--",
+        Logo: "uppsc.jpg",
+        AltText: "UPPSC Recruitmenf of Various Officers",
+        JobDetails: [{
+            Designation: "Technical Assistant Grade II",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Inspector Cookery",
+            NoOfPosts: "02",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Lecturer",
+            NoOfPosts: "03",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Research Officer",
+            NoOfPosts: "09",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Tracer",
+            NoOfPosts: "03",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Research Assistant(Engineering)",
+            NoOfPosts: "03",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Engineering Assistant",
+            NoOfPosts: "02",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Assistant Statistical Officer",
+            NoOfPosts: "373",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Senior Milk Officer",
+            NoOfPosts: "08",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Mines Inspector",
+            NoOfPosts: "45",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Professor Shalya Tantra",
+            NoOfPosts: "02",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Professor Anatomy",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Lecturer(Engineering)",
+            NoOfPosts: "36",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Lecturer Stenography",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Workshop Superitendent",
+            NoOfPosts: "05",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Training And Placement Officer",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Research Officer",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Publication Officer",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Workshop Instructor",
+            NoOfPosts: "60",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Research Officer / Technical Assistant(Civil Engineering)",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Lecturer",
+            NoOfPosts: "117",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Lecturer(Engineering Branch)",
+            NoOfPosts: "113",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Lecturer(Non Engineering Branch)",
+            NoOfPosts: "30",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Junior Engineer",
+            NoOfPosts: "22",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Assistant Manager(Non Technical)",
+            NoOfPosts: "63",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Senior Technical Assistant",
+            NoOfPosts: "02",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        ]
+    },
+    {
         HeadingTheme: "panel panel-danger",
         Title: "Can Fin Homes Ltd. : Can Fin Homes Ltd. Recruitment Of Junior Officers",
         ApplicationEndDt: "07/04/2015",
@@ -3864,6 +4086,127 @@ var sectionLeft = [
 ];
 
 var sectionRight = [
+    {
+        HeadingTheme: "panel panel-info",
+        Title: "High Court Of Punjab And Haryana, Chandigarh : Recruitment Of Stenographer",
+        ApplicationEndDt: "26/04/2015",
+        DetailedNotification: "https://www.recruitmenthighcourtchd.com/NewAdvertisment/advertisementsss.pdf",
+        GoToSite: "https://www.recruitmenthighcourtchd.com/",
+        ApplicationFee: "",
+        PublishedOn: "06/04/2015",
+        Age: "--",
+        Logo: "punjab_haryana_high_court.jpg",
+        AltText: "Recruitment Of Stenographer",
+        JobDetails: [{
+            Designation: "Stenographer Grade III",
+            NoOfPosts: "157",
+            PayScale: "5200 - 20200",
+            GradePay: "2400",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "Anna University, Chennai : Faculty Recruitment at Anna University",
+        ApplicationEndDt: "10/04/2015",
+        DetailedNotification: "https://www.annauniv.edu/pdf/ADVT%20RECRUITMENT%20OF%20FACULTY%20POSITION.pdf",
+        GoToSite: "https://www.annauniv.edu/",
+        ApplicationFee: "",
+        PublishedOn: "20/03/2015",
+        Age: "--",
+        Logo: "anna_university.jpg",
+        AltText: "Faculty Recruitment at Anna University",
+        JobDetails: [{
+            Designation: "Associate Professor",
+            NoOfPosts: "178",
+            PayScale: "37400 - 67000",
+            GradePay: "9000",
+            Eligibility: ""
+        },
+        {
+            Designation: "Professor",
+            NoOfPosts: "102",
+            PayScale: "37400 - 67000",
+            GradePay: "10000",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "Punjab Public Service Commission : PPSC Four Hundred & Four Posts of Medical Officers (General)",
+        ApplicationEndDt: "09/04/2015",
+        DetailedNotification: "http://ppsc.gov.in/usermanual.ashx?id=c3570",
+        GoToSite: "http://ppsc.gov.in/Advertisement/detailadv.aspx?advno=201540&postid=64",
+        ApplicationFee: "",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "ppsc.jpg",
+        AltText: "PPSC Four Hundred & Four Posts of Medical Officers (General)",
+        JobDetails: [{
+            Designation: "Medical Officers",
+            NoOfPosts: "404",
+            PayScale: "15600 - 39100",
+            GradePay: "5400",
+            Eligibility: "(i) M.B.B.S. (ii) Registered with the Punjab Medical Council or with any other duly constituted Medical Council in India; (iii) Knowledge of Punjabi Language upto Matriculation Standard or its equivalent. Candidate who do not possess this qualification shall have to acquire this qualification within six months of their joining the service failing which their services shall be terminated. (Relaxable for Sikh Migrants to the extent that they will have to acquire such qualification within two years after joining the service failing which their services shall liable to be terminated)"
+        }]
+    },
+    {
+        HeadingTheme: "panel panel-success",
+        Title: "Punjab National Bank: PNB Recruitment OF Officers ",
+        ApplicationEndDt: "16/04/2015",
+        DetailedNotification: "http://pnbindia.com/En/ui/Recruitment.aspx",
+        GoToSite: "http://pnbindia.com/En/ui/Recruitment.aspx",
+        ApplicationFee: "400",
+        PublishedOn: "31/03/2015",
+        Age: "--",
+        Logo: "pnb.jpg",
+        AltText: "PNB Recruitment OF Officers ",
+        JobDetails: [{
+            Designation: "Company Secretary",
+            NoOfPosts: "01",
+            PayScale: "MMG Scale III",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Manager Security",
+            NoOfPosts: "35",
+            PayScale: "MMG Scale II",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Officer Data Analyst",
+            NoOfPosts: "01",
+            PayScale: "JMG Scale I",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Officer(Industry) - Mechanical",
+            NoOfPosts: "03",
+            PayScale: "JMG Scale I",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Fire Officers",
+            NoOfPosts: "09",
+            PayScale: "JMG Scale I",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Officer(Printing Technology)",
+            NoOfPosts: "03",
+            PayScale: "JMG Scale I",
+            GradePay: "",
+            Eligibility: ""
+        },
+        ]
+    },
     {
         HeadingTheme: "panel panel-warning",
         Title: "Brahmaputra Valley Fertilizer Corporation Limited : BFVCL Recruitment Of Management Trainee",
