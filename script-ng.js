@@ -10,6 +10,74 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 
 var sectionLeft = [
     {
+        HeadingTheme: "panel panel-warning",
+        Title: "Staff Selection Commission : Recruitment Of Sub Inspectors in Delhi Police, CAPF and CISF",
+        ApplicationEndDt: "26/04/2015",
+        DetailedNotification: "http://ssc.nic.in/notice/examnotice/Notice_SI_in_CAPFs_ASI_and_Delhi_Police_2015_27_03_2015.pdf",
+        GoToSite: "http://ssconline.nic.in/",
+        ApplicationFee: "100",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "ssc.jpg",
+        AltText: "Recruitment Of Sub Inspectors in Delhi Police, CAPF and CISF",
+        JobDetails: [{
+            Designation: "Sub Inspectors in Central Armed Forces CAPF",
+            NoOfPosts: "1706",
+            PayScale: "9300 - 34800",
+            GradePay: "4200",
+            Eligibility: ""
+        },
+        {
+            Designation: "Sub Inspectors in Delhi Police",
+            NoOfPosts: "95",
+            PayScale: "9300 - 34800",
+            GradePay: "4200",
+            Eligibility: ""
+        },
+        {
+            Designation: "Sub Inspectors in CISF",
+            NoOfPosts: "1101",
+            PayScale: "5200 - 20200",
+            GradePay: "2800",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "Union Public Service Commission : Recruitment Of Assistant Director (Cost), Assistant Mineral Economist (Intelligence), and Assistant Town And Country Planner",
+        ApplicationEndDt: "16/04/2015",
+        DetailedNotification: "http://upsc.gov.in/recruitment/advt/2015/advt.06_2015.pdf",
+        GoToSite: "http://upsconline.nic.in/ora/VacancyNoticePub.php",
+        ApplicationFee: "25",
+        PublishedOn: "28/03/2015",
+        Age: "--",
+        Logo: "upsc.jpg",
+        AltText: "Recruitment OF Professors And Assistant Professor",
+        JobDetails: [{
+            Designation: "Assistant Director (Cost)",
+            NoOfPosts: "12",
+            PayScale: "15,600 - 39,100",
+            GradePay: "5,400",
+            Eligibility: "Qualifications recognized for enrolment in the Register of Members of Institute of Chartered Accountants of India or of the Institute of Cost Accountants of India"
+        },
+        {
+            Designation: "Assistant Mineral Economist (Intelligence)",
+            NoOfPosts: "03",
+            PayScale: "15,600 - 39,100",
+            GradePay: "5,400",
+            Eligibility: "Master's Degree in Geology or Applied Geology or Economics or Degree in Mining Engineering from a recognised University or its equivalent"
+        },
+        {
+            Designation: "Assistant Town And Country Planner",
+            NoOfPosts: "01",
+            PayScale: "15,600 - 39,100",
+            GradePay: "5,400",
+            Eligibility: "Post Graduate Degree in Town or City or Urban or Housing or Country or Rural or Infrastructure or Regional or Transport or Environmental Planning from a recognised University or Institute OR Bachelor of Planning or Bachelor of Technology in Planning from a recognised University or Institute with three years experience in the field of Urban or Regional Planning in the Central Government or State Governments or Union territories or Universities or Recognised Research Institutions or Public Sector Undertakings or Semi-Government or Statutory or Autonomous Organisations. "
+        }
+        ]
+    },
+    {
         HeadingTheme: "panel panel-info",
         Title: "King George's Medical University, Lucknow : Recruitment OF Professors And Assistant Professor",
         ApplicationEndDt: "30/04/2015",
