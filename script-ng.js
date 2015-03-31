@@ -4156,6 +4156,134 @@ var sectionLeft = [
 var sectionRight = [
     {
         HeadingTheme: "panel panel-info",
+        Title: "Bharat Electronics Ltd : BEL Recruitment Of Senior Assistant Engineer",
+        ApplicationEndDt: "10/04/2015",
+        DetailedNotification: "http://bel-india.com/sites/default/files/Recruitments/PSR-AD-detail-Web-29.pdf",
+        GoToSite: "http://sailcareers.com/bokaro",
+        ApplicationFee: "",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "bel.jpg",
+        AltText: "BEL Recruitment Of Senior Assistant Engineer",
+        JobDetails: [{
+            Designation: "Senior Assistant Engineer Electrical ",
+            NoOfPosts: "19",
+            PayScale: "12600 - 32500",
+            GradePay: "",
+            Eligibility: "3 Years Diploma in Electrical or equivalent"
+        },
+        {
+            Designation: "Senior Assistant Engineer Mechanical",
+            NoOfPosts: "02",
+            PayScale: "12600 - 32500",
+            GradePay: "",
+            Eligibility: "3 Years Diploma in Mechanical or equivalent"
+        },
+        {
+            Designation: "Senior Assistant Engineer Electronics",
+            NoOfPosts: "06",
+            PayScale: "12600 - 32500",
+            GradePay: "",
+            Eligibility: "3 Years Diploma in Electronics or equivalent"
+        },
+        {
+            Designation: "Senior Assistant Engineer",
+            NoOfPosts: "05",
+            PayScale: "12600 - 32500",
+            GradePay: "",
+            Eligibility: "Graduation or equivalent"
+        },
+        {
+            Designation: "Senior Assistant Engineer Electronics",
+            NoOfPosts: "07",
+            PayScale: "12600 - 32500",
+            GradePay: "",
+            Eligibility: "3 Years Diploma in Electronics or equivalent"
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "Steel Authority Of India Ltd : SAIL Recruitment Of Attendant-cum-Technician Trainee- S-1",
+        ApplicationEndDt: "27/04/2015",
+        DetailedNotification: "http://sailcareers.com/pdf/Model_advert_ACTT%20124.pdf",
+        GoToSite: "http://sailcareers.com/bokaro",
+        ApplicationFee: "150",
+        PublishedOn: "30/03/2015",
+        Age: "--",
+        Logo: "sail.jpg",
+        AltText: "SAIL Recruitment Of Attendant-cum-Technician Trainee- S-1",
+        JobDetails: [{
+            Designation: "Attendant-cum-Technician Trainee- S-1",
+            NoOfPosts: "124",
+            PayScale: "15830 – 3% - 22150",
+            GradePay: "",
+            Eligibility: "Matriculation and Govt. or PSU sponsored, ITI passed candidates having undergone at least one year’s training in an integrated steel plant."
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "Bihar Public Service Commission : BPSC Recruitment Of Mining Development Officer under Mines & Geology Dept., Bihar",
+        ApplicationEndDt: "30/04/2015",
+        DetailedNotification: "http://bpsc.bih.nic.in/Advt/PR-06-2015-MDO.pdf",
+        GoToSite: "http://bpsc.bih.nic.in/",
+        ApplicationFee: "",
+        PublishedOn: "27/03/2015",
+        Age: "--",
+        Logo: "bpsc.jpg",
+        AltText: "BPSC Recruitment Of Mining Development Officer under Mines & Geology Dept., Bihar",
+        JobDetails: [{
+            Designation: "Mining Development Officer",
+            NoOfPosts: "12",
+            PayScale: "9300 - 34800",
+            GradePay: "4800",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "Bihar Public Service Commission : BPSC Recruitment Of Dentist",
+        ApplicationEndDt: "18/04/2015",
+        DetailedNotification: "http://bpsc.bih.nic.in/Advt/PR-05-2015-Dentist.pdf",
+        GoToSite: "http://bpsc.bih.nic.in/",
+        ApplicationFee: "",
+        PublishedOn: "27/03/2015",
+        Age: "--",
+        Logo: "bpsc.jpg",
+        AltText: "BPSC Recruitment Of Dentist",
+        JobDetails: [{
+            Designation: "Dentist",
+            NoOfPosts: "558",
+            PayScale: "9300 - 34800",
+            GradePay: "5400",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-success",
+        Title: "Madhya Pradesh Public Service Commission : MPPSC Recruitment Of Insurance Medical Officer/Assistant Surgeon",
+        ApplicationEndDt: "30/04/2015",
+        DetailedNotification: "http://mpinfo.org/MPinfoStatic/rojgar/2015/3003/MPPSC.pdf",
+        GoToSite: "http://www.mppsc.nic.in/",
+        ApplicationFee: "",
+        PublishedOn: "26/03/2015",
+        Age: "--",
+        Logo: "mppsc.jpg",
+        AltText: "Recruitment Of Insurance Medical Officer/Assistant Surgeon",
+        JobDetails: [{
+            Designation: "Stenographer Grade III",
+            NoOfPosts: "77",
+            PayScale: "15200 - 39100",
+            GradePay: "5400",
+            Eligibility: "MBBS"
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-info",
         Title: "High Court Of Punjab And Haryana, Chandigarh : Recruitment Of Stenographer",
         ApplicationEndDt: "26/04/2015",
         DetailedNotification: "https://www.recruitmenthighcourtchd.com/NewAdvertisment/advertisementsss.pdf",
