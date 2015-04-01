@@ -10,6 +10,54 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 
 var sectionLeft = [
     {
+        HeadingTheme: "panel panel-info",
+        Title: "Security Printing And Mining Corporation Of India Ltd : Recruitment Of Managers at SPMCIL",
+        ApplicationEndDt: "27/04/2015",
+        DetailedNotification: "http://www.spmcil.com/UploadDocument/Advt%2001-2015-%20Manager%20%20Dy.%20Manager.f6350551-e3b9-41ee-b6d5-4c6e8f7fe5b0.pdf",
+        GoToSite: "http://www.spmcil.com/Interface/JobOpenings.aspx",
+        ApplicationFee: "100",
+        PublishedOn: "28/03/2015",
+        Age: "--",
+        Logo: "spmcil.jpg",
+        AltText: "Recruitment Of Managers at SPMCIL",
+        JobDetails: [{
+            Designation: "Manager (R&D)",
+            NoOfPosts: "01",
+            PayScale: "29,100 - 54,500",
+            GradePay: "",
+            Eligibility: "1st class B.Tech/B.E. in the area of Mechanical/Electrical/Electronics/Chemical/ Metallurgy/Pulp & Paper or 1st class M.Sc in Chemistry from a recognized University/Institution."
+        },
+        {
+            Designation: "Deputy Manager (R&D)",
+            NoOfPosts: "01",
+            PayScale: "29,100 - 54,500",
+            GradePay: "",
+            Eligibility: "1st Class B.Tech. / B.E. in the area of Mechanical / Electrical / Electronics / Chemical /Metallurgy / Pulp & Paper or 1st Class M.Sc. in Chemistry from a recognized University/Institution."
+        },
+        {
+            Designation: "Deputy Manager (Technology)",
+            NoOfPosts: "01",
+            PayScale: "24,900 - 50,500",
+            GradePay: "",
+            Eligibility: "1st Class B.Tech./B.E. degree in Electrical / Mechanical / Electronics / Pulp & Paper / Chemical/ Metallurgy Engineering from a recognized University/Institution."
+        },
+        {
+            Designation: "Officer (OL)",
+            NoOfPosts: "01",
+            PayScale: ".16,400 - 40,500",
+            GradePay: "",
+            Eligibility: "1st Class Master’s Degree from a recognized University in Hindi or English with English/Hindi subject at Graduation level (i.e. Hindi in case the candidate is Post-graduate in English and vice-versa)."
+        },
+        {
+            Designation: "Secretarial Assistant",
+            NoOfPosts: "06",
+            PayScale: "5,200 - 20,200",
+            GradePay: "2400",
+            Eligibility: " Graduate with at least 55% marks from a recognised university, computer knowledge, Stenography @ 80 wpm and typing speed of 40 wpm."
+        }
+        ]
+    },
+    {
         HeadingTheme: "panel panel-warning",
         Title: "Staff Selection Commission : Recruitment Of Sub Inspectors in Delhi Police, CAPF and CISF",
         ApplicationEndDt: "26/04/2015",
@@ -4154,6 +4202,86 @@ var sectionLeft = [
 ];
 
 var sectionRight = [
+    {
+        HeadingTheme: "panel panel-success",
+        Title: "Rajasthan Electronics And Instruments Ltd : REIL Recruitment Of Engineer / Technician",
+        ApplicationEndDt: "20/04/2015",
+        DetailedNotification: "http://reiljp.com/pdf/REILad_37_Job%20Description%20Engineer.pdf",
+        GoToSite: "http://reiljp.com/reilad37.html",
+        ApplicationFee: "",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "reil.jpg",
+        AltText: "Recruitment Of Engineer / Technician",
+        JobDetails: [{
+            Designation: "Engineer",
+            NoOfPosts: "",
+            PayScale: " 16400 - 3% - 40500",
+            GradePay: "",
+            Eligibility: "The incumbent should be a Bachelor of Engineering in Computer Science/Information Technology/Electronics & Communication Branch, with minimum 60% marks from a recognized University/Institution. The candidate should have a post qualification experience of three years or more in an industrial organization having hands-on working/exposure on installation, commissioning operation, maintenance & support on electronic equipment, computer systems, peripherals, data communication equipment, application software etc"
+        },
+        {
+            Designation: "Technician",
+            NoOfPosts: "",
+            PayScale: "7300 - 3% - 18100",
+            GradePay: "",
+            Eligibility: "ITI (NCVT) in Electronics Mechanical/Radio & TV / Electrical/PASAA/ ‘O’ Level Computer Course equivalent to Foundation Level Course having minimum 60% marks with minimum 01 year Apprenticeship under the Apprenticeship Act. 1961, as applicable."
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "NIT Hamirpur : Recruitment Of Lecturer",
+        ApplicationEndDt: "05/05/2015",
+        DetailedNotification: "http://www.nith.ac.in/recruitment/2015/iiitunaform.pdf",
+        GoToSite: "http://www.nith.ac.in/recruitment/index.htm",
+        ApplicationFee: "",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "nit_hamirpur.jpg",
+        AltText: "Recruitment Of Lecturer",
+        JobDetails: [{
+            Designation: "Lecturer",
+            NoOfPosts: "",
+            PayScale: "54,000/47,000/44,000 p.m.",
+            GradePay: "",
+            Eligibility: ""
+        }]
+    },
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "NIT Hamirpur : Faculty Recruitment For SC/ST/OBC",
+        ApplicationEndDt: "05/05/2015",
+        DetailedNotification: "http://www.nith.ac.in/recruitment/2015/an1.pdf",
+        GoToSite: "http://www.nith.ac.in/recruitment/index.htm",
+        ApplicationFee: "",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "nit_hamirpur.jpg",
+        AltText: "Faculty Recruitment For SC/ST/OBC",
+        JobDetails: [{
+            Designation: "Professor",
+            NoOfPosts: "",
+            PayScale: "37,400 - 67,000",
+            GradePay: "10,500",
+            Eligibility: ""
+        },
+        {
+            Designation: "Associate Professor",
+            NoOfPosts: "",
+            PayScale: "37,400 - 67,000",
+            GradePay: "9,500",
+            Eligibility: ""
+        },
+        {
+            Designation: "Assistant Professor",
+            NoOfPosts: "",
+            PayScale: "15,600 - 39,100",
+            GradePay: "6,000",
+            Eligibility: ""
+        }
+        ]
+    },
     {
         HeadingTheme: "panel panel-info",
         Title: "Bharat Electronics Ltd : BEL Recruitment Of Senior Assistant Engineer",
