@@ -10,6 +10,52 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 
 var sectionLeft = [
     {
+        HeadingTheme: "panel panel-danger",
+        Title: "Rajiv Gandhi National Institute Of Youth And Development : Recruitment Of Assistant Professors / Associate Professors at RGNIYD",
+        ApplicationEndDt: "30/04/2015",
+        DetailedNotification: "http://rgniyd.gov.in/sites/default/files/pdfs/advt_prof/assist_pro/associate_professor.pdf",
+        GoToSite: "http://rgniyd.gov.in/node/710",
+        ApplicationFee: "",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "rgniyd.jpg",
+        AltText: "Recruitment Of Assistant Professors / Associate Professors at RGNIYD",
+        JobDetails: [{
+            Designation: "Associate Professor",
+            NoOfPosts: "05",
+            PayScale: "37,400 - 67,500",
+            GradePay: "9,000",
+            Eligibility: ""
+        },
+        {
+            Designation: "Assistant Professor",
+            NoOfPosts: "05",
+            PayScale: "15,600 - 39,100",
+            GradePay: "6,000",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "Rajiv Gandhi National Institute Of Youth And Development : Recruitment Of Professors at RGNIYD",
+        ApplicationEndDt: "06/05/2015",
+        DetailedNotification: "http://rgniyd.gov.in/sites/default/files/pdfs/advt_prof/prof_advt_02_03_1.pdf",
+        GoToSite: "http://www.rgniyd.gov.in/content/invites-application-posts-professors",
+        ApplicationFee: "",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "rgniyd.jpg",
+        AltText: "Recruitment Of Professors at RGNIYD",
+        JobDetails: [{
+            Designation: "Professor",
+            NoOfPosts: "05",
+            PayScale: "37,400 - 67,500",
+            GradePay: "10,000",
+            Eligibility: ""
+        }]
+    },
+    {
         HeadingTheme: "panel panel-info",
         Title: "Security Printing And Mining Corporation Of India Ltd : Recruitment Of Managers at SPMCIL",
         ApplicationEndDt: "27/04/2015",
@@ -4202,6 +4248,59 @@ var sectionLeft = [
 ];
 
 var sectionRight = [
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "Daulat Ram College : DLRC Recruitment For Assistant Professor",
+        ApplicationEndDt: "20/04/2015",
+        DetailedNotification: "http://dr.du.ac.in/index.php?page=advertisement",
+        GoToSite: "http://dr.du.ac.in/index.php?page=online-application-form-for-the-post-of-assistant-professor",
+        ApplicationFee: "600",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "dlrc.jpg",
+        AltText: "DLRC Recruitment For Assistant Professor",
+        JobDetails: [{
+            Designation: "Assistant Professor",
+            NoOfPosts: "65",
+            PayScale: "15,600 - 39,100",
+            GradePay: "6,000",
+            Eligibility: "Good academic record as defined by the concerned university with at least 55% marks (or an equivalent grade in a point scale wherever grading system is followed) at the Master’s Degree level in a relevant subject from an Indian University, or an equivalent degree from an accredited foreign university."
+        }]
+    },
+    {
+        HeadingTheme: "panel panel-info",
+        Title: "Punjab State Institute Of Sports: PSIS Recruitment of Coach, Physical Trainer, and Dietician",
+        ApplicationEndDt: "20/04/2015",
+        DetailedNotification: "http://gyaancheck.com/psis-job-april-2015.jpg",
+        GoToSite: "http://gyaancheck.com/psis-job-april-2015.jpg",
+        ApplicationFee: "",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "punjab_govt.jpg",
+        AltText: "PSIS Recruitment of Coach, Physical Trainer, and Dietician",
+        JobDetails: [{
+            Designation: "Coach",
+            NoOfPosts: "",
+            PayScale: " ",
+            GradePay: "",
+            Eligibility: "NIS Diploma"
+        },
+        {
+            Designation: "Physical Trainer",
+            NoOfPosts: "",
+            PayScale: " ",
+            GradePay: "",
+            Eligibility: "NIS Diploma"
+        },
+        {
+            Designation: "Dietician",
+            NoOfPosts: "",
+            PayScale: " ",
+            GradePay: "",
+            Eligibility: "M.Sc. in Food and Nutrition, Dietetic, Nutrition with minimum 3 years experience"
+        }
+        ]
+    },
     {
         HeadingTheme: "panel panel-success",
         Title: "Rajasthan Electronics And Instruments Ltd : REIL Recruitment Of Engineer / Technician",
