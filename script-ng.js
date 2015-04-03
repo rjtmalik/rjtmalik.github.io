@@ -4249,6 +4249,102 @@ var sectionLeft = [
 
 var sectionRight = [
     {
+        HeadingTheme: "panel panel-success",
+        Title: "IIT Patna : IITP Recruitment Of Professors, Assistant Professor, And Associate Professor",
+        ApplicationEndDt: "30/04/2015",
+        DetailedNotification: "http://iitp.ac.in/faccareer/fac_adv_30_03-2015.pdf",
+        GoToSite: "http://iitp.ac.in/index.php/notice-board/1089-faculty-positions-standing-advertisement.html",
+        ApplicationFee: "",
+        PublishedOn: "30/03/2015",
+        Age: "--",
+        Logo: "iitp.jpg",
+        AltText: "IITP Recruitment Of Professors, Assistant Professor, And Associate Professor",
+        JobDetails: [{
+            Designation: "Assistant Professor (on contract)",
+            NoOfPosts: "",
+            PayScale: "15,600 - 39,100",
+            GradePay: "6,000",
+            Eligibility: " One should have a Ph.D. with first class or equivalent (in terms of Grades etc.) at the preceding degree in the appropriate branch with a very good academic record throughout and at least three years' post-Ph.D. experience in teaching/research/industry for the post of Assistant Professor (Regular)"
+        },
+        {
+            Designation: "Assistant Professor",
+            NoOfPosts: "",
+            PayScale: "15,600 - 39,100",
+            GradePay: "8,000",
+            Eligibility: " One should have a Ph.D. with first class or equivalent (in terms of Grades etc.) at the preceding degree in the appropriate branch with a very good academic record throughout and at least three years' post-Ph.D. experience in teaching/research/industry for the post of Assistant Professor (Regular)"
+        },
+        {
+            Designation: "Associate Professor",
+            NoOfPosts: "",
+            PayScale: "37,400 - 67,000",
+            GradePay: "9,500",
+            Eligibility: "One should have a Ph.D. with first class or equivalent (in terms of Grades etc.) at the preceding degree in the appropriate branch with a very good academic record throughout and a minimum of six years in teaching/research/industry of which at least three years should be at the level of Assistant Professor/Senior Scientific Officer/Senior Design Engineer or equivalent, excluding however, the experience gained while pursuing Ph.D."
+        },
+        {
+            Designation: "Professor",
+            NoOfPosts: "",
+            PayScale: "37, 400 - 67,000",
+            GradePay: "10,500",
+            Eligibility: " One should have a Ph.D. with first class or equivalent (in terms of Grades etc.) at the preceding degree in the appropriate branch with a very good academic record throughout and a minimum of ten years of total post-Ph.D. experience in teaching/research/industry of which at least four years should be at the level of Associate Professor in any of the following: IITs, IISc Bangalore, IIMs, NITIE Mumbai and IISERs or at an equivalent level in any such industry or other Indian or foreign institution/institutions of comparable standards as may be so decided by the institute"
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "RITES : Professional in Civil Engg. discipline through Walk-in-Interview",
+        ApplicationEndDt: "21/04/2015",
+        DetailedNotification: "http://rites.com/web/images/stories/uploadVacancy/HW_NATRIP_19_24.pdf",
+        GoToSite: "http://rites.com/vacancy/",
+        ApplicationFee: "",
+        PublishedOn: "30/03/2015",
+        Age: "--",
+        Logo: "rites.jpg",
+        AltText: "Professional in Civil Engg. discipline through Walk-in-Interview",
+        JobDetails: [{
+            Designation: "Engineer (Civil) – Test Tracks",
+            NoOfPosts: "02",
+            PayScale: "18420",
+            GradePay: "",
+            Eligibility: "Graduate in Civil Engg. from AICTE / Govt. approved institutes."
+        },
+        {
+            Designation: "Engineer (CivilQC) – Tracks",
+            NoOfPosts: "01",
+            PayScale: "19550",
+            GradePay: "",
+            Eligibility: "Graduate in Civil Engg. from AICTE / Govt. approved institutes."
+        },
+        {
+            Designation: "Safety Engineer (Civil)",
+            NoOfPosts: "01",
+            PayScale: "18420",
+            GradePay: "",
+            Eligibility: "Graduate in Civil Engg. from AICTE / Govt. approved institutes."
+        },
+        {
+            Designation: "Surveyor (Civil) – Tracks",
+            NoOfPosts: "01",
+            PayScale: "13470",
+            GradePay: "",
+            Eligibility: "Diploma in Civil/Survey Engg. from AICTE / Govt. approved institutes"
+        },
+        {
+            Designation: "Assistant Quantity Surveyors (Civil)",
+            NoOfPosts: "05",
+            PayScale: "11600",
+            GradePay: "",
+            Eligibility: "Diploma in Civil/Survey Engg. from AICTE / Govt. approved institutes"
+        },
+        {
+            Designation: "Assistant Quality Control Engineer (Civil)",
+            NoOfPosts: "06",
+            PayScale: "11600",
+            GradePay: "",
+            Eligibility: "Diploma in Civil/Survey Engg. from AICTE / Govt. approved institutes"
+        }
+        ]
+    },
+    {
         HeadingTheme: "panel panel-warning",
         Title: "Daulat Ram College : DLRC Recruitment For Assistant Professor",
         ApplicationEndDt: "20/04/2015",
