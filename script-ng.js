@@ -10,6 +10,137 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 
 var sectionLeft = [
     {
+        HeadingTheme: "panel panel-warning",
+        Title: "Central Institute Of Psychiatry : CIP Recruitment Of Staff Nurse",
+        ApplicationEndDt: "30/04/2015",
+        DetailedNotification: "http://www.cipranchi.nic.in/",
+        GoToSite: "http://www.cipranchi.nic.in/",
+        ApplicationFee: "",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "cip.jpg",
+        AltText: "CIP Recruitment Of Staff Nurse",
+        JobDetails: [{
+            Designation: "Staff Nurse",
+            NoOfPosts: "20",
+            PayScale: "9,300 - 34,800",
+            GradePay: "4,600",
+            Eligibility: ""
+        },
+        {
+            Designation: "Radiographer",
+            NoOfPosts: "01",
+            PayScale: "5,200 - 20,200",
+            GradePay: "2,800",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-success",
+        Title: "IIT Patna : IITP Recruitment In Administrative and Technical Cadre",
+        ApplicationEndDt: "30/04/2015",
+        DetailedNotification: "http://iitp.ac.in/images/faccareer/Advt-01-04-15.pdf",
+        GoToSite: "http://iitp.ac.in/index.php/notice-board/1277-advt-nonfaculty.html",
+        ApplicationFee: "",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "iitp.jpg",
+        AltText: "IITP Recruitment In Administrative and Technical Cadre",
+        JobDetails: [{
+            Designation: "Deputy Registrar",
+            NoOfPosts: "01",
+            PayScale: "PB-3",
+            GradePay: "7,600",
+            Eligibility: ""
+        },
+        {
+            Designation: "Medical Officer",
+            NoOfPosts: "01",
+            PayScale: "PB-3",
+            GradePay: "5,400",
+            Eligibility: ""
+        },
+        {
+            Designation: "Security Officer",
+            NoOfPosts: "01",
+            PayScale: "PB-3",
+            GradePay: "5,400",
+            Eligibility: ""
+        },
+        {
+            Designation: "PS to Registrar",
+            NoOfPosts: "01",
+            PayScale: "PB-2",
+            GradePay: "4,800",
+            Eligibility: ""
+        },
+        {
+            Designation: "Audit/Accounts Office",
+            NoOfPosts: "01",
+            PayScale: "PB-2",
+            GradePay: "4,600",
+            Eligibility: ""
+        },
+        {
+            Designation: "Senior Library Information Assistant",
+            NoOfPosts: "01",
+            PayScale: "PB-2",
+            GradePay: "4,200",
+            Eligibility: ""
+        },
+        {
+            Designation: "Junior Technical Superitendent",
+            NoOfPosts: "01",
+            PayScale: "PB-2",
+            GradePay: "4,200",
+            Eligibility: ""
+        },
+        {
+            Designation: "Junior Engineer",
+            NoOfPosts: "01",
+            PayScale: "PB-2",
+            GradePay: "4,200",
+            Eligibility: ""
+        },
+        {
+            Designation: "Physical Training Instructor",
+            NoOfPosts: "01",
+            PayScale: "PB-2",
+            GradePay: "4,200",
+            Eligibility: ""
+        },
+        {
+            Designation: "Pharmacist",
+            NoOfPosts: "01",
+            PayScale: "PB-1",
+            GradePay: "2,800",
+            Eligibility: ""
+        },
+        {
+            Designation: "Junior Accountant",
+            NoOfPosts: "01",
+            PayScale: "PB-1",
+            GradePay: "2,400",
+            Eligibility: ""
+        },
+         {
+             Designation: "Junior Assistant",
+             NoOfPosts: "05",
+             PayScale: "PB-1",
+             GradePay: "2,000",
+             Eligibility: ""
+         },
+          {
+              Designation: "Junior Mechanic",
+              NoOfPosts: "01",
+              PayScale: "PB-1",
+              GradePay: "2,000",
+              Eligibility: ""
+          }
+        ]
+    },
+    {
         HeadingTheme: "panel panel-danger",
         Title: "Rajiv Gandhi National Institute Of Youth And Development : Recruitment Of Assistant Professors / Associate Professors at RGNIYD",
         ApplicationEndDt: "30/04/2015",
@@ -4248,6 +4379,85 @@ var sectionLeft = [
 ];
 
 var sectionRight = [
+    {
+        HeadingTheme: "panel panel-info",
+        Title: "Bharat Electronics Limited : Recruitment Of Managers/Engineers At BEL",
+        ApplicationEndDt: "13/04/2015",
+        DetailedNotification: "http://bel-india.com/sites/default/files/Recruitments/ADVT%20NCS%20detail-WEB%20FINAL.pdf",
+        GoToSite: "http://www.bel-india.com/",
+        ApplicationFee: "",
+        PublishedOn: "02/04/2015",
+        Age: "--",
+        Logo: "bel.jpg",
+        AltText: "Recruitment Of Managers/Engineers At BEL",
+        JobDetails: [{
+            Designation: "Dy. Manager (Civil)",
+            NoOfPosts: "",
+            PayScale: "24900 – 3%- 50500",
+            GradePay: "E-IV",
+            Eligibility: "BE/B.Tech (Civil)"
+        },
+        {
+            Designation: "Sr.Engineer ( Civil)",
+            NoOfPosts: "",
+            PayScale: "20600 – 3%- 46500",
+            GradePay: "E-III",
+            Eligibility: "BE/B.Tech (Civil)"
+        },
+         {
+             Designation: "Sr.Engineer ( Mechanical)",
+             NoOfPosts: "",
+             PayScale: "20600 – 3%- 46500",
+             GradePay: "E-III",
+             Eligibility: "BE /B.Tech (Mechanical)"
+         },
+          {
+              Designation: "Sr.Engineer (Electrical)",
+              NoOfPosts: "",
+              PayScale: "20600 – 3%- 46500",
+              GradePay: "E-III",
+              Eligibility: "BE/B.Tech (Electrical)"
+          }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-info",
+        Title: "Bharat Electronics Limited : Recruitment Of Engineers On Contract for One Year At BEL",
+        ApplicationEndDt: "08/04/2015",
+        DetailedNotification: "http://bel-india.com/sites/default/files/Recruitments/TN-CE-web-ad.pdf",
+        GoToSite: "http://www.bel-india.com/",
+        ApplicationFee: "",
+        PublishedOn: "03/04/2015",
+        Age: "--",
+        Logo: "bel.jpg",
+        AltText: "Recruitment Of Engineers On Contract for One Year At BEL",
+        JobDetails: [{
+            Designation: "Engineer",
+            NoOfPosts: "85",
+            PayScale: "18,000",
+            GradePay: "",
+            Eligibility: "First Class for GEN/OBC and Pass Class for SC/ST/PWD in B.E / B. Tech (Computer Science, IS, IT, ECE, EEE, Electronics & Telecommunication), M.C.A, M.Sc., (CS, IT) from a recognised University/Institution."
+        }]
+    },
+    {
+        HeadingTheme: "panel panel-success",
+        Title: "Border Security Force : BSF Recruitment Of Sports Persons Constables",
+        ApplicationEndDt: "",
+        DetailedNotification: "http://bsf.nic.in/en/recruitment.html",
+        GoToSite: "http://bsf.nic.in/en/recruitment.html",
+        ApplicationFee: "",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "bsf.jpg",
+        AltText: "BSF Recruitment Of Sports Persons Constables",
+        JobDetails: [{
+            Designation: "Constable",
+            NoOfPosts: "346",
+            PayScale: "5,200 - 20,200",
+            GradePay: "2,800",
+            Eligibility: "Matriculation or its equivalent"
+        }]
+    },
     {
         HeadingTheme: "panel panel-success",
         Title: "IIT Patna : IITP Recruitment Of Professors, Assistant Professor, And Associate Professor",
