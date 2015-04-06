@@ -10,6 +10,67 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 
 var sectionLeft = [
     {
+        HeadingTheme: "panel panel-success",
+        Title: "Assam Public Service Commission",
+        ApplicationEndDt: "05/05/2015",
+        DetailedNotification: "http://apsc.nic.in/Advertisement%208_2015.pdf",
+        GoToSite: "http://apsc.nic.in/notice.asp",
+        ApplicationFee: "",
+        PublishedOn: "02/04/2015",
+        Age: "--",
+        Logo: "apsc.jpg",
+        AltText: "APSC Recruitment Of Assistant Professors And Research Assistant",
+        JobDetails: [{
+            Designation: "Fishery Extension Officer",
+            NoOfPosts: "52",
+            PayScale: "12,000/- to 40,000",
+            GradePay: "5,400",
+            Eligibility: ""
+        },
+        {
+            Designation: "Junior Engineer (Civil)",
+            NoOfPosts: "32",
+            PayScale: "5200 to 20,200",
+            GradePay: "3,300",
+            Eligibility: ""
+        },
+        {
+            Designation: "Asstt. Food Analyst (Class-I)",
+            NoOfPosts: "05",
+            PayScale: "12,000/- to 40,000/- (PB-4)",
+            GradePay: "5,400",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "Assam Public Service Commission",
+        ApplicationEndDt: "27/04/2015",
+        DetailedNotification: "http://apsc.nic.in/Advertisement%206_2015..pdf",
+        GoToSite: "http://apsc.nic.in/notice.asp",
+        ApplicationFee: "",
+        PublishedOn: "23/03/2015",
+        Age: "--",
+        Logo: "apsc.jpg",
+        AltText: "APSC Recruitment Of Assistant Professors And Research Assistant",
+        JobDetails: [{
+            Designation: "Research Assistant",
+            NoOfPosts: "10",
+            PayScale: "8,000/- to 35,000/- PB-3",
+            GradePay: "4,300",
+            Eligibility: ""
+        },
+        {
+            Designation: "Assistant Professors",
+            NoOfPosts: "17",
+            PayScale: "15,600/- to 39,100",
+            GradePay: "6,600",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
         HeadingTheme: "panel panel-warning",
         Title: "Central Institute Of Psychiatry",
         ApplicationEndDt: "30/04/2015",
