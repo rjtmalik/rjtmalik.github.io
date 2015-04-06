@@ -63,7 +63,7 @@
     <div class={{section.HeadingTheme}} ng-repeat="section in sections" itemscope itemtype="http://schema.org/JobPosting">
         <div class="panel-heading">
             <table class="table table-borderless">
-                <thead><tr><th colspan="2" style="text-align:left"><img itemprop="image" ng-src={{section.Logo}} alt={{section.AltText}}></img><a title="Apply for job" target="_blank" href={{section.GoToSite}}><span itemprop="name">{{section.Title}}</span></a><small> Published On: <span itemprop="datePublished">{{section.PublishedOn}}</span></small></th></tr></thead>
+                <thead><tr><th colspan="2" style="text-align:left"><img itemprop="image" ng-src={{section.Logo}} alt={{section.AltText}} /><a title="Apply for job" target="_blank" href={{section.GoToSite}}><span itemprop="name">{{section.Title}} : {{section.AltText}}</span></a><small> Published On: <span itemprop="datePublished">{{section.PublishedOn}}</span></small></th></tr></thead>
                 <tbody>
                     <tr>
                         <td>Last Date: {{section.ApplicationEndDt}}</td>
@@ -1674,7 +1674,7 @@
         <div class={{section.HeadingTheme}} ng-repeat="section in sections" itemscope itemtype="http://schema.org/JobPosting">
             <div class="panel-heading">
                 <table class="table table-borderless">
-                    <thead><tr><th colspan="2" style="text-align:left"><img itemprop="image" ng-src={{section.Logo}} alt={{section.AltText}}></img><a title="Apply for job" target="_blank" href={{section.GoToSite}}><span itemprop="name">{{section.Title}}</span></a><small> Published On: <span itemprop="datePublished">{{section.PublishedOn}}</span></small></th></tr></thead>
+                    <thead><tr><th colspan="2" style="text-align:left"><img itemprop="image" ng-src={{section.Logo}} alt={{section.AltText}}/><a title="Apply for job" target="_blank" href={{section.GoToSite}}><span itemprop="name">{{section.Title}} : {{section.AltText}}</span></a><small> Published On: <span itemprop="datePublished">{{section.PublishedOn}}</span></small></th></tr></thead>
                     <tbody>
                         <tr>
                             <td>Last Date: {{section.ApplicationEndDt}}</td>

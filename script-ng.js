@@ -11,7 +11,7 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 var sectionLeft = [
     {
         HeadingTheme: "panel panel-warning",
-        Title: "Central Institute Of Psychiatry : CIP Recruitment Of Staff Nurse",
+        Title: "Central Institute Of Psychiatry",
         ApplicationEndDt: "30/04/2015",
         DetailedNotification: "http://www.cipranchi.nic.in/",
         GoToSite: "http://www.cipranchi.nic.in/",
@@ -38,7 +38,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-success",
-        Title: "IIT Patna : IITP Recruitment In Administrative and Technical Cadre",
+        Title: "IIT Patna",
         ApplicationEndDt: "30/04/2015",
         DetailedNotification: "http://iitp.ac.in/images/faccareer/Advt-01-04-15.pdf",
         GoToSite: "http://iitp.ac.in/index.php/notice-board/1277-advt-nonfaculty.html",
@@ -142,7 +142,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-danger",
-        Title: "Rajiv Gandhi National Institute Of Youth And Development : Recruitment Of Assistant Professors / Associate Professors at RGNIYD",
+        Title: "Rajiv Gandhi National Institute Of Youth And Development",
         ApplicationEndDt: "30/04/2015",
         DetailedNotification: "http://rgniyd.gov.in/sites/default/files/pdfs/advt_prof/assist_pro/associate_professor.pdf",
         GoToSite: "http://rgniyd.gov.in/node/710",
@@ -169,7 +169,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "Rajiv Gandhi National Institute Of Youth And Development : Recruitment Of Professors at RGNIYD",
+        Title: "Rajiv Gandhi National Institute Of Youth And Development",
         ApplicationEndDt: "06/05/2015",
         DetailedNotification: "http://rgniyd.gov.in/sites/default/files/pdfs/advt_prof/prof_advt_02_03_1.pdf",
         GoToSite: "http://www.rgniyd.gov.in/content/invites-application-posts-professors",
@@ -188,7 +188,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-info",
-        Title: "Security Printing And Mining Corporation Of India Ltd : Recruitment Of Managers at SPMCIL",
+        Title: "Security Printing And Mining Corporation Of India Ltd",
         ApplicationEndDt: "27/04/2015",
         DetailedNotification: "http://www.spmcil.com/UploadDocument/Advt%2001-2015-%20Manager%20%20Dy.%20Manager.f6350551-e3b9-41ee-b6d5-4c6e8f7fe5b0.pdf",
         GoToSite: "http://www.spmcil.com/Interface/JobOpenings.aspx",
@@ -221,7 +221,7 @@ var sectionLeft = [
         {
             Designation: "Officer (OL)",
             NoOfPosts: "01",
-            PayScale: ".16,400 - 40,500",
+            PayScale: "16,400 - 40,500",
             GradePay: "",
             Eligibility: "1st Class Master’s Degree from a recognized University in Hindi or English with English/Hindi subject at Graduation level (i.e. Hindi in case the candidate is Post-graduate in English and vice-versa)."
         },
@@ -236,7 +236,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "Staff Selection Commission : Recruitment Of Sub Inspectors in Delhi Police, CAPF and CISF",
+        Title: "Staff Selection Commission",
         ApplicationEndDt: "26/04/2015",
         DetailedNotification: "http://ssc.nic.in/notice/examnotice/Notice_SI_in_CAPFs_ASI_and_Delhi_Police_2015_27_03_2015.pdf",
         GoToSite: "http://ssconline.nic.in/",
@@ -270,7 +270,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "Union Public Service Commission : Recruitment Of Assistant Director (Cost), Assistant Mineral Economist (Intelligence), and Assistant Town And Country Planner",
+        Title: "Union Public Service Commission",
         ApplicationEndDt: "16/04/2015",
         DetailedNotification: "http://upsc.gov.in/recruitment/advt/2015/advt.06_2015.pdf",
         GoToSite: "http://upsconline.nic.in/ora/VacancyNoticePub.php",
@@ -304,7 +304,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-info",
-        Title: "King George's Medical University, Lucknow : Recruitment OF Professors And Assistant Professor",
+        Title: "King George's Medical University, Lucknow",
         ApplicationEndDt: "30/04/2015",
         DetailedNotification: "http://kgmu.org/upload_file/user_download/d0eab0fada62e79099553eb409c8fcb1.pdf",
         GoToSite: "http://kgmu.org/job-opportunities.php",
@@ -331,7 +331,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-danger",
-        Title: "Uttar Pradesh Public Service Commission : UPPSC Recruitmenf of Various Officers",
+        Title: "Uttar Pradesh Public Service Commission",
         ApplicationEndDt: "18/04/2015",
         DetailedNotification: "http://uppsc.up.nic.in/View_Enclosure.aspx?ID=520&flag=E&FID=346",
         GoToSite: "http://uppsc.up.nic.in/Notifications.aspx",
@@ -526,7 +526,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-danger",
-        Title: "Can Fin Homes Ltd. : Can Fin Homes Ltd. Recruitment Of Junior Officers",
+        Title: "Can Fin Homes Ltd.",
         ApplicationEndDt: "07/04/2015",
         DetailedNotification: "http://www.canfinhomes.com/announcements.html",
         GoToSite: "http://www.canfinhomes.com/announcements.html",
@@ -545,7 +545,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "Mahesh Bank : Mahesh Bank Recruitment of Probationary Officers",
+        Title: "Mahesh Bank",
         ApplicationEndDt: "13/04/2015",
         DetailedNotification: "http://www.apmaheshbank.com/sites/all/themes/maheshbank/files/po-recruitments-2015.pdf",
         GoToSite: "http://www.apmaheshbank.com/careers",
@@ -564,7 +564,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-info",
-        Title: "Indian Navy: Indian Navy Recruitment Pilot / Observer(Short Service Commission)",
+        Title: "Indian Navy",
         ApplicationEndDt: "28/04/2015",
         DetailedNotification: "http://www.joinindiannavy.gov.in/pdf/pilotobserver/sscpilobs.pdf",
         GoToSite: "http://www.joinindiannavy.gov.in/forthcomingOfficer.php",
@@ -583,7 +583,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-danger",
-        Title: "Mangalore Refineries Private Limited : MRPL Recruitment For Management Cadre Employees",
+        Title: "Mangalore Refineries Private Limited",
         ApplicationEndDt: "04/04/2015",
         DetailedNotification: "http://www.mrpl.co.in/sites/default/files/WEB%20ADVT%20NO%2056_0.pdf",
         GoToSite: "http://www.mrpl.co.in/careers",
@@ -701,7 +701,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-danger",
-        Title: "Indian National Centere For Ocean Information Studies : INCOIS Recruitment for Officers on Contract",
+        Title: "Indian National Centere For Ocean Information Studies",
         ApplicationEndDt: "27/03/2015",
         DetailedNotification: "http://www.incois.gov.in/jobs/vac0215t/docs/advertisement_RMT_0215.pdf",
         GoToSite: "http://www.incois.gov.in/portal/temporary.jsp",
@@ -749,7 +749,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-info",
-        Title: "Staff Selection Commission : SSC Recruitment for Multiple Posts",
+        Title: "Staff Selection Commission",
         ApplicationEndDt: "21/04/2015",
         DetailedNotification: "http://www.sscwr.net/",
         GoToSite: "http://www.sscwr.net/",
@@ -895,7 +895,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-success",
-        Title: "National Institute of Unani Medicine: NIUM Recruitment of Professors and non teaching posts",
+        Title: "National Institute of Unani Medicine",
         ApplicationEndDt: "19/04/2015",
         DetailedNotification: "http://www.nium.in/rtiofficers/rtimanualyrtilinks142682618711.pdf",
         GoToSite: "http://www.nium.in/careers.php",
@@ -999,7 +999,7 @@ var sectionLeft = [
         },
     {
         HeadingTheme: "panel panel-success",
-        Title: "Bharat Electronics Limited: BEL Recruitment of Engineers",
+        Title: "Bharat Electronics Limited",
         ApplicationEndDt: "26/03/2015",
         DetailedNotification: "http://bel-india.com/sites/default/files/Recruitments/Web%20Ad-Comp%20Smart%20Cards-26.03.2015.pdf",
         GoToSite: "http://bel-india.com/recruitment",
@@ -1033,7 +1033,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-info",
-        Title: "Gujrat Public Service Commission: GPSC Recruitment of Section Officers",
+        Title: "Gujrat Public Service Commission",
         ApplicationEndDt: "31/03/2015",
         DetailedNotification: "http://www.gpsc.gujarat.gov.in/pdf/Advt-51-2014-15-Gujarati-English.pdf",
         GoToSite: "http://www.gpsc.gujarat.gov.in/advertisements.html",
@@ -1041,7 +1041,7 @@ var sectionLeft = [
         PublishedOn: "12/03/2015",
         Age: "--",
         Logo: "gpsc.jpg",
-        AltText: "GPSC Recruitment of Section Officers",
+        AltText: "Gujrat Public Service Commission: GPSC Recruitment of Section Officers",
         JobDetails: [{
             Designation: "Deputy Section Officer (Secretariate)",
             NoOfPosts: "318",
@@ -1074,7 +1074,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "Oil And Natural Gas Corporation Limited : ONGC Recruitment of Graduate Trainees/Graduate Engineer through GATE",
+        Title: "Oil And Natural Gas Corporation Limited",
         ApplicationEndDt: "10/04/2015",
         DetailedNotification: "http://www.ongcindia.com/job/receng.pdf",
         GoToSite: "http://ongcindia.ongc.co.in/wps/wcm/connect/ongcindia/home/career/recruitment+notices/recruitment-gt-trainees2014",
@@ -1136,7 +1136,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "Central Madhya Pradesh Gramin Bank: CMPGB Recruitment for Officer Posts 2015 through IBPS",
+        Title: "Central Madhya Pradesh Gramin Bank",
         ApplicationEndDt: "25/03/2015",
         DetailedNotification: "http://centralmpgraminbank.com/Recruitment%20advertisement_10032015.pdf",
         GoToSite: "http://centralmpgraminbank.com/advertisement.htm",
@@ -1198,7 +1198,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-success",
-        Title: "Projects and Development India Limited: PDIL Recruitment Multiple Posts 2015",
+        Title: "Projects and Development India Limited",
         ApplicationEndDt: "25/03/2015",
         DetailedNotification: "http://careers.pdilin.com/15-mar-regular/",
         GoToSite: "http://careers.pdilin.com/15-mar-regular/",
@@ -1303,7 +1303,7 @@ var sectionLeft = [
             NoOfPosts: "",
             PayScale: "20600 - 46500",
             GradePay: "",
-            Eligibility: "Degree in Engineering in any discipline : • Instrumentation & Control • Applied Instrumentation • Electronics & Instrumentation • Electronics, Instrumentation & Control • Electronics & Communication • Electronics & Telecommunication • Instrumentation • Electrical & Electronics"
+            Eligibility: "Degree in Engineering in any discipline : Instrumentation & Control • Applied Instrumentation • Electronics & Instrumentation • Electronics, Instrumentation & Control • Electronics & Communication • Electronics & Telecommunication • Instrumentation • Electrical & Electronics"
         },
         {
             Designation: "Engineer Chemical( E1 Grade )",
@@ -1449,7 +1449,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-success",
-        Title: "Himachal Pradesh Public Service Commission: HPPSC  Recruitment for Teaching and non Teaching  Posts 2015",
+        Title: "Himachal Pradesh Public Service Commission",
         ApplicationEndDt: "10/04/2015",
         DetailedNotification: "http://hp.gov.in/hppsc/file.axd?file=2015%2f3%2fAdvertisement+No.+9_2014.pdf",
         GoToSite: "http://hp.gov.in/hppsc/page/Latest-Advertisement.aspx",
@@ -1644,7 +1644,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-danger",
-        Title: "Union Public Service Commission: UPSC Combined Medical Services Examination 2015",
+        Title: "Union Public Service Commission",
         ApplicationEndDt: "10/04/2015",
         DetailedNotification: "http://upsc.gov.in/exams/notifications/2015/CMS_2015/final%20page%20en%20%2850%29%2036-41.pdf",
         GoToSite: "http://upsc.gov.in/",
@@ -1685,7 +1685,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "All India Institutue of Medical Sciences: AIIMS Patna Recruitment staff Nurse",
+        Title: "All India Institutue of Medical Sciences",
         ApplicationEndDt: "19/04/2015",
         DetailedNotification: "http://www.aiimspatna.org/news/Advertisement%20Nursing%20-%20Group%20B.14.03.2015.pdf",
         GoToSite: "http://www.aiimspatna.org/pages/recruitment.php",
@@ -1704,7 +1704,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-success",
-        Title: "Atomic Energy Education Society : AEES Recruitment of Principal, Teaching and Non-Teaching staff",
+        Title: "Atomic Energy Education Society",
         ApplicationEndDt: "30/03/2015",
         DetailedNotification: "http://aees.gov.in/htmldocs/downloads/open_advertisement_aees_01_2015.pdf",
         GoToSite: "http://aees.gov.in/htmldocs/recruitment.html",
@@ -1759,7 +1759,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-info",
-        Title: "Steel Authority of India Limited : SAIL recruitment for Junior Assistant",
+        Title: "Steel Authority of India Limited",
         ApplicationEndDt: "09/04/2015",
         DetailedNotification: "http://103.241.144.145/index.php",
         GoToSite: "http://103.241.144.145/index.php",
@@ -1778,7 +1778,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "Mazagaon Dock Limited : Recruitment of Executive Trainee(Finance) at MDL",
+        Title: "Mazagaon Dock Limited",
         ApplicationEndDt: "09/04/2015",
         DetailedNotification: "http://mazagondock.gov.in/newsite2010/pdf_doc/career_March15/Advertisement_MDL_HR_CR_REC_34_2015.pdf",
         GoToSite: "http://mazagondock.gov.in/newsite2010/index.htm",
@@ -1797,7 +1797,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-danger",
-        Title: "MADHYA PRADESH MADHYA KSHETRA VIDYUT VITARAN COMPANY LIMITED : Recruitment of AE(IT) and JE(T&D-Network)on contract basis",
+        Title: "MADHYA PRADESH MADHYA KSHETRA VIDYUT VITARAN COMPANY LIMITED",
         ApplicationEndDt: "27/03/2015",
         DetailedNotification: "http://www.mpcz.co.in/ShowProperty/UCMRepository/Contribution%20Folders/Bhopal/PDF/Careers/Recruitment%202015/AE_JE_Network/advert_AE_JE_contract.pdf",
         GoToSite: "http://www.mpcz.co.in/portal/Bhopal_home.portal?_nfpb=true&_pageLabel=careers_opening_bpl",
@@ -1823,7 +1823,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-info",
-        Title: "Central University of Kerela: CUK Faculty Recruitment 2015",
+        Title: "Central University of Kerela",
         ApplicationEndDt: "20/04/2015",
         DetailedNotification: "http://cukerala.ac.in/images/PdfDocs/Empl2015/cuk_r_re_5_2015.pdf",
         GoToSite: "http://cukerala.ac.in/index.php?option=com_content&view=article&id=776:employment-re-notification-no-re-5-15-teaching-posts&catid=25:career-oppurtunities&Itemid=185&lang=en",
@@ -1856,7 +1856,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "Composite Regional Centre for Persons with Disabilities : CRC Recruitment of Faculty and other Non Teaching Posts",
+        Title: "Composite Regional Centre for Persons with Disabilities",
         ApplicationEndDt: "30 days from date of publication",
         DetailedNotification: "http://www.niepmd.tn.nic.in/documents/crck_emp-012015.pdf",
         GoToSite: "http://www.niepmd.tn.nic.in/recruitment.php",
@@ -2002,7 +2002,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-success",
-        Title: "The Gujrat Cancer and Research Institute: GCRI Recruitment Of Faculty And Non Teaching Posts",
+        Title: "The Gujrat Cancer and Research Institute",
         ApplicationEndDt: "24/03/2015",
         DetailedNotification: "http://www.gcriindia.org/Employment/2015/Advt.%20Teaching,%20Non-Teaching%20Post%20&%20Project.pdf",
         GoToSite: "http://www.gcriindia.org/",
@@ -2043,7 +2043,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-danger",
-        Title: "Mazagaon Dock Limited: MDL Recruitment of Senior Engineer through GATE 2013 & GATE 2014 Score",
+        Title: "Mazagaon Dock Limited",
         ApplicationEndDt: "02/04/2015",
         DetailedNotification: "http://mazagondock.gov.in/newsite2010/pdf_doc/career_March15/Instructions_MDL_HR_CR_REC_33_2015.pdf",
         GoToSite: "http://mazagondock.gov.in/newsite2010/career_executives.htm",
@@ -2062,7 +2062,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "Indian Maritime University: Faculty recruitment at IMU",
+        Title: "Indian Maritime University",
         ApplicationEndDt: "20/04/2015",
         DetailedNotification: "http://imu.edu.in/index.php?latestnews=1&newsid=343",
         GoToSite: "http://imu.edu.in/index.php?latestnews=1&newsid=343",
@@ -2096,7 +2096,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-info",
-        Title: "Rajiv Gandhi Natioal Institute of Youth Development: RGNIYD Invites application for the posts of Professors",
+        Title: "Rajiv Gandhi Natioal Institute of Youth Development",
         ApplicationEndDt: "06/04/2015",
         DetailedNotification: "http://rgniyd.gov.in/sites/default/files/pdfs/advt_prof/prof_advt_02_03.pdf",
         GoToSite: "http://www.rgniyd.gov.in/content/invites-application-posts-professors",
@@ -2115,7 +2115,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-danger",
-        Title: "Join Indian Army as Short Service Commission Officer(SSC 2015)",
+        Title: "Indian Army",
         ApplicationEndDt: "31/03/2015",
         DetailedNotification: "http://www.amcsscentry.gov.in/uploads/not/20150307_122506.pdf",
         GoToSite: "http://www.amcsscentry.gov.in/",
@@ -2134,7 +2134,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "CIL Recruitment 2015(Coal India Limited): Recruitment of medical Executives",
+        Title: "Coal India Limited",
         ApplicationEndDt: "04/04/2015",
         DetailedNotification: "https://www.coalindia.in/Portals/13/PDF/Advertisement_03032015.pdf",
         GoToSite: "https://www.coalindia.in/career/RecruitmentOfMedicalExe.aspx",
@@ -2160,7 +2160,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-success",
-        Title: "DMRC Recruitment 2015(Delhi Metro Rail Corporation): REQUIREMENT OF RETIRED / EXPERIENCED CIVIL ENGINEERS/MECHANICAL ENGINEERS, ON RE-EMPLOYMENT/CONTRACT BASIS (FROM GOVT./PSU/ ORGANISATIONS)",
+        Title: "DMRC Recruitment 2015(Delhi Metro Rail Corporation)",
         ApplicationEndDt: "24/03/2015",
         DetailedNotification: "http://www.delhimetrorail.com/CareerDocuments/Ad64.pdf",
         GoToSite: "http://www.delhimetrorail.com/career.aspx",
@@ -2168,7 +2168,7 @@ var sectionLeft = [
         PublishedOn: "2015",
         Age: "--",
         Logo: "dmrc.jpg",
-        AltText: "DMRC recruitment 2015",
+        AltText: "REQUIREMENT OF RETIRED / EXPERIENCED CIVIL ENGINEERS/MECHANICAL ENGINEERS, ON RE-EMPLOYMENT/CONTRACT BASIS (FROM GOVT./PSU/ ORGANISATIONS",
         JobDetails: [{
             Designation: "Assistant Manager/ Civil ( Track )Post Code -AMC-1",
             NoOfPosts: "05",
@@ -2193,7 +2193,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-danger",
-        Title: "MIDHANI Recruitment 2015: SOT and JOT posts",
+        Title: "MIDHANI",
         ApplicationEndDt: "20/03/2015",
         DetailedNotification: "http://nadrsgis1.nic.in/midhani/JOTSOTJA2015advt.pdf",
         GoToSite: "http://nadrsgis1.nic.in/midhani/",
@@ -2226,7 +2226,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "The West Bengal National University of Judicial Sciences: Faculty posts in WBNUJS",
+        Title: "The West Bengal National University of Judicial Sciences",
         ApplicationEndDt: "20/03/2015",
         DetailedNotification: "http://www.nujs.edu/careers/adver_fac_24_02_15.pdf",
         GoToSite: "http://www.nujs.edu/",
@@ -2267,7 +2267,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-danger",
-        Title: ":Electronics Corporation of India Ltd: ECIL recruitment for Senior Management",
+        Title: "Electronics Corporation of India Ltd",
         ApplicationEndDt: "13/03/2015",
         DetailedNotification: "https://ecil.gov.in/login.php",
         GoToSite: "https://ecil.gov.in/login.php",
@@ -2378,7 +2378,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: ":Steel Authority of India Ltd: SAIL recruitment of Management Trainee 2015",
+        Title: "Steel Authority of India Ltd",
         ApplicationEndDt: "18/03/2015",
         DetailedNotification: "http://182.18.162.54/cpsailoreg/Document/AdvtPDF/Management%20Trainee%20-%20Technical.pdf",
         GoToSite: "http://182.18.162.54/cpsailoreg/FrmJobDetails.aspx",
@@ -2405,7 +2405,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "Faculty posts in Tezpur University",
+        Title: "Tezpur University",
         ApplicationEndDt: "25/03/2015",
         DetailedNotification: "http://www.tezu.ernet.in/other/jobs.htm",
         GoToSite: "http://www.tezu.ernet.in/other/jobs.htm",
@@ -2439,7 +2439,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-success",
-        Title: "Indian Institute of Information Technology Guwahati: IIIT: Guwahati Recruitment for Faculty",
+        Title: "Indian Institute of Information Technology Guwahati",
         ApplicationEndDt: "27/03/2015",
         DetailedNotification: "http://www.iiitg.ac.in/IIITG%20-%20Home%20Page_files/factad-update.html#img",
         GoToSite: "http://www.iiitg.ac.in/",
@@ -2473,7 +2473,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-danger",
-        Title: "RPSC Medical Officer Exam 2015(Rajasthan Public Service Commission)",
+        Title: "Rajasthan Public Service Commission",
         ApplicationEndDt: "18/03/2015",
         DetailedNotification: "http://rpsc.rajasthan.gov.in/pdf_reports_files/corrigendum_Medical_24022015.pdf",
         GoToSite: "http://rpsc.rajasthan.gov.in/Recruitment_Advertisement.aspx",
@@ -2481,7 +2481,7 @@ var sectionLeft = [
         PublishedOn: "24/02/2015",
         Age: "--",
         Logo: "rpsc.jpg",
-        AltText: "RPSC medical officer exam 2015",
+        AltText: "RPSC Medical Officer Exam 2015",
         JobDetails: [{
             Designation: "Assistant Professor",
             NoOfPosts: "142",
@@ -2507,7 +2507,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "UTTARAKHAND PUBLIC SERVICE COMMISSION: Computer Staff Exam-2014",
+        Title: "UTTARAKHAND PUBLIC SERVICE COMMISSION",
         ApplicationEndDt: "11/03/2015",
         DetailedNotification: "http://ukpsc.gov.in/files/adv._for_IT_cell.pdf",
         GoToSite: "http://ukpsc.gov.in/recruitment/view/338",
@@ -2548,7 +2548,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "UTTARAKHAND PUBLIC SERVICE COMMISSION: Assistant Accountant and Junior Auditor Exam-2014 in Excise Department",
+        Title: "UTTARAKHAND PUBLIC SERVICE COMMISSION",
         ApplicationEndDt: "17/03/2015",
         DetailedNotification: "http://ukpsc.gov.in/files/advertizment__for_Accountant_Excise.pdf",
         GoToSite: "http://ukpsc.gov.in/recruitment/view/339",
@@ -2556,7 +2556,7 @@ var sectionLeft = [
         PublishedOn: "25/02/2015",
         Age: "--",
         Logo: "ukpsc.jpg",
-        AltText: "UKPSC assistant accountant Exam",
+        AltText: "Assistant Accountant and Junior Auditor Exam-2014 in Excise Department",
         JobDetails: [{
             Designation: "Assistant Accountant",
             NoOfPosts: "14",
@@ -2575,7 +2575,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-danger",
-        Title: "Recruitment to the post of Yantrik in the Indian Coast Guard, an Armed Force of the Union",
+        Title: "Indian Coast Guard",
         ApplicationEndDt: "09/03/2015",
         DetailedNotification: "http://www.joinindiancoastguard.gov.in/PDF/Advertisement/YANTRIK.pdf",
         GoToSite: "http://www.joinindiancoastguard.gov.in/",
@@ -2594,7 +2594,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "UPSC INVITES ONLINE RECRUITMENT APPLICATIONS (ORA*) FOR RECRUITMENT BY SELECTION TO THE FOLLOWING POSTS(Union Public Service Commission)",
+        Title: "Union Public Service Commission",
         ApplicationEndDt: "17/03/2015",
         DetailedNotification: "http://upsconline.nic.in/ora/oraauth/candidate/download_ad.php?id=80",
         GoToSite: "http://upsconline.nic.in/ora/VacancyNoticePub.php",
@@ -2602,7 +2602,7 @@ var sectionLeft = [
         PublishedOn: "28/02/2015",
         Age: "--",
         Logo: "upsc.jpg",
-        AltText: "UPSC recruitment 2015",
+        AltText: "UPSC INVITES ONLINE RECRUITMENT APPLICATIONS (ORA*) FOR RECRUITMENT",
         JobDetails: [{
             Designation: "Joint Director(Crop Development Division)",
             NoOfPosts: "02",
@@ -2670,7 +2670,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-danger",
-        Title: "Applications are invited for the Post of Lecturer on contract in various departments of NIT Hamirpur",
+        Title: "NIT Hamirpur",
         ApplicationEndDt: "17/03/2015",
         DetailedNotification: "http://www.nith.ac.in/recruitment/2015/sodr.pdf",
         GoToSite: "http://www.nith.ac.in/recruitment/index.htm",
@@ -2678,7 +2678,7 @@ var sectionLeft = [
         PublishedOn: "11/02/2015",
         Age: "--",
         Logo: "nit_hamirpur.jpg",
-        AltText: "NIT Hamirpur recruitment 2015",
+        AltText: "Applications are invited for the Post of Lecturer on contract in various Departments",
         JobDetails: [{
             Designation: "Deputy Registrar",
             NoOfPosts: "01",
@@ -2711,7 +2711,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "Applications are invited for the Post of Lecturer on contract in various departments of NIT Hamirpur",
+        Title: "NIT Hamirpur",
         ApplicationEndDt: "16/03/2015",
         DetailedNotification: "http://www.nith.ac.in/recruitment/2015/lectform.pdf",
         GoToSite: "http://www.nith.ac.in/recruitment/index.htm",
@@ -2719,7 +2719,7 @@ var sectionLeft = [
         PublishedOn: "11/02/2015",
         Age: "--",
         Logo: "nit_hamirpur.jpg",
-        AltText: "NIT Hamirpur recruitment 2015",
+        AltText: "Applications are invited for the Post of Lecturer on contract in various departments",
         JobDetails: [{
             Designation: "Lecturer",
             NoOfPosts: "",
@@ -2738,7 +2738,7 @@ var sectionLeft = [
         },
     {
         HeadingTheme: "panel panel-info",
-        Title: "Faculty position at Rajiv Gandhi University, Arunachal Pradesh",
+        Title: "Rajiv Gandhi University, Arunachal Pradesh",
         ApplicationEndDt: "06/03/2015",
         DetailedNotification: "http://rgu.ac.in/downloads/Advno6jan15.pdf",
         GoToSite: "http://rgu.ac.in/jobsatrgu.html",
@@ -2772,7 +2772,7 @@ var sectionLeft = [
         },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "Officer posts in FCI Aravali Gypsum And Minerals India Limited(FAGMIL)",
+        Title: "FCI Aravali Gypsum And Minerals India Limited(FAGMIL)",
         ApplicationEndDt: "16/03/2015",
         DetailedNotification: "http://fagmil.nic.in/images/Careers/recruitment2015.pdf",
         GoToSite: "http://fagmil.nic.in/index.php/en/services/careers",
@@ -2841,7 +2841,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "Officer posts in Sutlej Gramin Bank",
+        Title: "Sutlej Gramin Bank",
         ApplicationEndDt: "03/03/2015",
         DetailedNotification: "http://sgbbathinda.co.in/Downloads/adsgb2015.pdf",
         GoToSite: "http://sgbbathinda.co.in/Recruitment.aspx",
@@ -2867,7 +2867,7 @@ var sectionLeft = [
         },
     {
         HeadingTheme: "panel panel-danger",
-        Title: "CIIL Requirement of Project Staff for various Schemes",
+        Title: "Central Institute Of Indian Languages",
         ApplicationEndDt: "05/03/2015",
         DetailedNotification: "http://www.ciil.org/Download/CIIL_Project_Staff_2015.pdf",
         GoToSite: "http://www.ciil.org/AnnCIIL2015.aspx",
@@ -2971,7 +2971,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-success",
-        Title: "NIT Meghalaya Faculty Recruitment",
+        Title: "NIT Meghalaya",
         ApplicationEndDt: "31/03/2015",
         DetailedNotification: "http://nitmeghalaya.in/nitm/notifications/recruitments/docs/advtFacultyFebruary2015_full.pdf",
         GoToSite: "http://nitmeghalaya.in/nitm/notifications/recruitments/faculty_feb2015.html",
@@ -3005,7 +3005,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-success",
-        Title: "Recruitment of Trainee Teacher at NIT Meghalya(National Institute of Technology)",
+        Title: "NIT Meghalya(National Institute of Technology)",
         ApplicationEndDt: "01/04/2015",
         DetailedNotification: "http://nitmeghalaya.in/nitm/notifications/recruitments/docs/trainee%20teacher%20scheme.pdf",
         GoToSite: "http://nitmeghalaya.in/nitm/notifications/recruitments/Trainee_techerFeb2015.html",
@@ -3024,7 +3024,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-danger",
-        Title: "National Institute of Technical Teachers Training and Reserch(NITTR) recruitment for various posts",
+        Title: "National Institute of Technical Teachers Training and Reserch(NITTR)",
         ApplicationEndDt: "27/03/2015",
         DetailedNotification: "http://www.nitttrchd.ac.in/sitenew1/pdf/Adv.142_2015.pdf",
         GoToSite: "http://recruit.nitttrchd.ac.in/",
@@ -3121,7 +3121,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-info",
-        Title: "Indian Oil Corporation invites applications for Junior Engineer at Mathura Refinery(IOCL Recruitment)",
+        Title: "Indian Oil Corporation",
         ApplicationEndDt: "16/03/2015",
         DetailedNotification: "https://www.iocl.com/download/Mathura_Refinery_AD_2015.pdf",
         GoToSite: "https://www.iocl.com/PeopleCareers/job.aspx",
@@ -3169,7 +3169,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-danger",
-        Title: "Rajasthan Marudhara Gramin Bank recruitment by IBPS",
+        Title: "Rajasthan Marudhara Gramin Bank",
         ApplicationEndDt: "26/02/2015",
         DetailedNotification: "http://www.mgbbank.com/IBPSAPPFinal.pdf",
         GoToSite: "http://www.mgbbank.com/",
@@ -3246,7 +3246,7 @@ var sectionLeft = [
         PublishedOn: "14/02/2015",
         Age: "--",
         Logo: "sci.jpg",
-        AltText: "shipping corporation of india recruitment",
+        AltText: "SCI Recruitment For Management Posts",
         JobDetails: [{
             Designation: "Assistant Manager",
             NoOfPosts: "62",
@@ -3272,7 +3272,7 @@ var sectionLeft = [
     },
     {
         HeadingTheme: "panel panel-success",
-        Title: "Union Bank of India recruitment for Specialist Officer",
+        Title: "Union Bank of India",
         ApplicationEndDt: "28/02/2015",
         DetailedNotification: "http://www.unionbankofindia.co.in/pdf/UBRP201516EnglishNotificationwebsite.pdf",
         GoToSite: "http://www.unionbankofindia.co.in/abt_recruitmentaspx.aspx",
@@ -3280,7 +3280,7 @@ var sectionLeft = [
         PublishedOn: "13/02/2015",
         Age: "--",
         Logo: "unionbank.jpg",
-        AltText: "union bank of india recruitment",
+        AltText: "union bank of india recruitment for Specialist Officer",
         JobDetails: [{
             Designation: "Economist",
             NoOfPosts: "02(UR-02)",
@@ -3306,7 +3306,7 @@ var sectionLeft = [
 },
     {
         HeadingTheme: "panel panel-info",
-        Title: "Walkin for IT Professionals in HARTRON -27th/28 Feb and 3rd/4th March",
+        Title: "HARTRON",
         ApplicationEndDt: "",
         DetailedNotification: "http://hartron.org.in/images/SDG/2015/SDGRoles1815.pdf",
         GoToSite: "hartron.org.in/index.php/jobs-career/current-opening",
@@ -3396,7 +3396,7 @@ var sectionLeft = [
     },
 {
             HeadingTheme: "panel panel-warning",
-            Title: "COMBINED STATE / UPPER SUBORDINATE SERVICES (GEN. RECTT.) EXAMINATION-2015",
+            Title: "Uttar Pradesh Public Service Commission",
             ApplicationEndDt: "28/02/2015",
             DetailedNotification: "http://uppsc.up.nic.in/View_Enclosure.aspx?ID=103&flag=E&FID=334",
             GoToSite: "http://uppsc.up.nic.in/Notifications.aspx",
@@ -3415,7 +3415,7 @@ var sectionLeft = [
 },
 {
             HeadingTheme: "panel panel-info",
-            Title: "Faculty posts at Benaras Hindu University(BHU)",
+            Title: "Benaras Hindu University(BHU)",
             ApplicationEndDt: "20/02/2015",
             DetailedNotification: "http://www.bhu.ac.in/rac/jan2015/RollingFinal.pdf",
             GoToSite: "http://www.bhu.ac.in/rac/",
@@ -3423,7 +3423,7 @@ var sectionLeft = [
             PublishedOn: "2015",
 			Age: "--",
 			Logo:"bhu.jpg",
-			AltText:"BHU recruitment 2015",
+			AltText: "Faculty posts at Benaras Hindu University(BHU)",
             JobDetails: [{
                 Designation: "Professor",
                 NoOfPosts: "",
@@ -3456,7 +3456,7 @@ var sectionLeft = [
 },
 {
             HeadingTheme: "panel panel-info",
-            Title: "Non Managerial positions in Mangalore Refinery and Petrochemicals Limited(MRPL)",
+            Title: "Mangalore Refinery and Petrochemicals Limited(MRPL)",
             ApplicationEndDt: "11/02/2015",
             DetailedNotification: "http://www.mrpl.co.in/careers",
             GoToSite: "http://www.mrpl.co.in/careers",
@@ -3464,7 +3464,7 @@ var sectionLeft = [
             PublishedOn: "2015",
 			Age: "--",
 			Logo:"mrpl.jpg",
-			AltText:"MRPL Career 2015",
+			AltText: "Non Managerial positions in Mangalore Refinery and Petrochemicals Limited(MRPL)",
             JobDetails: [{
                 Designation: "Workman(chemical)",
                 NoOfPosts: "92",
@@ -3490,7 +3490,7 @@ var sectionLeft = [
 },
 {
             HeadingTheme: "panel panel-danger",
-            Title: "Recruitment Of Engineering Executive Trainee at NTPC through GATE-2015",
+            Title: "National Thermal Power Corporation",
             ApplicationEndDt: "03/03/2015",
             DetailedNotification: "http://www.ntpccareers.net/et15/my_files/advt_et15.pdf",
             GoToSite: "http://www.ntpccareers.net/et15/hm.php",
@@ -3498,7 +3498,7 @@ var sectionLeft = [
             PublishedOn: "02/02/2015",
 			Age: "--",
 			Logo:"ntpc.jpg",
-			AltText:"ntpc recruitment through gate 2015",
+			AltText: "Recruitment Of Engineering Executive Trainee at NTPC through GATE-2015",
             JobDetails: [{
                 Designation: "Executive Trainee Engineer-Electrical",
                 NoOfPosts: "40",
@@ -3531,7 +3531,7 @@ var sectionLeft = [
 },
 {
             HeadingTheme: "panel panel-success",
-            Title: "Project Scientist in Ministry of Earth Sciences on Contract Basis",
+            Title: "Ministry of Earth Sciences",
             ApplicationEndDt: "21/02/2015",
             DetailedNotification: "http://moes.gov.in/writereaddata/files/project%20scientist%20B%20%26%20C.pdf",
             GoToSite: "http://moes.gov.in/",
@@ -3539,7 +3539,7 @@ var sectionLeft = [
             PublishedOn: "06/02/2015",
 			Age: "--",
 			Logo:"moes.jpg",
-			AltText:"ministry of earth sciences recruitment",
+			AltText: "Project Scientist in Ministry of Earth Sciences on Contract Basis",
             JobDetails: [{
                 Designation: "Project Scientist 'B'",
                 NoOfPosts: "08",
@@ -3558,7 +3558,7 @@ var sectionLeft = [
 },
 {
             HeadingTheme: "panel panel-info",
-            Title: "job posts at Bihar Agricultural University",
+            Title: "Bihar Agricultural University",
             ApplicationEndDt: "16/02/2015",
             DetailedNotification: "http://bausabour.ac.in.199-79-63-199.plesk-web24.webhostbox.net/bau/files/Advertisement/4e10b0c6-9b4d-40be-bed5-6aacb1e751d9-harshit01.docx",
             GoToSite: "http://bausabour.ac.in.199-79-63-199.plesk-web24.webhostbox.net/bau/index.aspx",
@@ -3619,7 +3619,7 @@ var sectionLeft = [
 },
 {
             HeadingTheme: "panel panel-success",
-            Title: "Various Group-C posts at Uttarakhand Public Service Commission(UKPSC)",
+            Title: "Uttarakhand Public Service Commission(UKPSC)",
             ApplicationEndDt: "23/02/2015",
             DetailedNotification: "http://ukpsc.gov.in/files/Group_C_Vigapati.pdf",
             GoToSite: "http://ukpsc.gov.in/recruitment/view/331",
@@ -3627,7 +3627,7 @@ var sectionLeft = [
             PublishedOn: "07/02/2015",
 			Age: "--",
 			Logo:"ukpsc.jpg",
-			AltText:"job at UKPSC",
+			AltText: "Various Group-C posts at Uttarakhand Public Service Commission(UKPSC)",
             JobDetails: [{
                 Designation: "Lecturer(Cookery, Bakery, Housekeeping, Restaurant, Reception)",
                 NoOfPosts: "01",
@@ -3701,7 +3701,7 @@ var sectionLeft = [
 },
 {
             HeadingTheme: "panel panel-danger",
-            Title: "Various Group-B posts at Uttarakhand Public Service Commission(UKPSC)",
+            Title: "Uttarakhand Public Service Commission(UKPSC)",
             ApplicationEndDt: "18/02/2015",
             DetailedNotification: "http://ukpsc.gov.in/files/Group_B.pdf",
             GoToSite: "http://ukpsc.gov.in/recruitment/view/330",
@@ -3709,7 +3709,7 @@ var sectionLeft = [
             PublishedOn: "31/01/2015",
 			Age: "--",
 			Logo:"ukpsc.jpg",
-			AltText:"job at UKPSC",
+			AltText: "Various Group-B posts at Uttarakhand Public Service Commission(UKPSC)",
             JobDetails: [{
                 Designation: "Principal Grade II",
                 NoOfPosts: "18",
@@ -3783,7 +3783,7 @@ var sectionLeft = [
 },
 {
             HeadingTheme: "panel panel-warning",
-            Title: "Category II stipendiary trainee at Bhabha Atomic Research Centre(BARC)",
+            Title: "Bhabha Atomic Research Centre(BARC)",
             ApplicationEndDt: "23/02/2015",
             DetailedNotification: "http://barc.gov.in/careers/vacancy242.pdf",
             GoToSite: "http://barc.gov.in/careers/",
@@ -3791,7 +3791,7 @@ var sectionLeft = [
             PublishedOn: "02/02/2015",
 			Age: "18 - 27",
 			Logo:"barc.jpg",
-			AltText:"job at BARC",
+			AltText: "Category II stipendiary trainee at Bhabha Atomic Research Centre(BARC)",
             JobDetails: [{
                 Designation: "Category II stipendiary trainee",
                 NoOfPosts: "41(SC-13, OBC-28)",
@@ -3802,7 +3802,7 @@ var sectionLeft = [
 },
 {
             HeadingTheme: "panel panel-warning",
-            Title: "Coast guard Navik general duty",
+            Title: "Coast guard",
             ApplicationEndDt: "10/02/2015",
             DetailedNotification: "http://www.joinindiancoastguard.gov.in/PDF/Advertisement/Navik%28GD%29.pdf",
             GoToSite: "http://www.joinindiancoastguard.gov.in/",
@@ -3810,7 +3810,7 @@ var sectionLeft = [
             PublishedOn: "02/02/2015",
 			Age: "18 - 22",
 			Logo:"coastguard.jpg",
-			AltText:"job at Coast Gaurd",
+			AltText: "Coast guard Navik general duty",
             JobDetails: [{
                 Designation: "Navik(General Duty)",
                 NoOfPosts: "--",
@@ -3821,7 +3821,7 @@ var sectionLeft = [
 },
 {
             HeadingTheme: "panel panel-info",
-            Title: "Non faculty posts at Indira Gandhi National Tribal University(IGNTU)",
+            Title: "Indira Gandhi National Tribal University(IGNTU)",
             ApplicationEndDt: "28/02/2015",
             DetailedNotification: "http://igntu.ac.in/recruitment/Advt_Non_Teaching_2015.pdf",
             GoToSite: "http://igntu.ac.in/recruitment.htm",
@@ -3829,7 +3829,7 @@ var sectionLeft = [
             PublishedOn: "20/01/2015",
 			Age: "read Adv",
 			Logo:"igntu.jpg",
-			AltText:"job at IGNTU",
+			AltText: "Non faculty posts at Indira Gandhi National Tribal University(IGNTU)",
             JobDetails: [{
                 Designation: "Librarian",
                 NoOfPosts: "01",
@@ -4044,7 +4044,7 @@ var sectionLeft = [
         },
 {
             HeadingTheme: "panel panel-info",
-            Title: "Manager posts in National Small Industries corporation limited(NSIC)",
+            Title: "National Small Industries corporation limited(NSIC)",
             ApplicationEndDt: "17/02/2015",
             DetailedNotification: "http://nsicnet.com/hrnsic15/Instruction.asp?Ad=2",
             GoToSite: "http://nsicnet.com/hrnsic15/Instruction.asp?Ad=2",
@@ -4052,7 +4052,7 @@ var sectionLeft = [
             PublishedOn: "24/01/2015",
 			Age: "read Adv",
 			Logo:"nsic.gif",
-			AltText:"NSIC job",
+			AltText: "Manager posts in National Small Industries corporation limited(NSIC)",
             JobDetails: [{
                 Designation: "Chief Manager",
                 NoOfPosts: "05(UR-03,OBC-01, SC-01)",
@@ -4085,7 +4085,7 @@ var sectionLeft = [
         },
 {
             HeadingTheme: "panel panel-danger",
-            Title: "Officer posts in Allahbad Gramin Bank(AGB)",
+            Title: "Allahbad Gramin Bank(AGB)",
             ApplicationEndDt: "12/02/2015",
             DetailedNotification: "http://www.allahabadgraminbank.in/career/Allahabad%20UP%20Gramin%20Bank-Advertisement.pdf.pdf",
             GoToSite: "http://www.allahabadgraminbank.in/career.html",
@@ -4093,7 +4093,7 @@ var sectionLeft = [
             PublishedOn: "28/01/2015",
 			Age: "read Adv",
 			Logo:"agb.jpg",
-			AltText:"AGB job",
+			AltText: "Officer posts in Allahbad Gramin Bank(AGB)",
             JobDetails: [{
                 Designation: "Officer Scale - I",
                 NoOfPosts: "113(UR-41,OBC-41, SC-21, ST-10)",
@@ -4105,7 +4105,7 @@ var sectionLeft = [
         },
 {
             HeadingTheme: "panel panel-info",
-            Title: "Bharat Electronics (BEL) Ghaziabad Engineering Assistant Trainee",
+            Title: "Bharat Electronics (BEL)",
             ApplicationEndDt: "08/02/2015",
             DetailedNotification: "http://bel-india.com/sites/default/files/Recruitments/Detailed%20Advt.pdf",
             GoToSite: "http://bel-india.com/",
@@ -4113,7 +4113,7 @@ var sectionLeft = [
             PublishedOn: "01/2015",
 			Age: "30 years as on 01/01/2015",
 			Logo:"bel.jpg",
-			AltText:"BEL job",
+			AltText: "Bharat Electronics (BEL) Ghaziabad Engineering Assistant Trainee",
             JobDetails: [{
                 Designation: "Contract Engineer",
                 NoOfPosts: "25",
@@ -4125,7 +4125,7 @@ var sectionLeft = [
         },
 {
             HeadingTheme: "panel panel-success",
-            Title: "Bharat Electronics (BEL) Ghaziabad Engineering Assistant Trainee",
+            Title: "Bharat Electronics (BEL)",
             ApplicationEndDt: "14/02/2015",
             DetailedNotification: "https://jobapply.in/belghaziabad2015/",
             GoToSite: "http://bel-india.com/",
@@ -4133,7 +4133,7 @@ var sectionLeft = [
             PublishedOn: "17/01/2015",
 			Age: "28",
 			Logo:"bel.jpg",
-			AltText:"BEL job",
+			AltText: "Bharat Electronics (BEL) Ghaziabad Engineering Assistant Trainee",
             JobDetails: [{
                 Designation: "Engineering Assistant Trainee(EAT)",
                 NoOfPosts: "11",
@@ -4145,7 +4145,7 @@ var sectionLeft = [
         },
 {
             HeadingTheme: "panel panel-danger",
-            Title: "Job posts in Karnataka Kerela Region(KKR) by Staff Selection Commission(SSC)",
+            Title: "Karnataka Kerela Region(KKR)",
             ApplicationEndDt: "13/02/2015",
             DetailedNotification: "http://ssc.nic.in/notice/examnotice/ADVERTISEMENT%20NO.%20KKR-01-2015.pdf",
             GoToSite: "http://ssckkr.kar.nic.in",
@@ -4153,7 +4153,7 @@ var sectionLeft = [
             PublishedOn: "17/01/2015",
 			Age: "refer advertisement",
 			Logo:"ssc.jpg",
-			AltText:"SSC job",
+			AltText: "Job posts in Karnataka Kerela Region(KKR) by Staff Selection Commission(SSC",
             JobDetails: [{
                 Designation: "Senior Radio Technician",
                 NoOfPosts: "01(UR)",
@@ -4186,7 +4186,7 @@ var sectionLeft = [
         },
 {
             HeadingTheme: "panel panel-info",
-            Title: "National Hydroelectric power Corporation(NHPC) special drive for engineer and officer posts",
+            Title: "National Hydroelectric power Corporation(NHPC)",
             ApplicationEndDt: "23/02/2015",
             DetailedNotification: "http://www.nhpcindia.com/writereaddata/Images/pdf/srd2015.pdf",
             GoToSite: "http://www.nhpcindia.com/career.htm",
@@ -4194,7 +4194,7 @@ var sectionLeft = [
             PublishedOn: "01/2015",
 			Age: "refer advertisement",
 			Logo:"nhpc.jpg",
-			AltText:"NHPC job",
+			AltText: "National Hydroelectric power Corporation(NHPC) special drive for engineer and officer posts",
             JobDetails: [{
                 Designation: "Trainee Engineer(Civil)",
                 NoOfPosts: "35",
@@ -4318,7 +4318,7 @@ var sectionLeft = [
         },
         {
             HeadingTheme: "panel panel-success",
-            Title: "Recruitment of constables(GD) in CAPFs and rifleman in Assam Rifles 2015",
+            Title: "Assam Rifles 2015",
             ApplicationEndDt: "23/02/2015",
             DetailedNotification: "http://ssconline.nic.in/mainmenu2.php",
             GoToSite: "http://ssconline.nic.in/mainmenu2.php",
@@ -4326,7 +4326,7 @@ var sectionLeft = [
             PublishedOn: "24/01/2015",
 			Age: "18 - 23 as on 01/08/2015",
 			Logo:"ssc.jpg",
-			AltText:"SSC",
+			AltText: "Recruitment of constables(GD) in CAPFs and rifleman in Assam Rifles 2015",
             JobDetails: [{
                 Designation: "Constable(General Duty)/Rifleman(GD)",
                 NoOfPosts: "62390",
@@ -4338,7 +4338,7 @@ var sectionLeft = [
         },
         {
             HeadingTheme: "panel panel-danger",
-            Title: "Civil Judge(Junior Division) cum judicial magistrate at Punjab PSC",
+            Title: "Punjab PSC",
             ApplicationEndDt: "25/02/2015",
             DetailedNotification: "http://ppsc.gov.in/pdf/pcsj1415/dae.pdf",
             GoToSite: "http://ppsc.gov.in/advertisement_04.html",
@@ -4346,7 +4346,7 @@ var sectionLeft = [
             PublishedOn: "21/01/2015",
 			Age: "21 - 27 as on 25/02/2015",
 			Logo:"PunjabPSC.jpg",
-			AltText:"PunjabPSC",
+			AltText: "Civil Judge(Junior Division) cum judicial magistrate at Punjab PSC",
             JobDetails: [{
                 Designation: "Civil Judge",
                 NoOfPosts: "118",
@@ -4358,7 +4358,7 @@ var sectionLeft = [
         },
 		{
             HeadingTheme: "panel panel-warning",
-            Title: "Constable Driver at Indo Tibetan Border Police(ITBP)",
+            Title: "Indo Tibetan Border Police(ITBP)",
             ApplicationEndDt: "16/02/2015",
             DetailedNotification: "http://itbpolice.nic.in/eKiosk/writeReadData/RectAd/Fresh%20Advertisement%20CT%20%28dvr%29%202014.pdf",
             GoToSite: "http://itbpolice.nic.in/itbpwebsite/index.html",
@@ -4366,7 +4366,7 @@ var sectionLeft = [
             PublishedOn: "2015",
 			Age: "21 - 27",
 			Logo:"itbp.jpg",
-			AltText:"job at ITBP",
+			AltText: "Constable Driver at Indo Tibetan Border Police(ITBP)",
             JobDetails: [{
                 Designation: "Constable Driver",
                 NoOfPosts: "472",
@@ -4381,7 +4381,7 @@ var sectionLeft = [
 var sectionRight = [
     {
         HeadingTheme: "panel panel-info",
-        Title: "Bharat Electronics Limited : Recruitment Of Managers/Engineers At BEL",
+        Title: "Bharat Electronics Limited",
         ApplicationEndDt: "13/04/2015",
         DetailedNotification: "http://bel-india.com/sites/default/files/Recruitments/ADVT%20NCS%20detail-WEB%20FINAL.pdf",
         GoToSite: "http://www.bel-india.com/",
@@ -4422,7 +4422,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-info",
-        Title: "Bharat Electronics Limited : Recruitment Of Engineers On Contract for One Year At BEL",
+        Title: "Bharat Electronics Limited",
         ApplicationEndDt: "08/04/2015",
         DetailedNotification: "http://bel-india.com/sites/default/files/Recruitments/TN-CE-web-ad.pdf",
         GoToSite: "http://www.bel-india.com/",
@@ -4441,7 +4441,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-success",
-        Title: "Border Security Force : BSF Recruitment Of Sports Persons Constables",
+        Title: "Border Security Force",
         ApplicationEndDt: "",
         DetailedNotification: "http://bsf.nic.in/en/recruitment.html",
         GoToSite: "http://bsf.nic.in/en/recruitment.html",
@@ -4460,7 +4460,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-success",
-        Title: "IIT Patna : IITP Recruitment Of Professors, Assistant Professor, And Associate Professor",
+        Title: "IIT Patna",
         ApplicationEndDt: "30/04/2015",
         DetailedNotification: "http://iitp.ac.in/faccareer/fac_adv_30_03-2015.pdf",
         GoToSite: "http://iitp.ac.in/index.php/notice-board/1089-faculty-positions-standing-advertisement.html",
@@ -4501,7 +4501,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "RITES : Professional in Civil Engg. discipline through Walk-in-Interview",
+        Title: "RITES",
         ApplicationEndDt: "21/04/2015",
         DetailedNotification: "http://rites.com/web/images/stories/uploadVacancy/HW_NATRIP_19_24.pdf",
         GoToSite: "http://rites.com/vacancy/",
@@ -4556,7 +4556,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "Daulat Ram College : DLRC Recruitment For Assistant Professor",
+        Title: "Daulat Ram College",
         ApplicationEndDt: "20/04/2015",
         DetailedNotification: "http://dr.du.ac.in/index.php?page=advertisement",
         GoToSite: "http://dr.du.ac.in/index.php?page=online-application-form-for-the-post-of-assistant-professor",
@@ -4575,7 +4575,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-info",
-        Title: "Punjab State Institute Of Sports: PSIS Recruitment of Coach, Physical Trainer, and Dietician",
+        Title: "Punjab State Institute Of Sports",
         ApplicationEndDt: "20/04/2015",
         DetailedNotification: "http://gyaancheck.com/psis-job-april-2015.jpg",
         GoToSite: "http://gyaancheck.com/psis-job-april-2015.jpg",
@@ -4609,7 +4609,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-success",
-        Title: "Rajasthan Electronics And Instruments Ltd : REIL Recruitment Of Engineer / Technician",
+        Title: "Rajasthan Electronics And Instruments Ltd",
         ApplicationEndDt: "20/04/2015",
         DetailedNotification: "http://reiljp.com/pdf/REILad_37_Job%20Description%20Engineer.pdf",
         GoToSite: "http://reiljp.com/reilad37.html",
@@ -4636,7 +4636,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-danger",
-        Title: "NIT Hamirpur : Recruitment Of Lecturer",
+        Title: "NIT Hamirpur",
         ApplicationEndDt: "05/05/2015",
         DetailedNotification: "http://www.nith.ac.in/recruitment/2015/iiitunaform.pdf",
         GoToSite: "http://www.nith.ac.in/recruitment/index.htm",
@@ -4655,7 +4655,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-danger",
-        Title: "NIT Hamirpur : Faculty Recruitment For SC/ST/OBC",
+        Title: "NIT Hamirpur",
         ApplicationEndDt: "05/05/2015",
         DetailedNotification: "http://www.nith.ac.in/recruitment/2015/an1.pdf",
         GoToSite: "http://www.nith.ac.in/recruitment/index.htm",
@@ -4689,7 +4689,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-info",
-        Title: "Bharat Electronics Ltd : BEL Recruitment Of Senior Assistant Engineer",
+        Title: "Bharat Electronics Ltd",
         ApplicationEndDt: "10/04/2015",
         DetailedNotification: "http://bel-india.com/sites/default/files/Recruitments/PSR-AD-detail-Web-29.pdf",
         GoToSite: "http://sailcareers.com/bokaro",
@@ -4737,7 +4737,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "Steel Authority Of India Ltd : SAIL Recruitment Of Attendant-cum-Technician Trainee- S-1",
+        Title: "Steel Authority Of India Ltd",
         ApplicationEndDt: "27/04/2015",
         DetailedNotification: "http://sailcareers.com/pdf/Model_advert_ACTT%20124.pdf",
         GoToSite: "http://sailcareers.com/bokaro",
@@ -4757,7 +4757,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-danger",
-        Title: "Bihar Public Service Commission : BPSC Recruitment Of Mining Development Officer under Mines & Geology Dept., Bihar",
+        Title: "Bihar Public Service Commission",
         ApplicationEndDt: "30/04/2015",
         DetailedNotification: "http://bpsc.bih.nic.in/Advt/PR-06-2015-MDO.pdf",
         GoToSite: "http://bpsc.bih.nic.in/",
@@ -4777,7 +4777,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-danger",
-        Title: "Bihar Public Service Commission : BPSC Recruitment Of Dentist",
+        Title: "Bihar Public Service Commission",
         ApplicationEndDt: "18/04/2015",
         DetailedNotification: "http://bpsc.bih.nic.in/Advt/PR-05-2015-Dentist.pdf",
         GoToSite: "http://bpsc.bih.nic.in/",
@@ -4797,7 +4797,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-success",
-        Title: "Madhya Pradesh Public Service Commission : MPPSC Recruitment Of Insurance Medical Officer/Assistant Surgeon",
+        Title: "Madhya Pradesh Public Service Commission",
         ApplicationEndDt: "30/04/2015",
         DetailedNotification: "http://mpinfo.org/MPinfoStatic/rojgar/2015/3003/MPPSC.pdf",
         GoToSite: "http://www.mppsc.nic.in/",
@@ -4817,7 +4817,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-info",
-        Title: "High Court Of Punjab And Haryana, Chandigarh : Recruitment Of Stenographer",
+        Title: "High Court Of Punjab And Haryana, Chandigarh",
         ApplicationEndDt: "26/04/2015",
         DetailedNotification: "https://www.recruitmenthighcourtchd.com/NewAdvertisment/advertisementsss.pdf",
         GoToSite: "https://www.recruitmenthighcourtchd.com/",
@@ -4837,7 +4837,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "Anna University, Chennai : Faculty Recruitment at Anna University",
+        Title: "Anna University, Chennai",
         ApplicationEndDt: "10/04/2015",
         DetailedNotification: "https://www.annauniv.edu/pdf/ADVT%20RECRUITMENT%20OF%20FACULTY%20POSITION.pdf",
         GoToSite: "https://www.annauniv.edu/",
@@ -4864,7 +4864,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-danger",
-        Title: "Punjab Public Service Commission : PPSC Four Hundred & Four Posts of Medical Officers (General)",
+        Title: "Punjab Public Service Commission",
         ApplicationEndDt: "09/04/2015",
         DetailedNotification: "http://ppsc.gov.in/usermanual.ashx?id=c3570",
         GoToSite: "http://ppsc.gov.in/Advertisement/detailadv.aspx?advno=201540&postid=64",
@@ -4883,7 +4883,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-success",
-        Title: "Punjab National Bank: PNB Recruitment OF Officers ",
+        Title: "Punjab National Bank",
         ApplicationEndDt: "16/04/2015",
         DetailedNotification: "http://pnbindia.com/En/ui/Recruitment.aspx",
         GoToSite: "http://pnbindia.com/En/ui/Recruitment.aspx",
@@ -4938,7 +4938,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "Brahmaputra Valley Fertilizer Corporation Limited : BFVCL Recruitment Of Management Trainee",
+        Title: "Brahmaputra Valley Fertilizer Corporation Limited",
         ApplicationEndDt: "08/05/2015",
         DetailedNotification: "http://www.bvfcl.com/Uploads/File/Careers/Ad-MT-240315.pdf",
         GoToSite: "http://www.bvfcl.com/showpage.asp?id=56",
@@ -5014,7 +5014,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "National Institute Of Technology Goa : NIT Goa Recruitment of Professors, Assistant Professors and Associate Professors",
+        Title: "National Institute Of Technology Goa",
         ApplicationEndDt: "24/04/2015",
         DetailedNotification: "http://www.nitgoa.ac.in/fac_rec/FacultyRecruitement/845Faculty%20advt%2026mar15.pdf",
         GoToSite: "http://www.nitgoa.ac.in/fac_rec/fac_rec.aspx",
@@ -5048,7 +5048,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "Saha Institute Of Nuclear Physics : Recruitment of Scientific Assistant-‘B’ & Technician-‘B’",
+        Title: "Saha Institute Of Nuclear Physics",
         ApplicationEndDt: "20/05/2015",
         DetailedNotification: "http://www.saha.ac.in/web/portal/applications/vacancy/file/25_03_2015.pdf",
         GoToSite: "http://www.saha.ac.in/web/job-opportunities",
@@ -5075,7 +5075,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "Sikkim University : Sikkim University Faculty Recruitment",
+        Title: "Sikkim University",
         ApplicationEndDt: "30/04/2015",
         DetailedNotification: "http://www.cus.ac.in/images/contents/Dya/ad/2015/recruitment_2015/SU_Ad_Teaching_Recruitment_2015.pdf",
         GoToSite: "http://www.cus.ac.in/index.php/su-rec-teaching-2015",
@@ -5109,7 +5109,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-danger",
-        Title: "Mega Metro : Gujrat Metro Recruitment For Appointment On Contract Basis",
+        Title: "Mega Metro",
         ApplicationEndDt: "30/04/2015",
         DetailedNotification: "http://www.gujaratmetrorail.com/Career_Documents/18.03.2015/Recruitment%20Notification%20-%20Technical%20Staff%202015.pdf",
         GoToSite: "http://www.gujaratmetrorail.com/career.html",
@@ -5213,7 +5213,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-success",
-        Title: "Ministry Of Environment, Forest And Climate Change: Filling up of vacant 25 Group 'A' Scientific posts in the Ministry",
+        Title: "Ministry Of Environment, Forest And Climate Change",
         ApplicationEndDt: "30/04/2015",
         DetailedNotification: "http://envfor.nic.in/sites/default/files/ADv_dated_23_03_2015.pdf",
         GoToSite: "http://envfor.nic.in/tenders-advertisements/filling-vacant-25-group-scientific-posts-ministry",
@@ -5254,7 +5254,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "Defence Research And Development Organisation : DRDO Special Recruitment Drive for the post of Scientist ‘B’ For OBC/SC/ST Candidates",
+        Title: "Defence Research And Development Organisation",
         ApplicationEndDt: "10/04/2015",
         DetailedNotification: "http://rac.gov.in/cgibin/2015/advt_117/public/pdf/advt_117.pdf?82b12f18816fe7964eb15fc1d52ccf51=1",
         GoToSite: "http://rac.gov.in/index.php?lang=en&id=0",
@@ -5302,7 +5302,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-danger",
-        Title: "Bharat Electronics Limited : Recruitment of ME/M.TECH Engineers For BEL HYD UNIT",
+        Title: "Bharat Electronics Limited",
         ApplicationEndDt: "31/03/2015",
         DetailedNotification: "http://bel-india.com/sites/default/files/Recruitments/website-AD-English-1-10-March-2015.pdf",
         GoToSite: "http://bel-india.com/recruitment",
@@ -5321,7 +5321,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "Bharat Electronics Limited : Engineer Recruitment at BEL",
+        Title: "Bharat Electronics Limited",
         ApplicationEndDt: "01/04/2015",
         DetailedNotification: "http://bel-india.com/sites/default/files/Recruitments/Chemical%20Engineer%20web%20ad.pdf",
         GoToSite: "http://bel-india.com/recruitment",
@@ -5340,7 +5340,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-success",
-        Title: "Mahatma Gandhi Antarrashtriya Vishwavidyalya: Faculty Recruitment at MGAHV",
+        Title: "Mahatma Gandhi Antarrashtriya Vishwavidyalya",
         ApplicationEndDt: "22/04/2015",
         DetailedNotification: "http://www.mgahv.in/Pdf/ADVT/Advt._No.__Dated_27.02.Pdf",
         GoToSite: "http://www.mgahv.in/",
@@ -5374,7 +5374,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "Narmada Jhabua Gramin Bank : NJBG post of Officer for those who are declared qualified at the Online CWE for RRBs conducted by IBPS during September/ October 2014",
+        Title: "Narmada Jhabua Gramin Bank",
         ApplicationEndDt: "08/04/2015",
         DetailedNotification: "http://www.njgb.in/pdf/career/advertisement.pdf",
         GoToSite: "http://www.njgb.in/career/advertisment.php",
@@ -5382,7 +5382,7 @@ var sectionRight = [
         PublishedOn: "24/03/2015",
         Age: "--",
         Logo: "njgb.jpg",
-        AltText: "NJGB recruitment through IBPS",
+        AltText: "NJBG post of Officer for those who are declared qualified at the Online CWE for RRBs conducted by IBPS during September/ October 2014",
         JobDetails: [{
             Designation: "Officer Scale-II (General Banking Officer)",
             NoOfPosts: "10",
@@ -5436,7 +5436,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-info",
-        Title: "Rajendra Institute of Medical Sciences : Faculty Recruitment at RIMS",
+        Title: "Rajendra Institute of Medical Sciences",
         ApplicationEndDt: "30/04/2015",
         DetailedNotification: "http://www.rimsranchi.org/current/recruitment.htm",
         GoToSite: "http://www.rimsranchi.org/current/recruitment.htm",
@@ -5470,7 +5470,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-danger",
-        Title: "Telangana Grameen Bank : TBG Recuitment of Officers through IBPS(September/October 2014)",
+        Title: "Telangana Grameen Bank",
         ApplicationEndDt: "27/03/2015",
         DetailedNotification: "http://www.tgbhyd.in/adminpanel/tender/Ad%20for%20RRBs-2014-15%20FINAL.pdf",
         GoToSite: "http://www.tgbhyd.in/",
@@ -5546,7 +5546,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-info",
-        Title: "Power Grid Corporation of India Limited :  Recruitment for Executive Trainee (Law) -2015 through CLAT-2015",
+        Title: "Power Grid Corporation of India Limited",
         ApplicationEndDt: "22/05/2015",
         DetailedNotification: "http://www.powergridindia.com/_layouts/PowerGrid/WriteReadData/file/career/cc/2015/et-law/Detailed_Advt_ET%2020_CLAT.pdf",
         GoToSite: "http://www.powergridindia.com/_layouts/PowerGrid/User/ContentPage.aspx?PId=166&LangID=English",
@@ -5565,7 +5565,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "Narendra Deva University of Agriculture and Technology : NDUAT Recruitment of Faculty",
+        Title: "Narendra Deva University of Agriculture and Technology",
         ApplicationEndDt: "13/04/2015",
         DetailedNotification: "http://www.nduat.in/Doc/advertisementagriculture170315.pdf",
         GoToSite: "http://www.nduat.in/",
@@ -5599,7 +5599,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-success",
-        Title: "Bharat Earth Movers Limited : BEML Recruitment for Managers and Rajbhasha Officers",
+        Title: "Bharat Earth Movers Limited",
         ApplicationEndDt: "13/04/2015",
         DetailedNotification: "http://www.bemlindia.com/documents/jobs/Advt_KP_S_1_2015.pdf",
         GoToSite: "http://www.bemlindia.com/Job_KP_S_01_2015.php",
@@ -5640,7 +5640,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-info",
-        Title: "Center For Development Of Advanced Computing : CDAC Recruitment For Engineers",
+        Title: "Center For Development Of Advanced Computing",
         ApplicationEndDt: "06/04/2015",
         DetailedNotification: "http://www.cdac.in/index.aspx?id=ca_pune_march_technical",
         GoToSite: "http://www.cdac.in/index.aspx?id=ca_pune_march_2015",
@@ -5667,7 +5667,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-danger",
-        Title: "Water And Power Consultancy Services : WAPCOS Recruitment For Engineers",
+        Title: "Water And Power Consultancy Services",
         ApplicationEndDt: "31/03/2015",
         DetailedNotification: "http://wapcos.gov.in/Applicant/AdvertisementList.aspx",
         GoToSite: "http://wapcos.gov.in/Applicant/AdvertisementList.aspx",
@@ -5722,7 +5722,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-danger",
-        Title: "Vasantrao Naik Marathwada Krishi Vidyapeeth : VNKMV Revruitment for Assistant Professor and Assistant Registrar",
+        Title: "Vasantrao Naik Marathwada Krishi Vidyapeeth",
         ApplicationEndDt: "10/04/2015",
         DetailedNotification: "http://jipmer.edu.in/wp-content/uploads/2015/02/SPECIAL-RECRUITMENT-DRIVE-FOR-FILLING-UP-THE-POST-OF-STAFF-NURSE-UNDER-ST-CATEGORY-ONLY.pdf",
         GoToSite: "http://mkv2.mah.nic.in/reg/advt.html",
@@ -5749,7 +5749,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "Jawaharlal Institute Of Postgraduate Medical Education And Research : JIPMER Special Recruitment Drive for the post of Staff Nurse For Scheduled Tribes (ST)-2015",
+        Title: "Jawaharlal Institute Of Postgraduate Medical Education And Research",
         ApplicationEndDt: "03/04/2015",
         DetailedNotification: "http://jipmer.edu.in/wp-content/uploads/2015/02/SPECIAL-RECRUITMENT-DRIVE-FOR-FILLING-UP-THE-POST-OF-STAFF-NURSE-UNDER-ST-CATEGORY-ONLY.pdf",
         GoToSite: "http://jipmer.edu.in/category/jobs/",
@@ -5768,7 +5768,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-danger",
-        Title: "Delhi Metro Rail Corporation: DMRC Recruitment for Executive & Non Executive posts",
+        Title: "Delhi Metro Rail Corporation",
         ApplicationEndDt: "16/04/2015",
         DetailedNotification: "http://eapplynew.com/dmrc2015/Document/Advertisement.pdf",
         GoToSite: "http://www.delhimetrorail.com/career.aspx",
@@ -5809,7 +5809,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "IRCON International Limited : IRCON Recruitment of Executive Trainees(Civil, Mechanical, Electrical, Signaling and Telecom) through  GATE – 2013 /2014 /2015",
+        Title: "IRCON International Limited",
         ApplicationEndDt: "31/03/2015",
         DetailedNotification: "http://www.ircon.org/images/file/Recruitment_vacancy/2015/GATE%20final%20Ad/Detailed%20ad%20GATE_March_%2016.03.2015.1.pdf",
         GoToSite: "http://www.ircon.org/Content.aspx?Title=93",
@@ -5850,7 +5850,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-info",
-        Title: "Securities and Exchange Board Of India : SEBI Recruitment of Officer Grade A - Information System (Technical Stream)",
+        Title: "Securities and Exchange Board Of India",
         ApplicationEndDt: "31/03/2015",
         DetailedNotification: "http://www.sebi.gov.in/cms/sebi_data/commondocs/SEBI_Recruitment2015_p.pdf",
         GoToSite: "http://www.sebi.gov.in/cms/sebi_data/otherdocs/1426152268094.html",
@@ -5869,7 +5869,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-danger",
-        Title: "National Institute Of Technology Durgapur : NIT Durgapur Faculty Recruitment",
+        Title: "National Institute Of Technology Durgapur",
         ApplicationEndDt: "17/04/2015",
         DetailedNotification: "http://nitdgp.ac.in/tender15/_FINAL_ADV.pdf",
         GoToSite: "http://nitdgp.ac.in/",
@@ -5888,7 +5888,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-info",
-        Title: "Staff Selection Commission : SSC Recruitment for Assistants(Multiple Departments)",
+        Title: "Staff Selection Commission",
         ApplicationEndDt: "13/04/2015",
         DetailedNotification: "http://sscer.org/MATTER/IMPORTANT_NOTICE.html",
         GoToSite: "http://sscer.org/MATTER/IMPORTANT_NOTICE.html",
@@ -5950,7 +5950,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-success",
-        Title: "Union Public Service Commission: UPSC Engineering Services Examination-2015 for filling 475 posts",
+        Title: "Union Public Service Commission",
         ApplicationEndDt: "10/04/2015",
         DetailedNotification: "http://upsconline.nic.in/mainmenu2.php",
         GoToSite: "http://upsconline.nic.in/mainmenu2.php",
@@ -5958,7 +5958,7 @@ var sectionRight = [
         PublishedOn: "14/03/2015",
         Age: "--",
         Logo: "upsc.jpg",
-        AltText: "UPSC Engineering Services Examination-2015",
+        AltText: "UPSC Engineering Services Examination-2015 for filling 475 posts",
         JobDetails: [{
             Designation: "Civil Engineering",
             NoOfPosts: "",
@@ -5991,7 +5991,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "Lucknow Metro Rail Corporation : LMRC Recruitment of Dy. CE/Quality, Dy CE/Safety & AM/Environment",
+        Title: "Lucknow Metro Rail Corporation",
         ApplicationEndDt: "31/03/2015",
         DetailedNotification: "http://www.lmrcl.com/Doc/Fast%20scan%20to%20a%20color%20PDF%20file_1_20150310124039417.pdf",
         GoToSite: "http://www.lmrcl.com/",
@@ -6025,7 +6025,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-info",
-        Title: "Uttar Pradesh Subordinate Services Selection Commission: UPPSC recruitment for Stenographers",
+        Title: "Uttar Pradesh Subordinate Services Selection Commission",
         ApplicationEndDt: "15/03/2015",
         DetailedNotification: "http://upsssc.gov.in/OuterPages/View_Enclosure.aspx?ID=502&flag=E&FID=1029",
         GoToSite: "http://upsssc.gov.in/AllNotifications.aspx",
@@ -6045,7 +6045,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-danger",
-        Title: "Purvanchal Bank: Purvanchal Bank invites online applications for the post of Officer Scale-I and Office Assistant (Multipurpose), who have appeared at the CWE-III- 2014 for RRBs conducted by IBPS",
+        Title: "Purvanchal Bank",
         ApplicationEndDt: "31/03/2015",
         DetailedNotification: "http://www.pgbgorakhpur.com/",
         GoToSite: "http://www.pgbgorakhpur.com/",
@@ -6053,7 +6053,7 @@ var sectionRight = [
         PublishedOn: "17/03/2015",
         Age: "--",
         Logo: "pgb.jpg",
-        AltText: "PGB Recruitment for Officer Scale I",
+        AltText: "Purvanchal Bank invites online applications for the post of Officer Scale-I and Office Assistant (Multipurpose), who have appeared at the CWE-III- 2014 for RRBs conducted by IBPS",
         JobDetails: [{
             Designation: "Officer Scale I",
             NoOfPosts: "77",
@@ -6072,7 +6072,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "Council for Scientific and Industrial Research: Joint CSIR-UGC Test For Junior Research Fellowship And Eligibility for Lectureship Tentatively on 21st June, 2015",
+        Title: "Council for Scientific and Industrial Research",
         ApplicationEndDt: "25/03/2015",
         DetailedNotification: "http://www.csirhrdg.res.in/notification_main_june2015.pdf",
         GoToSite: "http://www.csirhrdg.res.in/",
@@ -6080,7 +6080,7 @@ var sectionRight = [
         PublishedOn: "13/02/2015",
         Age: "--",
         Logo: "csir.jpg",
-        AltText: "CSIR JRF NET June 2015",
+        AltText: "Joint CSIR-UGC Test For Junior Research Fellowship And Eligibility for Lectureship Tentatively on 21st June, 2015",
         JobDetails: [{
             Designation: "CSIR JRF NET 2015",
             NoOfPosts: "",
@@ -6091,7 +6091,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-danger",
-        Title: "Bharat Electronics Ltd: Recruitment of Deputy Engineer(E-II) at BEL",
+        Title: "Bharat Electronics Ltd",
         ApplicationEndDt: "31/03/2015",
         DetailedNotification: "http://www.bel-india.com/sites/default/files/Recruitments/website-AD-English-1-10-March-2015.pdf",
         GoToSite: "http://www.bel-india.com/recruitment",
@@ -6099,7 +6099,7 @@ var sectionRight = [
         PublishedOn: "2015",
         Age: "--",
         Logo: "bel.jpg",
-        AltText: "Recruitment of Deputy Engineer at BEL",
+        AltText: "Recruitment of Deputy Engineer(E-II) at BEL",
         JobDetails: [{
             Designation: "Deputy Engineer(E-II)",
             NoOfPosts: "04",
@@ -6110,7 +6110,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "Rashtriya Chemicals and Fertilizers Ltd: Recruitment of Finance Officers at RCFL",
+        Title: "Rashtriya Chemicals and Fertilizers Ltd",
         ApplicationEndDt: "21/03/2015",
         DetailedNotification: "http://www.rcfltd.com/webdocs/3040/2015/03/Final_Advertisement.pdf",
         GoToSite: "http://www.rcfltd.com/index.php/hrmain/recruitment/10942-officer-finance-recruitment-2015",
@@ -6129,7 +6129,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-info",
-        Title: "Oil and Natural Gas Limited: Recruitment of Assistant Legal Advisor  through CLAT 2015 Examination  for LLM",
+        Title: "Oil and Natural Gas Limited",
         ApplicationEndDt: "15/05/2015",
         DetailedNotification: "http://www.ongcindia.com/wps/wcm/connect/16f58b45-58a7-4672-927d-57583ebf2dd7/1advtengmar04.pdf?MOD=AJPERES&CACHEID=16f58b45-58a7-4672-927d-57583ebf2dd7",
         GoToSite: "http://www.ongcindia.com/wps/wcm/connect/ongcindia/home/career/recruitment+notices/assistant+legal+advisor",
@@ -6148,7 +6148,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-success",
-        Title: "Railtel Corporation Of India Limited: Recruitment of Office Assistants on Contract Basis through Walk-in-interview",
+        Title: "Railtel Corporation Of India Limited",
         ApplicationEndDt: "27/03/2015",
         DetailedNotification: "http://www.railtelindia.com/images/stories/OA%20vacancy%20notice-%20detailed.pdf",
         GoToSite: "http://www.railtelindia.com/index.php?option=com_content&view=article&id=67&Itemid=140&lang=en",
@@ -6189,7 +6189,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-success",
-        Title: "IRCON International Limited: Recruitment of Junior Engineer/Electrical on regular basis",
+        Title: "IRCON International Limited",
         ApplicationEndDt: "27/03/2015",
         DetailedNotification: "http://www.ircon.org/images/file/Recruitment_vacancy/2015/JE-%20Elect.%20-%20Detailed%20Ad_upload.pdf",
         GoToSite: "http://www.rvnl.org/opportunity02.php",
@@ -6197,7 +6197,7 @@ var sectionRight = [
         PublishedOn: "07/03/2015",
         Age: "--",
         Logo: "ircon.jpg",
-        AltText: "IRCON Recruitment of Engineers 2015",
+        AltText: "Recruitment of Junior Engineer/Electrical on regular basis",
         JobDetails: [{
             Designation: "Junior Engineer /Electrical – NE-7",
             NoOfPosts: "10",
@@ -6208,7 +6208,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-info",
-        Title: "Rail Vikas Nigam Limited: Recruitment of Site Engineer(Civil, Electrical and Signals)",
+        Title: "Rail Vikas Nigam Limited",
         ApplicationEndDt: "20/03/2015",
         DetailedNotification: "http://www.rvnl.org/admin/uploaded1/opportunity_form/20150305154312_Advertisement.pdf",
         GoToSite: "http://www.rvnl.org/opportunity02.php",
@@ -6216,7 +6216,7 @@ var sectionRight = [
         PublishedOn: "10/03/2015",
         Age: "--",
         Logo: "rvnl.jpg",
-        AltText: "RVNL Recruitment of Engineers 2015",
+        AltText: "Recruitment of Site Engineer(Civil, Electrical and Signals)",
         JobDetails: [{
             Designation: "Site Engineer ( Civil, Electrical & Signals)",
             NoOfPosts: "",
@@ -6227,7 +6227,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-danger",
-        Title: "King George's Medical University Lucknow: KGMU Nurse Recruitment",
+        Title: "King George's Medical University Lucknow",
         ApplicationEndDt: "18/03/2015",
         DetailedNotification: "http://14.139.237.164/kgmu_nursing/",
         GoToSite: "http://14.139.237.164/kgmu_nursing/",
@@ -6254,7 +6254,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-info",
-        Title: "Indian Institute of Management: IIM Indore Faculty Recruitment 2015",
+        Title: "Indian Institute of Management",
         ApplicationEndDt: "24/03/2015",
         DetailedNotification: "http://www.iimidr.ac.in/iimi/images/careers/Application%20Format-IIMIFaculty.pdf",
         GoToSite: "http://www.iimidr.ac.in/iimi/index.php/faculty-positions",
@@ -6288,7 +6288,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-danger",
-        Title: "Institute for Development and Research in Banking Technology: IDRBT invites top talent with high passion for Research and Academics and Practice in the area of BANKING TECHNOLOGY for the positions of ASSOCIATE PROFESSOR AND ASSISTANT PROFESSOR.",
+        Title: "Institute for Development and Research in Banking Technology",
         ApplicationEndDt: "31/03/2015",
         DetailedNotification: "http://www.idrbt.ac.in/PDFs/Facultyad_Mar_2015.pdf",
         GoToSite: "http://www.idrbt.ac.in/careers.html",
@@ -6296,7 +6296,7 @@ var sectionRight = [
         PublishedOn: "2015",
         Age: "--",
         Logo: "idrbt.jpg",
-        AltText: "IDRBT Recruitment 2015",
+        AltText: "IDRBT invites top talent with high passion for Research and Academics and Practice in the area of BANKING TECHNOLOGY for the positions of ASSOCIATE PROFESSOR AND ASSISTANT PROFESSOR",
         JobDetails: [{
             Designation: "Associate Professor",
             NoOfPosts: "",
@@ -6322,7 +6322,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-success",
-        Title: "NMDC Steel Limited (NSL) and NMDC Limited is looking for Executive Trainee (Technical) and Executive Trainee (Administration)",
+        Title: "NMDC Steel Limited (NSL) and NMDC Limited",
         ApplicationEndDt: "24/03/2015",
         DetailedNotification: "https://www.nmdc.co.in/Docs/Careers/NMDC%20ET%20ADVERTISEMENT.pdf",
         GoToSite: "https://www.nmdc.co.in/Careers/Default.aspx",
@@ -6330,7 +6330,7 @@ var sectionRight = [
         PublishedOn: "20/02/2015",
         Age: "--",
         Logo: "nmdc.jpg",
-        AltText: "NMDC Recruitment 2015",
+        AltText: "NMDC Steel Limited (NSL) and NMDC Limited is looking for Executive Trainee (Technical) and Executive Trainee (Administration)",
         JobDetails: [{
             Designation: "Executive Trainee (Technical)",
             NoOfPosts: "169(NSL) + 32(NMDC)",
@@ -6348,7 +6348,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-danger",
-        Title: "Indian Institute of Madras: Faculty Recruitment at IIT Madras 2015",
+        Title: "Indian Institute of Madras",
         ApplicationEndDt: "27/03/2015",
         DetailedNotification: "https://www.iitm.ac.in/sites/default/files/notices/fac_ad_2015-website.pdf",
         GoToSite: "https://www.iitm.ac.in/content/faculty-recruitment-2015",
@@ -6382,7 +6382,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-success",
-        Title: "Tehri Hydro Development Corporation Ltd(THDC Recruitment): Recruitment of Executive Trainees(Law) through CLAT-2015",
+        Title: "Tehri Hydro Development Corporation Ltd(THDC Recruitment)",
         ApplicationEndDt: "15/05/2015",
         DetailedNotification: "http://thdc.gov.in/writereaddata/English/PDF/DetailedAdvtCLAT.pdf",
         GoToSite: "http://www.thdc.gov.in/English/Scripts/Consultancy_Clients.aspx",
@@ -6390,7 +6390,7 @@ var sectionRight = [
         PublishedOn: "2015",
         Age: "--",
         Logo: "thdc.jpg",
-        AltText: "THDC Recruitment 2015",
+        AltText: "THDC Recruitment of Executive Trainees(Law) through CLAT-2015",
         JobDetails: [{
             Designation: "Executive Trainee (Law)",
             NoOfPosts: "",
@@ -6402,7 +6402,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-success",
-        Title: "Doon University Faculty Recruitment",
+        Title: "Doon University",
         ApplicationEndDt: "30/03/2015",
         DetailedNotification: "http://uk.gov.in/app/webroot/files/Announcements/Recruitment_2015.pdf",
         GoToSite: "http://uk.gov.in/announcements/view/96",
@@ -6450,7 +6450,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "RBI Recruitment: Reserve Bank of India invites application for Managers",
+        Title: "Reserve Bank Of India",
         ApplicationEndDt: "23/03/2015",
         DetailedNotification: "http://rbi.org.in/",
         GoToSite: "http://rbi.org.in/",
@@ -6458,7 +6458,7 @@ var sectionRight = [
         PublishedOn: "09/03/2015",
         Age: "--",
         Logo: "rbi.jpg",
-        AltText: "RBI Recruitment 2015",
+        AltText: "Reserve Bank of India invites application for Managers",
         JobDetails: [{
             Designation: "Assistant Manager(Rajbhasha)",
             NoOfPosts: "06",
@@ -6491,7 +6491,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-success",
-        Title: "National Textile Corporation Ltd Recruitment",
+        Title: "National Textile Corporation Ltd",
         ApplicationEndDt: "25/03/2015",
         DetailedNotification: "http://ntcltd.co.in:84/uploads/advertisement-it-cell.pdf",
         GoToSite: "http://ntcltd.co.in:84/index.php?option=com_career&view=career&Itemid=143&lang=en",
@@ -6525,7 +6525,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-danger",
-        Title: "IIM Rohtak Recruitment For Non Teaching Posts",
+        Title: "IIM Rohtak",
         ApplicationEndDt: "17/03/2015",
         DetailedNotification: "http://www.iimrohtak.ac.in/staff-positions-feb2015.html",
         GoToSite: "http://www.iimrohtak.ac.in/staff-positions-feb2015.html",
@@ -6533,7 +6533,7 @@ var sectionRight = [
         PublishedOn: "2015",
         Age: "--",
         Logo: "iim_rohtak.jpg",
-        AltText: "IIM rohtak recruitment",
+        AltText: "IIM Rohtak Recruitment For Non Teaching Posts",
         JobDetails: [{
             Designation: "Librarian",
             NoOfPosts: "01",
@@ -6594,7 +6594,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-danger",
-        Title: "Kochi Metro Rail Corporation: KMRL Recruitment for managers",
+        Title: "Kochi Metro Rail Corporation",
         ApplicationEndDt: "18/03/2015",
         DetailedNotification: "http://kochimetro.org/wp-content/uploads/2015/02/Phase_I_Advertisement_-23.02.2015.pdf",
         GoToSite: "http://www.iob.in/Credit2015.aspx",
@@ -6649,7 +6649,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "IOB Recruitment: LATERAL RECRUITMENT OF CREDIT OFFICERS IN MMG SCALE III – 2014-15(Indian Overseas Bank)",
+        Title: "Indian Overseas Bank",
         ApplicationEndDt: "06/03/2015",
         DetailedNotification: "http://www.iob.in/uploads/CEDocuments/2%20%20LATERAL%20RECRUITMENT%20OF%20CREDIT%20OFFICERS%202015.pdf",
         GoToSite: "http://www.iob.in/Credit2015.aspx",
@@ -6657,7 +6657,7 @@ var sectionRight = [
         PublishedOn: "18/02/2015",
         Age: "--",
         Logo: "iob.jpg",
-        AltText: "IOB Recruitment 2015",
+        AltText: "LATERAL RECRUITMENT OF CREDIT OFFICERS IN MMG SCALE III – 2014-15(Indian Overseas Bank)",
         JobDetails: [{
             Designation: "Senior Manager-Credit",
             NoOfPosts: "100",
@@ -6668,7 +6668,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "CDAC Recruitment for Project posts(Center for Development of Advanced Computing)",
+        Title: "Center for Development of Advanced Computing",
         ApplicationEndDt: "13/03/2015",
         DetailedNotification: "http://www.cdac.in/index.aspx?id=current_jobs",
         GoToSite: "http://www.cdac.in/index.aspx?id=current_jobs",
@@ -6676,7 +6676,7 @@ var sectionRight = [
         PublishedOn: "25/02/2015",
         Age: "--",
         Logo: "asrb.jpg",
-        AltText: "CDAC Recruitment 2015",
+        AltText: "CDAC Recruitment for Project posts",
         JobDetails: [{
             Designation: "Chief Project Manager",
             NoOfPosts: "01",
@@ -6716,7 +6716,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-danger",
-        Title: "ASRB Scientist Recruitment 2015(AGRICUL AGRICULTURAL SCIENTISTS RECRUITMENT BOARD)",
+        Title: "AGRICUL AGRICULTURAL SCIENTISTS RECRUITMENT BOARD",
         ApplicationEndDt: "24/03/2015",
         DetailedNotification: "http://asrb.org.in/administrator/uploads_dir/1424859407english.pdf",
         GoToSite: "http://asrb.org.in/index.php?option=com_vacancy&Itemid=56",
@@ -6771,7 +6771,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-success",
-        Title: "Recruitment at Hidayatullah National Law University(HNLU Raipur)",
+        Title: "Hidayatullah National Law University(HNLU Raipur)",
         ApplicationEndDt: "31/03/2015",
         DetailedNotification: "https://www.hnlu.ac.in/upload2015/Reg/Appointment_cum_Corrigendum_Notification_No._HNLU_14473_2015.pdf",
         GoToSite: "https://www.hnlu.ac.in/index.php/17-what-s-new/169-appointment-cum-corrigendum-notification",
@@ -6952,7 +6952,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-danger",
-        Title: "Recruitment For The Post Of Deputy Commissioner, Assistant Commissioner And Principal For The Years 2014-15 And 2015-16.",
+        Title: "Kendriya Vidyalaya Sangathan",
         ApplicationEndDt: "30/03/2015",
         DetailedNotification: "https://jobapply.in/KVS2015DCACPR/Adv-Eng.pdf",
         GoToSite: "https://jobapply.in/KVS2015DCACPR/",
@@ -6960,7 +6960,7 @@ var sectionRight = [
         PublishedOn: "21/02/2015",
         Age: "--",
         Logo: "kvs.jpg",
-        AltText: "KVS recruitment 2014/KVS recruitment 2015",
+        AltText: "Recruitment For The Post Of Deputy Commissioner, Assistant Commissioner And Principal For The Years 2014-15 And 2015-16",
         JobDetails: [{
             Designation: "Deputy Commissioner (DC)",
             NoOfPosts: "02",
@@ -6986,7 +6986,7 @@ var sectionRight = [
         },
     {
         HeadingTheme: "panel panel-success",
-        Title: "NTPC Special Drive for Finance Executive: National Thermal Power Corporation recruitment 2015",
+        Title: "National Thermal Power Corporation",
         ApplicationEndDt: "16/03/2015",
         DetailedNotification: "http://open.ntpccareers.net/fin15/index.php",
         GoToSite: "http://open.ntpccareers.net/fin15/index.php",
@@ -6994,7 +6994,7 @@ var sectionRight = [
         PublishedOn: "24/02/2015",
         Age: "--",
         Logo: "ntpc.jpg",
-        AltText: "National Thermal Power Corporation recruitment 2015:NTPC recruitment 2015",
+        AltText: "NTPC Special Drive for Finance Executive: National Thermal Power Corporation recruitment 2015",
         JobDetails: [{
             Designation: "Finance Executives",
             NoOfPosts: "15 posts in E2/E3/E4",
@@ -7006,7 +7006,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "NPCIL recruitment 2015 for Engineers:Executive Trainee at Nuclear Power Corporation of India Ltd.",
+        Title: "Nuclear Power Corporation of India Ltd.",
         ApplicationEndDt: "15/03/2015",
         DetailedNotification: "http://www.npcil.nic.in/",
         GoToSite: "http://www.npcil.nic.in/",
@@ -7014,7 +7014,7 @@ var sectionRight = [
         PublishedOn: "28/02/2015",
         Age: "--",
         Logo: "npcil.jpg",
-        AltText: "NPCIL Recruitment 2015",
+        AltText: "NPCIL recruitment 2015 for Engineers:Executive Trainee at Nuclear Power Corporation of India Ltd",
         JobDetails: [{
             Designation: "Executive Trainee(ET)",
             NoOfPosts: "110",
@@ -7026,7 +7026,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-success",
-        Title: "Faculty posts at Hemwati Nandan Bahuguna Garhwal University, Srinagar (Garhwal), Uttarakhand – 246 174",
+        Title: "Hemwati Nandan Bahuguna Garhwal University, Srinagar (Garhwal), Uttarakhand – 246 174",
         ApplicationEndDt: "30/04/2015",
         DetailedNotification: "http://www.recruitmenthnbgu.co.in/GENERAL%20INSTRUCTIONS%20TEACHING.pdf",
         GoToSite: "http://www.recruitmenthnbgu.co.in/",
@@ -7034,7 +7034,7 @@ var sectionRight = [
         PublishedOn: "28/02/2015",
         Age: "--",
         Logo: "hnbgu.jpg",
-        AltText: "Hemwati Nandan Bahuguna Garhwal University recruitment 2015",
+        AltText: "Faculty posts at Hemwati Nandan Bahuguna Garhwal University, Srinagar (Garhwal), Uttarakhand – 246 174",
         JobDetails: [{
             Designation: "Assistant Professor",
             NoOfPosts: "88",
@@ -7059,7 +7059,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-danger",
-        Title: "Recruitment at Indian Institute of Information Technology, Una (saloh) Himachal Pradesh 2015(IIIT Una)",
+        Title: "Indian Institute of Information Technology, Una (saloh) Himachal Pradesh 2015(IIIT Una)",
         ApplicationEndDt: "16/03/2015",
         DetailedNotification: "http://www.nith.ac.in/recruitment/2015/iiituna.pdf",
         GoToSite: "http://www.nith.ac.in/recruitment/index.htm",
@@ -7092,7 +7092,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-info",
-        Title: "UPSC Indian Economic Service Examination 2015",
+        Title: "Union Public Service Commission",
         ApplicationEndDt: "20/03/2015",
         DetailedNotification: "http://upsc.gov.in/exams/notifications/2015/IES_ISS/Notice_IES_ISS_Exam_2015_English.pdf",
         GoToSite: "http://upsconline.nic.in/mainmenu2.php",
@@ -7119,7 +7119,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-success",
-        Title: "UPSC Combined Geo-Scientist And Geologist Examination 2015",
+        Title: "Union Public Service Commission",
         ApplicationEndDt: "23/03/2015",
         DetailedNotification: "http://upsc.gov.in/exams/notifications/2015/Geol/Notice_Geol_2015_English.pdf",
         GoToSite: "http://upsconline.nic.in/mainmenu2.php",
@@ -7160,7 +7160,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-danger",
-        Title: "Recruitment Of Meritorious Sportsperson in the Income Tax Department, Chennai",
+        Title: "Income Tax Department, Chennai",
         ApplicationEndDt: "06/04/2015",
         DetailedNotification: "http://tnincometax.gov.in/vdo_library/902e9550-b988-11e4-9f25-5254005c208b.pdf",
         GoToSite: "http://tnincometax.gov.in/vdo_library/902e9550-b988-11e4-9f25-5254005c208b.pdf",
@@ -7194,7 +7194,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "Recruitment of Head Constable(Ministerial) at Central Industrial Security Force(CISF)",
+        Title: "Central Industrial Security Force(CISF)",
         ApplicationEndDt: "14/03/2015",
         DetailedNotification: "http://www.cisf.gov.in/wp-content/uploads/2015/02/HC_MIN_2015_ENGLISH.pdf",
         GoToSite: "http://www.cisf.gov.in/head-constablemin-2015/",
@@ -7202,7 +7202,7 @@ var sectionRight = [
         PublishedOn: "",
         Age: "--",
         Logo: "cisf.jpg",
-        AltText: "Recruitment at Central Industrial Security Force(CISF)",
+        AltText: "Recruitment of Head Constable(Ministerial) at Central Industrial Security Force(CISF)",
         JobDetails: [{
             Designation: "Head Constable(Ministerial)",
             NoOfPosts: "700",
@@ -7214,7 +7214,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-danger",
-        Title: "Advertisement for the post of Resident Medical Officer at IISER Bhopal",
+        Title: "IISER Bhopal",
         ApplicationEndDt: "10/03/2015",
         DetailedNotification: "https://www.iiserb.ac.in/PDF/Advertisement_for_the_post_of_Resident_Medical_Officer.pdf",
         GoToSite: "https://www.iiserb.ac.in/page.php?bulletin=Vacancies-&type=NonAcademic&id=87",
@@ -7222,7 +7222,7 @@ var sectionRight = [
         PublishedOn: "",
         Age: "--",
         Logo: "iiser.jpg",
-        AltText: "IISER Bhopal Recruitment for Resident Medical Officer",
+        AltText: "Advertisement for the post of Resident Medical Officer at IISER Bhopal",
         JobDetails: [{
             Designation: "Resident Medical Officer",
             NoOfPosts: "02",
@@ -7234,7 +7234,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "Faculty Position Under Special Recruitment Drive For SC/ST at IISER Thiruvananthapuram",
+        Title: "IISER Thiruvananthapuram",
         ApplicationEndDt: "31/03/2015",
         DetailedNotification: "http://www.orientalinsurance.org.in/Career.jsp",
         GoToSite: "http://www.iisertvm.ac.in/openings/faculty_special_recruitment_drive.phpx",
@@ -7261,7 +7261,7 @@ var sectionRight = [
     },
    {
        HeadingTheme: "panel panel-danger",
-       Title: "Recruitment of Administrative Officers (Scale-I)-2015 in Oriental Insurance Co. Ltd",
+       Title: "Oriental Insurance Co. Ltd",
        ApplicationEndDt: "20/03/2015",
        DetailedNotification: "http://www.orientalinsurance.org.in/Career.jsp",
        GoToSite: "http://www.orientalinsurance.org.in/Career.jsp",
@@ -7281,7 +7281,7 @@ var sectionRight = [
    },
     {
         HeadingTheme: "panel panel-info",
-        Title: "Center For Development of Advanced Computing(CDAC) invites applications for Group A non Technical posts",
+        Title: "Center For Development of Advanced Computing(CDAC)",
         ApplicationEndDt: "05/03/2015",
         DetailedNotification: "http://cdac.in/index.aspx?id=ca_pune_feb_general_terms",
         GoToSite: "http://cdac.in/index.aspx?id=job_pune_feb_2015",
@@ -7289,7 +7289,7 @@ var sectionRight = [
         PublishedOn: "17/02/2015",
         Age: "--",
         Logo: "cdac.jpg",
-        AltText: "CDAC Recruitment 2015",
+        AltText: "Center For Development of Advanced Computing(CDAC) invites applications for Group A non Technical posts",
         JobDetails: [{
             Designation: "Senior HRD Officer",
             NoOfPosts: "02",
@@ -7350,7 +7350,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-info",
-        Title: "Zone Wise Recruitment for Junior Engineer(Civil/Electrical/Mechanical), Assistant Grade II, Typist(Hindi) and Assistant Grade III at Food Corporation Of India(FCI)",
+        Title: "Food Corporation Of India(FCI)",
         ApplicationEndDt: "17/03/2015",
         DetailedNotification: "https://fcijobsportal.com/AGIII2014/pages/FCI_Advt_2015.pdf",
         GoToSite: "https://fcijobsportal.com/AGIII2014/pages/fciindex.aspx",
@@ -7358,7 +7358,7 @@ var sectionRight = [
         PublishedOn: "16/02/2015",
         Age: "--",
         Logo: "fci.jpg",
-        AltText: "fci recruitment 2015",
+        AltText: "Zone Wise Recruitment for Junior Engineer(Civil/Electrical/Mechanical), Assistant Grade II, Typist(Hindi) and Assistant Grade III at Food Corporation Of India(FCI)",
         JobDetails: [{
             Designation: "Junior Engineer(Civil)",
             NoOfPosts: "66",
@@ -7426,7 +7426,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-danger",
-        Title: "Container Corporation Of India Recruitment 2015 Management Trainee",
+        Title: "Container Corporation Of India",
         ApplicationEndDt: "08/03/2015",
         DetailedNotification: "http://careers1.concorindia.co.in/AdvEng.Pdf",
         GoToSite: "http://www.concorindia.com/recruitment_notices.aspx",
@@ -7434,7 +7434,7 @@ var sectionRight = [
         PublishedOn: "14/02/2015",
         Age: "--",
         Logo: "concor.jpg",
-        AltText: "container corporation of india recruitment 2012 management trainee",
+        AltText: "CCI Recruitment 2015 Management Trainee",
         JobDetails: [{
             Designation: "Management Trainee",
             NoOfPosts: "25",
@@ -7453,7 +7453,7 @@ var sectionRight = [
     },
   {
       HeadingTheme: "panel panel-success",
-      Title: "Indian Navy SSC Technical Recruitment JAn 2016 course",
+      Title: "Indian Navy SSC",
       ApplicationEndDt: "04/03/2015",
       DetailedNotification: "http://www.nausena-bharti.nic.in/pdf/Triadentry/sscxtechsubmjan16.pdf",
       GoToSite: "http://www.nausena-bharti.nic.in/forthcomingOfficer.php",
@@ -7472,7 +7472,7 @@ var sectionRight = [
   },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "BPCL Kochi Refinery Workman Recruitment",
+        Title: "BPCL Kochi Refinery",
         ApplicationEndDt: "28/02/2015",
         DetailedNotification: "http://www.bharatpetroleum.com/Kochicareers/pdf/advertisement%20feb%202015.pdf",
         GoToSite: "http://www.bpclcareers.in/joblisting.aspx",
@@ -7480,7 +7480,7 @@ var sectionRight = [
         PublishedOn: "14/02/2015",
         Age: "--",
         Logo: "bpcl.jpg",
-        AltText: "BPCL recruitment",
+        AltText: "BPCL Kochi Refinery Workman Recruitment",
         JobDetails: [{
             Designation: "General Workman",
             NoOfPosts: "71",
@@ -7491,7 +7491,7 @@ var sectionRight = [
     },
     {
         HeadingTheme: "panel panel-warning",
-        Title: "Various posts by UPSC",
+        Title: "Union Public Service Commission",
         ApplicationEndDt: "05/03/2015",
         DetailedNotification: "http://upsc.gov.in/recruitment/advt/2015/advt3&51_20015.pdf",
         GoToSite: "http://upsconline.nic.in/ora/VacancyNoticePub.php",
@@ -7539,7 +7539,7 @@ var sectionRight = [
 },
 {
     HeadingTheme: "panel panel-danger",
-    Title: "Uttar Pradesh National Rural Health Mission (UP NRHM) vacancy : Contract jobs",
+    Title: "Uttar Pradesh National Rural Health Mission",
     ApplicationEndDt: "28/02/2015",
     DetailedNotification: "http://upnrhm.gov.in/site-files/careers/JD_BCPM-NHM__SS-ARS-GN_3__1_.doc",
     GoToSite: "http://upnrhm.gov.in/careers.php",
@@ -7573,7 +7573,7 @@ var sectionRight = [
 },
 {
             HeadingTheme: "panel panel-danger",
-            Title: "Various posts in Indian Institute Of Technology Bhubaneswar(IIT)",
+            Title: "Indian Institute Of Technology Bhubaneswar(IIT)",
             ApplicationEndDt: "20/02/2015",
             DetailedNotification: "http://www.iitbbs.ac.in/staffrecruitment/advt/postadvt_1422493625.pdf",
             GoToSite: "http://www.iitbbs.ac.in/staffrecruitment/index.php",
@@ -7600,7 +7600,7 @@ var sectionRight = [
 },
 {
             HeadingTheme: "panel panel-warning",
-            Title: "Various posts in Tripura Public Service Commission(TPSC)",
+            Title: "Tripura Public Service Commission(TPSC)",
             ApplicationEndDt: "28/02/2015",
             DetailedNotification: "http://www.tpsc.gov.in/2015/310115.pdf",
             GoToSite: "http://www.tpsc.gov.in/examination.htm",
@@ -7634,7 +7634,7 @@ var sectionRight = [
 },
 {
             HeadingTheme: "panel panel-info",
-            Title: "Faculty posts in Institute of Microbial Technology(IMTECH) Chandigarh",
+            Title: "Microbial Technology(IMTECH) Chandigarh",
             ApplicationEndDt: "12/03/2015",
             DetailedNotification: "http://www.imtech.res.in/index.php?option=com_chronocontact&chronoformname=Job&task=summary&Itemid=123",
             GoToSite: "http://www.imtech.res.in/",
@@ -7642,7 +7642,7 @@ var sectionRight = [
             PublishedOn: "2015",
 			Age: "--",
 			Logo:"csir.jpg",
-			AltText:"Faculty posts in IMTECH",
+			AltText: "Faculty posts in Institute of Microbial Technology(IMTECH) Chandigarh",
             JobDetails: [{
                 Designation: "Senior Principal Scientist / Principal Scientist",
                 NoOfPosts: "04",
@@ -7661,7 +7661,7 @@ var sectionRight = [
 },
 {
             HeadingTheme: "panel panel-info",
-            Title: "Faculty posts in Berhampur University",
+            Title: "Berhampur University",
             ApplicationEndDt: "28/02/2015",
             DetailedNotification: "http://www.buodisha.edu.in/",
             GoToSite: "http://www.buodisha.edu.in/",
@@ -7688,7 +7688,7 @@ var sectionRight = [
 },
 {
             HeadingTheme: "panel panel-danger",
-            Title: "Faculty posts at All India Institute of Medical Sciences(AIIMS) Patna",
+            Title: "All India Institute of Medical Sciences(AIIMS) Patna",
             ApplicationEndDt: "14/03/2015",
             DetailedNotification: "http://www.aiimspatna.org/news/Faculty%20Ad%20Employment%20News.pdf",
             GoToSite: "http://www.aiimspatna.org/pages/recruitment.php",
@@ -7729,7 +7729,7 @@ var sectionRight = [
 },
 {
             HeadingTheme: "panel panel-warning",
-            Title: "Faculty and non faculty posts at Tata Memorial Hospital(TMH)",
+            Title: "Tata Memorial Hospital(TMH)",
             ApplicationEndDt: "20/02/2015",
             DetailedNotification: "https://tmc.gov.in/work/Notification2015/work03_15.html",
             GoToSite: "https://tmc.gov.in/work/Notification2015/work03_15.html",
@@ -7833,7 +7833,7 @@ var sectionRight = [
 },
 {
             HeadingTheme: "panel panel-success",
-            Title: "Recruitment of Personal Assistant / Stenographer in Patna High Court",
+            Title: "Patna High Court",
             ApplicationEndDt: "13/03/2015",
             DetailedNotification: "http://patnahighcourt.bih.nic.in/ViewPDF.aspx?File=UPLOADED/575.PDF",
             GoToSite: "http://patnahighcourt.bih.nic.in/",
@@ -7852,7 +7852,7 @@ var sectionRight = [
 },
 {
             HeadingTheme: "panel panel-warning",
-            Title: "Manager and officer posts at Hindustan Shipyard Limited(HSL)",
+            Title: "Hindustan Shipyard Limited(HSL)",
             ApplicationEndDt: "28/02/2015",
             DetailedNotification: "http://hsl.gov.in/WriteReadData/userfiles/file/Recruitment/ADVT_NO_HR_E_0102_01_2015_03Feb2015_Final.pdf",
             GoToSite: "http://hsl.gov.in/content/200_1_Careers.aspx",
@@ -7970,7 +7970,7 @@ var sectionRight = [
 },
 {
             HeadingTheme: "panel panel-danger",
-            Title: "Job posts in Himachal Pradesh Public Service Commission(HPPSC)",
+            Title: "Himachal Pradesh Public Service Commission",
             ApplicationEndDt: "05/03/2015",
             DetailedNotification: "http://hp.gov.in/hppsc/file.axd?file=2015%2f2%2fAdvertisement+No.+8_2014+++(Various+Posts).pdf",
             GoToSite: "http://hp.gov.in/hppsc/page/Latest-Advertisement.aspx",
@@ -8046,7 +8046,7 @@ var sectionRight = [
         },
 {
             HeadingTheme: "panel panel-info",
-            Title: "Job posts in Chaitanya Godavri Grameen Bank(CGGB)",
+            Title: "Chaitanya Godavri Grameen Bank",
             ApplicationEndDt: "18/02/2015",
             DetailedNotification: "http://www.cggb.in/Final_approved_Advertisement_CGGB_for%20RRBs_2015_to%20IBPS.pdf",
             GoToSite: "http://www.cggb.in/",
@@ -8073,7 +8073,7 @@ var sectionRight = [
         },
 {
             HeadingTheme: "panel panel-warning",
-            Title: "Solar Energy Corporation Of India(SOLAR) invites application for Engineer and Assistant",
+            Title: "Solar Energy Corporation Of India(SOLAR)",
             ApplicationEndDt: "08/03/2015",
             DetailedNotification: "http://www.seci.gov.in/upload/uploadfiles/files/English%20Solar%20Energy%20Ad%20for%20Employment%20News.pdf",
             GoToSite: "http://www.seci.gov.in/content/news_update/recruitment-notification-no-12015.php",
@@ -8081,7 +8081,7 @@ var sectionRight = [
             PublishedOn: "07/02/2015",
 			Age: "--",
 			Logo:"solar.jpg",
-			AltText:"Engineer posts at SOLAR",
+			AltText: "Solar Energy Corporation Of India(SOLAR) invites application for Engineer and Assistant",
             JobDetails: [{
                 Designation: "Senior Engineer",
                 NoOfPosts: "13",
@@ -8100,7 +8100,7 @@ var sectionRight = [
         },
 {
             HeadingTheme: "panel panel-info",
-            Title: "Last date extended for faculty posts at Motilal Nehru Instituteof Technology(MNNIT)",
+            Title: "Motilal Nehru Instituteof Technology(MNNIT)",
             ApplicationEndDt: "02/03/2015",
             DetailedNotification: "http://mnnit.ac.in/images/newstories/Extension_Faculty_advertisement_No_new.pdf",
             GoToSite: "http://mnnit.ac.in/index.php/faculty-positions",
@@ -8108,7 +8108,7 @@ var sectionRight = [
             PublishedOn: "04/02/2015",
 			Age: "--",
 			Logo:"mnnit.jpg",
-			AltText:"faculty posts at MNNIT",
+			AltText: "Last date extended for faculty posts at Motilal Nehru Instituteof Technology(MNNIT)",
             JobDetails: [{
                 Designation: "Professor",
                 NoOfPosts: "--",
@@ -8127,7 +8127,7 @@ var sectionRight = [
         },
 {
             HeadingTheme: "panel panel-danger",
-            Title: "Officer and office assistant post at Madhyanchal Gramin Bank(MGBank)",
+            Title: "Madhyanchal Gramin Bank(MGBank)",
             ApplicationEndDt: "13/02/2015",
             DetailedNotification: "http://www.mgbank.co.in/recruitment/1422447994Final%20recruitment%20advt%202015.pdf",
             GoToSite: "http://www.mgbank.co.in/career.php",
@@ -8135,7 +8135,7 @@ var sectionRight = [
             PublishedOn: "29/01/2015",
 			Age: "--",
 			Logo:"mgb.jpg",
-			AltText:"job at Madhyanchal Gramin Bank(MGBank)",
+			AltText: "Officer and office assistant post at Madhyanchal Gramin Bank(MGBank)",
             JobDetails: [{
                 Designation: "Officer scale I",
                 NoOfPosts: "100",
@@ -8154,7 +8154,7 @@ var sectionRight = [
         },
 {
             HeadingTheme: "panel panel-warning",
-            Title: "Short service commission in meteorological branch of Indian Air force(IAF) for course commencing January 2016",
+            Title: "Indian Air force(IAF)",
             ApplicationEndDt: "14/02/2015",
             DetailedNotification: "http://careerairforce.nic.in",
             GoToSite: "http://careerairforce.nic.in/tview3.asp?link_temp_id=256&lid=124",
@@ -8162,7 +8162,7 @@ var sectionRight = [
             PublishedOn: "2015",
 			Age: "20 - 26 as on 01/01/2016",
 			Logo:"iaf.jpg",
-			AltText:"job at Indian Air force(IAF)",
+			AltText: "Short service commission in meteorological branch of Indian Air force(IAF) for course commencing January 2016",
             JobDetails: [{
                 Designation: "Short Service Commission",
                 NoOfPosts: "--",
@@ -8174,7 +8174,7 @@ var sectionRight = [
         },
 {
             HeadingTheme: "panel panel-success",
-            Title: "Registrar and officer posts in Aryabhatta Knowledge University(AKU)",
+            Title: "Aryabhatta Knowledge University(AKU)",
             ApplicationEndDt: "21/02/2015",
             DetailedNotification: "http://www.akubihar.org/pdf/Notice/Appointment%20of%20ACE,%20SO%20&%20LO%20of%20AKU,%20Patna.pdf",
             GoToSite: "http://www.akubihar.org/careers.html",
@@ -8182,7 +8182,7 @@ var sectionRight = [
             PublishedOn: "19/01/2015",
 			Age: "Read Adv",
 			Logo:"aku.jpg",
-			AltText:"government job in AKU",
+			AltText: "Registrar and officer posts in Aryabhatta Knowledge University(AKU)",
             JobDetails: [{
                 Designation: "Assistant Controller of examination",
                 NoOfPosts: "01",
@@ -8250,7 +8250,7 @@ var sectionRight = [
         },
 {
             HeadingTheme: "panel panel-info",
-            Title: "Officer posts in Central University of Kerela(CUK)",
+            Title: "Central University of Kerela(CUK)",
             ApplicationEndDt: "01/03/2015",
             DetailedNotification: "http://cukerala.ac.in/index.php?option=com_content&view=article&id=713:teaching-and-non-teaching-recruitment-2&catid=25&Itemid=185&lang=en",
             GoToSite: "http://cukerala.ac.in/index.php?option=com_content&view=category&id=25&Itemid=185&lang=en",
@@ -8258,7 +8258,7 @@ var sectionRight = [
             PublishedOn: "15/01/2015",
 			Age: "Read Adv",
 			Logo:"cuk.jpg",
-			AltText:"Central University of Kerela job",
+			AltText: "Officer posts in Central University of Kerela(CUK)",
             JobDetails: [{
                 Designation: "Public Relation officer",
                 NoOfPosts: "01",
@@ -8291,7 +8291,7 @@ var sectionRight = [
         },
 {
             HeadingTheme: "panel panel-warning",
-            Title: "Assistant Engineer and officer posts in Hindustan Aeronautics Limited(HAL)",
+            Title: "Hindustan Aeronautics Limited(HAL)",
             ApplicationEndDt: "17/02/2015",
             DetailedNotification: "http://www.hal-india.com/CAREERS/M__206",
             GoToSite: "http://www.hal-india.com/CAREERS/M__206",
@@ -8299,7 +8299,7 @@ var sectionRight = [
             PublishedOn: "28/01/2015",
 			Age: "Refer Advertisement",
 			Logo:"hal.jpg",
-			AltText:"jobs at HAL",
+			AltText: "Assistant Engineer and officer posts in Hindustan Aeronautics Limited(HAL)",
             JobDetails: [{
                 Designation: "Assistant Engineer(Civil)",
                 NoOfPosts: "37",
@@ -8367,7 +8367,7 @@ var sectionRight = [
         },
 {
             HeadingTheme: "panel panel-info",
-            Title: "Assistant Professor in Miranda House, Delhi University(DU)",
+            Title: "Miranda House, Delhi University(DU)",
             ApplicationEndDt: "23/02/2015",
             DetailedNotification: "http://mh.du.ac.in/Docs/M1_Advertisement_JAN_2015.pdf",
             GoToSite: "http://mh.du.ac.in/home.aspx",
@@ -8375,7 +8375,7 @@ var sectionRight = [
             PublishedOn: "2015",
 			Age: "Refer Advertisement",
 			Logo:"Miranda.jpg",
-			AltText:"MirandaHouse",
+			AltText: "Assistant Professor in Miranda House, Delhi University(DU)",
             JobDetails: [{
                 Designation: "Assistant Professor",
                 NoOfPosts: "37",
@@ -8387,7 +8387,7 @@ var sectionRight = [
         },
 {
             HeadingTheme: "panel panel-warning",
-            Title: "Union Public Service Commission(UPSC) Adv 02 for various jobs",
+            Title: "Union Public Service Commission",
             ApplicationEndDt: "12/02/2015",
             DetailedNotification: "http://upsc.gov.in/recruitment/advt/2015/Advt%202%20of%202015.pdf",
             GoToSite: "http://upsconline.nic.in/ora/VacancyNoticePub.php",
@@ -8395,7 +8395,7 @@ var sectionRight = [
             PublishedOn: "24/01/2015",
 			Age: "Refer Advertisement",
 			Logo:"upsc.jpg",
-			AltText:"UPSC",
+			AltText: "Union Public Service Commission(UPSC) Adv 02 for various jobs",
             JobDetails: [{
                 Designation: "Junior Scientific Officer",
                 NoOfPosts: "01(SC)",
@@ -8488,7 +8488,7 @@ var sectionRight = [
         },
 		{
             HeadingTheme: "panel panel-danger",
-            Title: "Institute of Himalayan Bioresource Technology (CSIR-IHBT) technical jobs",
+            Title: "Institute of Himalayan Bioresource Technology",
             ApplicationEndDt: "09/02/2015",
             DetailedNotification: "http://www.ihbt.res.in/recruit/Advt13_2014.pdf",
             GoToSite: "http://www.ihbt.res.in/recruit/recruitNotice.php",
@@ -8496,7 +8496,7 @@ var sectionRight = [
             PublishedOn: "2014",
 			Age: "Refer Advertisement",
 			Logo:"csir.jpg",
-			AltText:"Government Job at CSIR",
+			AltText: "Institute of Himalayan Bioresource Technology (CSIR-IHBT) technical jobs",
             JobDetails: [{
                 Designation: "Senior Technical Officer",
                 NoOfPosts: "02(OBC-01,UR-01)",
