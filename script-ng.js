@@ -10,6 +10,238 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 
 var sectionLeft = [
     {
+        HeadingTheme: "panel panel-danger",
+        Title: "Uttarakhand Public Service Commission",
+        ApplicationEndDt: "22/04/2015",
+        DetailedNotification: "http://ukpsc.gov.in/files/je2013.pdf",
+        GoToSite: "http://ukpsc.gov.in/recruitment/view/353",
+        ApplicationFee: "300",
+        PublishedOn: "07/04/2015",
+        Age: "--",
+        Logo: "ukpsc.jpg",
+        AltText: "UKPSC Comined Junior Engineer Exam",
+        JobDetails: [{
+            Designation: "Junior Engineer",
+            NoOfPosts: "578",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        }]
+    },
+    {
+        HeadingTheme: "panel panel-info",
+        Title: "Center For Development Of Advanced Computing",
+        ApplicationEndDt: "23/04/2015",
+        DetailedNotification: "http://www.cdac.in/index.aspx?id=ca_pune_april_2015",
+        GoToSite: "http://www.cdac.in/index.aspx?id=ca_pune_april_2015",
+        ApplicationFee: "300",
+        PublishedOn: "07/04/2015",
+        Age: "--",
+        Logo: "cdac.jpg",
+        AltText: "CDAC Invites Applications for Project Engineers (Consolidated Salary)",
+        JobDetails: [{
+            Designation: "Project Engineer - Software Development",
+            NoOfPosts: "40",
+            PayScale: "31,000 pm",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Project Engineer - Software Development",
+            NoOfPosts: "08",
+            PayScale: "37,000 pm",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Project Engineer - System Administration",
+            NoOfPosts: "02",
+            PayScale: "31,000 pm",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Project Engineer - Testing",
+            NoOfPosts: "01",
+            PayScale: "31,000 pm",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Project Engineer - Linguistics",
+            NoOfPosts: "02",
+            PayScale: "37,000 pm",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Project Engineer - Testing And Crawl Engineer",
+            NoOfPosts: "40",
+            PayScale: "31,000 pm",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Project Engineer - Meteorology",
+            NoOfPosts: "01",
+            PayScale: "37,000 pm",
+            GradePay: "",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "Nuclear Power Corporation Of India Ltd.",
+        ApplicationEndDt: "31/05/2015",
+        DetailedNotification: "http://npcilcareers.co.in/MainSite/DefaultInfo.aspx?info=Oppurtunities",
+        GoToSite: "http://npcilcareers.co.in/MainSite/DefaultInfo.aspx?info=Oppurtunities",
+        ApplicationFee: "",
+        PublishedOn: "01/05/2015",
+        Age: "--",
+        Logo: "npcil.jpg",
+        AltText: "NPCIL Special Recruitment Drive For SC/ST/OBC",
+        JobDetails: [{
+            Designation: "Scientific Officer 'D'",
+            NoOfPosts: "05",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Technical Officer 'D'",
+            NoOfPosts: "21",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Medical Officer 'D'",
+            NoOfPosts: "03",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Medical Officer 'C'",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Deputy Manager(Finance And Accounts)",
+            NoOfPosts: "07",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Deputy Manager(Contracts And Materials Management)",
+            NoOfPosts: "04",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Technical Officer 'D'",
+            NoOfPosts: "08",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Medical Officer 'C'(GDMO)",
+            NoOfPosts: "02",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Scientific Officer 'C'",
+            NoOfPosts: "10",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Deputy Fire Officer(DCFO)",
+            NoOfPosts: "04",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Deputy Manager(Human Resources)",
+            NoOfPosts: "11",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Deputy Manager(Finance And Accounts)",
+            NoOfPosts: "23",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Deputy Manager(Contracts And Materials Management)",
+            NoOfPosts: "10",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Deputy Manager(Hospitality Services)",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Deputy Manager(Public Relations)",
+            NoOfPosts: "11",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Deputy Law Officer(DLO)",
+            NoOfPosts: "02",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Deputy Manager(Security)",
+            NoOfPosts: "12",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-success",
+        Title: "Coffee Board",
+        ApplicationEndDt: "05/05/2015",
+        DetailedNotification: "http://www.indiacoffee.org/Tenders.aspx",
+        GoToSite: "http://www.indiacoffee.org/Tenders.aspx",
+        ApplicationFee: "500",
+        PublishedOn: "11/03/2015",
+        Age: "--",
+        Logo: "indiacoffee.jpg",
+        AltText: "Coffee Board Recruitment Of Extension Inspector",
+        JobDetails: [{
+            Designation: "Extension Inspector",
+            NoOfPosts: "09",
+            PayScale: "5,200 - 20,200",
+            GradePay: "2,800",
+            Eligibility: ""
+        }]
+    },
+    {
         HeadingTheme: "panel panel-success",
         Title: "Assam Public Service Commission",
         ApplicationEndDt: "05/05/2015",
@@ -4440,6 +4672,121 @@ var sectionLeft = [
 ];
 
 var sectionRight = [
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "Parliament Of India",
+        ApplicationEndDt: "05/05/2015",
+        DetailedNotification: "http://164.100.47.132/JRCell/Module/Notice/Advt.1-2015.pdf",
+        GoToSite: "http://164.100.47.132/JRCell/Module/Notice/Advt.1-2015.pdf",
+        ApplicationFee: "",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "lok_sabha.jpg",
+        AltText: "Lok Sabha Recruitment Of Security Assistant Grade II",
+        JobDetails: [{
+            Designation: "Security Assistant Grade II",
+            NoOfPosts: "12",
+            PayScale: "9300 - 34800",
+            GradePay: "4200",
+            Eligibility: "Ex-Servicemen possessing qualification of Intermediate (Class XII) from a recognised Board and possessing experience/training in handling and operation of Arms and also well versed in all types of chores concerned with anti-sabotage checks, area sanitization, CCTV operation and other security related ground duties. Preference will be given to persons possessing Bachelor’s degree in any discipline"
+        }]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "Ellaquai Dehati Bank",
+        ApplicationEndDt: "24/04/2015",
+        DetailedNotification: "http://edb.org.in/Recruitment_Notice31032015.pdf",
+        GoToSite: "http://edb.org.in/",
+        ApplicationFee: "",
+        PublishedOn: "10/04/2015",
+        Age: "--",
+        Logo: "edb.jpg",
+        AltText: "EDB Recruitment Of Officer In Scale-II And III Through CWE-III(2014)",
+        JobDetails: [{
+            Designation: "Officer Scale-III",
+            NoOfPosts: "02",
+            PayScale: "25700 – 800/5 – 29700 900/2 - 31500",
+            GradePay: "",
+            Eligibility: "Eligibility Criteria is to be considered as per RRBs CWE-III Advertisement published in Employment News/Rozgar Samachar Issue Dated 28th June–4th July, 2014released by IBPS and posted on the IBPS‟s website www.ibps.in"
+        },
+        {
+            Designation: "Officer Scale-II (General Banking Officer)",
+            NoOfPosts: "09",
+            PayScale: "19400 - 700/1 - 20100 – 800/10 - 28100",
+            GradePay: "",
+            Eligibility: "Eligibility Criteria is to be considered as per RRBs CWE-III Advertisement published in Employment News/Rozgar Samachar Issue Dated 28th June–4th July, 2014released by IBPS and posted on the IBPS‟s website www.ibps.in"
+        },
+        {
+            Designation: "Officer Scale-II (IT)",
+            NoOfPosts: "01",
+            PayScale: "19400 - 700/1 - 20100 – 800/10 - 28100",
+            GradePay: "",
+            Eligibility: "Eligibility Criteria is to be considered as per RRBs CWE-III Advertisement published in Employment News/Rozgar Samachar Issue Dated 28th June–4th July, 2014released by IBPS and posted on the IBPS‟s website www.ibps.in"
+        },
+        {
+            Designation: "Officer Scale-II (CA)",
+            NoOfPosts: "01",
+            PayScale: "19400 - 700/1 - 20100 – 800/10 - 28100",
+            GradePay: "",
+            Eligibility: "Eligibility Criteria is to be considered as per RRBs CWE-III Advertisement published in Employment News/Rozgar Samachar Issue Dated 28th June–4th July, 2014released by IBPS and posted on the IBPS‟s website www.ibps.in"
+        },
+        {
+            Designation: "Officer Scale-II (Law)",
+            NoOfPosts: "01",
+            PayScale: "19400 - 700/1 - 20100 – 800/10 - 28100",
+            GradePay: "",
+            Eligibility: "Eligibility Criteria is to be considered as per RRBs CWE-III Advertisement published in Employment News/Rozgar Samachar Issue Dated 28th June–4th July, 2014released by IBPS and posted on the IBPS‟s website www.ibps.in"
+        },
+        {
+            Designation: "Officer Scale-II (Agricultural Officer)",
+            NoOfPosts: "01",
+            PayScale: "19400 - 700/1 - 20100 – 800/10 - 28100",
+            GradePay: "",
+            Eligibility: "Eligibility Criteria is to be considered as per RRBs CWE-III Advertisement published in Employment News/Rozgar Samachar Issue Dated 28th June–4th July, 2014released by IBPS and posted on the IBPS‟s website www.ibps.in"
+        },
+        {
+            Designation: "Officer Scale-I",
+            NoOfPosts: "51",
+            PayScale: "14500 - 600/7 – 18700 – 700/2 – 20100 – 800/7 - 25700",
+            GradePay: "",
+            Eligibility: "Eligibility Criteria is to be considered as per RRBs CWE-III Advertisement published in Employment News/Rozgar Samachar Issue Dated 28th June–4th July, 2014released by IBPS and posted on the IBPS‟s website www.ibps.in"
+        },
+        {
+            Designation: "Office Assistant (Multipurpose)",
+            NoOfPosts: "64",
+            PayScale: "7200 - 400/3 – 8400 – 500/3 – 9900 – 600/4 – 12300 – 700/7 – 17200 – 1300/1 – 18500 – 800/1 - 19300",
+            GradePay: "",
+            Eligibility: "Eligibility Criteria is to be considered as per RRBs CWE-III Advertisement published in Employment News/Rozgar Samachar Issue Dated 28th June–4th July, 2014released by IBPS and posted on the IBPS‟s website www.ibps.in"
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-info",
+        Title: "Madhya Bihar Gramin Bank",
+        ApplicationEndDt: "22/04/2015",
+        DetailedNotification: "http://mbgbpatna.com/home/imagebag/image227_1427971707.pdf",
+        GoToSite: "http://mbgbpatna.com/home/super_page_details.php?menu_id=Career",
+        ApplicationFee: "100",
+        PublishedOn: "07/04/2015",
+        Age: "--",
+        Logo: "mbgb.jpg",
+        AltText: "MBGB Recruitment Of Officer In Scale-II And III Through CWE-III(2014)",
+        JobDetails: [{
+            Designation: "Officer MMG Scale-III",
+            NoOfPosts: "01(OBC)",
+            PayScale: "25,700 - 31,500",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Officer MMG Scale-II(General Banking)",
+            NoOfPosts: "27",
+            PayScale: "19,400 - 28,100",
+            GradePay: "",
+            Eligibility: ""
+        }
+        ]
+    },
     {
         HeadingTheme: "panel panel-info",
         Title: "Bharat Electronics Limited",
