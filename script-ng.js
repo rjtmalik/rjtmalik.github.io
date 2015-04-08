@@ -10,6 +10,87 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 
 var sectionLeft = [
     {
+        HeadingTheme: "panel panel-info",
+        Title: "Directorate Of Sports And Youth Welfare",
+        ApplicationEndDt: "18/04/2015",
+        DetailedNotification: "http://career.dsywmp.gov.in/instruction.pdf",
+        GoToSite: "http://career.dsywmp.gov.in/",
+        ApplicationFee: "",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "mppsc.jpg",
+        AltText: "DSYWMP Recruitment Coaches",
+        JobDetails: [{
+            Designation: "Coaches",
+            NoOfPosts: "08",
+            PayScale: "40,000 - 150,000 p.m.",
+            GradePay: "",
+            Eligibility: ""
+        }]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "Maulana Azad National Urdu University",
+        ApplicationEndDt: "24/04/2015",
+        DetailedNotification: "http://www.manuu.ac.in/employment/Notification_Apr5.pdf",
+        GoToSite: "http://www.manuu.ac.in/",
+        ApplicationFee: "500",
+        PublishedOn: "05/04/2015",
+        Age: "--",
+        Logo: "manuu.jpg",
+        AltText: "MANUU Recruitment Of Assistant Professors / Professors / Associate Professors / Principal / Post Graduate Teacher(PGT)",
+        JobDetails: [{
+            Designation: "Professor",
+            NoOfPosts: "08",
+            PayScale: "37,400 - 67,000",
+            GradePay: "10,000",
+            Eligibility: ""
+        },
+        {
+            Designation: "Associate Professors",
+            NoOfPosts: "15",
+            PayScale: "37,400 - 67,000",
+            GradePay: "9,000",
+            Eligibility: ""
+        },
+        {
+            Designation: "Assistant Professors(MANUU Arts and Science College For Women)",
+            NoOfPosts: "03",
+            PayScale: "15,600 - 39,100",
+            GradePay: "6,000",
+            Eligibility: ""
+        },
+        {
+            Designation: "Associate Professors(MANUU Arts and Science College For Women)",
+            NoOfPosts: "04",
+            PayScale: "37,400 - 67,000",
+            GradePay: "9,000",
+            Eligibility: ""
+        },
+        {
+            Designation: "Assistant Professors",
+            NoOfPosts: "08",
+            PayScale: "15,600 - 39,100",
+            GradePay: "6,000",
+            Eligibility: ""
+        },
+        {
+            Designation: "Principal",
+            NoOfPosts: "01",
+            PayScale: "37,400 - 67,000",
+            GradePay: "9,000",
+            Eligibility: ""
+        },
+        {
+            Designation: "Professor",
+            NoOfPosts: "08",
+            PayScale: "15,600 - 39,100",
+            GradePay: "6,000",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
         HeadingTheme: "panel panel-danger",
         Title: "Uttarakhand Public Service Commission",
         ApplicationEndDt: "22/04/2015",
@@ -4672,6 +4753,25 @@ var sectionLeft = [
 ];
 
 var sectionRight = [
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "Vijaya Bank",
+        ApplicationEndDt: "29/04/2015",
+        DetailedNotification: "http://www.vijayabank.com/UserFiles/vijayabank/file/Vijaya%20Bank/Recruitment/ADVERTSEMENT-ENGLISH.pdf",
+        GoToSite: "http://www.vijayabank.com/Careers",
+        ApplicationFee: "300",
+        PublishedOn: "08/04/2015",
+        Age: "--",
+        Logo: "vijaya_bank.jpg",
+        AltText: "Recruitment Of Probationary Manager- Chartered Accountants In MMGS-II In Specialist Category",
+        JobDetails: [{
+            Designation: "Probationary Manager- Chartered Accountants",
+            NoOfPosts: "27",
+            PayScale: "19,400 - 28,100",
+            GradePay: "",
+            Eligibility: ""
+        }]
+    },
     {
         HeadingTheme: "panel panel-danger",
         Title: "Parliament Of India",
