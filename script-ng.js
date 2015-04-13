@@ -11,6 +11,40 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 var sectionLeft = [
     {
         HeadingTheme: "panel panel-info",
+        Title: "Indian Navy",
+        ApplicationEndDt: "01/05/2015",
+        DetailedNotification: "http://nausena-bharti.nic.in/pdf/Multiqual/logeduatcjan16.pdf",
+        GoToSite: "http://nausena-bharti.nic.in/forthcomingOfficer.php",
+        ApplicationFee: "",
+        PublishedOn: "11/04/2015",
+        Age: "--",
+        Logo: "indiannavy.jpg",
+        AltText: "Recruitment In Permanent Commission and Short Service Commission",
+        JobDetails: [{
+            Designation: "Logistics(Only For Male Candidates)",
+            NoOfPosts: "",
+            PayScale: "PB -3 / 15,600 - 39,100",
+            GradePay: "",
+            Eligibility: "B.E./B.Tech in any discipline with First Class"
+        },
+        {
+            Designation: "Education(For Male And Female Candidates)",
+            NoOfPosts: "",
+            PayScale: "PB -3 / 15,600 - 39,100",
+            GradePay: "",
+            Eligibility: "B.E./B.Tech in any discipline with First Class"
+        },
+        {
+            Designation: "ATC(For Male And Female Candidates)",
+            NoOfPosts: "",
+            PayScale: "PB -3 / 15,600 - 39,100",
+            GradePay: "",
+            Eligibility: "B.E./B.Tech in any discipline with First Class"
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-info",
         Title: "Directorate Of Sports And Youth Welfare",
         ApplicationEndDt: "18/04/2015",
         DetailedNotification: "http://career.dsywmp.gov.in/instruction.pdf",
@@ -4753,6 +4787,155 @@ var sectionLeft = [
 ];
 
 var sectionRight = [
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "Union Public Service Commission",
+        ApplicationEndDt: "30/04/2015",
+        DetailedNotification: "http://upsc.gov.in/recruitment/advt/2015/Advt_07_2015.pdf",
+        GoToSite: "http://upsconline.nic.in/ora/VacancyNoticePub.php",
+        ApplicationFee: "",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "upsc.jpg",
+        AltText: "UPSC Recruitment For Multiple Posts",
+        JobDetails: [{
+            Designation: "Live Stock Officer",
+            NoOfPosts: "01",
+            PayScale: "9,300-34,800",
+            GradePay: "4,600",
+            Eligibility: "Bachelors Degree in Agriculture with Animal Science from a recognised University."
+        },
+        {
+            Designation: "Junior Scientific Officer (Bio - Chemistry)",
+            NoOfPosts: "01",
+            PayScale: "15,600-39,100",
+            GradePay: "5,400",
+            Eligibility: "Post Graduate degree in Chemistry with specialisation in Bio-Chemistry from a recognised University or equivalent."
+        },
+        {
+            Designation: "Associate Bacteriologist",
+            NoOfPosts: "01",
+            PayScale: "9,300-34,800",
+            GradePay: "4,800",
+            Eligibility: "M. Sc Degree in Bacteriology or Bio-chemistry or Micro-biology of a recognized University or equivalent."
+        },
+        {
+            Designation: "Additional Law Officer",
+            NoOfPosts: "01",
+            PayScale: "37400- 67000",
+            GradePay: "8700",
+            Eligibility: " Educational A person shall not be eligible for appointment to a duty post in Grade II, unless he holds a Degree in Law of a recognised University or equivalent(-) and unless he has been a member of a State Judicial Service for a period of not less than thirteen years or has held a superior(/) post in the Legal Department of a State for a period of not less than thirteen years or is a Central Government servant who has had experience in legal affairs for not less than thirteen years or is a qualified legal practitioner(-/)."
+        },
+        {
+            Designation: "Assistant Director (Grade-II) (Electrical)",
+            NoOfPosts: "05",
+            PayScale: "9,300-34,800",
+            GradePay: "4,600",
+            Eligibility: "Degree in Electrical Engineering from a recognized University / Institute or equivalent"
+        },
+        {
+            Designation: "Assistant Director (Grade-II) (Electronics)",
+            NoOfPosts: "05",
+            PayScale: "9,300-34,800",
+            GradePay: "4,600",
+            Eligibility: "Degree in Electronics / Telecommunication Engineering from a recognized University/Institute or equivalent and B. EXPERIENCE Two years experience in a supervisory capacity in a technical / industrial unit in development and production of electronic components, equipments and instruments / testing / inspection of Electronics Engineering products or experience in promotion of small-scale industries in areas of entrepreneurship development and quality control."
+        },
+        {
+            Designation: "Drugs Inspector",
+            NoOfPosts: "07",
+            PayScale: "9,300-34,800",
+            GradePay: "4,800",
+            Eligibility: "  Essential Degree in Pharmacy or Pharmaceutical Sciences or in Medicine with specialization in Clinical Pharmacology or Microbiology from a recognized University established in India by law."
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "State Bank Of India",
+        ApplicationEndDt: "02/05/2015",
+        DetailedNotification: "https://www.sbi.co.in/portal/documents/44978/143453/revised-crpd-sbipo-rectruitment-english+advertisement.pdf/65da1b01-0111-48f0-8019-7c9939e1aeab",
+        GoToSite: "https://www.sbi.co.in/portal/web/home/careers-with-us",
+        ApplicationFee: "600",
+        PublishedOn: "13/04/2015",
+        Age: "--",
+        Logo: "sbi.jpg",
+        AltText: "Recruitment Of Probationary Officers(SBI PO)",
+        JobDetails: [{
+            Designation: "Probationary Officers (POs)",
+            NoOfPosts: "2000",
+            PayScale: "16,900",
+            GradePay: " 14500-600/7-18700-700/2-20100-800/7-25700",
+            Eligibility: "Graduation in any discipline from a recognised University or any equivalent qualification recognised as such by the Central Government."
+        }]
+    },
+    {
+        HeadingTheme: "panel panel-info",
+        Title: "Cement Corporation Of India Ltd.",
+        ApplicationEndDt: "18/04/2015",
+        DetailedNotification: "http://www.cementcorporation.co.in/UserFiles/files/Employment%20Notice%20No%2002%20of%202015.pdf",
+        GoToSite: "http://www.cementcorporation.co.in/",
+        ApplicationFee: "200",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "cci.jpg",
+        AltText: "Recruitment Of Jr. Chemist / Jr. Engg.(Process)/Burner",
+        JobDetails: [{
+            Designation: "Jr. Chemist",
+            NoOfPosts: "03",
+            PayScale: "8,600 - 20,900",
+            GradePay: "",
+            Eligibility: "M.Sc. with one year’s experience or B.Sc. with 3 years’ experience in Cement Industry."
+        },
+        {
+            Designation: "Jr. Engg.(Process)/Burner",
+            NoOfPosts: "05",
+            PayScale: "12,500 - 30,400",
+            GradePay: "",
+            Eligibility: "Graduate in Science or Diploma in Chemical/Elect./Mech. Engg. with 2 years experience as Burner"
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "Cement Corporation Of India Ltd.",
+        ApplicationEndDt: "30/04/2015",
+        DetailedNotification: "http://www.cementcorporation.co.in/UserFiles/files/ADVT_%2001-15%20mt-ADVT%282%29.pdf",
+        GoToSite: "http://www.cementcorporation.co.in/",
+        ApplicationFee: "500",
+        PublishedOn: "08/04/2015",
+        Age: "--",
+        Logo: "cci.jpg",
+        AltText: "Recruitment Of Management Trainees – in Chemical/Production, HR, Finance and Marketing. Disciplines",
+        JobDetails: [{
+            Designation: "Management Trainees – in Chemical/Production",
+            NoOfPosts: "02",
+            PayScale: "16,400 - 3% - 40,500",
+            GradePay: "",
+            Eligibility: "Full time & regular Bachelor Degree in Chemical Engineering/Full time & regular M. Sc. in Chemistry"
+        },
+        {
+            Designation: "Management Trainees – in Human Resources",
+            NoOfPosts: "02",
+            PayScale: "16,400 - 3% - 40,500",
+            GradePay: "",
+            Eligibility: "Post Graduate Degree/Diploma/MBA/MSW - (2 years full time) in HRM/Personnel."
+        },
+        {
+            Designation: "Management Trainees – in Finance",
+            NoOfPosts: "02",
+            PayScale: "16,400 - 3% - 40,500",
+            GradePay: "",
+            Eligibility: "Graduate from a recognized University and qualified Chartered or Cost & Works Accountants from recognized Institutions in India or abroad or MBA - 60% marks with specialization in Finance Management"
+        },
+        {
+            Designation: "Management Trainees – in Marketing",
+            NoOfPosts: "01",
+            PayScale: "16,400 - 3% - 40,500",
+            GradePay: "",
+            Eligibility: "Post Graduate Degree/Diploma/MBA - (2 years full time) with specialization in Marketing Management "
+        }
+        ]
+    },
     {
         HeadingTheme: "panel panel-warning",
         Title: "Vijaya Bank",
