@@ -10,6 +10,277 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 
 var sectionLeft = [
     {
+        HeadingTheme: "panel panel-danger",
+        Title: "Himachal Gramin Bank",
+        ApplicationEndDt: "22/04/2015",
+        DetailedNotification: "http://himachalgraminbank.org/pdf/Himachal_Pradesh_Gramin_Bank_2015.pdf",
+        GoToSite: "http://himachalgraminbank.org/challan/",
+        ApplicationFee: "100",
+        PublishedOn: "07/04/2015",
+        Age: "--",
+        Logo: "hgb.jpg",
+        AltText: "HGB Recruitment Of Officers through IBPS",
+        JobDetails: [{
+            Designation: "Officer Scale III",
+            NoOfPosts: "03",
+            PayScale: "25700-800/5 – 29700-900/2 – 31500",
+            GradePay: "",
+            Eligibility: "Eligibility Criteria is to be considered as per RRBs CWE-III Advertisement published in Employment News/Rozgar Samachar Issue Dated 28th June – 4 th July, 2014 released by IBPS and posted on the IBPS’s website www.ibps.in."
+        },
+        {
+            Designation: "Officer Scale II(General Banking)",
+            NoOfPosts: "06",
+            PayScale: "19400 -700/1 – 20100 – 800/10 - 28100",
+            GradePay: "",
+            Eligibility: "Eligibility Criteria is to be considered as per RRBs CWE-III Advertisement published in Employment News/Rozgar Samachar Issue Dated 28th June – 4 th July, 2014 released by IBPS and posted on the IBPS’s website www.ibps.in."
+        },
+        {
+            Designation: "Officer Scale II(IT)",
+            NoOfPosts: "01",
+            PayScale: "19400 -700/1 – 20100 – 800/10 - 28100",
+            GradePay: "",
+            Eligibility: "Eligibility Criteria is to be considered as per RRBs CWE-III Advertisement published in Employment News/Rozgar Samachar Issue Dated 28th June – 4 th July, 2014 released by IBPS and posted on the IBPS’s website www.ibps.in."
+        },
+        {
+            Designation: "Officer Scale II(Treasury Manager)",
+            NoOfPosts: "01",
+            PayScale: "19400 -700/1 – 20100 – 800/10 - 28100",
+            GradePay: "",
+            Eligibility: "Eligibility Criteria is to be considered as per RRBs CWE-III Advertisement published in Employment News/Rozgar Samachar Issue Dated 28th June – 4 th July, 2014 released by IBPS and posted on the IBPS’s website www.ibps.in."
+        },
+        {
+            Designation: "Officer Scale II(Agriculture Officer)",
+            NoOfPosts: "20",
+            PayScale: "19400 -700/1 – 20100 – 800/10 - 28100",
+            GradePay: "",
+            Eligibility: "Eligibility Criteria is to be considered as per RRBs CWE-III Advertisement published in Employment News/Rozgar Samachar Issue Dated 28th June – 4 th July, 2014 released by IBPS and posted on the IBPS’s website www.ibps.in."
+        },
+        {
+            Designation: "Officer Scale I",
+            NoOfPosts: "38",
+            PayScale: "14500-600/7 – 18700-700/2 – 20100-800/7 – 25700",
+            GradePay: "",
+            Eligibility: "Eligibility Criteria is to be considered as per RRBs CWE-III Advertisement published in Employment News/Rozgar Samachar Issue Dated 28th June – 4 th July, 2014 released by IBPS and posted on the IBPS’s website www.ibps.in."
+        },
+        {
+            Designation: "Office Assistant",
+            NoOfPosts: "134",
+            PayScale: "- 7200-400/3 -8400-500/3 -9900-600/4 -12300-700/7 -17200-1300/1 - 18500-800/1 -19300",
+            GradePay: "",
+            Eligibility: "Eligibility Criteria is to be considered as per RRBs CWE-III Advertisement published in Employment News/Rozgar Samachar Issue Dated 28th June – 4 th July, 2014 released by IBPS and posted on the IBPS’s website www.ibps.in."
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "Airport Authority Of India",
+        ApplicationEndDt: "10/06/2015",
+        DetailedNotification: "http://www.aai.aero/employment_news/Re_advt_2015.pdf",
+        GoToSite: "http://www.aai.aero/employment_news/Employee_Recruitment_new.jsp",
+        ApplicationFee: "",
+        PublishedOn: "11/05/2015",
+        Age: "--",
+        Logo: "aai.jpg",
+        AltText: "AAI Recruitment For Multiple Posts",
+        JobDetails: [{
+            Designation: "Deputy Company Secretary",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "Graduate with Membership of Institute of Company Secretaries of India"
+        },
+        {
+            Designation: "Deputy General Manager (Commercial)",
+            NoOfPosts: "01",
+            PayScale: "36600-3%-62000",
+            GradePay: "",
+            Eligibility: "Graduate and full- time regular MBA of two years duration with Marketing specialization."
+        },
+        {
+            Designation: "Deputy General Manager (Human Resource)",
+            NoOfPosts: "07",
+            PayScale: "36600-3%-62000",
+            GradePay: "",
+            Eligibility: "Graduate & full-time regular MBA or equivalent (two years duration) with specialization in HRM/HRD/PM&IR/Labour Welfare."
+        },
+        {
+            Designation: "Deputy General Manager (Information Technology)",
+            NoOfPosts: "05",
+            PayScale: "36600-3%-62000",
+            GradePay: "",
+            Eligibility: "Full- time regular Bachelor’s Degree in Engineering /Technology in Computer Science/Computer Engineering / IT"
+        },
+        {
+            Designation: "Deputy General Manager (Fire Services)",
+            NoOfPosts: "02",
+            PayScale: "36600-3%-62000",
+            GradePay: "",
+            Eligibility: "Full- time regular Bachelor’s Degree in Engineering/ Technology in Fire Engineering/Mechanical Engineering/Automobile Engineering"
+        },
+        {
+            Designation: "Deputy General Manager (Airport Operations)",
+            NoOfPosts: "06",
+            PayScale: "36600-3%-62000",
+            GradePay: "",
+            Eligibility: "Graduate in science and full-time regular MBA of two years duration"
+        },
+        {
+            Designation: "Manager (Corporate Affairs) ",
+            NoOfPosts: "02",
+            PayScale: "24900-3%-50500",
+            GradePay: "",
+            Eligibility: "Membership of Institute of Company Secretaries of India. "
+        },
+        {
+            Designation: "Manager (Fire Services)",
+            NoOfPosts: "13",
+            PayScale: "24900-3%-50500",
+            GradePay: "",
+            Eligibility: "Full-time regular Bachelor’s Degree in Engineering/ Technology in Fire Engineering / Mechanical Engineering / Automobile Engineering."
+        },
+        {
+            Designation: "Manager (Finance)",
+            NoOfPosts: "24",
+            PayScale: "24900-3%-50500",
+            GradePay: "",
+            Eligibility: "B. Com with ICWA / CA / MBA full- time regular (two years duration) with specialization in Finance."
+        },
+        {
+            Designation: "Manager (Human Resource)",
+            NoOfPosts: "27",
+            PayScale: "24900-3%-50500",
+            GradePay: "",
+            Eligibility: "Graduate & full-time regular MBA or equivalent (two years duration) with specialization in HRM/HRD/PM&IR/Labour Welfare"
+        },
+        {
+            Designation: "Manager (Information Technology)",
+            NoOfPosts: "20",
+            PayScale: "24900-3%-50500",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Manager (Technical)",
+            NoOfPosts: "04",
+            PayScale: "24900-3%-50500",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Manager (Official Language)",
+            NoOfPosts: "02",
+            PayScale: "24900-3%-50500",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Manager (Commercial)",
+            NoOfPosts: "03",
+            PayScale: "24900-3%-50500",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Manager (Cargo)",
+            NoOfPosts: "05",
+            PayScale: "24900-3%-50500",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Manager (Law)",
+            NoOfPosts: "18",
+            PayScale: "24900-3%-50500",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Manager (Economic Planning)",
+            NoOfPosts: "02",
+            PayScale: "24900-3%-50500",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Manager (Architecture)",
+            NoOfPosts: "04",
+            PayScale: "24900-3%-50500",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Manager (Public Relations)",
+            NoOfPosts: "05",
+            PayScale: "24900-3%-50500",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Manager (Airport Operations)",
+            NoOfPosts: "17",
+            PayScale: "24900-3%-50500",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Junior Executive (Corporate Affairs)",
+            NoOfPosts: "02",
+            PayScale: "16400-3%-40500",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Junior Executive (Finance)",
+            NoOfPosts: "30",
+            PayScale: "16400-3%-40500",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Junior Executive (Technical)",
+            NoOfPosts: "30",
+            PayScale: "16400-3%-40500",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Junior Executive (Cargo)",
+            NoOfPosts: "25",
+            PayScale: "16400-3%-40500",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Junior Executive (Human Resource)",
+            NoOfPosts: "30",
+            PayScale: "16400-3%-40500",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Junior Executive (Commercial)",
+            NoOfPosts: "20",
+            PayScale: "16400-3%-40500",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Junior Executive (Law)",
+            NoOfPosts: "15",
+            PayScale: "16400-3%-40500",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Junior Executive (Official Language) ",
+            NoOfPosts: "02",
+            PayScale: "16400-3%-40500",
+            GradePay: "",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
         HeadingTheme: "panel panel-info",
         Title: "Indian Navy",
         ApplicationEndDt: "01/05/2015",
