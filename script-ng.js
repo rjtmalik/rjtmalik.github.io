@@ -10,6 +10,171 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 
 var sectionLeft = [
     {
+        HeadingTheme: "panel panel-info",
+        Title: "Gujarat National Law University, Gandhinagar",
+        ApplicationEndDt: "30/04/2015",
+        DetailedNotification: "http://www.gnlu.ac.in/career/1.%20Research%20Associate%20(Real%20Estate%20Laws).pdf",
+        GoToSite: "http://gnlu.ac.in/career.php",
+        ApplicationFee: "",
+        PublishedOn: "07/04/2015",
+        Age: "--",
+        Logo: "gnlu.jpg",
+        AltText: "Recruitment Of Research Associates",
+        JobDetails: [{
+            Designation: "Research Associate (Real Estate Laws)",
+            NoOfPosts: "",
+            PayScale: "30,000 per month (fixed)",
+            GradePay: "",
+            Eligibility: "Master’s Degree i n Law with at least 55% marks (or an equivalent grade in a point scale wherever grading system is followed) from an Indian University, or an equivalent degree from an accredited foreign university;"
+        },
+        {
+            Designation: "Research Associate ((Law of the Sea and Maritime Laws)",
+            NoOfPosts: "",
+            PayScale: "30,000 per month (fixed)",
+            GradePay: "",
+            Eligibility: "Master’s Degree i n Law with at least 55% marks (or an equivalent grade in a point scale wherever grading system is followed) from an Indian University, or an equivalent degree from an accredited foreign university;"
+        },
+        {
+            Designation: "Research Associate ((Mergers and Acquisitions)",
+            NoOfPosts: "",
+            PayScale: "30,000 per month (fixed)",
+            GradePay: "",
+            Eligibility: "Master’s Degree i n Law with at least 55% marks (or an equivalent grade in a point scale wherever grading system is followed) from an Indian University, or an equivalent degree from an accredited foreign university, preferably with specialization in M&A, Company Law or fields closely associated with M&A Laws, Policies and Practices"
+        },
+        {
+            Designation: "Research Associate (Gujarat Safai Kamdar Corporation Fellowship)",
+            NoOfPosts: "",
+            PayScale: "30,000 per month (fixed)",
+            GradePay: "",
+            Eligibility: "Master’s Degree i n Law with at least 55% marks (or an equivalent grade in a point scale wherever grading system is followed) from an Indian University, or an equivalent degree from an accredited foreign university;"
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-info",
+        Title: "Baba Farid University Of Health Sciences, Faridkot",
+        ApplicationEndDt: "20/04/2015",
+        DetailedNotification: "http://bfuhs.ac.in/careers/add3of154.pdf",
+        GoToSite: "http://bfuhs.ac.in/careers/careers.asp",
+        ApplicationFee: "1500",
+        PublishedOn: "02/04/2015",
+        Age: "--",
+        Logo: "baba_farid.jpg",
+        AltText: "Recruitment Of Professors, Assistant Professors, Associate Professors and Resident Doctors",
+        JobDetails: [{
+            Designation: "Controller of Examinations",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Professor",
+            NoOfPosts: "13",
+            PayScale: "37,400 - 67,000",
+            GradePay: "10,000",
+            Eligibility: ""
+        },
+        {
+            Designation: "Associate Professor",
+            NoOfPosts: "12",
+            PayScale: "37,400 - 67,000",
+            GradePay: "8,900",
+            Eligibility: ""
+        },
+        {
+            Designation: "Asstt Professor",
+            NoOfPosts: "11",
+            PayScale: "37,400 - 67,000",
+            GradePay: "8,600",
+            Eligibility: ""
+        },
+        {
+            Designation: "Senior Resident",
+            NoOfPosts: "26",
+            PayScale: "55,000/- per month",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Junior Resident ",
+            NoOfPosts: "10",
+            PayScale: "35,000/- per month",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Tutor",
+            NoOfPosts: "09",
+            PayScale: "35,000/- per month",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: " Lady Medical Officer-1 ( for Rural Training Health Centre)",
+            NoOfPosts: "01",
+            PayScale: "35,000/- per month",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Dialysis Technician",
+            NoOfPosts: "01",
+            PayScale: " 10,000/- p.m",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Associate Professor Radiotherapy",
+            NoOfPosts: "01",
+            PayScale: "37,400 - 67,000",
+            GradePay: "8,900",
+            Eligibility: ""
+        },
+        {
+            Designation: "Assistant Professor Radiology",
+            NoOfPosts: "01",
+            PayScale: "37,400 - 67,000",
+            GradePay: "8,600",
+            Eligibility: ""
+        },
+        {
+            Designation: "Medical Physicist",
+            NoOfPosts: "02",
+            PayScale: "15,600 - 39,100",
+            GradePay: "5,400",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-info",
+        Title: "Kochi Metro Rail Corporation",
+        ApplicationEndDt: "29/04/2015",
+        DetailedNotification: "http://kochimetro.org/applications-invited-for-various-posts-2/",
+        GoToSite: "http://kochimetro.org/",
+        ApplicationFee: "250",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "kmrl.jpg",
+        AltText: "KMRL Recruitment Of Additional General Manager(Finance And IT) And Executive Trainee",
+        JobDetails: [{
+            Designation: "Additional General Manager(Finance And IT)",
+            NoOfPosts: "01",
+            PayScale: "E7,	43200	– 66000	(IDA)",
+            GradePay: "",
+            Eligibility: "CA/ICWA and  DISA/CISA or	equivalent or any diploma or a higher qualification in Information Technology."
+        },
+        {
+            Designation: "Executive Trainee",
+            NoOfPosts: "01",
+            PayScale: "E0, 12600 – 32500 (IDA)",
+            GradePay: "",
+            Eligibility: "Post Graduate with diploma in Public Administration"
+        }
+        ]
+    },
+    {
         HeadingTheme: "panel panel-danger",
         Title: "Himachal Gramin Bank",
         ApplicationEndDt: "22/04/2015",
