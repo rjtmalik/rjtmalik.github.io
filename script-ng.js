@@ -5224,6 +5224,156 @@ var sectionLeft = [
 
 var sectionRight = [
     {
+        HeadingTheme: "panel panel-info",
+        Title: "National Institute Of Financial Management",
+        ApplicationEndDt: "01/06/2015",
+        DetailedNotification: "http://nifm.ac.in/downloads/Brochures/NIFM-NISM%20Single%20Pages.pdf",
+        GoToSite: "http://nifm.ac.in/Site/MiddlemenuDesc.aspx?Name=Vacancy",
+        ApplicationFee: "",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "nifm.jpg",
+        AltText: "Faculty Recruitment At NIFM",
+        JobDetails: [{
+            Designation: "Assistant Professor",
+            NoOfPosts: "04",
+            PayScale: "15,600 - 39,100",
+            GradePay: "6,600",
+            Eligibility: ""
+        },
+        {
+            Designation: "Associate Professor",
+            NoOfPosts: "02",
+            PayScale: "15,600 - 39,100",
+            GradePay: "7,600",
+            Eligibility: ""
+        },
+        {
+            Designation: "Hostel Manager",
+            NoOfPosts: "01",
+            PayScale: "9,300 - 34,800",
+            GradePay: "4,600",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-info",
+        Title: "Bharti College - Delhi University",
+        ApplicationEndDt: "01/05/2015",
+        DetailedNotification: "https://drive.google.com/uc?export=download&id=0BxY-gM5xJz6VTnI2THk5MjlKems",
+        GoToSite: "http://bharaticollege.com/online-application-form-for-the-post-assistant-professor/",
+        ApplicationFee: "600",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "du.jpg",
+        AltText: "DU Recruitment Of Assistant Professors",
+        JobDetails: [{
+            Designation: "Assistant Professor",
+            NoOfPosts: "57",
+            PayScale: "15,600 - 30,100",
+            GradePay: "6,000",
+            Eligibility: "The eligibility criteria and qualifications are as per the University of Delhi/UGC norms."
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "CSIR-Central Electronics Engineering Research Institute",
+        ApplicationEndDt: "28/04/2015",
+        DetailedNotification: "http://www.ceeri.res.in/recr/2015/Advt_No_02_GrIV_Eng_27032015.pdf",
+        GoToSite: "http://www.cottageemporium.in/careers.php",
+        ApplicationFee: "100",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "csir.jpg",
+        AltText: "CEERI CSIR Recruitment Of Scientists",
+        JobDetails: [{
+            Designation: "Scientist / Senior Scientist",
+            NoOfPosts: "33",
+            PayScale: "15,600 - 39,100",
+            GradePay: "6,600",
+            Eligibility: ""
+        },
+        {
+            Designation: "Principal Scientist / Senior Principal Scientist",
+            NoOfPosts: "03",
+            PayScale: "37,400 - 67,000",
+            GradePay: "8,700",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-success",
+        Title: "Central Cottage Industries Corporation of India Ltd.",
+        ApplicationEndDt: "11/05/2015",
+        DetailedNotification: "http://www.cottageemporium.in/pdf/Recruitment_2015.pdf",
+        GoToSite: "http://www.cottageemporium.in/careers.php",
+        ApplicationFee: "200",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "cottage.jpg",
+        AltText: "Cottage Emporium Recruitment For Multiple Posts",
+        JobDetails: [{
+            Designation: "General Manager (Commercial / Marketing)",
+            NoOfPosts: "01",
+            PayScale: "32,900 - 58,000",
+            GradePay: "",
+            Eligibility: "2nd class graduate with MBA with specialization in Sales and Marketing from an Institute of repute"
+        },
+        {
+            Designation: "Additional General Manager (Merchandising / Buying)",
+            NoOfPosts: "01",
+            PayScale: "32,900 - 58,000",
+            GradePay: "",
+            Eligibility: "2nd class graduate with MBA with specialization in Sales and Marketing from an Institute of repute"
+        },
+        {
+            Designation: "General Manager (Commercial / Marketing)",
+            NoOfPosts: "01",
+            PayScale: "29,100 - 54,500",
+            GradePay: "",
+            Eligibility: "2nd class graduate with 50% marks in aggregate with MBA/Post Graduate Diploma in purchasing / Marketing in Handicrafts/ Handlooms etc. from an Institute of repute."
+        },
+        {
+            Designation: "Manager (Marketing & Corporate Communication)",
+            NoOfPosts: "01",
+            PayScale: "24,900 - 50,500",
+            GradePay: "",
+            Eligibility: "2nd class graduate with MBA with specialization in Sales and Marketing from an Institute of repute"
+        },
+        {
+            Designation: "Manager (Information Technology)",
+            NoOfPosts: "01",
+            PayScale: "24,900 - 50,500",
+            GradePay: "",
+            Eligibility: "MCA 1st class or equivalent"
+        },
+        {
+            Designation: "Manager (Commercial, ISD & Publicity)",
+            NoOfPosts: "01",
+            PayScale: "24,900 - 50,500",
+            GradePay: "",
+            Eligibility: "2nd class graduate with MBA with specialization in Sales and Marketing from an Institute of repute "
+        },
+        {
+            Designation: "Deputy Manager (Marketing & Corporate Communication)",
+            NoOfPosts: "01",
+            PayScale: "20,600 - 46,500",
+            GradePay: "",
+            Eligibility: "2nd class graduate with MBA with specialization in Sales and Marketing from an Institute of repute "
+        },
+        {
+            Designation: "Deputy Manager (Finance)",
+            NoOfPosts: "03",
+            PayScale: "20,600 - 46,500",
+            GradePay: "",
+            Eligibility: "CA / MBA with specialization in Finance"
+        }
+        ]
+    },
+    {
         HeadingTheme: "panel panel-warning",
         Title: "Union Public Service Commission",
         ApplicationEndDt: "30/04/2015",
