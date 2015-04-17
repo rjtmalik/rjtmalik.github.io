@@ -10,6 +10,123 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 
 var sectionLeft = [
     {
+        HeadingTheme: "panel panel-success",
+        Title: "Heavy Engineering Corporation Limited",
+        ApplicationEndDt: "08/05/2015",
+        DetailedNotification: "http://www.hecltd.com/download/jobs/RT-10-2015_Detailed%20Advt-MLO-2015.pdf",
+        GoToSite: "http://www.hecltd.com/hec_jobs.html",
+        ApplicationFee: "500",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "hec.jpg",
+        AltText: "HEC Recruitment Of Managers",
+        JobDetails: [{
+            Designation: "Sr. Manager (Tech/HR/law)",
+            NoOfPosts: "13",
+            PayScale: "32,900 – 58,000",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Manager (Tech/HR/Fin/Security)",
+            NoOfPosts: "11",
+            PayScale: "29,100 – 54,500",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Dy. Manager (Tech/HR/Fin)",
+            NoOfPosts: "12",
+            PayScale: "24,900 – 50,500",
+            GradePay: "",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "Hindustan Aeronautics Limited",
+        ApplicationEndDt: "15/05/2015",
+        DetailedNotification: "http://www.hal-india.com/CAREERS/M__206",
+        GoToSite: "http://www.hal-india.com/",
+        ApplicationFee: "",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "hal.jpg",
+        AltText: "Recruitment Of Flight Instructors",
+        JobDetails: [{
+            Designation: "Chief Flying Instructor",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Deputy Chief Flying Instructor",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Flying Instructor",
+            NoOfPosts: "02",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Chief Ground Instructor",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Ground Instructor",
+            NoOfPosts: "03",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "AME(A & C)",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Administrative Officer",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "BAMEC / BAMEL Holder",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Assistant (IMM/Methods/Progress)",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Flight Dispatcher / Clerk",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
         HeadingTheme: "panel panel-info",
         Title: "Gujarat National Law University, Gandhinagar",
         ApplicationEndDt: "30/04/2015",
@@ -5223,6 +5340,46 @@ var sectionLeft = [
 ];
 
 var sectionRight = [
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "National Institute Of Technology Agartala",
+        ApplicationEndDt: "01/06/2015",
+        DetailedNotification: "http://www.nita.ac.in/NITAmain/news--events/Advt_AsstProf_NITAgartala_10042015.pdf",
+        GoToSite: "http://www.nita.ac.in/NITAmain/news--events/newseventshome.html",
+        ApplicationFee: "300",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "nit_agartala.jpg",
+        AltText: "NIT Agartala Recruitment Of Assistant Professor",
+        JobDetails: [{
+            Designation: "Assistant Professor",
+            NoOfPosts: "45",
+            PayScale: "15,600 - ­39,100",
+            GradePay: "8,000",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "High Court OF Punjab And Haryana",
+        ApplicationEndDt: "26/04/2015",
+        DetailedNotification: "http://www.recruitmenthighcourtchd.com/Advertisment-old/punjabclerkadv.pdf",
+        GoToSite: "http://www.recruitmenthighcourtchd.com/index.html",
+        ApplicationFee: "",
+        PublishedOn: "06/04/2015",
+        Age: "--",
+        Logo: "nifm.jpg",
+        AltText: "Recruitment Of Clerk In Subordinate Courts  of Punjab",
+        JobDetails: [{
+            Designation: "Clerk",
+            NoOfPosts: "424",
+            PayScale: ".10300 - ­34800",
+            GradePay: "3,200",
+            Eligibility: "The  applicant should  possess  a  degree  of Bachelor  of  Arts  or Bachelor  of  Science  or  equivalent thereto from a recognized university. He must have passed matriculation with Punjabi  as one of the subject and must have proficiency in operation of computers (Word Processing and  spread sheets)."
+        }
+        ]
+    },
     {
         HeadingTheme: "panel panel-info",
         Title: "National Institute Of Financial Management",
