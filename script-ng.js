@@ -10,6 +10,25 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 
 var sectionLeft = [
     {
+        HeadingTheme: "panel panel-danger",
+        Title: "Jawaharlal Nehru University",
+        ApplicationEndDt: "Within 30 days of Publishing",
+        DetailedNotification: "http://www.jnu.ac.in/onlineApplications/Qual/PersonalAssistant_Qual.htm",
+        GoToSite: "http://www.jnu.ac.in/onlineApplications/advt_01_AdmnI_2015.htm",
+        ApplicationFee: "300",
+        PublishedOn: "18/04/2015",
+        Age: "--",
+        Logo: "jnu.jpg",
+        AltText: "JNU Recruitment Of Personal Assistant",
+        JobDetails: [{
+            Designation: "Personal Assistant – Group-B",
+            NoOfPosts: "14",
+            PayScale: "9,300 - 34,800",
+            GradePay: "4,800",
+            Eligibility: "Sr. Sec. School Certificate (10+2) with proficiency in shorthand with a speed of 100 w.p.m. and two years experience as Stenographer"
+        }]
+    },
+    {
         HeadingTheme: "panel panel-success",
         Title: "Heavy Engineering Corporation Limited",
         ApplicationEndDt: "08/05/2015",
@@ -5340,6 +5359,194 @@ var sectionLeft = [
 ];
 
 var sectionRight = [
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "King George's Medical University, Lucknow",
+        ApplicationEndDt: "30/05/2015",
+        DetailedNotification: "http://kgmu.org/upload_file/user_download/7d2cf3a0d8384eb6582fca15b00a35ca.pdf",
+        GoToSite: "http://kgmu.org/job-opportunities.php",
+        ApplicationFee: "2000",
+        PublishedOn: "17/04/2015",
+        Age: "--",
+        Logo: "king_george_lucknow.jpg",
+        AltText: "Recruitment Of Professors",
+        JobDetails: [{
+            Designation: "Professors",
+            NoOfPosts: "11",
+            PayScale: "37,400 - 67,000",
+            GradePay: "10,000",
+            Eligibility: ""
+        },
+        {
+            Designation: "Associate Professor",
+            NoOfPosts: "09",
+            PayScale: "37,400 - 67,000",
+            GradePay: "8,700",
+            Eligibility: ""
+        },
+        {
+            Designation: "Assiatant Professor",
+            NoOfPosts: "09",
+            PayScale: "15,600 - 39,100",
+            GradePay: "6,600",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-success",
+        Title: "Bhartiya Reserve Bank Note Mudran Private Limited",
+        ApplicationEndDt: "06/05/2015",
+        DetailedNotification: "https://www.brbnmpl.co.in/upload/Files/CO_Advt01_Advt_IW_GrI_150415.pdf",
+        GoToSite: "https://www.brbnmpl.co.in/ui/brbnmplPage.aspx?PKId=5",
+        ApplicationFee: "",
+        PublishedOn: "15/04/2015",
+        Age: "--",
+        Logo: "brbnmpl.jpg",
+        AltText: "BRBNMRL Recruitment Of Industrial Workman Grade-I",
+        JobDetails: [{
+            Designation: "Industrial Workman Grade-I",
+            NoOfPosts: "90",
+            PayScale: "7,000 - 24,240",
+            GradePay: "2,400",
+            Eligibility: ""
+        }]
+    },
+    {
+        HeadingTheme: "panel panel-success",
+        Title: "Kashi Gomti Samyukt Gramin Bank",
+        ApplicationEndDt: "06/05/2015",
+        DetailedNotification: "http://kgsgbank.co.in/userfiles/ADVERTISEMENT-2015(1).pdf",
+        GoToSite: "http://kgsgbank.co.in/webpages.php?tag=Recruitment",
+        ApplicationFee: "",
+        PublishedOn: "21/04/2015",
+        Age: "--",
+        Logo: "kgsgbank.jpg",
+        AltText: "KGSG Bank Recruitment OF Officers Through IBPS",
+        JobDetails: [{
+            Designation: "Officer Scale-III",
+            NoOfPosts: "08",
+            PayScale: "25700-800/5-29700-900/2-31500",
+            GradePay: "",
+            Eligibility: "Eligibility criteria is to be considered as per RRBs CWEIII Advertisement published in Employment News/Rozgar Samachar issue dated 28th June - 4th July, 2014 released by IBPS and posted on the IBP's website w.w.w.ibps.in."
+        },
+        {
+            Designation: "Officer Scale-II (General Banking Officer)",
+            NoOfPosts: "22",
+            PayScale: "19400-700/1-20100-800/10-28100",
+            GradePay: "",
+            Eligibility: "Eligibility criteria is to be considered as per RRBs CWEIII Advertisement published in Employment News/Rozgar Samachar issue dated 28th June - 4th July, 2014 released by IBPS and posted on the IBP's website w.w.w.ibps.in."
+        },
+        {
+            Designation: "Officer Scale-I",
+            NoOfPosts: "01",
+            PayScale: "14500-600/7-18700-700/2-20100-800/7-25700",
+            GradePay: "",
+            Eligibility: "Eligibility criteria is to be considered as per RRBs CWEIII Advertisement published in Employment News/Rozgar Samachar issue dated 28th June - 4th July, 2014 released by IBPS and posted on the IBP's website w.w.w.ibps.in."
+        },
+        {
+            Designation: "Office Assistant (Multipurpose)",
+            NoOfPosts: "193",
+            PayScale: "7200-400/3-8400-500/3-9900-600/4-12300-700/7-17200-1300/1-18500-800/1-19300",
+            GradePay: "",
+            Eligibility: "Eligibility criteria is to be considered as per RRBs CWEIII Advertisement published in Employment News/Rozgar Samachar issue dated 28th June - 4th July, 2014 released by IBPS and posted on the IBP's website w.w.w.ibps.in."
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-info",
+        Title: "Society For Applied Microwave Electronics Engineering And Research",
+        ApplicationEndDt: "17/05/2015",
+        DetailedNotification: "http://www.sameer.gov.in/Download/recruitments/AdRecruitmentApr15.pdf",
+        GoToSite: "http://www.sameer.gov.in/Recruitments.asp",
+        ApplicationFee: "",
+        PublishedOn: "18/04/2015",
+        Age: "--",
+        Logo: "sameer.jpg",
+        AltText: "SAMEER Recruitment OF Scientists",
+        JobDetails: [{
+            Designation: "Scientist C",
+            NoOfPosts: "05",
+            PayScale: "15,600 - 39,100",
+            GradePay: "6,600",
+            Eligibility: ""
+        }]
+    },
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "Society For Applied Microwave Electronics Engineering And Research",
+        ApplicationEndDt: "17/05/2015",
+        DetailedNotification: "http://www.sameer.gov.in/Download/recruitments/AdRecruitmentApr15.pdf",
+        GoToSite: "http://www.sameer.gov.in/Recruitments.asp",
+        ApplicationFee: "",
+        PublishedOn: "18/04/2015",
+        Age: "--",
+        Logo: "sameer.jpg",
+        AltText: "SAMEER Recruitment OF Scientists",
+        JobDetails: [{
+            Designation: "Scientist C",
+            NoOfPosts: "05",
+            PayScale: "15,600 - 39,100",
+            GradePay: "6,600",
+            Eligibility: ""
+        },
+        {
+            Designation: "Scientist B",
+            NoOfPosts: "11",
+            PayScale: "15,600 - 39,100",
+            GradePay: "5,400",
+            Eligibility: ""
+        },
+        {
+            Designation: "Scientific Officer SB",
+            NoOfPosts: "02",
+            PayScale: " 9,300 - 34,800",
+            GradePay: "4,800",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-info",
+        Title: "Utkal University",
+        ApplicationEndDt: "29/04/2015",
+        DetailedNotification: "https://recruitment.utkaluniversity.ac.in/advt/Corrigendum%2013-4-2015.pdf",
+        GoToSite: "https://recruitment.utkaluniversity.ac.in/",
+        ApplicationFee: "",
+        PublishedOn: "13/04/2015",
+        Age: "--",
+        Logo: "utkal_university.jpg",
+        AltText: "Online Application for the Teaching Posts",
+        JobDetails: [{
+            Designation: "Professor cum Principal",
+            NoOfPosts: "37",
+            PayScale: "37,400 - ­67,000",
+            GradePay: "10,000",
+            Eligibility: ""
+        },
+        {
+        Designation: "Professor",
+        NoOfPosts: "07",
+        PayScale: "37,400 - ­67,000",
+        GradePay: "10,000",
+        Eligibility: ""
+        },
+        {
+            Designation: "Reader",
+            NoOfPosts: "03",
+        PayScale: "15,600 - ­39,100",
+        GradePay: "8,000",
+        Eligibility: ""
+        },
+        {
+            Designation: "Lecturer",
+            NoOfPosts: "11",
+            PayScale: "15,600 - ­39,100",
+            GradePay: "6,000",
+            Eligibility: ""
+        }
+        ]
+    },
     {
         HeadingTheme: "panel panel-warning",
         Title: "National Institute Of Technology Agartala",
