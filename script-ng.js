@@ -10,6 +10,179 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 
 var sectionLeft = [
     {
+        HeadingTheme: "panel panel-info",
+        Title: "Hindustan Aeronautics Limited",
+        ApplicationEndDt: "15/05/2015",
+        DetailedNotification: "http://www.hal-india.com/CAREERS/M__206",
+        GoToSite: "http://www.hal-india.com/CAREERS/M__206",
+        ApplicationFee: "",
+        PublishedOn: "22/04/2015",
+        Age: "--",
+        Logo: "hal.jpg",
+        AltText: "HAL Nashik Recruitment For Multiple Disciplines",
+        JobDetails: [{
+            Designation: "Assistant Officer(Fire)",
+            NoOfPosts: "02",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Medical Officer General Duty(Gr II)",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Deputy Manager(Safety)",
+            NoOfPosts: "02",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Senior Medical Officer(Surgeon)",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Senior Medical Officer(Medicine)",
+            NoOfPosts: "02",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-success",
+        Title: "Hindustan Copper Limited",
+        ApplicationEndDt: "19/05/2015",
+        DetailedNotification: "http://www.hindustancopper.com/PDF/HCL_Exe_Rec_2015.pdf",
+        GoToSite: "http://www.hindustancopper.com/career.asp",
+        ApplicationFee: "750",
+        PublishedOn: "20/04/2015",
+        Age: "--",
+        Logo: "hcl.jpg",
+        AltText: "HCL Recruitment For Multiple Disciplines",
+        JobDetails: [{
+            Designation: "Mining",
+            NoOfPosts: "05",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "Bachelor Degree in Mining Engineering"
+        },
+        {
+            Designation: "Geology",
+            NoOfPosts: "02",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "Post-Graduate Degree in Geology"
+        },
+        {
+            Designation: "Metallurgy",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "Bachelor Degree in Engineering / Technology / (Metallurgy / Material Science / Chemical / Ceramic)"
+        },
+        {
+            Designation: "Mechanical",
+            NoOfPosts: "10",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "Bachelor Degree in Mechanical Engineering / Mining Machinery"
+        },
+        {
+            Designation: "Electrical",
+            NoOfPosts: "10",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "Bachelor Degree in Electrical Engineering / Instrumentation / Electronics & Telecommunication"
+        },
+        {
+            Designation: "Civil",
+            NoOfPosts: "03",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "Bachelor Degree in Civil Engineering"
+        },
+        {
+            Designation: "Research & Development",
+            NoOfPosts: "03",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "Bachelor Degree in Engineering / Technology or Post-Graduate qualification in science (Physics / Chemistry / Mathematics / Geology) with Chemistry at Graduation level"
+        },
+        {
+            Designation: "Systems",
+            NoOfPosts: "04",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "Bachelor Degree in Mathematics / Statistics or Bachelor Degree in Engineering / Technology (Information Technology / Computer Science) or MBA with specialization in systems / IT or MCA or Post Graduate Diploma in Operations Research"
+        },
+        {
+            Designation: "Finance",
+            NoOfPosts: "11",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "Passed in Final Examination of the Institute of Chartered Accountants of India / UK or Institute of Cost & Works Accountants of India / UK or MBA Finance"
+        },
+        {
+            Designation: "Human Resource",
+            NoOfPosts: "09",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "Bachelor Degree in Arts / Science / Commerce / Engineering with MBA specilisation in Personnel Management or Post Graduate Degree / Diploma in Personnel Management / Social Work"
+        },
+        {
+            Designation: "Law",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "Bachelor Degree in Arts / Science / Commerce / Engineering with Bachelor Degree in Law."
+        },
+        {
+            Designation: "Medical & Health Services",
+            NoOfPosts: "07",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "MBBS with Post Graduate Degree / Diploma in the respective specialization"
+        },
+        {
+            Designation: "Materials & Contracts",
+            NoOfPosts: "03",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "Bachelor Degree in Arts / Science / Commerce / Engineering with Post Graduate Degree / Diploma in Materials Management or MBA with specialisation in Materials Management"
+        },
+        {
+            Designation: "Marketing",
+            NoOfPosts: "04",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "Bachelor Degree in Arts / Science / Commerce / Engineering with Post Graduate Degree / Diploma in Marketing Management or MBA with specilisation in Marketing"
+        },
+        {
+            Designation: "Company Secretary",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "Passed Final Examination of the Institute of Company Secretaries of India / UK"
+        },
+        {
+            Designation: "Corporate Social Responsibility",
+            NoOfPosts: "02",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "Graduate in any discipline with Post Graduate Degree / Diploma in Rural Development / Rural Management / Rural & Tribal Development / Social Work / Social Science with specialization in Community Development or Rural Development / Personnel Management / Sociology / Anthropology / Psychology / Applied Psychology / CSR"
+        }
+        ]
+    },
+    {
         HeadingTheme: "panel panel-danger",
         Title: "Jawaharlal Nehru University",
         ApplicationEndDt: "Within 30 days of Publishing",
@@ -5359,6 +5532,131 @@ var sectionLeft = [
 ];
 
 var sectionRight = [
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "National Institute Of Technology",
+        ApplicationEndDt: "12/05/2015",
+        DetailedNotification: "http://www.nituk.ac.in/jobs/Advertisemnet-1%20Trainee%20Teachers-2015.pdf",
+        GoToSite: "http://www.nituk.ac.in/recruitment.php?id=new",
+        ApplicationFee: "",
+        PublishedOn: "19/04/2015",
+        Age: "--",
+        Logo: "nituk.jpg",
+        AltText: "NIT Uttarakhand Recruitment Of Trainee Teachers",
+        JobDetails: [{
+            Designation: "Trainee Teachers Scheme",
+            NoOfPosts: "10",
+            PayScale: "Minimum Salary payable per month will be 41,000/- as per Scheme",
+            GradePay: "",
+            Eligibility: "B.Tech in relevant discipline from any IIT/NIT/AICTE/UGC approved Institutions/Universities"
+        }]
+    },
+    {
+        HeadingTheme: "panel panel-info",
+        Title: "Rajasthan Public Service Commission",
+        ApplicationEndDt: "15/05/2015",
+        DetailedNotification: "http://rpsc.rajasthan.gov.in/pdf_reports_files/Corrigendem_ACC_TRA_16042015.pdf",
+        GoToSite: "http://rpsconline.rajasthan.gov.in/",
+        ApplicationFee: "150",
+        PublishedOn: "16/04/2015",
+        Age: "--",
+        Logo: "rpsc.jpg",
+        AltText: "RPSC REcruitment Of Tehsil Revenue Accountant",
+        JobDetails: [{
+            Designation: "Tehsil Revenue Accountant",
+            NoOfPosts: "279",
+            PayScale: "9,300 - 34,800",
+            GradePay: "",
+            Eligibility: ""
+        }]
+    },
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "Life Insurance Corporation Housing Finance Limited",
+        ApplicationEndDt: "30/04/2015",
+        DetailedNotification: "http://www.lichousing.com/pdf/Detailed_Advertisement.pdf",
+        GoToSite: "http://www.lichousing.com/currjobsdtls.php",
+        ApplicationFee: "150",
+        PublishedOn: "18/04/2015",
+        Age: "--",
+        Logo: "iti_limited.jpg",
+        AltText: "LIC HFL Recruitment Of Assistants and Assistant Managers - 2015",
+        JobDetails: [{
+            Designation: "Assistant",
+            NoOfPosts: "200",
+            PayScale: "7,400 - 16,965",
+            GradePay: "",
+            Eligibility: "Candidates who have qualified the Third Common Written Examination for Regional Rural Banks (RRBs-CWE-III) conducted by IBPS in September 2014 for the post of Office Assistant (Multipurpose)/Officer Scale-I as per the eligibility criteria mentioned in the detailed advertisement can only apply for the post of Assistant/Assistant Manager respectively in LIC Housing Finance Ltd. "
+        },
+        {
+            Designation: "Assistant Manager",
+            NoOfPosts: "93",
+            PayScale: "17,100 - 32,080",
+            GradePay: "",
+            Eligibility: "Candidates who have qualified the Third Common Written Examination for Regional Rural Banks (RRBs-CWE-III) conducted by IBPS in September 2014 for the post of Office Assistant (Multipurpose)/Officer Scale-I as per the eligibility criteria mentioned in the detailed advertisement can only apply for the post of Assistant/Assistant Manager respectively in LIC Housing Finance Ltd. "
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-success",
+        Title: "ITI Limited",
+        ApplicationEndDt: "28/04/2015",
+        DetailedNotification: "http://www.itiltd-india.com/upload/careers/Advertisement%20for%20Contract%20Engineers%20and%20Assistants%20for%20NSU_07-04-2015.pdf",
+        GoToSite: "http://www.itiltd-india.com/upload/careers.html",
+        ApplicationFee: "",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "iti_limited.jpg",
+        AltText: "Recruitment Of Contract Engineer And Contract Technical Assistant – Diploma Engineer",
+        JobDetails: [{
+            Designation: "Contract Engineer",
+            NoOfPosts: "",
+            PayScale: "Rs.12,000/-, pm",
+            GradePay: "",
+            Eligibility: "The incumbent should be a Graduate in Engineering in Electronics / Electronics and Communication / Telecommunication / Electrical & Electronics with an aggregate of 65% marks & above in respect of GEN & OBC candidates and 63% marks in respect of candidates belonging to Scheduled Caste / Scheduled Tribe & Persons with Disability."
+        },
+        {
+            Designation: "Contract Technical Assistant – Diploma Engineer",
+            NoOfPosts: "6,000/-, pm",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "The incumbent should be a Diploma in Engineering in Electronics / Electronics and Communication / Telecommunication / Electrical & Electronics with an aggregate of 65% marks & above in respect of GEN & OBC candidates and 63% marks in respect of candidates belonging to Scheduled Caste / Scheduled Tribe & Persons with Disability."
+        }]
+    },
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "ITI Limited",
+        ApplicationEndDt: "30/04/2015",
+        DetailedNotification: "http://www.itiltd-india.com/upload/careers/R%20and%20D%20Engineers%20on%20tenure%20advertisement_19-04-2015.pdf",
+        GoToSite: "http://www.itiltd-india.com/upload/careers.html",
+        ApplicationFee: "",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "iti_limited.jpg",
+        AltText: "Recruitment Of Mathematicians, Computer Science Engineers, And Electronics & Communication Engineers",
+        JobDetails: [{
+            Designation: "Mathematicians (Gr.2)",
+            NoOfPosts: "",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "Candidate must possess First Class in Msc in Mathematics"
+        },
+        {
+            Designation: "Computer Science Engineers (Gr.2)",
+            NoOfPosts: "",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ": Candidate must possess First Class in BE / B Tech in Computer Science Engineering"
+        },
+        {
+            Designation: "Electronics & Communication Engineers (Gr.2)",
+            NoOfPosts: "",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: "Candidate must possess First Class in BE / B Tech in Electronics and Communication Engineering"
+        }
+        ]
+    },
     {
         HeadingTheme: "panel panel-warning",
         Title: "King George's Medical University, Lucknow",
