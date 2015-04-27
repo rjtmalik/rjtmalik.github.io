@@ -10,6 +10,80 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 
 var sectionLeft = [
     {
+        HeadingTheme: "panel panel-danger",
+        Title: "Indira Gandhi Delhi Technical University For Women",
+        ApplicationEndDt: "22/05/2015",
+        DetailedNotification: "http://www.igit.ac.in/images/stories/recruitment/Advt%20Teaching%20April%202015.pdf",
+        GoToSite: "http://www.igit.ac.in/index.php?option=com_content&view=article&id=254:job-oppurtunities&catid=2:1",
+        ApplicationFee: "500",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "igdtuw.jpg",
+        AltText: "IGDTU Recruitment OF Professors / Assistant Professors / Associate Professors",
+        JobDetails: [{
+            Designation: "Professor (IT)",
+            NoOfPosts: "01",
+            PayScale: "37,400 - 67,000",
+            GradePay: "10,000",
+            Eligibility: "A Ph.D degree with First Class M.Tech in appropriate branch of Engg.,& Tech."
+        },
+        {
+            Designation: "Professor (Architecture)",
+            NoOfPosts: "01",
+            PayScale: "37,400 - 67,000",
+            GradePay: "10,000",
+            Eligibility: "First class Bachelor’s Degree in Architecture; AND Master’s Degree in Architecture OR Bachelor’s Degree in Architecture; AND First class Master’s Degree in Architecture OR First class Bachelor’s Degree in Architecture; AND Ph.D. in Architecture"
+        },
+        {
+            Designation: "Associate Professor (Engineering) For MAE",
+            NoOfPosts: "01",
+            PayScale: "37,400 - 67,000",
+            GradePay: "9,000",
+            Eligibility: "Ph.D in the relevant field of Engineering and Technology"
+        },
+        {
+            Designation: "Assistant Professor (Engineering) For MAE",
+            NoOfPosts: "01",
+            PayScale: "15,600 - 39,100",
+            GradePay: "6,000",
+            Eligibility: "M.E./M.Tech and B.E/B.Tech. or equivalent in relevant Discipline with firstclass either at Bachelor or Masters level"
+        },
+        {
+            Designation: "Associate Professor (Architecture)",
+            NoOfPosts: "01",
+            PayScale: "37,400 - 67,000",
+            GradePay: "9,000",
+            Eligibility: "First class Bachelor’s Degree in Architecture ; AND Master’s Degree in Architecture OR Bachelor’s Degree in Architecture; AND First class Master’s Degree in Architecture ORFirst class Bachelor’s Degree in Architecture; AND Ph.D. in Architecture."
+        },
+        {
+            Designation: "Assistant Professor (Architecture)",
+            NoOfPosts: "01",
+            PayScale: "15,600 - 39,100",
+            GradePay: "6,000",
+            Eligibility: "First class Bachelor’s Degree in Architecture OR Bachelor’s Degree in Architecture; AND First class Master’s Degree in Architecture "
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "Institute Of Liver And Biliary Sciences",
+        ApplicationEndDt: "21/05/2015",
+        DetailedNotification: "http://www.ilbs.in/index.php?option=com_content&view=article&id=273&Itemid=133",
+        GoToSite: "http://www.ilbs.in/index.php?option=com_content&view=article&id=273&Itemid=133",
+        ApplicationFee: "500",
+        PublishedOn: "22/04/2015",
+        Age: "--",
+        Logo: "ilbs.jpg",
+        AltText: "ILBS Recruitment OF Professors / Assistant Professors / Associate Professors",
+        JobDetails: [{
+            Designation: "",
+            NoOfPosts: "",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        }]
+    },
+    {
         HeadingTheme: "panel panel-info",
         Title: "Hindustan Aeronautics Limited",
         ApplicationEndDt: "15/05/2015",
@@ -5532,6 +5606,216 @@ var sectionLeft = [
 ];
 
 var sectionRight = [
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "Union Public Service Commission",
+        ApplicationEndDt: "14/05/2015",
+        DetailedNotification: "http://upsc.gov.in/recruitment/advt/2015/Advt_08_2015.pdf",
+        GoToSite: "http://upsconline.nic.in/ora/VacancyNoticePub.php",
+        ApplicationFee: "",
+        PublishedOn: "25/04/2015",
+        Age: "--",
+        Logo: "upsc.jpg",
+        AltText: "UPSC Recruitment Of Scientist",
+        JobDetails: [{
+            Designation: "Scientist SB(Electrical)",
+            NoOfPosts: "02",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Scientist SB(Non Destructive)",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Technical Officer(Forestry) Grade II",
+            NoOfPosts: "05",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Senior Assistant (Controller Of Mines)",
+            NoOfPosts: "02",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Deputy Director(Non Technical)",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Assistant Professor",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "Uttarakhand Sanskrit University",
+        ApplicationEndDt: "25/05/2015",
+        DetailedNotification: "http://usvv.ac.in/downloads/vacancy%202015.pdf",
+        GoToSite: "http://usvv.ac.in/vacancy.php",
+        ApplicationFee: "",
+        PublishedOn: "24/04/2015",
+        Age: "--",
+        Logo: "ussv.jpg",
+        AltText: "USSV Recruitment Of Assistant Professor/ Associate Professor/ Professor",
+        JobDetails: [{
+            Designation: "Professor",
+            NoOfPosts: "06",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Associate Professor",
+            NoOfPosts: "12",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Assistant Professor",
+            NoOfPosts: "20",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Assistant Librarian",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-success",
+        Title: "Central Armed Police Force",
+        ApplicationEndDt: "15/05/2015",
+        DetailedNotification: "http://upsc.gov.in/exams/notifications/2015/CAPF_2015/CAPF%202015-ENGLISH.pdf",
+        GoToSite: "http://upsconline.nic.in/mainmenu2.php",
+        ApplicationFee: "",
+        PublishedOn: "24/04/2015",
+        Age: "--",
+        Logo: "upsc.jpg",
+        AltText: "CAPF Recruitment Of Assistant Commandants",
+        JobDetails: [{
+            Designation: "Assistant Commandants",
+            NoOfPosts: "304",
+            PayScale: "15,600 - 39,100",
+            GradePay: "5,400",
+            Eligibility: ""
+        }]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "National Institute Of Biologicals",
+        ApplicationEndDt: "01/07/2015",
+        DetailedNotification: "http://www.nituk.ac.in/jobs/Advertisemnet-1%20Trainee%20Teachers-2015.pdf",
+        GoToSite: "http://www.nituk.ac.in/recruitment.php?id=new",
+        ApplicationFee: "",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "nib.jpg",
+        AltText: "NIB Recruitment OF Multiple Posts",
+        JobDetails: [{
+            Designation: "Scientist Grade III",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Scientist Grade III",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Junior Scientist",
+            NoOfPosts: "07",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Junior Training Officer",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Administrative Assistant",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Stenographer Grade B",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Junior Engineer(Electrical)",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Stenographer Grade B",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Computer Operator",
+            NoOfPosts: "01",
+            PayScale: "",
+            GradePay: "",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "National Institute Of Technology",
+        ApplicationEndDt: "12/05/2015",
+        DetailedNotification: "http://www.nituk.ac.in/jobs/Advertisemnet-1%20Trainee%20Teachers-2015.pdf",
+        GoToSite: "http://www.nituk.ac.in/recruitment.php?id=new",
+        ApplicationFee: "",
+        PublishedOn: "19/04/2015",
+        Age: "--",
+        Logo: "nituk.jpg",
+        AltText: "NIT Uttarakhand Recruitment Of Trainee Teachers",
+        JobDetails: [{
+            Designation: "Trainee Teachers Scheme",
+            NoOfPosts: "10",
+            PayScale: "Minimum Salary payable per month will be 41,000/- as per Scheme",
+            GradePay: "",
+            Eligibility: "B.Tech in relevant discipline from any IIT/NIT/AICTE/UGC approved Institutions/Universities"
+        }]
+    },
     {
         HeadingTheme: "panel panel-warning",
         Title: "National Institute Of Technology",
