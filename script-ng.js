@@ -10,6 +10,52 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 
 var sectionLeft = [
     {
+        HeadingTheme: "panel panel-info",
+        Title: "Bharat Electronics Limited Ghaziabad",
+        ApplicationEndDt: "16/05/2015",
+        DetailedNotification: "http://bel-india.com/recruitment",
+        GoToSite: "http://bel-india.com/recruitment",
+        ApplicationFee: "",
+        PublishedOn: "01/05/2015",
+        Age: "--",
+        Logo: "bel.jpg",
+        AltText: "BEL Recruitment Of Senior Engineer E-II / Deputy Engineer E-II",
+        JobDetails: [{
+            Designation: "Deputy Engineer E-II",
+            NoOfPosts: "25",
+            PayScale: "16,400 - 40,500",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Senior Engineer E-II",
+            NoOfPosts: "13",
+            PayScale: "20,600 - 46,500",
+            GradePay: "",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-success",
+        Title: "Bharat Electronics Limited",
+        ApplicationEndDt: "14/05/2015",
+        DetailedNotification: "https://jobapply.in/bel2015/DetailsAdv.htm",
+        GoToSite: "https://jobapply.in/bel2015/",
+        ApplicationFee: "500",
+        PublishedOn: "29/04/2015",
+        Age: "--",
+        Logo: "bel.jpg",
+        AltText: "BEL Recruitment Of Probationary Engineers",
+        JobDetails: [{
+            Designation: "Probationary Engineers",
+            NoOfPosts: "394",
+            PayScale: "16400-3%-40500",
+            GradePay: "",
+            Eligibility: "First class in Engineering Degree from AICTE approved Colleges in Electronics / Electronics & Communication / Electronics & Telecommunication / Communication /Telecommunication / Mechanical / Computer Science/ Computer Science and Engineering/ Civil Engineering/ Electrical/ Electrical & Electronics Engineering."
+        }]
+    },
+    {
         HeadingTheme: "panel panel-danger",
         Title: "Indira Gandhi Delhi Technical University For Women",
         ApplicationEndDt: "22/05/2015",
@@ -5606,6 +5652,177 @@ var sectionLeft = [
 ];
 
 var sectionRight = [
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "South Asian University",
+        ApplicationEndDt: "29/05/2015",
+        DetailedNotification: "http://rites.com/web/images/stories/uploadVacancy/HW_Kol_VC_28-29_2015.pdf",
+        GoToSite: "http://www.sau.ac.in/recruitment/jobs.html",
+        ApplicationFee: "600",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "sau.jpg",
+        AltText: "SAU Recruitment of Non Teaching Posts",
+        JobDetails: [{
+            Designation: "Director (Admission & Examinations)",
+            NoOfPosts: "01",
+            PayScale: "US$ 27,000 to US$ 40,000",
+            GradePay: "",
+            Eligibility: "Master’s Degree with at least 55% marks or equivalent grades, plus at least 15 years related professional experience, of which 8 years as Deputy Registrar or in progressively responsible positions in a University/large academic institution. "
+        },
+        {
+            Designation: "Assistant Registrar",
+            NoOfPosts: "02",
+            PayScale: "US$ 14,000 to US$ 23,000",
+            GradePay: "",
+            Eligibility: "Master’s degree with at least 55% marks or equivalent grades, plus at least 3 years related professional experience in University/large academic institution in progressively responsible administrative positions in a Registrar’s Office."
+        },
+        {
+            Designation: "Junior Engineer (Civil)",
+            NoOfPosts: "01",
+            PayScale: "US$ 9,000 to US$ 16,000",
+            GradePay: "",
+            Eligibility: "A Degree in Civil Engineering with at least 3 years’ experience, or a Diploma in Civil Engineering with five years experience of supervising of civil works in Government/University/ International organization."
+        },
+        {
+            Designation: "Senior Assistant (Administration) ",
+            NoOfPosts: "01",
+            PayScale: "US$ 27,000 to US$ 40,000",
+            GradePay: "",
+            Eligibility: "Bachelor’s degree, plus a minimum of 5 to 7 years related professional experience in a large organisation. Successful candidate must have the ability to work with external contacts such as manufacturers, suppliers and government authorities; ability to develop and manage complex administrative databases; assume responsibility for decisions, consequences, and results having an impact on people, costs, and/or quality of service; and demonstrate professional and administrative conduct as a model for other office team members."
+        },
+        {
+            Designation: "Senior Assistant (Admissions & Exams)",
+            NoOfPosts: "01",
+            PayScale: "US$ 27,000 to US$ 40,000",
+            GradePay: "",
+            Eligibility: "A University degree with at least 50% marks or equivalent grade plus at least five years’ experience in Administration/Secretarial work/Stores/Purchase work/Governance (Statutory bodies meetings)."
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "RITES Limited",
+        ApplicationEndDt: "15/05/2015",
+        DetailedNotification: "http://rites.com/web/images/stories/uploadVacancy/HW_Kol_VC_28-29_2015.pdf",
+        GoToSite: "http://rites.com/vacancy/",
+        ApplicationFee: "",
+        PublishedOn: "27/04/2015",
+        Age: "--",
+        Logo: "rites.jpg",
+        AltText: "RITES Technical personnels in Civil Engineering (Structures) on regular basis.",
+        JobDetails: [{
+            Designation: "Sr. Dy. General Manager(C)",
+            NoOfPosts: "02",
+            PayScale: "32,900 - 58,000",
+            GradePay: "",
+            Eligibility: "Bachelor Degree in Civil Engineering from AICTE/ Govt. approved institutes. Candidates having Master Degree in Structural Engineering is preferable."
+        },
+        {
+            Designation: "Assistant Manager(C)",
+            NoOfPosts: "02",
+            PayScale: "20,600 - 46,500",
+            GradePay: "",
+            Eligibility: "Bachelor Degree in Civil Engineering from AICTE/ Govt. approved institutes. Candidates having Master Degree in Structural Engineering is preferable."
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "Solar Energy Corporation Of India",
+        ApplicationEndDt: "31/05/2015",
+        DetailedNotification: "http://jobapply.in/solar/ADV_22015.PDF",
+        GoToSite: "http://jobapply.in/solar/Default_22015.aspx",
+        ApplicationFee: "",
+        PublishedOn: "30/04/2015",
+        Age: "--",
+        Logo: "seci.jpg",
+        AltText: "SECI Recruitment Of Deputy General Manager / Manager",
+        JobDetails: [{
+            Designation: "Deputy General Manager(Finance)",
+            NoOfPosts: "01",
+            PayScale: "36,600 - 62,000",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Manager(Finance)",
+            NoOfPosts: "01",
+            PayScale: "29,100 - 54,500",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Senior Accounts Officer",
+            NoOfPosts: "03",
+            PayScale: "20,600 - 46,500",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Junior Accountant / S1",
+            NoOfPosts: "03",
+            PayScale: "10,600 - 28,900",
+            GradePay: "",
+            Eligibility: ""
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "National Buildings Construction Corporation Limited",
+        ApplicationEndDt: "31/05/2015",
+        DetailedNotification: "http://www.nbccindia.com/nbccindia/public/pdf_data_pub/jobs/ADVT.%2004-2015.pdf",
+        GoToSite: "http://www.nbccindia.com/nbccindia/nroot/njsp/Career.jsp",
+        ApplicationFee: "",
+        PublishedOn: "09/05/2015",
+        Age: "--",
+        Logo: "nbccindia.jpg",
+        AltText: "NBCC India Recruitment Of General Manager / Additional General Manager",
+        JobDetails: [{
+            Designation: "General Manager(Engg)",
+            NoOfPosts: "07",
+            PayScale: "36,600 - 62,000",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Additional General Manager(Engg)",
+            NoOfPosts: "14",
+            PayScale: "32,500 - 58,000",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "General Manager(Finance)",
+            NoOfPosts: "01",
+            PayScale: "36,600 - 62,000",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Additional General Manager(Finance)",
+            NoOfPosts: "04",
+            PayScale: "32,500 - 58,000",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "General Manager(HRM)",
+            NoOfPosts: "01",
+            PayScale: "36,600 - 62,000",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Additional General Manager(HRM)",
+            NoOfPosts: "04",
+            PayScale: "32,500 - 58,000",
+            GradePay: "",
+            Eligibility: ""
+        }
+        ]
+    },
     {
         HeadingTheme: "panel panel-danger",
         Title: "Union Public Service Commission",
