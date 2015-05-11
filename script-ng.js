@@ -10,6 +10,44 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 
 var sectionLeft = [
     {
+        HeadingTheme: "panel panel-danger",
+        Title: "Haryana State Electronics Development Corporation Limited",
+        ApplicationEndDt: "22/05/2015",
+        DetailedNotification: "http://hartron.org.in/index.php/jobs-career/current-opening",
+        GoToSite: "http://hartron.org.in/index.php/jobs-career/current-opening",
+        ApplicationFee: "100",
+        PublishedOn: "11/05/2015",
+        Age: "--",
+        Logo: "hartron.jpg",
+        AltText: "HARTRON Recruitment of Programmer",
+        JobDetails: [{
+            Designation: "Constable(Draftry)",
+            NoOfPosts: "14",
+            PayScale: "18,000 per month",
+            GradePay: "",
+            Eligibility: "B.E. / B. Tech(Comp Sc./ IT/ / Electronics And Communication)"
+        }]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "Border Security Force",
+        ApplicationEndDt: "24/06/2015",
+        DetailedNotification: "http://bsf.nic.in/doc/recruitment/r150.pdf",
+        GoToSite: "http://bsf.nic.in",
+        ApplicationFee: "50",
+        PublishedOn: "09/05/2015",
+        Age: "--",
+        Logo: "bsf.jpg",
+        AltText: "BSF Recruitmnt Of Constable(Draftry)",
+        JobDetails: [{
+            Designation: "Constable(Draftry)",
+            NoOfPosts: "14",
+            PayScale: "5,200 - 20,200",
+            GradePay: "2,000",
+            Eligibility: "Matriculation or equivalent from a recognized Board of lnstitution."
+        }]
+    },
+    {
         HeadingTheme: "panel panel-info",
         Title: "Bharat Electronics Limited Ghaziabad",
         ApplicationEndDt: "16/05/2015",
@@ -5652,6 +5690,135 @@ var sectionLeft = [
 ];
 
 var sectionRight = [
+    {
+        HeadingTheme: "panel panel-success",
+        Title: "Himachal Pradesh Public Service Commission",
+        ApplicationEndDt: "06/06/2015",
+        DetailedNotification: "http://neigrihms.gov.in/Latest%20News/estt-2/Faculty%20advt,notice%202015/Advertisement%20of%20Faculty.pdf",
+        GoToSite: "http://hp.gov.in/hppsc/page/Latest-Advertisement.aspx",
+        ApplicationFee: "400",
+        PublishedOn: "06/05/2015",
+        Age: "--",
+        Logo: "hppsc.jpg",
+        AltText: "HPPSC Recruitment Of Inspectors And Officers",
+        JobDetails: [{
+            Designation: "Inspector, Grade-I (on contract basis)",
+            NoOfPosts: "28",
+            PayScale: "13,900 pm",
+            GradePay: "",
+            Eligibility: "A Candidate Should be graduate from a recognized University or its equivalent."
+        },
+        {
+            Designation: "Excise and Taxation Inspector (on regular basis)",
+            NoOfPosts: "37",
+            PayScale: "10,300 - 34,800",
+            GradePay: "3,600",
+            Eligibility: "A Candidate Should be graduate from a recognized University or its equivalent."
+        },
+        {
+            Designation: "Election Kanungo (on contract basis)",
+            NoOfPosts: "07",
+            PayScale: "8,910 pm",
+            GradePay: "",
+            Eligibility: "A Candidate Should be graduate from a recognized University or its equivalent."
+        },
+        {
+            Designation: "Extension Officer",
+            NoOfPosts: "10",
+            PayScale: "10,300 - 34,800",
+            GradePay: "3,600",
+            Eligibility: "A Candidate Should be graduate from a recognized University or its equivalent."
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-success",
+        Title: "North East Indira Gandhi Regional Institute Of Health And Medical Sciences, Shillong",
+        ApplicationEndDt: "30/06/2015",
+        DetailedNotification: "http://neigrihms.gov.in/Latest%20News/estt-2/Faculty%20advt,notice%202015/Advertisement%20of%20Faculty.pdf",
+        GoToSite: "http://neigrihms.gov.in/adsnotification.html",
+        ApplicationFee: "",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "neigrihms.jpg",
+        AltText: "NEIGRIHMS Recruitment Of Faculty",
+        JobDetails: [{
+            Designation: "Assistant Professor",
+            NoOfPosts: "12",
+            PayScale: "37,400 - 67,000",
+            GradePay: "9,000",
+            Eligibility: "A medical qualification included in the first or second schedule or part-II of the third schedule to the Indian Medical Council Act of 1956 (person possessing qualifications included in the part-II of the third schedule should also fulfil the conditions specified in the sub section (3) of the section 13 of the Act."
+        },
+        {
+            Designation: "Professor",
+            NoOfPosts: "22",
+            PayScale: "37,400 - 67,000",
+            GradePay: "10,500",
+            Eligibility: "A medical qualification included in the first or second schedule or part-II of the third schedule to the Indian Medical Council Act of 1956 (person possessing qualifications included in the part-II of the third schedule should also fulfil the conditions specified in the sub section (3) of the section 13 of the Act."
+        },
+        {
+            Designation: "Associate Professor",
+            NoOfPosts: "26",
+            PayScale: "15,600 - 39,100",
+            GradePay: "8,000",
+            Eligibility: "A medical qualification included in the first or second schedule or part-II of the third schedule to the Indian Medical Council Act of 1956 (person possessing qualifications included in the part-II of the third schedule should also fulfil the conditions specified in the sub section (3) of the section 13 of the Act."
+        },
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-info",
+        Title: "Air India",
+        ApplicationEndDt: "25/05/2015",
+        DetailedNotification: "http://www.airindia.in/writereaddata/Portal/career/195_1_Pharmacist_and_clerk_of_works.pdf",
+        GoToSite: "http://www.airindia.in/",
+        ApplicationFee: "500",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "air_india.jpg",
+        AltText: "Air India Recruitment Of Pharmacist And Clerk of Works on Fixed Term Contract basis at Delhi",
+        JobDetails: [{
+            Designation: "Pharmacist",
+            NoOfPosts: "",
+            PayScale: "20,800 p.m.",
+            GradePay: "",
+            Eligibility: "Diploma in pharmacy from an institution recognized by the Govt. And must be registered with State Pharmacy Council."
+        },
+        {
+            Designation: "Clerk of Works",
+            NoOfPosts: "",
+            PayScale: "20,000 p.m.",
+            GradePay: "",
+            Eligibility: "Bachelor Degree in Civil Engineering in first class with 60% marks from recognized University, with two(02) years experience in the field of Civil Engineering from a reputed firm"
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-success",
+        Title: "The Marine Products Export Development Authority",
+        ApplicationEndDt: "31/05/2015",
+        DetailedNotification: "http://www.mpeda.com/job/Advt27-4-%2015.pdf",
+        GoToSite: "http://www.mpeda.com/inner_home.asp?pg=job",
+        ApplicationFee: "250",
+        PublishedOn: "27/04/2015",
+        Age: "--",
+        Logo: "mpeda.jpg",
+        AltText: "MPEDA Recruitment Of Junior Stenographers and Junior Clerks",
+        JobDetails: [{
+            Designation: "Junior Stenographers",
+            NoOfPosts: "06",
+            PayScale: "5,200 - 20,200",
+            GradePay: "2,000",
+            Eligibility: "SSLC"
+        },
+        {
+            Designation: "Junior Clerks",
+            NoOfPosts: "17",
+            PayScale: "5,200 - 20,200",
+            GradePay: "2,000",
+            Eligibility: "Graduate in any subject from recognised University"
+        },
+        ]
+    },
     {
         HeadingTheme: "panel panel-warning",
         Title: "South Asian University",
