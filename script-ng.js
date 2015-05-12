@@ -11,6 +11,44 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 var sectionLeft = [
     {
         HeadingTheme: "panel panel-danger",
+        Title: "National Institute Of Technology Warangal",
+        ApplicationEndDt: "12/06/2015",
+        DetailedNotification: "http://www.nitw.ac.in/nitw/",
+        GoToSite: "http://www.nitw.ac.in/nitw/",
+        ApplicationFee: "500",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "nit_warangal.jpg",
+        AltText: "NIT Warangal Recruitment Of Assistant Professors",
+        JobDetails: [{
+            Designation: "Assistant Professor",
+            NoOfPosts: "",
+            PayScale: "15,600 - 39,100",
+            GradePay: "6,000",
+            Eligibility: "As Per UGC"
+        }]
+    },
+    {
+        HeadingTheme: "panel panel-info",
+        Title: "IIFCL Projects Limited",
+        ApplicationEndDt: "02/06/2015",
+        DetailedNotification: "http://www.iifclprojects.com/Recruitment%20Notice%20For%20Managers.pdf",
+        GoToSite: "http://www.iifclprojects.com/new.html",
+        ApplicationFee: "500",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "iifcl.jpg",
+        AltText: "IIFCL Recruitment Of Managers",
+        JobDetails: [{
+            Designation: "Managers",
+            NoOfPosts: "06",
+            PayScale: "21000-1000(9)-30000-EB-1000(2)-32000-1100(4)-36400(16Years)",
+            GradePay: "",
+            Eligibility: "CA from ICAI"
+        }]
+    },
+    {
+        HeadingTheme: "panel panel-danger",
         Title: "Haryana State Electronics Development Corporation Limited",
         ApplicationEndDt: "22/05/2015",
         DetailedNotification: "http://hartron.org.in/index.php/jobs-career/current-opening",
@@ -5690,6 +5728,79 @@ var sectionLeft = [
 ];
 
 var sectionRight = [
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "Bharat Electronics Limited",
+        ApplicationEndDt: "30/05/2015",
+        DetailedNotification: "http://bel-india.com/sites/default/files/Recruitments/Detailed_Advt_CRL.pdf",
+        GoToSite: "http://bel-india.com/recruitment",
+        ApplicationFee: "",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "bel.jpg",
+        AltText: "BEL Recruitment of Software Professionals, Ghaziabad",
+        JobDetails: [{
+            Designation: "Senior Engineer(Civil)",
+            NoOfPosts: "04",
+            PayScale: "16,400-3%-50500",
+            GradePay: "",
+            Eligibility: "ME/M. Tech/MS(Computer Science). Min 70% at BE/B.Tech and ME/M.Tech/MS for Gen & OBC candidates and pass class for SC/ST/PWD candidates."
+        }]
+    },
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "Bharat Electronics Limited",
+        ApplicationEndDt: "30/05/2015",
+        DetailedNotification: "http://bel-india.com/sites/default/files/Recruitments/civil_cadds_advt_SE.pdf",
+        GoToSite: "http://bel-india.com/recruitment",
+        ApplicationFee: "500",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "bel.jpg",
+        AltText: "BEL Recruitment of Senior Engineer(Civil) And Senior Engineer(Electronics And Communication / Electronics / Communication)",
+        JobDetails: [{
+            Designation: "Senior Engineer(Civil)",
+            NoOfPosts: "04",
+            PayScale: "20600 -3%- 46500",
+            GradePay: "",
+            Eligibility: "Four years full time BE/B.Tech Degree (in the above specified disciplines only), from reputed institutes. First Class for Gen / OBC candidates and Pass Class for SC/ST/PWD candidates."
+        },
+        {
+            Designation: "Senior Engineer(Electronics And Communication / Electronics / Communication)",
+            NoOfPosts: "02",
+            PayScale: "16400 -3%- 40500",
+            GradePay: "",
+            Eligibility: "Four years full time BE/B.Tech Degree (in the above specified disciplines only), from reputed institutes. First Class for Gen / OBC candidates and Pass Class for SC/ST/PWD candidates."
+        }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "Bharat Electronics Limited",
+        ApplicationEndDt: "06/06/2015",
+        DetailedNotification: "http://bel-india.com/recruitment",
+        GoToSite: "http://bel-india.com/recruitment",
+        ApplicationFee: "",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "bel.jpg",
+        AltText: "BEL Recruitment of Research Staff",
+        JobDetails: [{
+            Designation: "Member(Research Staff-Electronics And Communication)",
+            NoOfPosts: "29",
+            PayScale: "16,400 - 40,500",
+            GradePay: "",
+            Eligibility: ""
+        },
+        {
+            Designation: "Member(Research Staff-Computer Science)",
+            NoOfPosts: "06",
+            PayScale: "16,400 - 40,500",
+            GradePay: "",
+            Eligibility: ""
+        }
+        ]
+    },
     {
         HeadingTheme: "panel panel-success",
         Title: "Himachal Pradesh Public Service Commission",
