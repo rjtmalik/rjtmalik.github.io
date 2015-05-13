@@ -10,6 +10,123 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 
 var sectionLeft = [
     {
+        HeadingTheme: "panel panel-success",
+        Title: "National Institute of Food Technology Entrepreneurship and Management",
+        ApplicationEndDt: "20/05/2015",
+        DetailedNotification: "http://niftem.ac.in/site/Current_Opening.aspx",
+        GoToSite: "http://niftem.ac.in/site/Current_Opening.aspx",
+        ApplicationFee: "",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "niftem.jpg",
+        AltText: "NIFTEM Recruitment Of Teaching Posts",
+        JobDetails: [
+            {
+                Designation: "Professor",
+                NoOfPosts: "",
+                PayScale: "37,400 - 67,000",
+                GradePay: "10,000",
+                Eligibility: ""
+            },
+            {
+                Designation: "Associate Professor",
+                NoOfPosts: "",
+                PayScale: "37,400 - 67,000",
+                GradePay: "9,000",
+                Eligibility: ""
+            },
+            {
+                Designation: "Assistant Professor",
+                NoOfPosts: "",
+                PayScale: "15,600 - 39,100",
+                GradePay: "6,000",
+                Eligibility: ""
+            }]
+    },
+    {
+        HeadingTheme: "panel panel-success",
+        Title: "SNDT Women's University",
+        ApplicationEndDt: "05/06/2015",
+        DetailedNotification: "http://sndt.ac.in/downloads/vacancies/2015/details-of-teaching-posts-advt-01-of-2015.pdf",
+        GoToSite: "http://sndt.ac.in/announcement/advertisement-3-2015.htm",
+        ApplicationFee: "400",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "sndt.jpg",
+        AltText: "Recruitment Of Teaching Posts",
+        JobDetails: [
+            {
+                Designation: "Principal",
+                NoOfPosts: "02",
+                PayScale: "37,400 - 67,000",
+                GradePay: "10,000",
+                Eligibility: ""
+            },
+            {
+                Designation: "Professor",
+                NoOfPosts: "10",
+                PayScale: "37,400 - 67,000",
+                GradePay: "10,000",
+                Eligibility: "As Per UGC"
+            },
+            {
+                Designation: "Associate Professor",
+                NoOfPosts: "20",
+                PayScale: "37,400 - 67,000",
+                GradePay: "9,000",
+                Eligibility: "As Per UGC"
+            },
+            {
+                Designation: "Assistant Director / Associate Professor",
+                NoOfPosts: "02",
+                PayScale: "15,600 - 39,100",
+                GradePay: "6,000",
+                Eligibility: "As Per UGC"
+            },
+            {
+                Designation: "Assistant Professor",
+                NoOfPosts: "51",
+                PayScale: "37,400 - 67,000",
+                GradePay: "9,000",
+                Eligibility: "As Per UGC"
+            },
+            {
+                Designation: "Project Office",
+                NoOfPosts: "01",
+                PayScale: "15,600 - 39,100",
+                GradePay: "6,000",
+                Eligibility: "As Per UGC"
+            },
+            {
+                Designation: "Director",
+                NoOfPosts: "01",
+                PayScale: "37,400 - 67,000",
+                GradePay: "10,000",
+                Eligibility: "As Per UGC"
+            }
+
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "Satyawati College, Delhi University",
+        ApplicationEndDt: "05/06/2015",
+        DetailedNotification: "http://www.satyawati.du.ac.in/notice.html",
+        GoToSite: "http://www.satyawati.du.ac.in/notice.html",
+        ApplicationFee: "",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "du.jpg",
+        AltText: "Recruitment Of Assistant Professors",
+        JobDetails: [{
+            Designation: "Assistant Professor",
+            NoOfPosts: "34",
+            PayScale: "15,600 - 39,100",
+            GradePay: "6,000",
+            Eligibility: "As Per UGC"
+        }]
+    },
+    {
         HeadingTheme: "panel panel-danger",
         Title: "National Institute Of Technology Warangal",
         ApplicationEndDt: "12/06/2015",
