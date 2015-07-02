@@ -10,6 +10,202 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 
 var sectionLeft = [
     {
+        HeadingTheme: "panel panel-danger",
+        Title: "Haryana Staff Selection Commission",
+        ApplicationEndDt: "21/09/2015",
+        DetailedNotification: "http://hssc.gov.in/writereaddata/Advertisements/18_1_1_Advt.%20No.3-%202015%20TGT.doc",
+        GoToSite: "http://www.uiic.co.in/",
+        ApplicationFee: "500",
+        PublishedOn: "07/07/2015",
+        Age: "18 - 42",
+        Logo: "hssc.jpg",
+        AltText: "HSSC Recruitment Of Teachers",
+        JobDetails: [
+            {
+                Designation: "PGT Biology",
+                NoOfPosts: "101",
+                PayScale: "9300-34800",
+                GradePay: "4800",
+                Eligibility: ""
+            },
+            {
+                Designation: "PGT Chemistry",
+                NoOfPosts: "442",
+                PayScale: "9300-34800",
+                GradePay: "4800",
+                Eligibility: ""
+            },
+            {
+                Designation: "PGT Commerce",
+                NoOfPosts: "337",
+                PayScale: "9300-34800",
+                GradePay: "4800",
+                Eligibility: ""
+            },
+            {
+                Designation: "PGT Economics",
+                NoOfPosts: "366",
+                PayScale: "9300-34800",
+                GradePay: "4800",
+                Eligibility: ""
+            },
+            {
+                Designation: "PGT English",
+                NoOfPosts: "649",
+                PayScale: "9300-34800",
+                GradePay: "4800",
+                Eligibility: ""
+            },
+            {
+                Designation: "PGT Geography",
+                NoOfPosts: "272",
+                PayScale: "9300-34800",
+                GradePay: "4800",
+                Eligibility: ""
+            },
+            {
+                Designation: "PGT Hindi",
+                NoOfPosts: "367",
+                PayScale: "9300-34800",
+                GradePay: "4800",
+                Eligibility: ""
+            },
+            {
+                Designation: "PGT History",
+                NoOfPosts: "398",
+                PayScale: "9300-34800",
+                GradePay: "4800",
+                Eligibility: ""
+            },
+            {
+                Designation: "PGT Home Science",
+                NoOfPosts: "193",
+                PayScale: "9300-34800",
+                GradePay: "4800",
+                Eligibility: ""
+            },
+            {
+                Designation: "PGT Mathematics",
+                NoOfPosts: "1427",
+                PayScale: "9300-34800",
+                GradePay: "4800",
+                Eligibility: ""
+            },
+            {
+                Designation: "PGT Physical Education",
+                NoOfPosts: "18",
+                PayScale: "9300-34800",
+                GradePay: "4800",
+                Eligibility: ""
+            },
+            {
+                Designation: "PGT Physics",
+                NoOfPosts: "687",
+                PayScale: "9300-34800",
+                GradePay: "4800",
+                Eligibility: ""
+            },
+            {
+                Designation: "PGT Political Science",
+                NoOfPosts: "424",
+                PayScale: "9300-34800",
+                GradePay: "4800",
+                Eligibility: ""
+            },
+            {
+                Designation: "PGT Psychology",
+                NoOfPosts: "49",
+                PayScale: "9300-34800",
+                GradePay: "4800",
+                Eligibility: ""
+            },
+            {
+                Designation: "PGT Punjabi",
+                NoOfPosts: "179",
+                PayScale: "9300-34800",
+                GradePay: "4800",
+                Eligibility: ""
+            },
+            {
+                Designation: "PGT Sanskrit",
+                NoOfPosts: "626",
+                PayScale: "9300-34800",
+                GradePay: "4800",
+                Eligibility: ""
+            },
+            {
+                Designation: "PGT Sociology",
+                NoOfPosts: "157",
+                PayScale: "9300-34800",
+                GradePay: "4800",
+                Eligibility: ""
+            },
+            {
+                Designation: "PGT Urdu",
+                NoOfPosts: "08",
+                PayScale: "9300-34800",
+                GradePay: "4800",
+                Eligibility: ""
+            }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-info",
+        Title: "Bihar Staff Selection Commission",
+        ApplicationEndDt: "14/07/2015",
+        DetailedNotification: "http://bssc.bih.nic.in/Advertisement/health_Advt_21-06-2015.pdf",
+        GoToSite: "http://bssc.bih.nic.in/",
+        ApplicationFee: "375",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "bssc.jpg",
+        AltText: "BSSC Recruitment In Health Deaprtment Of Government Of Bihar",
+        JobDetails: [
+            {
+                Designation: "X Ray Technician",
+                NoOfPosts: "215",
+                PayScale: "5,200 - 20,220",
+                GradePay: "2,800",
+                Eligibility: ""
+            },
+            {
+                Designation: "Operation Theatre Assistant",
+                NoOfPosts: "236",
+                PayScale: "5,200 - 20,220",
+                GradePay: "2,400",
+                Eligibility: ""
+            },
+            {
+                Designation: "Laboratory Attendant",
+                NoOfPosts: "1775",
+                PayScale: "5,200 - 20,220",
+                GradePay: "2,800",
+                Eligibility: ""
+            }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-success",
+        Title: "National Institute of Food Technology Entrepreneurship and Management",
+        ApplicationEndDt: "25/05/2015",
+        DetailedNotification: "http://niftem.ac.in/site/Current_Opening.aspx",
+        GoToSite: "http://niftem.ac.in/site/Current_Opening.aspx",
+        ApplicationFee: "",
+        PublishedOn: "2015",
+        Age: "--",
+        Logo: "niftem.jpg",
+        AltText: "NIFTEM Recruitment Of Teaching Posts",
+        JobDetails: [
+            {
+                Designation: "Professor",
+                NoOfPosts: "",
+                PayScale: "37,400 - 67,000",
+                GradePay: "10,000",
+                Eligibility: ""
+            },
+        ]
+    },
+    {
         HeadingTheme: "panel panel-success",
         Title: "National Institute of Food Technology Entrepreneurship and Management",
         ApplicationEndDt: "20/05/2015",
