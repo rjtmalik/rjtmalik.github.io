@@ -10,6 +10,138 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 
 var sectionLeft = [
     {
+        HeadingTheme: "panel panel-success",
+        Title: "Insurance Regulatory Authority Of India",
+        ApplicationEndDt: "10/07/2015",
+        DetailedNotification: "https://www.irda.gov.in/ADMINCMS/cms/frmGeneral_Layout.aspx?page=PageNo2549&flag=1",
+        GoToSite: "https://www.irda.gov.in/ADMINCMS/cms/frmGeneral_List.aspx?DF=Emp&mid=20",
+        ApplicationFee: "",
+        PublishedOn: "17/06/2015",
+        Age: "",
+        Logo: "irda.jpg",
+        AltText: "IRDA Recruitment Of Assistants",
+        JobDetails: [
+            {
+                Designation: "Assistant",
+                NoOfPosts: "24",
+                PayScale: "14,500 – 24,700",
+                GradePay: "",
+                Eligibility: ""
+            }]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "IRCON International Limited",
+        ApplicationEndDt: "24/07/2015",
+        DetailedNotification: "http://www.irconisl.com/ircon_hrm/AO_AOS_Fin_Jul42015.pdf",
+        GoToSite: "http://www.bput.ac.in/",
+        ApplicationFee: "",
+        PublishedOn: "05/07/2015",
+        Age: "",
+        Logo: "ircon.jpg",
+        AltText: "IRCON Recruitment Of Finance Positions",
+        JobDetails: [
+            {
+                Designation: "Assistant Officer/Finance – E-1",
+                NoOfPosts: "05",
+                PayScale: "16,400 – 40,500",
+                GradePay: "",
+                Eligibility: "Associate Member of Institute of Chartered Accountants of India/Associate Member of Institute of Cost Accountants of India"
+            },
+            {
+                Designation: "Assistant Office Superintendent / Finance – NE-7",
+                NoOfPosts: "05",
+                PayScale: "10,700 – 21,400",
+                GradePay: "",
+                Eligibility: "B.Com (full time) with not less than 60% marks + Full time 2 years MBA/PGDM in Finance."
+            }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-info",
+        Title: "Biju Patnaik University Of Technology",
+        ApplicationEndDt: "27/07/2015",
+        DetailedNotification: "http://www.bput.ac.in/bput_notice/2271advt%20for_%20Asst%20Professor%202015.pdf",
+        GoToSite: "http://www.bput.ac.in/",
+        ApplicationFee: "500",
+        PublishedOn: "05/07/2015",
+        Age: "",
+        Logo: "bput.jpg",
+        AltText: "BPUT Recruitment Of Teaching Positions",
+        JobDetails: [
+            {
+                Designation: "Assistant Professor",
+                NoOfPosts: "24",
+                PayScale: "15,600 - 39,100",
+                GradePay: "6,000",
+                Eligibility: ""
+            },
+            {
+                Designation: "Associate Professor",
+                NoOfPosts: "49",
+                PayScale: "37,400 - 67,000",
+                GradePay: "9,000",
+                Eligibility: ""
+            }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-info",
+        Title: "King George's Medical University",
+        ApplicationEndDt: "31/07/2015",
+        DetailedNotification: "http://kgmu.org/upload_file/user_download/05e33e19c9d4da46577c0a145d2e73c3.pdf",
+        GoToSite: "http://kgmu.org/job-opportunities.php",
+        ApplicationFee: "2000",
+        PublishedOn: "05/07/2015",
+        Age: "",
+        Logo: "kgmu.jpg",
+        AltText: "KGMU Recruitment Of Professor / Assistant Professor",
+        JobDetails: [
+            {
+                Designation: "Assistant Professor",
+                NoOfPosts: "44",
+                PayScale: "15,600 - 39,100",
+                GradePay: "6,600",
+                Eligibility: ""
+            },
+            {
+                Designation: "Professor",
+                NoOfPosts: "03",
+                PayScale: "37,400 - 67,000",
+                GradePay: "10,000",
+                Eligibility: ""
+            }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "State Health Society, Bihar",
+        ApplicationEndDt: "15/07/2015",
+        DetailedNotification: "http://www.statehealthsocietybihar.org/administrative/advertisement_%20109.pdf",
+        GoToSite: "http://jobs.biharshs.in/inner/state_content.asp",
+        ApplicationFee: "300",
+        PublishedOn: "05/07/2015",
+        Age: "",
+        Logo: "bssc.jpg",
+        AltText: "BSSC Recruitment Of Food Safety Officer / Food Analyst",
+        JobDetails: [
+            {
+                Designation: "Food Safety Officer",
+                NoOfPosts: "91",
+                PayScale: "29500",
+                GradePay: "",
+                Eligibility: ""
+            },
+            {
+                Designation: "Food Analyst",
+                NoOfPosts: "06",
+                PayScale: "44500",
+                GradePay: "",
+                Eligibility: ""
+            }
+        ]
+    },
+    {
         HeadingTheme: "panel panel-danger",
         Title: "Haryana Staff Selection Commission",
         ApplicationEndDt: "21/09/2015",
