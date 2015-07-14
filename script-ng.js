@@ -10,6 +10,89 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 
 var sectionLeft = [
     {
+        HeadingTheme: "panel panel-success",
+        Title: "Staff Selection Commission",
+        ApplicationEndDt: "07/08/2015",
+        DetailedNotification: "http://vacancycollection.nic.in/ssc/notice/examnotice/final_Notice_JE_2015.pdf",
+        GoToSite: "http://sscregistration.nic.in/mainmenu2.php",
+        ApplicationFee: "100",
+        PublishedOn: "18/07/2015",
+        Age: "",
+        Logo: "ssc.jpg",
+        AltText: "SSC Recruitment Of Junior Engineers",
+        JobDetails: [
+            {
+                Designation: "Junior Engineer",
+                NoOfPosts: "1000 tentatively",
+                PayScale: "9,300 - 34,800",
+                GradePay: "4,200",
+                Eligibility: "Three years Diploma or equivalent "
+            }]
+    },
+    {
+        HeadingTheme: "panel panel-warning",
+        Title: "Uttar Haryana Bijli Vitran Limited",
+        ApplicationEndDt: "16/08/2015",
+        DetailedNotification: "http://uhbvn.com/Public_Notices.aspx",
+        GoToSite: "http://uhbvn.com/Public_Notices.aspx",
+        ApplicationFee: "1000",
+        PublishedOn: "18/07/2015",
+        Age: "",
+        Logo: "uhbvn.jpg",
+        AltText: "UHBVN Recruitment Of Assistant Engineers",
+        JobDetails: [
+            {
+                Designation: "Assistant Engineer(Electrical)",
+                NoOfPosts: "118",
+                PayScale: "9,300 - 34,800",
+                GradePay: "5,400",
+                Eligibility: ""
+            },
+            {
+                Designation: "Assistant Engineer(Mechanical)",
+                NoOfPosts: "16",
+                PayScale: "9,300 - 34,800",
+                GradePay: "5,400",
+                Eligibility: ""
+            },
+            {
+                Designation: "Assistant Engineer(Instrumentation)",
+                NoOfPosts: "04",
+                PayScale: "9,300 - 34,800",
+                GradePay: "5,400",
+                Eligibility: ""
+            },
+            {
+                Designation: "Assistant Engineer(IT)",
+                NoOfPosts: "29",
+                PayScale: "9,300 - 34,800",
+                GradePay: "5,400",
+                Eligibility: ""
+            },
+            {
+                Designation: "Assistant Engineer(Electronics)",
+                NoOfPosts: "07",
+                PayScale: "9,300 - 34,800",
+                GradePay: "5,400",
+                Eligibility: ""
+            },
+            {
+                Designation: "Assistant Engineer(Civil)",
+                NoOfPosts: "16",
+                PayScale: "9,300 - 34,800",
+                GradePay: "5,400",
+                Eligibility: ""
+            },
+            {
+                Designation: "Upper Division Clerk(IT)",
+                NoOfPosts: "118",
+                PayScale: "5,200 - 20,200",
+                GradePay: "2,900",
+                Eligibility: ""
+            }
+        ]
+    },
+    {
         HeadingTheme: "panel panel-warning",
         Title: "Oriental Insurance Company Limited",
         ApplicationEndDt: "21/10/2015",
