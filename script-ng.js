@@ -10,6 +10,55 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 
 var sectionLeft = [
     {
+        HeadingTheme: "panel panel-warning",
+        Title: "Oriental Insurance Company Limited",
+        ApplicationEndDt: "21/10/2015",
+        DetailedNotification: "http://www.orientalinsurance.org.in/alfresco/download/direct?path=/Company%20Home/Guest%20Home/OICLWebsite/Pers_RectAO2015_18022015.pdf",
+        GoToSite: "http://www.orientalinsurance.org.in/Career.jsp",
+        ApplicationFee: "100",
+        PublishedOn: "10/07/2015",
+        Age: "",
+        Logo: "oicl.jpg",
+        AltText: "OICL Recruitment Of Assistants",
+        JobDetails: [
+            {
+                Designation: "Assistants",
+                NoOfPosts: "606",
+                PayScale: "7,640 - 21,050",
+                GradePay: "",
+                Eligibility: ""
+            }
+        ]
+    },
+    {
+        HeadingTheme: "panel panel-danger",
+        Title: "Haryana Staff Selection Commission",
+        ApplicationEndDt: "21/10/2015",
+        DetailedNotification: "http://hssc.gov.in/writereaddata/Advertisements/22_1_1_advt%206%20-%202015.doc",
+        GoToSite: "http://hssc.gov.in/advertisements.htm",
+        ApplicationFee: "100",
+        PublishedOn: "09/07/2015",
+        Age: "",
+        Logo: "hssc.jpg",
+        AltText: "HSSC Recruitment Of Canal Patwari / Gram Sachiv",
+        JobDetails: [
+            {
+                Designation: "Canal Patwari",
+                NoOfPosts: "892",
+                PayScale: "5,200 -  20,200",
+                GradePay: "1,900",
+                Eligibility: ""
+            },
+            {
+                Designation: "Gram Sachiv",
+                NoOfPosts: "435",
+                PayScale: "5,200 -  20,200",
+                GradePay: "1,900",
+                Eligibility: ""
+            }
+        ]
+    },
+    {
         HeadingTheme: "panel panel-success",
         Title: "Insurance Regulatory Authority Of India",
         ApplicationEndDt: "10/07/2015",
