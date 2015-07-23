@@ -10,6 +10,46 @@ GyaanCheckApp.controller('getRightPanel', function ($scope, $element) {
 
 var sectionLeft = [
     {
+        HeadingTheme: "panel panel-warning",
+        Title: "Ral Vikas Nigam Limited",
+        ApplicationEndDt: "02/08/2015",
+        DetailedNotification: "http://www.rvnl.org/admin/uploaded1/opportunity_form/20150721150127_instruction%20for%20filling%20up%20the%20application%20form-21072015.pdf",
+        GoToSite: "http://www.rvnl.org/opportunity02.php",
+        ApplicationFee: "300",
+        PublishedOn: "22/07/2015",
+        Age: "",
+        Logo: "rvnl.jpg",
+        AltText: "RVNL Recruitment Of Site Engineer",
+        JobDetails: [
+            {
+                Designation: "Site Engineer",
+                NoOfPosts: "",
+                PayScale: "",
+                GradePay: "",
+                Eligibility: "B.E. / B.Tech in Civil/Electrical/Electronics And Communication Engineering with Valid Gate 2014/15 score"
+            }]
+    },
+    {
+        HeadingTheme: "panel panel-info",
+        Title: "High Court Of Delhi",
+        ApplicationEndDt: "06/08/2015",
+        DetailedNotification: "http://delhihighcourt.nic.in/writereaddata/upload/Recruitments/OpenPositions/CurrentJobFile_S83BZYCJ.PDF",
+        GoToSite: "http://delhihighcourt.nic.in/open_position.asp",
+        ApplicationFee: "300",
+        PublishedOn: "23/07/2015",
+        Age: "",
+        Logo: "delhi_high_court.jpg",
+        AltText: "Apply online for the Post of Junior Judicial Assistant (Technical) Examination - 2015",
+        JobDetails: [
+            {
+                Designation: "Junior Judicial Assistant (Technical)",
+                NoOfPosts: "60",
+                PayScale: "5,200 - 20,200",
+                GradePay: "2,800",
+                Eligibility: "B.C.A. / B.Sc. Computer Science"
+            }]
+    },
+    {
         HeadingTheme: "panel panel-success",
         Title: "Staff Selection Commission",
         ApplicationEndDt: "07/08/2015",
