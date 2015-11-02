@@ -1,0 +1,3275 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image:src" content="http://gyaancheck.com/gyaancheckImg.jpg" />
+<meta name="twitter:title" content="Latest Sarkari jobs | Government of India jobs" />
+<meta name="twitter:description" content="Never miss a job opening by any government department. Get instant updates by logging onto GyaanCheck.com" />
+<meta name="twitter:url" content="http://gyaancheck.com/" />
+<head>
+<meta name=viewport content="width=device-width, initial-scale=1">
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+	<!-- Using Angular js-->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.10/angular.min.js"></script>
+    <!-- Adding the Twitter jQuery link-->
+    <script>
+    window.twttr = (function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], t = window.twttr || {}; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "https://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); t._e = []; t.ready = function (f) { t._e.push(f); }; return t; }(document, "script", "twitter-wjs"));
+    </script>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-59231284-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<style type="text/css">
+    @media screen and (max-width: 360px){
+        body{
+            font-size:10px;
+        }
+    }
+    .hand{
+        cursor:pointer;
+    }
+</style>
+<script type="text/javascript">
+    function shareFb() {
+        window.open('https://www.facebook.com/dialog/feed?app_id=411625832337640&display=popup&caption=I%20just%20found%20a%20New%20Posting&link=http%3A%2F%2Fgyaancheck.com&redirect_uri=https://facebook.com','Share on Facebook','width=400, height=400, left=500, top=150');
+        return false;
+    }
+</script>
+	<!-- Adding the controller-->
+    <script src="script-ng.js"></script>
+    <title>Sarkari Naukri | Government Jobs India</title>
+</head>
+<body  ng-app ="GyaanCheck">
+<div class="container-fluid">
+<div class="row">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+		<h1>GyaanCheck<small> Never miss a job opening by any government department.</small></h1>
+    </div>
+  </div>
+</nav>
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 jobs" ng-controller="getLeftPanel">
+    <div class={{section.HeadingTheme}} ng-repeat="section in sections" itemscope itemtype="http://schema.org/JobPosting">
+        <div class="panel-heading">
+            <table class="table table-borderless">
+                <thead><tr><th colspan="2" style="text-align:left"><img itemprop="image" ng-src={{section.Logo}} alt={{section.AltText}} /><a title="Apply for job" target="_blank" href={{section.GoToSite}}><span itemprop="name">{{section.Title}} : {{section.AltText}}</span></a><small> Published On: <span itemprop="datePublished">{{section.PublishedOn}}</span></small></th></tr></thead>
+                <tbody>
+                    <tr>
+                        <td>Last Date: {{section.ApplicationEndDt}}</td>
+                        <td align="right">
+                            Application Fee: Rs.{{section.ApplicationFee}}/-
+                            <br />
+                            <a itemprop="url" title="Download Advertisement" target="_blank" href={{section.DetailedNotification}}>Download Advertisement <span class="glyphicon glyphicon-download"></span></a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="panel-body">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th style="text-align:left">Designation</th>
+                        <th style="text-align:left">Posts</th>
+                        <th style="text-align:left">Eligibility</th>
+                        <th style="text-align:center">Pay Scale</th>
+                        <th style="text-align:left">Grade Pay</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="jobDetail in section.JobDetails">
+                        <td style="text-align:left" itemprop="title">{{jobDetail.Designation}}</td>
+                        <td style="text-align:left">{{jobDetail.NoOfPosts}}</td>
+                        <td style="text-align:left" itemprop="experienceRequirements">{{jobDetail.Eligibility}}</td>
+                        <td style="text-align:center" itemprop="baseSalary">{{jobDetail.PayScale}}</td>
+                        <td style="text-align:center" itemprop="benefits">{{jobDetail.GradePay}}</td>
+                    </tr>
+                </tbody>
+            </table>
+            <a class="twitter-share-button" href="http://gyaancheck.com/" data-size="large" data-count="none">Tweet</a>
+            <a href="https://plus.google.com/share?url=http://gyaancheck.com" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+                <img style="vertical-align:top" src="gplus-32.png" alt="Share on Google+" />
+            </a>
+            <img class="hand" onclick="return shareFb();" style="vertical-align:top" src="facebook.png" alt="Share on Facebook" />
+        </div>
+    </div>
+<div class="panel panel-info">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>Senior Mining Professional post at Steel Authority of India Ltd(SAIL)<small> Published On: 15/01/2015</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td>Last Date: 20/02/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://103.241.144.18/sailcporeg/frmJobDetails.aspx"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://jobs.biharshs.in/inner/currentopenings.asp"><span class="glyphicon glyphicon-share"></span></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Area</th>
+							<th style="text-align:center">Designation</th>
+                            <th style="text-align:center">Number of posts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Chasnalla, jipur</td>
+							<td style="text-align:left">Overman</td>
+                            <td style="text-align:center">05</td>
+                        </tr>
+						 <tr>
+                            <td style="text-align:left">Chasnalla, jipur</td>
+							<td style="text-align:left">Mining Sirdar</td>
+                            <td style="text-align:center">05</td>
+                        </tr>
+						 <tr>
+                            <td style="text-align:left">Chasnalla, jipur</td>
+							<td style="text-align:left">Surveyor</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+						 <tr>
+                            <td style="text-align:left">Chasnalla, jipur</td>
+							<td style="text-align:left">Operator-cum-Technician Trainee(Electrical)</td>
+                            <td style="text-align:center">05</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Ramnagore</td>
+							<td style="text-align:left">Overman</td>
+                            <td style="text-align:center">02</td>
+                        </tr>
+						 <tr>
+                            <td style="text-align:left">Ramnagore</td>
+							<td style="text-align:left">Mining Sirdar</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+						 <tr>
+                            <td style="text-align:left">Ramnagore</td>
+							<td style="text-align:left">Operator-cum-Technician Trainee(Electrical)</td>
+                            <td style="text-align:center">02</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+	<div class="panel panel-warning">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>Lecturer posts by Rajasthan public service commission(RPSC)<small> Published On: 2015</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td>Last Date: 08/02/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://jobs.biharshs.in/inner/currentopenings.asp"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://jobs.biharshs.in/inner/currentopenings.asp"><span class="glyphicon glyphicon-share"></span></a>
+								<br />
+								Application Fee: Rs. 500/-
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">Number of posts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Divisional family planning consultant</td>
+                            <td style="text-align:center">09</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Programme Coordinator(IGIMS)</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Assistant Director(ANMTC)</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Assistant Director(GNMTC)</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Nursing consultant state level</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Nursing consultant regional level</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Additional Director PPP</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Assistant Director PPP</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Assistant Director Biomedical Waste Management</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Audiologist and speech therapist under RBSK</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Dental surgeon under RBSK</td>
+                            <td style="text-align:center">09</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Dental techinician under RBSK</td>
+                            <td style="text-align:center">09</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Early interventions cum special educator under RBSK</td>
+                            <td style="text-align:center">09</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Lab Technician under RBSK</td>
+                            <td style="text-align:center">09</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Medical Officer under RBSK</td>
+                            <td style="text-align:center">09</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Optometrist under RBSK</td>
+                            <td style="text-align:center">09</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Paedeatrician under RBSK</td>
+                            <td style="text-align:center">09</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Dental surgeon under RBSK</td>
+                            <td style="text-align:center">09</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Physiotherapist under RBSK</td>
+                            <td style="text-align:center">09</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Psychologist under RBSK</td>
+                            <td style="text-align:center">09</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Social Worker under RBSK</td>
+                            <td style="text-align:center">09</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Staff Nurse under RBSK</td>
+                            <td style="text-align:center">09</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+	<div class="panel panel-danger">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>Lecturer posts by Rajasthan public service commission(RPSC)<small> Published On: 12/01/2015</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td>Last Date: 27/02/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://rpsc.rajasthan.gov.in/pdf_reports_files/Adv_College_Edu_12012015.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://rpsc.rajasthan.gov.in/Recruitment_Advertisement.aspx"><span class="glyphicon glyphicon-share"></span></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">Number of posts</th>
+							<th style="text-align:center">Age</th>
+							<th style="text-align:center">Pay Scale</th>
+							<th style="text-align:center">Grade Pay</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Lecturer</td>
+                            <td style="text-align:center">1070</td>
+							<td style="text-align:center">21 - 35</td>
+							<td style="text-align:center">15600 - 39100</td>
+							<td style="text-align:center">6000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+	<div class="panel panel-warning">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>Registrar posts in Indian Maritime University<small> Published On: 17/01/2015</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td>Last Date: 27/02/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://imu.edu.in/images/00_gen_paper_advt_dr_ar_arf.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://imu.edu.in/index.php?latestnews=1&newsid=316"><span class="glyphicon glyphicon-share"></span></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">Number of posts</th>
+							<th style="text-align:center">Pay Scale</th>
+							<th style="text-align:center">Grade Pay</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Deputy Registrar</td>
+                            <td style="text-align:center">05</td>
+							<td style="text-align:center">15600 - 39100</td>
+							<td style="text-align:center">7600</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Assistant Registrar</td>
+                            <td style="text-align:center">08</td>
+							<td style="text-align:center">15600 - 39100</td>
+							<td style="text-align:center">5400</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Assistant Registrar(Finance)</td>
+                            <td style="text-align:center">06</td>
+							<td style="text-align:center">15600 - 39100</td>
+							<td style="text-align:center">5400</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+<div class="panel panel-info">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>Company Secretariat posts at Oil and Natural Gas Corporation(ONGC)<small> Published On: 14/01/2015</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td>Last Date: 07/02/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://www.ongcindia.com/wps/wcm/reportspdf/opportunities/Company_Secretary12012015.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://www.ongcindia.com/wps/wcm/connect/ongcindia/home/career/recruitment+notices/recruitmentcompanysecretariat"><span class="glyphicon glyphicon-share"></span></a>
+								<br />
+								Application Fee: Rs. 500/-
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">Number of posts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Deputy Manager F &amp; A</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Finance and Accounts officer</td>
+                            <td style="text-align:center">04</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+<div class="panel panel-success">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>Special Recruitment in Oil India Ltd<small> Published On: 2014</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td>Last Date: 02/02/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://www.oil-india.com/Document/Career/Advertisement_for_Special_Recruitment_Drive_for_SC_ST_OBC.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://www.oil-india.com/COpenings.aspx"><span class="glyphicon glyphicon-share"></span></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">Number of posts</th>
+							<th style="text-align:center">Reservation</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Manager F &amp; A(Internal Audit)</td>
+                            <td style="text-align:center">01</td>
+			    <td style="text-align:left">OBC</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Sr. Account officer/Sr. Internal Audit Officer</td>
+                            <td style="text-align:center">04</td>
+			    <td style="text-align:left">SC -2, St -1, OBC -1</td>
+                        </tr>
+                        <tr>
+                           <td style="text-align:left">Acounts Offcer/Internal Audit Officer</td>
+                           <td style="text-align:center">06</td>
+		           <td style="text-align:left">SC -2, St -1, OBC -3</td>
+                        </tr>
+<tr>
+                           <td style="text-align:left">Sr. MEdical Officer(GYnaecology)</td>
+                           <td style="text-align:center">01</td>
+		           <td style="text-align:left">OBC -1</td>
+                        </tr>
+<tr>
+                           <td style="text-align:left">Senior Geophysicist</td>
+                           <td style="text-align:center">01</td>
+		           <td style="text-align:left">OBC -1</td>
+                        </tr>
+<tr>
+                           <td style="text-align:left">Sr. Materials Officer</td>
+                           <td style="text-align:center">02</td>
+		           <td style="text-align:left">OBC -2</td>
+                        </tr>
+<tr>
+                           <td style="text-align:left">Security Officer</td>
+                           <td style="text-align:center">02</td>
+		           <td style="text-align:left">OBC -2</td>
+                        </tr>
+<tr>
+                           <td style="text-align:left">Executive TRainee(Electrical Engineering)</td>
+                           <td style="text-align:center">03</td>
+		           <td style="text-align:left">Sc -1, OBC -2</td>
+                        </tr>
+<tr>
+                               <td style="text-align:left">Executive TRainee(Chemical)</td>
+                           <td style="text-align:center">02</td>
+		           <td style="text-align:left">OBC -2</td>
+                        </tr>
+<tr>
+                                   <td style="text-align:left">Executive TRainee(Geology)</td>
+                           <td style="text-align:center">01</td>
+		           <td style="text-align:left">SC -1</td>
+                        </tr>
+<tr>
+                                   <td style="text-align:left">Executive TRainee(IT)</td>
+                           <td style="text-align:left">02</td>
+		           <td style="text-align:center">SC -1, ST-1</td>
+                        </tr>
+<tr>
+                                   <td style="text-align:left">Executive TRainee(Electronics and Telecommunication Engineering)</td>
+                           <td style="text-align:left">01</td>
+		           <td style="text-align:center">SC -1</td>
+                        </tr>
+<tr>
+                                   <td style="text-align:left">Executive TRainee(HR)</td>
+                           <td style="text-align:left">02</td>
+		           <td style="text-align:center">OBC -2</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+ <div class="panel panel-info"> 
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>Faculty posts in National Institute of Technology(NIT) Silchar<small> Published On: 2014</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td>Last Date: 13/01/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://www.nits.ac.in/employment/jobs/employment_2014/Rolling_Advt_for_Faculty_Positions_05_14.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://www.nits.ac.in/"><span class="glyphicon glyphicon-share"></span></a>
+                            Application Fee: Rs. 500/-
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">Department</th>
+			    <th style="text-align:center">Pay Scale(in Rs.)</th>
+			    <th style="text-align:center">AGP(in Rs.)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Associate Professor</td>
+                            <td style="text-align:left">Civil Engineering, Mechanical Engineering, Electrical Engineering, Electronics and Communication Engineering, Computer Science and Engineering, Electronics and Instrumentation Engineering, Mathematics, Physics, Chemistry, Humanities and Social Science, Management Studies</td>
+			    <td style="text-align:left">37400 - 67000</td>
+			    <td style="text-align:left">9500</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Assistant Professor</td>
+		            <td style="text-align:left">Civil Engineering, Mechanical Engineering, Electrical Engineering, Electronics and Communication Engineering, Computer Science and Engineering, Electronics and Instrumentation Engineering, Mathematics, Physics, Chemistry, Humanities and Social Science, Management Studies</td>
+			    <td style="text-align:left">37400 - 67000</td>
+			    <td style="text-align:left">9500</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Professor</td>	
+			    <td style="text-align:left">Civil Engineering, Mechanical Engineering, Electrical Engineering, Electronics and Communication Engineering, Computer Science and Engineering, Electronics and Instrumentation Engineering, Mathematics, Physics, Chemistry, Humanities and Social Science, Management Studies</td>
+			    <td style="text-align:left">37400 - 67000</td>
+			    <td style="text-align:left">9500</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>Faculty posts in NIT Patna<small> Published On: 23/12/2014</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td>Last Date: 23/01/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://www.nitp.ac.in/uploads/Advertisementapplication549864579ec7b.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://www.nitp.ac.in/php/notices.php?table=recruitments"><span class="glyphicon glyphicon-share"></span></a>
+                            Application Fee: Rs. 600/-
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">Department</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Assistant Professor</td>
+                            <td style="text-align:left">Department of Civil Engineering, Computer Science Engineering, Electronics and Communication Engineering, Electrical Engineering, Mechanical Engineering and Architecture</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Assistant Professor</td>
+                            <td style="text-align:left">Department of Civil Engineering, Computer Science Engineering, Electronics and Communication Engineering, Electrical Engineering, Mechanical Engineering and Architecture</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Professor</td>
+                            <td style="text-align:left">Department of Civil Engineering, Computer Science Engineering, Electronics and Communication Engineering, Electrical Engineering, Mechanical Engineering and Architecture</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>Management Trainee posts in Instrumentation Ltd.<small> Published On: 2014</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td>Last Date: 01/02/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://www.ilpgt.com/images/AdvtMT20150109.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://www.ilpgt.com/html/vacancies.htm"><span class="glyphicon glyphicon-share"></span></a>
+                                <br />
+                                Application Fee: Rs. 100/-
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">Number of posts</th>
+                            <th style="text-align:center">Stipend(in Rs.)</th>
+                            <th style="text-align:center">Age</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Management Trainee(P &amp; A)</td>
+                            <td style="text-align:left">02</td>
+                            <td style="text-align:left">12,000</td>
+                            <td style="text-align:left">28 years as on 01/11/2014</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Management Trainee(F &amp; A)</td>
+                            <td style="text-align:left">02</td>
+                            <td style="text-align:left">12,000</td>
+                            <td style="text-align:left">28 years as on 01/11/2014</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Management Trainee(Technical)</td>
+                            <td style="text-align:left">05</td>
+                            <td style="text-align:left">12,000</td>
+                            <td style="text-align:left">28 years as on 01/11/2014</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-danger">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>Scientist Jobs at North East Institute of Science and Technology(NEIST)<small> Published On: 10/01/2015</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td>Last Date: 09/02/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://www.neist.res.in/opening/"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://www.neist.res.in/notice.php"><span class="glyphicon glyphicon-share"></span></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">Number of Posts</th>
+                            <th style="text-align:center">Pay Band(in Rs.)</th>
+                            <th style="text-align:center">Grade Pay(in Rs.)</th>
+                            <th style="text-align:center">Age</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Scientist</td>
+                            <td style="text-align:center">11</td>
+                            <td style="text-align:center">15600 - 39100</td>
+                            <td style="text-align:center">6600</td>
+                            <td style="text-align:center">32</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Senior Scientist</td>
+                            <td style="text-align:center">04</td>
+                            <td style="text-align:center">15600 - 39100</td>
+                            <td style="text-align:center">7600</td>
+                            <td style="text-align:center">37</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Principal Scientist</td>
+                            <td style="text-align:center">01</td>
+                            <td style="text-align:center">37400 - 67000</td>
+                            <td style="text-align:center">8700</td>
+                            <td style="text-align:center">45</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Technical Assistant Grade III</td>
+                            <td style="text-align:center">11</td>
+                            <td style="text-align:center">9300 - 34800</td>
+                            <td style="text-align:center">4200</td>
+                            <td style="text-align:center">28</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Lateral Entry Level for Grade III(Lady Medical Officer)</td>
+                            <td style="text-align:center">01</td>
+                            <td style="text-align:center">15600 - 39100</td>
+                            <td style="text-align:center">5400</td>
+                            <td style="text-align:center">35</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>Sree Chitra Tirunal Institute for Medical Sciences and Technology, Trivandam<small> Published On: 31/12/2015</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td>Last Date: 05/02/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://www.sctimst.ac.in/Online-Recruitment-SSSC/Notification%20and%20Instructions.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://www.sctimst.ac.in/Recruitment/Online%20Recruitment%20-%20SSSC/"><span class="glyphicon glyphicon-share"></span></a>
+                            </td>
+                            <br />
+                            Application Fee: Rs. 750/-
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">Number of Posts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Associate Professor</td>
+                            <td style="text-align:center">10</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Professor</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-danger">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>Union Public Service Commission(UPSC) job posts<small> Published On: 10/01/2015</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td>Last Date: 29/01/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://upsc.gov.in/recruitment/advt/2015/Advt%201%20of%202015.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://upsconline.nic.in/ora/VacancyNoticePub.php"><span class="glyphicon glyphicon-share"></span></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">Number of Posts</th>
+                            <th style="text-align:center">Department</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Associate Professor(Computer Science)</td>
+                            <td style="text-align:center">04</td>
+                            <td style="text-align:left">National Defence Academy, Pune, Khadakwasla</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Assistant Professor(Chemistry)</td>
+                            <td style="text-align:center">02</td>
+                            <td style="text-align:left">National Defence Academy, Pune, Khadakwasla</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Specialists Grade III Assistant PRofessor(Plastic Surgery)</td>
+                            <td style="text-align:center">06</td>
+                            <td style="text-align:left">Ministry of Health and Family Welfare</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Director(Institute)</td>
+                            <td style="text-align:center">01</td>
+                            <td style="text-align:left">Weaver's Service Centre and Indian Institute of Handloom Technology</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Assistant Public Prosecutor</td>
+                            <td style="text-align:center">65</td>
+                            <td style="text-align:left">Directorate of Prosecution, Govt. of NCT of Delhi</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>Associate Professor posts at Vasantrao Naik Marathwada Krishi Vidyapeeth(VNMKV)<small> Published On: 05/01/2015</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td>Last Date: 05/02/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://mkv2.mah.nic.in/reg/advt14/associateprof_adv2015.PDF"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://mkv2.mah.nic.in/reg/advt.html"><span class="glyphicon glyphicon-share"></span></a>
+                                <br />
+                                Application Fee: Rs. 1000/-
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">Number of Posts</th>
+                            <th style="text-align:center">Pay Scale(in Rs.)</th>
+                            <th style="text-align:center">AGP(in Rs.)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Associate Professor</td>
+                            <td style="text-align:center">32</td>
+                            <td style="text-align:center">37400 - 67000</td>
+                            <td style="text-align:center">9000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>OCES and DGFS for engineering graduates and science post-graduates at Bhabha Atomic Research Centre(BARC)<small> Published On: 06/01/2015</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td>Last Date: 06/02/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://mkv2.mah.nic.in/reg/advt14/associateprof_adv2015.PDF"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://182.18.176.218/barconlineexam/engineer/index.php"><span class="glyphicon glyphicon-share"></span></a>
+                                <br />
+                                Application Fee: Rs. 1000/-
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">Age</th>
+                            <th style="text-align:center">Eligibility 1</th>
+                            <th style="text-align:center">Eligibility 2</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Associate Professor</td>
+                            <td style="text-align:center">26</td>
+                            <td style="text-align:left">B.E. / B.Tech. / B.Sc. (Engineering) / 5-year Integrated M.Tech. / A.M.I.E. / A.M.I.E.T.E. / A.M.I.I.Ch.E. / A.M.I.I.M. with a minimum of 60%* aggregate marks in one of the engineering disciplines</td>
+                            <td style="text-align:left">Candidates having a qualifying degree in the Engineering disciplines (ME, CH, MT, EE, EC, CS, IN & CE) and who meet the corresponding eligibility criteria listed above are eligible to apply for DGFS provided they secure admission for M.Tech./ M.Chem.Engg. starting in the academic year 2015 in select Institutes</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>Finance Jobs in Telecommunications Consultants India Limited(TCIL)<small> Published On: 31/12/2014</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td>Last Date: 21/01/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://www.tcil-india.com/new/career/31122014.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://www.tcil-india.com/new/Careers1.php"><span class="glyphicon glyphicon-share"></span></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">Number of Posts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Executive Director</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Manager(Finance)</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Deputy Manager(Finance)</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Accounts Officer</td>
+                            <td style="text-align:center">04</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>Shool Lecturer posts by Uttarakhand Public Service Commission(UKPSC)<small> Published On: 06/01/2015</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td>Apply Online on or before: 27/01/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://ukpsc.gov.in/files/GIC_ADVERTISEMENT_2015.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://ukpsc.gov.in/recruitment/view/319"><span class="glyphicon glyphicon-share"></span></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">Number of Posts</th>
+                            <th style="text-align:center">Pay Scale(In Rs.)</th>
+                            <th style="text-align:center">Grade Pay(In Rs.)</th>
+                            <th style="text-align:center">Age</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Lecturer Group(General Branch)</td>
+                            <td style="text-align:center">1056</td>
+                            <td style="text-align:center">9300 - 34000</td>
+                            <td style="text-align:center">4800</td>
+                            <td style="text-align:left">21 - 42 as on 01/07/2015</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Lecturer Group(Women Branch)</td>
+                            <td style="text-align:center">157</td>
+                            <td style="text-align:center">9300 - 34000</td>
+                            <td style="text-align:center">4800</td>
+                            <td style="text-align:left ">21 - 42 as on 01/07/2015</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span> Life Insurance Corporation(LIC) - Assistant Administrative officer<small> Published On: 05/01/2015</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td><i>Exam Date: </i>20/02/2015<br />Apply Online on or before: 22/01/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://www.licindia.in/pages/Employment_Notification_r.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://www.licindia.in/careers_pop0020.htm"><span class="glyphicon glyphicon-share"></span></a>
+                                <br />
+                                Application Fee: Rs. 500/-
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">Number of Posts</th>
+                            <th style="text-align:center">Region</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Assistant Administrative officer(Generalist)</td>
+                            <td style="text-align:center">40</td>
+                            <td style="text-align:center">Jammu and Kashmir</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Assistant Administrative officer(Generalist)</td>
+                            <td style="text-align:center">60</td>
+                            <td style="text-align:center">North East Region</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Assistant Administrative officer(Chartered Accountant)</td>
+                            <td style="text-align:center">100</td>
+                            <td style="text-align:center">All India</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-danger">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>Executive trainee post in Cochin shipyard limited<small> Published On: 03/01/2014</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td align="left">Apply Online on or before: 12/01/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://cochinshipyard.com/careers/vacancies-executive%20trainees%202014%20-%20Chalan%20copy.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://cochinshipyard.com/career.html"><span class="glyphicon glyphicon-share"></span></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">Number of Posts</th>
+                            <th style="text-align:center">Age</th>
+                            <th style="text-align:center">Stipend</th>
+                            <th style="text-align:center">Streams</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Executive Trainee</td>
+                            <td style="text-align:center">25</td>
+                            <td style="text-align:center">25 years as on 30/11/2014</td>
+                            <td style="text-align:center">Rs. 22,000 per month</td>
+                            <td style="text-align:left">Electrical/Electronics/Instrumentation/Mechanical/Civil/Naval Architect/Human Resource/Finance/Information Technology</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-warning">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span> Teacher posts with UP Basic Education Parishad<small> Published On: 24/12/2014</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td><i>Exam Date: </i>01/03/2015<br />Apply Online on or before: 06/02/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://upbasiceduparishad.gov.in/ATManual/Technical_15000.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://upbasiceduparishad.gov.in/"><span class="glyphicon glyphicon-share"></span></a>
+                                <br />
+                                Application Fee: Rs. 500
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">Number of Posts</th>
+                            <th style="text-align:center">Age</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Assistant Teacher</td>
+                            <td style="text-align:center">15000</td>
+                            <td style="text-align:center">21 - 40</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span> Warehouse assistant job in Central Warehousing Corporation Hyderabad(CWC)<small> Published On: 19/12/2014</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td>Apply Online on or before: 19/01/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://cewacor.nic.in/Docs/Recrutment%E2%80%8C_wag_II_hyd_191214.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://cewacor.nic.in/index.php?option=com_content&view=article&id=116&Itemid=57&lang=en"><span class="glyphicon glyphicon-share"></span></a>
+                                <br />
+                                Application Fee: Rs. 300(Genreal/OBC)
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">Number of Posts</th>
+                            <th style="text-align:center">Grade Pay</th>
+                            <th style="text-align:center">Pay Scale(in Rs.)</th>
+                            <th style="text-align:center">Age</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Warehouse assistant</td>
+                            <td style="text-align:center">15</td>
+                            <td style="text-align:center">Grade II</td>
+                            <td style="text-align:center">8900 - 24320</td>
+                            <td style="text-align:center">18 - 25</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-danger">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span> Madhya Pradesh Public Service Commission<small> Published On: 04/01/2014</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td><i>Exam Date: 09/05/2015</i><br />Apply Online on or before: 08/02/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://www.mppsc.com/ATTACHMENTS_FILES/ADVERTISEMENTS_OPTION/Requirtment_2014/RECRUITMENT%20ADVERTISEMENT%20NO_03_EXAM_2014_24-12-2014_STATE%20SERVICE%20EXAM%202014_24-12-2014_rn.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://www.mppsc.com/"><span class="glyphicon glyphicon-share"></span></a>
+                                <br />
+                                Application Fee: Rs. 500(Genreal/OBC)
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">Eligibility</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Multiple posts</td>
+                            <td style="text-align:left">Graduate from any discipline</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span> MP High Court stenographer and PA posts<small> Published On: 22/12/2014</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td><i>Exam Date: </i>01/03/2015<br />Apply Online on or before: 16/02/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://www.mphc.in/pdf/Advt.Engish%20Steno-2015-22-12-2014.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://www.mponline.gov.in/Portal/Services/MPHC/MPHCHome.aspx"><span class="glyphicon glyphicon-share"></span></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">Number of Posts</th>
+                            <th style="text-align:center">Pay Scale(in Rs.)</th>
+                            <th style="text-align:center">Grade Pay(in Rs.)</th>
+                            <th style="text-align:center">Age</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">English Stenographer</td>
+                            <td style="text-align:center">62</td>
+                            <td style="text-align:center">9300 - 34800</td>
+                            <td style="text-align:center">3600</td>
+                            <td style="text-align:center">18 - 35 as on 01/01/2015</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Personal Assistant/Stenographer</td>
+                            <td style="text-align:center">02</td>
+                            <td style="text-align:center">9300 - 34800</td>
+                            <td style="text-align:center">3600</td>
+                            <td style="text-align:center">18 - 35 as on 01/01/2015</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-warning">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span> BEL Probationary Account officer <small> Published On: 24/12/2014</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td align="left">Apply Online on or before: 07/01/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://jobapply.in/belpao/DetailsAdv.htm"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://jobapply.in/belpao/"><span class="glyphicon glyphicon-share"></span></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th>No. of posts</th>
+                            <th style="text-align:center">Pay Scale(In Rs)</th>
+                            <th style="text-align:center">Age(in years)</th>
+                            <th style="text-align:center">Qualification</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Probationary Account officers</td>
+                            <td style="text-align:center">11</td>
+                            <td style="text-align:center">E2 16400 -3%- 40500</td>
+                            <td style="text-align:center">30</td>
+                            <td style="text-align:center">ICWA/CA final examination</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-danger">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span> National Mineral Development Limited (NDMC)<small> Published On: 17/12/2014</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td align="left">Apply Online on or before: 12/01/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="https://www.nmdc.co.in/Careers/Handlers/DownloadEnglish.ashx?ID=53"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="https://www.nmdc.co.in/Careers/Default.aspx"><span class="glyphicon glyphicon-share"></span></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">No. of posts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Asst. General Manager (E5)</td>
+                            <td style="text-align:center">11</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Senior Manager (E4)</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Manager (E3)</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Dy. Manager (E2)</td>
+                            <td style="text-align:center">05</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Asst. Manager (E1)</td>
+                            <td style="text-align:center">04</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Junior Officer</td>
+                            <td style="text-align:center">02</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span> Central Industrial Security Force(CISF) in Fire Cadre<small> Published On: 27/12/2014</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td align="left">Last Date: 27/01/2015 (North East Region :03/02/2015)</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://www.cisf.gov.in/recruitment/"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://www.cisf.gov.in/recruitment/"><span class="glyphicon glyphicon-share"></span></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">No. of posts</th>
+                            <th style="text-align:center">Pay Scale(In Rs.)</th>
+                            <th style="text-align:center">Grade Pay(In Rs.)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Constable(Fire)</td>
+                            <td style="text-align:center">549</td>
+                            <td style="text-align:center">5200 - 20200</td>
+                            <td style="text-align:center">2000</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Constable(Fire) in Naxal Affected Areas</td>
+                            <td style="text-align:center">251</td>
+                            <td style="text-align:center">5200 - 20200</td>
+                            <td style="text-align:center">2000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-warning">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span> UPSC NDA and naval Academy examination-1 2015<small> Published On: 27/12/2014</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td align="left">Last Date: 23/01/2015 Application Fees: Rs. 100</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://upsc.gov.in/exams/notifications/2015/NDA_I_2015/NDA-1%20ENGLISH.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://upsconline.nic.in/mainmenu2.php"><span class="glyphicon glyphicon-share"></span></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Stream</th>
+                            <th style="text-align:center">No. of posts</th>
+                            <th style="text-align:center">Age</th>
+                            <th style="text-align:center">Educational Quyalification</th>
+                            <th style="text-align:center">Physical Standards</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Army</td>
+                            <td style="text-align:center">208</td>
+                            <td style="text-align:left"> born between 2nd july 1196 and 1st july 1999</td>
+                            <td style="text-align:left">12th pass of the 10+2 pattern of school education or equivalent examination conducted by a state education board or a university</td>
+                            <td style="text-align:left">Candidates must be physically fir according to te regulations given in the notice</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Air Force</td>
+                            <td style="text-align:center">70</td>
+                            <td style="text-align:left"> born between 2nd july 1196 and 1st july 1999</td>
+                            <td style="text-align:left">12th pass of the 10+2 pattern of school education or equivalent examination conducted by a state education board or a university</td>
+                            <td style="text-align:left">Candidates must be physically fir according to te regulations given in the notice</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Navy</td>
+                            <td style="text-align:center">42</td>
+                            <td style="text-align:left"> born between 2nd july 1196 and 1st july 1999</td>
+                            <td style="text-align:left">12th pass of the 10+2 pattern of school education or equivalent examination conducted by a state education board or a university</td>
+                            <td style="text-align:left">Candidates must be physically fir according to te regulations given in the notice</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Naval Academy</td>
+                            <td style="text-align:center">55</td>
+                            <td style="text-align:left"> born between 2nd july 1196 and 1st july 1999</td>
+                            <td style="text-align:left">12th pass of the 10+2 pattern of school education or equivalent examination conducted by a state education board or a university</td>
+                            <td style="text-align:left">Candidates must be physically fir according to te regulations given in the notice</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-danger">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span> faculty posts in Indian Statistical Institute(ISI)<small> Published On: 18/12/2014</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td align="left">Last Date: 60 days from 1st </td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://www.isical.ac.in/JobApplicationFiles/%5BUntitled%5D_1812201411394100.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://www.isical.ac.in/jobs.php"><span class="glyphicon glyphicon-share"></span></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Desination</th>
+                            <th style="text-align:center">Age</th>
+                            <th style="text-align:center">No. of posts</th>
+                            <th style="text-align:center">Pay Scale</th>
+                            <th style="text-align:center">AGP</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Assistant Professor</td>
+                            <td style="text-align:center">35</td>
+                            <td style="text-align:center">36</td>
+                            <td style="text-align:center">15600 - 39100</td>
+                            <td style="text-align:center">8000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span> Special Recruitment drive for SC/ST/PWD in Mazagaon Dock Limited(MDL)<small> Published On: 03/12/2014</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td align="left">Apply between 03/12/2014 to 01/01/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://www.mazagondock.gov.in/newsite2010/MDL_Jobportal/writereaddata/122201452504PMAdvertisement%20No.%2031%28For%20website%29.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://www.mazagondock.gov.in/newsite2010/recruitment.html"><span class="glyphicon glyphicon-share"></span></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Desination</th>
+                            <th style="text-align:center">No. of posts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Chief Manager</td>
+                            <td style="text-align:center">03</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Manager</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Deputy Manager</td>
+                            <td style="text-align:center">02</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Assistant Manager</td>
+                            <td style="text-align:center">02</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Senior Engineer</td>
+                            <td style="text-align:center">10</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-warning">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>45th SSC Technical Men and 16th SSC Technical Women(October 2015)<small> Published On: 31/12/2014</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td align="left">Last Date 31/01/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://joinindianarmy.nic.in/NOTIFI_SSC%28T%29-45&W-16.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://joinindianarmy.nic.in/jiaonlineforms/frmInstructionsSSC%28T%29.aspx"><span class="glyphicon glyphicon-share"></span></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Desination</th>
+                            <th style="text-align:center">No. of posts</th>
+                            <th style="text-align:center">Age</th>
+                            <th style="text-align:center">Pay Scale(In Rs.)</th>
+                            <th style="text-align:center">Grade Pay(In Rs.)</th>
+                            <th style="text-align:center">MPS(In Rs.)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">45th SSC Technical (Men)</td>
+                            <td style="text-align:center">100</td>
+                            <td style="text-align:center">20 - 27</td>
+                            <td style="text-align:center">PB -3 15600 - 39100</td>
+                            <td style="text-align:right">5400</td>
+                            <td style="text-align:right">6000</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">16th SSC Technical(Women)</td>
+                            <td style="text-align:center">19</td>
+                            <td style="text-align:center">20 - 27</td>
+                            <td style="text-align:center">PB -3 15600 - 39100</td>
+                            <td style="text-align:right">5400</td>
+                            <td style="text-align:right">6000</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Widows of Defence Personnel</td>
+                            <td style="text-align:center">02</td>
+                            <td style="text-align:center">19 - 29 / 20 - 31</td>
+                            <td style="text-align:center">PB -3 15600 - 39100</td>
+                            <td style="text-align:right">5400</td>
+                            <td style="text-align:right">6000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>Army 36th NCC Entry Oct 2015<small></small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td align="left">Last Date 27/01/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://joinindianarmy.nic.in/Noftn_NCC-38_course.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://joinindianarmy.nic.in"><span class="glyphicon glyphicon-share"></span></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Desination</th>
+                            <th style="text-align:center">No. of posts</th>
+                            <th style="text-align:center">Age</th>
+                            <th style="text-align:center">Pay Scale(In Rs.)</th>
+                            <th style="text-align:center">Grade Pay(In Rs.)</th>
+                            <th style="text-align:center">MPS(In Rs.)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">NCC (Men)</td>
+                            <td style="text-align:center">50</td>
+                            <td style="text-align:center">19 - 25</td>
+                            <td style="text-align:center">PB -3 15600 - 39100</td>
+                            <td style="text-align:right">5400</td>
+                            <td style="text-align:right">6000</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">NCC (Women)</td>
+                            <td style="text-align:center">04</td>
+                            <td style="text-align:center">19 - 25</td>
+                            <td style="text-align:center">PB -3 15600 - 39100</td>
+                            <td style="text-align:right">5400</td>
+                            <td style="text-align:right">6000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-warning">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>Non teaching posts in National Institute of food technology entrepreneurship and management(NIFTEM)<small></small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td align="left">Last Date 15/01/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://niftem.ac.in/site/Current_Opening.aspx"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://niftem.ac.in/site/Current_Opening.aspx"><span class="glyphicon glyphicon-share"></span></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Desination</th>
+                            <th style="text-align:center">No. of posts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Controller of Examination</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Assistant Registrar</td>
+                            <td style="text-align:center">02</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Private Secretary</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Personal Assistant</td>
+                            <td style="text-align:center">02</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Lab Incharge</td>
+                            <td style="text-align:center">05</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Lab Technician</td>
+                            <td style="text-align:center">06</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+</div>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 jobs" ng-controller="getRightPanel">
+        <div class={{section.HeadingTheme}} ng-repeat="section in sections" itemscope itemtype="http://schema.org/JobPosting">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><img itemprop="image" ng-src={{section.Logo}} alt={{section.AltText}}/><a title="Apply for job" target="_blank" href={{section.GoToSite}}><span itemprop="name">{{section.Title}} : {{section.AltText}}</span></a><small> Published On: <span itemprop="datePublished">{{section.PublishedOn}}</span></small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td>Last Date: {{section.ApplicationEndDt}}</td>
+                            <td align="right">
+                                Application Fee: Rs.{{section.ApplicationFee}}/-
+                                <br />
+                                <a itemprop="url" title="Download Advertisement" target="_blank" href={{section.DetailedNotification}}>Download Advertisement <span class="glyphicon glyphicon-download"></span></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:left">Designation</th>
+                            <th style="text-align:left">Posts</th>
+                            <th style="text-align:left">Eligibility</th>
+                            <th style="text-align:center">Pay Scale</th>
+                            <th style="text-align:left">Grade Pay</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="jobDetail in section.JobDetails">
+                            <td style="text-align:left" itemprop="title">{{jobDetail.Designation}}</td>
+                            <td style="text-align:left">{{jobDetail.NoOfPosts}}</td>
+                            <td style="text-align:left" itemprop="experienceRequirements">{{jobDetail.Eligibility}}</td>
+                            <td style="text-align:center" itemprop="baseSalary">{{jobDetail.PayScale}}</td>
+                            <td style="text-align:center" itemprop="benefits">{{jobDetail.GradePay}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a class="twitter-share-button" href="http://gyaancheck.com/" data-size="large" data-count="none">Tweet</a>
+                <a href="https://plus.google.com/share?url=http://gyaancheck.com" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+                    <img style="vertical-align:top" src="gplus-32.png" alt="Share on Google+" />
+                </a>
+                <img class="hand" onclick="return shareFb();" style="vertical-align:top" src="facebook.png" alt="Share on Facebook" />
+            </div>
+        </div>
+    <div class="panel panel-success">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>Head Constable Dresser Veterinary at Indo Tibetan Border Police(ITBP)<small> Published On: 2015</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td>Last Date: 16/02/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://itbpolice.nic.in/eKiosk/writeReadData/RectAd/Advertisement%20HC%20D%20%28VET%29%202015.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://itbpolice.nic.in/eKiosk/frmRecrtmntAdMain.aspx"><span class="glyphicon glyphicon-share"></span></a>
+								<br />
+								Application Fee: Rs.50/- 
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">Number of posts</th>
+							<th style="text-align:center">Pay Scale(in Rs.)</th>
+							<th style="text-align:center">Grade Pay(in Rs.)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Head Constable(Dresser Veterinary)</td>
+                            <td style="text-align:center">62</td>
+							<td style="text-align:center">PB-1 5200 - 20200</td>
+							<td style="text-align:center">2400</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+	<div class="panel panel-warning">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>Heavy water Board<small> Published On: 13/01/2015</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td>Last Date: 16/03/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://www.hwb.gov.in/htmldocs/advt/HWB_02_2014/20141216_HWB_02_2014.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://www.hwb.gov.in/htmldocs/advt/advt_index.asp"><span class="glyphicon glyphicon-share"></span></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">Number of posts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Category I Trainee</td>
+                            <td style="text-align:center">62</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Category II Trainee</td>
+                            <td style="text-align:center">105</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Station Officer/A</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Sub Officer/B1</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Technician /C/D (Crane operator)</td>
+                            <td style="text-align:center">07</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Technician /C/D (Mechanic cum dozer operator)</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+	<div class="panel panel-danger">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>Faculty post at Dr. Ram Manohar Lohia Institute of medical Sciences<small> Published On: 16/01/2015</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td>Last Date: 16/02/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://www.drrmlims.ac.in/rml_admin/upload/1051Website%20Final%20Faculty%20Advt.%20Draft%2017.01.2015.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://www.drrmlims.ac.in/recruitment.php"><span class="glyphicon glyphicon-share"></span></a>
+								<br />
+								Application Fee: Rs: 1000/-
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">Number of posts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Professor</td>
+                            <td style="text-align:center">07</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Additional Professor</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Associate Professor</td>
+                            <td style="text-align:center">04</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Assistant Professor</td>
+                            <td style="text-align:center">10</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+	<div class="panel panel-info">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>Officer posts at Gramin Bank of Aryavat<small> Published On: 16/01/2015</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td>Last Date: 31/01/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://www.aryavart-rrb.com/recruitment-CWE-RRBs-III/GBA_Advertisement.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://www.aryavart-rrb.com/recruitment.html"><span class="glyphicon glyphicon-share"></span></a>
+								<br />
+								Application Fee: Rs: 150/-
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">Number of posts</th>
+							<th style="text-align:center">Pay Scale(in Rs.)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Officer Scale II</td>
+                            <td style="text-align:center">20</td>
+							<td style="text-align:center">19400 - 28100</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Officer Scale I</td>
+                            <td style="text-align:center">201</td>
+							<td style="text-align:center">14500 - 25700</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Office Assistant(Multipurpose)</td>
+                            <td style="text-align:center">272</td>
+							<td style="text-align:center">7200 - 19300</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+	<div class="panel panel-success">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>Multiple posts at Uttar Pradesh Public Service Commission(UPPSC)<small> Published On: 16/01/2015</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td>Last Date: 03/02/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://uppsc.up.nic.in/View_Enclosure.aspx?ID=302&flag=E&FID=330"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://uppsc.up.nic.in/Notifications.aspx"><span class="glyphicon glyphicon-share"></span></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">Number of posts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Refer Advertisement from the link</td>
+                            <td style="text-align:center">Refer Advertisement from the link</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+	<div class="panel panel-warning">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>Walk in at Mandya Institute of medical sciences(MIMS)<small> Published On: 16/01/2015</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td>Walk in Date: 31/02/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://www.mimsmandya.org/WII7/1_Notification_English.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://www.mimsmandya.org/index_files/WII7.htm"><span class="glyphicon glyphicon-share"></span></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">Number of posts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Professor</td>
+                            <td style="text-align:center">02</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Associate Professor</td>
+                            <td style="text-align:center">07</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Assistant Professor</td>
+                            <td style="text-align:center">03</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Senior Resident</td>
+                            <td style="text-align:center">15</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Lady Medical Officer</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+	<div class="panel panel-success">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>Nation Institute of mental Health and Neuro Sciences<small> Published On: 17/01/2015</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td>Last Date: 06/02/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://nimhans.kar.nic.in/employment/v20150116.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://nimhans.kar.nic.in/notifications.htm"><span class="glyphicon glyphicon-share"></span></a>
+								<br />
+								Examination Date: 01/03/2015
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">Number of posts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Staff Nurse</td>
+                            <td style="text-align:center">54</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Junior Technician</td>
+                            <td style="text-align:center">18</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Lower Divisional Clerk</td>
+                            <td style="text-align:center">26</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+	<div class="panel panel-danger">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>Nation Institute of mental Health and Neuro Sciences<small> Published On: 17/01/2015</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td>Last Date: 06/02/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://nimhans.kar.nic.in/employment/v20150116.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://nimhans.kar.nic.in/notifications.htm"><span class="glyphicon glyphicon-share"></span></a>
+								<br />
+								Examination Date: 01/03/2015
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">Number of posts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Staff Nurse</td>
+                            <td style="text-align:center">54</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Junior Technician</td>
+                            <td style="text-align:center">18</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Lower Divisional Clerk</td>
+                            <td style="text-align:center">26</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+	<div class="panel panel-warning">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>Agricultural Department Bihar Government<small> Published On: 16/01/2015</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td>Last Date: 12/02/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://nicapp.bih.nic.in/agrlabRET/AGRLAB.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://nicapp.bih.nic.in/agrlab/"><span class="glyphicon glyphicon-share"></span></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">Number of posts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Deputy Director(Chemical)</td>
+                            <td style="text-align:center">06</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Assistant Director</td>
+                            <td style="text-align:center">39</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Assistant Research Officer</td>
+                            <td style="text-align:center">198</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Laboratory Assistant</td>
+                            <td style="text-align:center">47</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Vehicle Driver</td>
+                            <td style="text-align:center">09</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Laboratory Attendant</td>
+                            <td style="text-align:center">94</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Gaurd/Night Duty Gaurd</td>
+                            <td style="text-align:center">07</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+	<div class="panel panel-warning">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>Registrar posts in Indian Maritime University<small> Published On: 17/01/2015</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td>Last Date: 27/02/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://imu.edu.in/images/00_gen_paper_advt_dr_ar_arf.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://imu.edu.in/index.php?latestnews=1&newsid=316"><span class="glyphicon glyphicon-share"></span></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">Number of posts</th>
+							<th style="text-align:center">Pay Scale</th>
+							<th style="text-align:center">Grade Pay</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Deputy Registrar</td>
+                            <td style="text-align:center">05</td>
+							<td style="text-align:center">15600 - 39100</td>
+							<td style="text-align:center">7600</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Assistant Registrar</td>
+                            <td style="text-align:center">08</td>
+							<td style="text-align:center">15600 - 39100</td>
+							<td style="text-align:center">5400</td>
+                        </tr>
+						<tr>
+                            <td style="text-align:left">Assistant Registrar(Finance)</td>
+                            <td style="text-align:center">06</td>
+							<td style="text-align:center">15600 - 39100</td>
+							<td style="text-align:center">5400</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+	<div class="panel panel-danger">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>Assistant at National Insurance Corporation<small> Published On: 2015</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td>Last Date: 31/01/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="https://nationalinsuranceindia.nic.co.in/recruitment/Assistants_Recruitment_2014-15.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="https://nationalinsuranceindia.nic.co.in/NationalInsurance-Welcome.htm"><span class="glyphicon glyphicon-share"></span></a>
+								<br />
+								Application Fee: Rs. 500/-
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">Number of posts</th>
+							<th style="text-align:center">Eligibility</th>
+							<th style="text-align:center">Age</th>
+                            <th style="text-align:center">Scale of Pay(in Rs.)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Assistant</td>
+                            <td style="text-align:center">1000</td>
+							<td style="text-align:left">Graduate from a recognised university</td>
+							<td style="text-align:left">21  28 as on 30/11/2014</td>
+                            <td style="text-align:left">7640 - 21050</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+	<div class="panel panel-warning">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>Technical Assistant(Civil) at Rites Ltd.<small> Published On: 13/01/2015</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td>Last Date: 04/02/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://rites.com/web/images/stories/uploadVacancy/Microsoft_Word_TA_C_23.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://rites.com/vacancy/"><span class="glyphicon glyphicon-share"></span></a>
+								<br />
+								Application Fee: Rs. 200/-
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">Number of posts</th>
+							<th style="text-align:center">Eligibility</th>
+                            <th style="text-align:center">Scale of Pay(in Rs.)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Technical Assistant(Civil)</td>
+                            <td style="text-align:center">17</td>
+							<td style="text-align:left">Diploma in Civil Engineering</td>
+                            <td style="text-align:left">10700-26000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-danger">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>Management Trainee posts in Instrumentation Ltd.<small> Published On: 07/01/2015</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td>Last Date: 22/01/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://www.tnpl.com/Careers/advt%20_070115_final.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://www.tnpl.com/Careers.aspx"><span class="glyphicon glyphicon-share"></span></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">Number of posts</th>
+                            <th style="text-align:center">Scale of Pay(in Rs.)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left"> Assistant General Manager (Instrumentation) </td>
+                            <td style="text-align:left">01</td>
+                            <td style="text-align:left">35500-1200-47500</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Senior Manager (Soda Recovery)</td>
+                            <td style="text-align:left">01</td>
+                            <td style="text-align:left"> 30500-1000-40500</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Deputy Manager (Soda Recovery) / Assistant Manager (Soda Recovery) / Shift Engineer (Soda Recovery)</td>
+                            <td style="text-align:left">01</td>
+                            <td style="text-align:left">23500-600-29500/  19500-500-24500/  16000-400-20000</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Assistant Field Officer Trainee (Plantation / Forestry) </td>
+                            <td style="text-align:left">06</td>
+                            <td style="text-align:left">Ist year Stipend :18,000/-p.m. IInd year Stipend :20,250/-p.m.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-warning">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>Topo Trainee posts in Survey of India<small> Published On: 19/12/2014</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td>Last Date: 21/02/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="www.surveyofindia.gov.in/files/doc/11_TTT-A%20Requisition%2010-12-2014.doc"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://www.surveyofindia.gov.in/news/view/20"><span class="glyphicon glyphicon-share"></span></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">Number of Posts</th>
+                            <th style="text-align:center">Qualification</th>
+                            <th style="text-align:center">Pay Band(During Training in Rs.)</th>
+                            <th style="text-align:center">Grade Pay(During Training in Rs.)</th>
+                            <th style="text-align:center">Pay Band(After Training in Rs.)</th>
+                            <th style="text-align:center">Grade Pay(After Training in Rs.)</th>
+                            <th style="text-align:center">Age</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Topo Trainee Type 'A'</td>
+                            <td style="text-align:center">118</td>
+                            <td style="text-align:left">B.Sc. Mathematics with minimum 45%</td>
+                            <td style="text-align:center">5200 - 20200</td>
+                            <td style="text-align:center">1900</td>
+                            <th style="text-align:center">9300 - 34800</th>
+                            <th style="text-align:center">4200</th>
+                            <td style="text-align:center">18 - 27</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>Officer posts at Malwa Gramin Bank<small> Published On: 07/01/2015</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td>Last Date: 21/01/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://www.malwagraminbank.com/Draft%20Ad%20for%20MGB%20from%20IBPS%2001.01.2015.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://www.malwagraminbank.com/"><span class="glyphicon glyphicon-share"></span></a>
+                                <br />
+                                Application Fee: Rs. 500/-
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">No. of posts</th>
+                            <th style="text-align:center">Pay Scale(in Rs.)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Officer Scale I</td>
+                            <td style="text-align:center">16</td>
+                            <td style="text-align:center">14500 - 25700</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Officer Scale II(General Bank Officer)</td>
+                            <td style="text-align:center">09</td>
+                            <td style="text-align:center">19400 - 28100</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Officer Scale II(Information Technology)</td>
+                            <td style="text-align:center">02</td>
+                            <td style="text-align:center">19400 - 28100</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Officer Scale II(Law)</td>
+                            <td style="text-align:center">01</td>
+                            <td style="text-align:center">19400 - 28100</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Officer Scale II(CA)</td>
+                            <td style="text-align:center">01</td>
+                            <td style="text-align:center">19400 - 28100</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Officer Scale II(Agricultural Officer)</td>
+                            <td style="text-align:center">01</td>
+                            <td style="text-align:center">19400 - 28100</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Officer Scale III</td>
+                            <td style="text-align:center">02</td>
+                            <td style="text-align:center">25700 - 31500</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-warning">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>Administrativ officer at Agriculture Insurance Corporation of India<small> Published On: 09/01/2015</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td>Last Date: 15/01/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://www.aicofindia.com/AICEng/General_Documents/AIC%20FINAL%20ADV%20REC%202015.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://www.aicofindia.com/AICEng/Pages/Business_Profiles_Tenders/NoticeTenderHome.aspx"><span class="glyphicon glyphicon-share"></span></a>
+                                <br />
+                                Application Fee: Rs. 500/-
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">No. of posts</th>
+                            <th style="text-align:center">Age</th>
+                            <th style="text-align:center">Pay Scale(in Rs.)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Administrative Officer</td>
+                            <td style="text-align:center">38</td>
+                            <td style="text-align:center">21 - 30 as o 01/01/2015</td>
+                            <td style="text-align:center">17240 - 32640</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>Junior Executive posts in Airport Authority of India(AAI)<small> Published On: 12/01/2015</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td>Last Date: 10/02/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://www.aai.aero/employment_news/Advertisement2014_JE_ATC_CNS.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://www.aai.aero/employment_news/Employee_Recruitment_new.jsp"><span class="glyphicon glyphicon-share"></span></a>
+                                <br />
+                                Application Fee: Rs. 500/-
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">No. of posts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Junior Executive(Air Traffic Control)</td>
+                            <td style="text-align:center">200</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Junior Executive(Electronics)</td>
+                            <td style="text-align:center">250</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-warning">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>Faculty posts in University of Hyderabad<small> Published On: 02/01/2015</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td>Last Date: 27/02/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://uohyd.ac.in/images/recruitment/faculty_notification_corigendum_020115.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://uohyd.ac.in/index.php/81-about-uoh/1218-corrigendum-faculty-notifi-020115"><span class="glyphicon glyphicon-share"></span></a>
+                                <br />
+                                Application Fee: Rs. 1000 and Bank Charges: Rs. 25
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">No. of posts</th>
+                            <th style="text-align:center">Pay Scale(In Rs.)</th>
+                            <th style="text-align:center">Grade Pay(In Rs.)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Assistant Professor</td>
+                            <td style="text-align:center">11</td>
+                            <td style="text-align:center">15600 - 39100</td>
+                            <td style="text-align:center">6000</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Associate Professor</td>
+                            <td style="text-align:center">20</td>
+                            <td style="text-align:center">37400 - 67000</td>
+                            <td style="text-align:center">9000</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Professor</td>
+                            <td style="text-align:center">11</td>
+                            <td style="text-align:center">37400 - 67000</td>
+                            <td style="text-align:center">10000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-danger">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>Faculty posts in Indian Institute of Management Lucknow(IIML)<small> Published On: 05/01/2015</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td>Last Date: 30/01/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://www.iiml.ac.in/wp-content/uploads/2015/01/fac_app.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://www.iiml.ac.in/?page_id=76"><span class="glyphicon glyphicon-share"></span></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">Pay Scale(In Rs.)</th>
+                            <th style="text-align:center">Grade Pay(In Rs.)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Assistant Professor</td>
+                            <td style="text-align:center">15600 - 39100</td>
+                            <td style="text-align:center">8000</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Associate Professor</td>
+                            <td style="text-align:center">37400 - 67000</td>
+                            <td style="text-align:center">9500</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Professor</td>
+                            <td style="text-align:center">37400 - 39100</td>
+                            <td style="text-align:center">10500</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-warning">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span> Supervisor posts in Bharat Heavy Electricals Ltd(BHEL) <small> Published On: 03/01/2014</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td align="left">Apply Online on or before: 24/01/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://115.111.219.74/FTARecruitment2014/fta_adv.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://115.111.219.74/FTARecruitment2014/"><span class="glyphicon glyphicon-share"></span></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">Number of Posts</th>
+                            <th style="text-align:center">Eligibility</th>
+                            <th style="text-align:center">Tenure</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Project Supervisor</td>
+                            <td style="text-align:center">31</td>
+                            <td style="text-align:left">Diploma in electrical/electronics/communication/Instrumentation/Mechanical/Civil with 60% marks in aggregate for all years/semesters</td>
+                            <td style="text-align:center">2 years</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-danger">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>Junior Engineer posts in Reserve Bank of India(RBI)<small> Published On: 29/12/2014</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td>Last Date: 17/01/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://rbidocs.rbi.org.in/rdocs/Content/PDFs/RPJECE291214.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://rbi.org.in/scripts/bs_viewcontent.aspx?Id=2913"><span class="glyphicon glyphicon-share"></span></a>
+                                <br />
+                                Application Fee: Rs. 500/-
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">No. of posts</th>
+                            <th style="text-align:center">Pay Scale(In Rs.)</th>
+                            <th style="text-align:center">No. of Age</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Junior Engineer(Civil)</td>
+                            <td style="text-align:center">23</td>
+                            <td style="text-align:center">8400 - 20100</td>
+                            <td style="text-align:left">20 - 30 years as on 29/12/2014</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Junior Engineer(Electrical)</td>
+                            <td style="text-align:center">15</td>
+                            <td style="text-align:center">8400 - 20100</td>
+                            <td style="text-align:left">20 - 30 years as on 29/12/2014</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-warning">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>non faculty posts at National Institute of mental health and Neuro Sciences(NIMHANS)<small> Published On: 31/12/2014</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td align="left">Apply Online on or before: 21/01/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://nimhans.kar.nic.in/employment/v20141231n.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://nimhans.kar.nic.in/notifications.htm"><span class="glyphicon glyphicon-share"></span></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">Number of Posts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">CLINICAL PATHOLOGIST (SPECIALIST GRADE)</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">RESEARCH ASSOCIATE (RADIOCHEMISTRY)</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">LECTURER (UG) COLLEGE OF NURSING</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">SENIOR MEDICAL RECORDS OFFICER</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">MEDICAL PHYSICIST</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">RADIOCHEMIST</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">JUNIOR SCIENTIFIC OFFICER (RADIATION SAFETY)</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">COMPUTER PROGRAMMER</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">OCCUPATIONAL THERAPIST</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">SPEECH THERAPIST</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">PHYSIOTHERAPIST</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left"> TECHNICIAN NUCLEAR MEDICINE</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">LAUNDRY SUPERVISOR</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">LEGAL ASSISTANT</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">RADIOGRAPHER</td>
+                            <td style="text-align:center">04</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">INSTRUCTOR (BLOW MOULDING) </td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">INSTRUCTOR (LEATHER GOODS)</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">INSTRUCTOR (SEALING IN WAX)</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">STENOGRAPHER GRADE - II</td>
+                            <td style="text-align:center">07</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">PUBLIC RELATIONS ASSISTANT</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">ASSISTANT INSTRUCTOR (BINDER)</td>
+                            <td style="text-align:center">01(ST)</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">ASSISTANT INSTRUCTOR (BLOW MOULDER)</td>
+                            <td style="text-align:center">01(OBC)</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">ASSISTANT INSTRUCTOR (MAT WEAVING)</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">ASSISTANT INSTRUCTOR (NEEDLE WORK)</td>
+                            <td style="text-align:center">01(OBC)</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">ASSISTANT INSTRUCTOR (SOAP MAKING TECHNICIAN)</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">ASSISTANT INSTRUCTOR (WEAVER)</td>
+                            <td style="text-align:center">01(OBC)</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">ASSISTANT INSTRUCTOR (PRINTING)</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">DRIVER</td>
+                            <td style="text-align:center">04</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left"> INSTRUMENT MECHANIC</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">CLINICAL PSYCHOLOGIST (PURELY ON CONTRACT BASIS)</td>
+                            <td style="text-align:center">10</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">PSYCHIATRIC SOCIAL WORKER (PURELY ON CONTRACT BASIS) </td>
+                            <td style="text-align:center">05</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-warning">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span> Non teaching posts in delhi university <small> Published On: 18/12/2014</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td align="left">Apply Online on or before: 08/01/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://www.du.ac.in/du/uploads/Advertisement2014/Non-Teaching/Dec2014_EstabIV_NonTeachAdvt.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://www.du.ac.in/du/index.php?mact=News,cntnt01,detail,0&cntnt01articleid=3678&cntnt01returnid=83"><span class="glyphicon glyphicon-share"></span></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">Number of Posts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Registrar</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Director, CPDHE</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Director of Physical Education, Delhi University Sports Council</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Librarian, Delhi University Library System</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Controller of Examination</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Principle Scientific officer</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Deputy Librarian</td>
+                            <td style="text-align:center">03</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Deputy Registrar</td>
+                            <td style="text-align:center">03</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Assistant Librarian</td>
+                            <td style="text-align:center">09</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Assistant Director, Physical Education</td>
+                            <td style="text-align:center">02</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Horticulture</td>
+                            <td style="text-align:center">02</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span> Madhya Pradesh State Engineering Service Examination<small> Published On: 29/12/2014</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td><i>Exam Date: 14/06/2015</i><br />Apply Online on or before: 11/02/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://www.mppsc.com/ATTACHMENTS_FILES/ADVERTISEMENTS_OPTION/Requirtment_2014/RECRUITMENT%20ADVERTISEMENT%20NO_02_EXAM_2014_24-12-2014_STATE%20ENGINEERING%20SERVICE%20EXAM-2014_24-12-2014_rn.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://www.mppsc.com/"><span class="glyphicon glyphicon-share"></span></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Multiple posts</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span> Madhya Pradesh State Engineering Service Examination<small> Published On: 30/12/2014</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td><i>Exam Date: 02/08/2015 and 03/08/2015</i><br />Apply Online on or before: 13/02/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://www.mppsc.com/ATTACHMENTS_FILES/ADVERTISEMENTS_OPTION/Requirtment_2014/RECRUITMENT%20ADVERTISEMENT%20NO_04_EXAM_2014_30-12-2014_STATE%20FOREST%20SERVICE%20EXAM-2014_30-12-2014.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://www.mppsc.com/"><span class="glyphicon glyphicon-share"></span></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Multiple posts</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-warning">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span> Faculty posts in MN Nit Allahbad <small> Published On: 18/12/2014</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td align="left">Apply Online on or before: 30/01/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://mnnit.ac.in/images/newstories/Corrigendum_Faculty_Advertisement_2014_18_12_2014.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://mnnit.ac.in/index.php/faculty-positions"><span class="glyphicon glyphicon-share"></span></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">Pay Scale(In Rs)</th>
+                            <th style="text-align:center">AGP(In Rs)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Associate Professor</td>
+                            <td style="text-align:center">37400 - 67000</td>
+                            <td style="text-align:center">10500</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Professor</td>
+                            <td style="text-align:center">37400 - 67000</td>
+                            <td style="text-align:center">9500</td>
+                        </tr>
+                        <tr>
+                            <td colspan="1" style="text-align:left">
+                                <ul>
+                                    <li>Applied Mechanics</li>
+                                    <li>Biotechnology</li>
+                                    <li>Chemical Engineering</li>
+                                    <li>Civil Engineering</li>
+                                    <li>Computer Science and Engineering</li>
+                                    <li>Humanities and Social Sciences</li>
+                                    <li>Physics</li>
+                                </ul>
+                            </td>
+                            <td colspan="2" style="text-align:left">
+                                <ul>
+                                    <li>Chemistry</li>
+                                    <li>Electrical Engineering</li>
+                                    <li>Electronics and Communication Engineering Engineering</li>
+                                    <li>Mechanical Engineering</li>
+                                    <li>Mathematics</li>
+                                    <li>School of Management Studies</li>
+                                    <li>GIS(Geographic Information) Cell</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span> Hindustant Aeronautics Limited (HAL)<small> Published On: 23/12/2014</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td align="left">Apply Online on or before: 25/01/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://hal-india.com/Common/Uploads/Resumes/51_CareerPDF1_Advertisement%20of%20Executive-%202014.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://hal-india.com/Career_Details.aspx?Mkey=206&lKey=&Ckey=51&Divkey=33"><span class="glyphicon glyphicon-share"></span></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">No. of posts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Sr. Medical Officer (Ophthamology)</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Sr. Medical Officer (Physician)</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Security Officer</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Assistant Engineer(Russian Translator/Interpretation)</td>
+                            <td style="text-align:center">02</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-danger">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span> Directorate General Border Security Force(BSF) in Air Wing<small> Published On: 24/12/2014</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td align="left">Last Date: 30 days Application Fees: Rs. 100</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://bsf.nic.in/doc/recruitment/r11.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://bsf.nic.in/en/recruitment.html"><span class="glyphicon glyphicon-share"></span></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">No. of posts</th>
+                            <th style="text-align:center">Age(in Years)</th>
+                            <th style="text-align:center">Pay Scale(In Rs.)</th>
+                            <th style="text-align:center">Grade Pay(In Rs.)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Assistant Commandant(Logistics)</td>
+                            <td style="text-align:center">35</td>
+                            <td style="text-align:center">01</td>
+                            <td style="text-align:center">15600 - 39100</td>
+                            <td style="text-align:center">5400</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Assistant Aircraft Mechanic(ASI)</td>
+                            <td style="text-align:center">28</td>
+                            <td style="text-align:center">45</td>
+                            <td style="text-align:center">5200 - 20200</td>
+                            <td style="text-align:center">2800</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Constable(storeman)</td>
+                            <td style="text-align:center">05</td>
+                            <td style="text-align:center">20 - 25</td>
+                            <td style="text-align:center">5200 - 20200</td>
+                            <td style="text-align:center">2000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-warning">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span> Steel Authority Of India(SAIL) Bokaro<small> Published On: 19/12/2014</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td align="left">Last Date: 19/12/2014 to 15/01/2015 Application Fees: Rs. 150</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://103.241.144.18/sabooreg/Document/AdvtPDF/Attendant-Cum-Technician%20Trainee.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://103.241.144.18/sabooreg/frmJobDetails.aspx"><span class="glyphicon glyphicon-share"></span></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Designation</th>
+                            <th style="text-align:center">No. of posts</th>
+                            <th style="text-align:center">Age(in Years)</th>
+                            <th style="text-align:center">Pay Scale(In Rs.)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Attendant cum tchnician trainee</td>
+                            <td style="text-align:center">132</td>
+                            <td style="text-align:center">28 as on 01/12/2014</td>
+                            <td style="text-align:center">Pay scale 1 S-1 15830 - 3% - 22150</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span> UPSC multiple posts 2015<small> Published On: 27/12/2014</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td align="left">Last Date: 15/01/2015 Application Fees: Rs. 100</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://upsc.gov.in/recruitment/advt/2014/advt21.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://upsconline.nic.in/mainmenu2.php"><span class="glyphicon glyphicon-share"></span></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Desination</th>
+                            <th style="text-align:center">No. of posts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">Deputy Director of operations(Directorate General of Civi Aviation)</td>
+                            <td style="text-align:center">08</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Associate Professor(Arabic) : National Defence Academy, Khadakwasla, Pune</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Associate Professor(Physics) : National Defence Academy, Khadakwasla, Pune</td>
+                            <td style="text-align:center">02</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Senior Administrative officers Grade-1 : Defence Research and DEvelopment Organisation(DRDO)</td>
+                            <td style="text-align:center">05</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Senior Administrative officers Grade-2 : Defence Research and DEvelopment Organisation(DRDO)</td>
+                            <td style="text-align:center">23</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Assistant Directors Grade-2(Economic Investigation) : Office of Development Commissioner</td>
+                            <td style="text-align:center">29</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Station Officers: Delhi Fire Service</td>
+                            <td style="text-align:center">39</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <br />
+        <div class="panel panel-danger">
+            <div class="panel-heading">
+                <table class="table table-borderless">
+                    <thead><tr><th colspan="2" style="text-align:left"><span class="glyphicon glyphicon-pushpin"></span>National PRojects Construction Corporation Limited(NPCC)<small>Publication Date: Dec 2014</small></th></tr></thead>
+                    <tbody>
+                        <tr>
+                            <td align="left">Last Date 31/01/2015</td>
+                            <td align="right">
+                                <a title="Download notification" target="_blank" href="http://www.npcc.gov.in/writereaddata/others/GMF.pdf"><span class="glyphicon glyphicon-download"></span></a>
+                                <a title="Go to site" target="_blank" href="http://www.npcc.gov.in"><span class="glyphicon glyphicon-share"></span></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">Desination</th>
+                            <th style="text-align:center">No. of posts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left">General Manager(Finance)</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Joint General Manager(Finance)</td>
+                            <td style="text-align:center">02</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Deputy General Manager(Finance)</td>
+                            <td style="text-align:center">02</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Senior Manager(Law)</td>
+                            <td style="text-align:center">01</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left">Deputy Manager(Law)</td>
+                            <td style="text-align:center">03</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+	</div>
+</div>
+</div>
+</body>
+</html>
+
+
+

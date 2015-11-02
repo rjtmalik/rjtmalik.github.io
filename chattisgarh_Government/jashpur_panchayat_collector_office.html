@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <title>Assistant Grade-III</title>
+    <style type="text/css">
+        th {
+            text-align: center;
+        }
+
+        td {
+            text-align: center;
+        }
+
+        a {
+            color: #449d44;
+        }
+
+        .navbar-default {
+            background-color: white;
+            color: #5cb85c;
+            border-color: white;
+        }
+
+        h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small, .h1 .small, .h2 .small, .h3 .small, .h4 .small, .h5 .small, .h6 .small {
+            color: #449d44;
+        }
+
+        .breadcrumb {
+            background-color: white;
+        }
+        .img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img
+        {
+            width:150px;
+            height:200px;
+        }
+    </style>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#ans1').hide();
+            $('#redirect1').hide();
+            $('#ans2').hide();
+            $('#redirect2').hide();
+            $('#ans3').hide();
+            $('#redirect3').hide();
+            $('#btnQ1').click(function () {
+                $('#btnQ1').hide();
+                $('#redirect1').show();
+                $('#ans1').show();
+            });
+            $('#btnQ2').click(function () {
+                $('#btnQ2').hide();
+                $('#redirect2').show();
+                $('#ans2').show();
+            });
+            $('#btnQ3').click(function () {
+                $('#btnQ3').hide();
+                $('#redirect3').show();
+                $('#ans3').show();
+            });
+        });
+
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <h1><small>Collector Office, Jashpur (Chhattisgarh) invites application for the post of 03 Assistant Grade-III</small></h1>
+                    </div>
+                </div>
+            </nav>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <ol class="breadcrumb">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="../states/chattisgarh.html">All Jobs By Chattisgarh Government</a></li>
+                    <li class="active">Collector Office, Jashpur</li>
+                </ol>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h3>Job Details</h3>
+                <ul>
+                    <li>
+                        <h4><i>Assistant Grade-III</i></h4>
+                        <ul>
+                            <li><b>Eligibility</b>&nbsp;Passed Higher Secondary School. Diploma in Programming/Data Entry Operator at least on year.</li>
+                            <li><b>Age Limit</b>&nbsp;18 to 35 Year As on 01.01.2015</li>
+                            <li><b>No. Of Posts</b>&nbsp;03</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <h4>How To Apply</h4>
+            <p>Interested candidates may apply in Prescribed Application form along with  copies of necessary certificates & Document send to Office Of the Collector, Jashpur on or before 13.11.2015.</p>
+            <h6><a href="http://jashpur.nic.in/Dapti/Panchayat%20Vacancy%201.PDF">Detail Advertisement & Application Form Link</a></h6>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="../questions/images/Dhamek_Stupa_Sarnath.jpg" />
+                    <div class="caption">
+                        <h3>Can you Identify the Monument ? </h3>
+                        <p id="ans1">The Dhamekh Stupa, Sarnath</p>
+                        <p style="text-align:right"><a id="btnQ1" class="btn btn-success" role="button">View Answer</a>
+                        <p style="text-align:right"><a id="redirect1" href="../questions/questions_set1.html" class="btn btn-warning" role="button">Ready For More?</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="../questions/images/Lala_lajpat_Rai.jpg" />
+                    <div class="caption">
+                        <h3>Can you Identify This Freedom Fighter ?</h3>
+                        <p id="ans2">Lala Lajpat Rai</p>
+                        <p style="text-align:right"><a id="btnQ2" class="btn btn-success" role="button">View Answer</a>
+                        <p style="text-align:right"><a id="redirect2" href="../questions/questions_set1.html" class="btn btn-warning" role="button">Ready For More?</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="../questions/images/Flag_of_France.png" />
+                    <div class="caption">
+                        <h3>Do you know which country's Flag is this ?</h3>
+                        <p id="ans3">France</p>
+                        <p style="text-align:right"><a id="btnQ3" class="btn btn-success" role="button">View Answer</a>
+                        <p style="text-align:right"><a id="redirect3" href="../questions/questions_set1.html" class="btn btn-warning" role="button">Ready For More?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
