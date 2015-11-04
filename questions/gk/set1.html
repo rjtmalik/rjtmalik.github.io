@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+
+    <title>GK Questions</title>
+
+    <link href="http://code.ionicframework.com/1.1.0/css/ionic.min.css" rel="stylesheet">
+    <script src="http://code.ionicframework.com/1.1.0/js/ionic.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <style type=" text/css">
+        a {
+            text-decoration: none;
+        }
+
+        .item-icon-left .icon:before, .item-icon-right .icon:before {
+            color: grey;
+        }
+    </style>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.answer').hide();
+            $('#btnRedirect').hide();
+            $('#btnShowAnswer').on('click', function () {
+                $('.answer').toggle();
+                $('#btnRedirect').toggle();
+                $('#btnShowAnswer').toggle();
+            });
+            $('#btnRedirect').on('click', function () {
+                window.open('set2.html','_parent');
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="bar bar-header bar-calm">
+        <button id="btnBack" class="button button-icon icon ion-chevron-left"></button>
+        <h1 class="title">GyaanCheck</h1>
+    </div>
+    <br />
+    <br />
+    <ul class="list">
+        <li class="item">
+            India and China conducted joint anti-terror drills in ?<span style="color:#33cd5f" class="answer item-balanced"> Kunming, China</span>
+        </li>
+        <li class="item">
+            Bombay High Court judged in favour of ? in the alleged tax avoidance case.<span style="color:#33cd5f" class="answer pull-right"> Vodafone</span>
+        </li>
+        <li class="item">
+            India, US and Japan conducted the 19th Exercise Malabar in the<span style="color:#33cd5f" class="answer pull-right"> Bay Of Bengal</span>
+        </li>
+        <li class="item">
+            The Supreme Court of India declared ? to be unconstitutional.<span style="color:#33cd5f" class="answer pull-right"> National Judicial Appointments Commission (NJAC)</span>
+        </li>
+        <li class="item">
+            ? finished first the Paragliding World Cup held in Bir, Himachal Pradesh.<span style="color:#33cd5f" class="answer pull-right"> Michael Kueffer</span>
+        </li>
+        <li class="item">
+            The birth anniversary of Sardar Vallabhbhai Patel was observed as ?<span style="color:#33cd5f" class="answer pull-right"> Rashtriya Ekta Diwas</span>
+        </li>
+        <li class="item">
+            Prime Minister Narendra Modi laid the foundation stone of ? , the capital Of Andhra Pradesh <span style="color:#33cd5f" class="answer pull-right"> Amaravati</span>
+        </li>
+        <li class="item">
+            Home Minster Rajnath Singh inaugurated the ? and the Indian Police Institute (IPI) in New Delhi.<span style="color:#33cd5f" class="answer pull-right"> Indian Police Foundation (IPF)</span>
+        </li>
+        <li class="item">
+            Telecom Regulatory Authority of India (TRAI) mandated that the telecom operator will have to pay ? for each dropped call to the subscriber, from 1 January 2016 onward.<span style="color:#33cd5f" class="answer pull-right"> ₹1</span>
+        </li>
+        <li class="item">
+            At the 2015 Asian Air Gun Championship, ? won gold in the women's 10m air pistol event<span style="color:#33cd5f" class="answer pull-right"> Heena Sidhu</span>
+        </li>
+    </ul>
+    <div id="btnShowAnswer" class="bar bar-footer bar-calm">
+        <div class="title"><a id="showAnswers">Click To Check Answers</a></div>
+    </div>
+    <div id="btnRedirect" class="bar bar-footer bar-balanced">
+        <div class="title"><a id="showAnswers">Ready For More Questions ?</a></div>
+    </div>
+</body>
+</html>
