@@ -22,16 +22,24 @@
     <script type="text/javascript">
         $(document).ready(function () {
             $('.answer').hide();
-            $('#showAnswers').on('click', function () {
+            $('#btnRedirect').hide();
+            $('#btnShowAnswer').on('click', function () {
                 $('.answer').toggle();
-                $('#showAnswers').removeClass('bar-calm');
-                $('#showAnswers').addClass('bar bar-footer bar-assertive');
-                $('#showAnswers').text('Wanna Try Set 3 ?');
+                $('#btnRedirect').toggle();
+                $('#btnShowAnswer').toggle();
             });
+            $('#btnRedirect').on('click', function () {
+                window.open('set2.html','_parent');
+            });
+
             $('#btnBack').on('click', function () {
-                window.open(document.referrer, '_parent');
+                var ref = document.referrer;
+                window.open(ref, '_parent');
             });
+
         });
+
+
     </script>
 </head>
 <body>
@@ -43,38 +51,41 @@
     <br />
     <ul class="list">
         <li class="item">
-            India and China conducted joint anti-terror drills in ? <i class="answer pull-right text-balanced">Kunming, China</i>
+            India and China conducted joint anti-terror drills in ?<span style="color:#33cd5f" class="answer item-balanced"> Kunming, China</span>
         </li>
         <li class="item">
-            Bombay High Court judged in favour of ? in the alleged tax avoidance case. <i class="answer pull-right">Vodafone</i>
+            Bombay High Court judged in favour of ? in the alleged tax avoidance case.<span style="color:#33cd5f" class="answer pull-right"> Vodafone</span>
         </li>
         <li class="item">
-            India, US and Japan conducted the 19th Exercise Malabar in the <i class="answer pull-right">Bay Of Bengal</i>
+            India, US and Japan conducted the 19th Exercise Malabar in the<span style="color:#33cd5f" class="answer pull-right"> Bay Of Bengal</span>
         </li>
         <li class="item">
-            The Supreme Court of India declared ? to be unconstitutional.<i class="answer pull-right">National Judicial Appointments Commission (NJAC)</i>
+            The Supreme Court of India declared ? to be unconstitutional.<span style="color:#33cd5f" class="answer pull-right"> National Judicial Appointments Commission (NJAC)</span>
         </li>
         <li class="item">
-            ? finished first the Paragliding World Cup held in Bir, Himachal Pradesh..<i class="answer pull-right">Michael Kueffer</i>
+            ? finished first the Paragliding World Cup held in Bir, Himachal Pradesh.<span style="color:#33cd5f" class="answer pull-right"> Michael Kueffer</span>
         </li>
         <li class="item">
-            The birth anniversary of Sardar Vallabhbhai Patel was observed as ?<i class="answer pull-right">Rashtriya Ekta Diwas</i>
+            The birth anniversary of Sardar Vallabhbhai Patel was observed as ?<span style="color:#33cd5f" class="answer pull-right"> Rashtriya Ekta Diwas</span>
         </li>
         <li class="item">
-            Prime Minister Narendra Modi laid the foundation stone of ? <i class="answer pull-right">Amaravati</i>
+            Prime Minister Narendra Modi laid the foundation stone of ? , the capital Of Andhra Pradesh <span style="color:#33cd5f" class="answer pull-right"> Amaravati</span>
         </li>
         <li class="item">
-            Home Minster Rajnath Singh inaugurated the ? and the Indian Police Institute (IPI) in New Delhi.<i class="answer pull-right">Indian Police Foundation (IPF)</i>
+            Home Minster Rajnath Singh inaugurated the ? and the Indian Police Institute (IPI) in New Delhi.<span style="color:#33cd5f" class="answer pull-right"> Indian Police Foundation (IPF)</span>
         </li>
         <li class="item">
-            Telecom Regulatory Authority of India (TRAI) mandated that the telecom operator will have to pay ? for each dropped call to the subscriber, from 1 January 2016 onward.<i class="answer pull-right">₹1</i>
+            Telecom Regulatory Authority of India (TRAI) mandated that the telecom operator will have to pay ? for each dropped call to the subscriber, from 1 January 2016 onward.<span style="color:#33cd5f" class="answer pull-right"> ₹1</span>
         </li>
         <li class="item">
-            At the 2015 Asian Air Gun Championship, ? won gold in the women's 10m air pistol event<i class="answer pull-right">Heena Sidhu</i>
+            At the 2015 Asian Air Gun Championship, ? won gold in the women's 10m air pistol event<span style="color:#33cd5f" class="answer pull-right"> Heena Sidhu</span>
         </li>
     </ul>
-    <div class="bar bar-footer bar-calm">
+    <div id="btnShowAnswer" class="bar bar-footer bar-calm">
         <div class="title"><a id="showAnswers">Click To Check Answers</a></div>
+    </div>
+    <div id="btnRedirect" class="bar bar-footer bar-balanced">
+        <div class="title"><a id="showAnswers">Ready For More Questions ?</a></div>
     </div>
 </body>
 </html>
