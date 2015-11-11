@@ -23,6 +23,9 @@
             var ref = document.referrer;
             window.open(ref, '_parent');
         });
+        $('#btnRedirect').on('click', function () {
+            location.href = '/questions/gk/set1.html';
+        });
     </script>
 </head>
 <body>
@@ -64,8 +67,8 @@
     </div>
     <h6><a href="http://careers.bhel.in/et_srd2015/jsp/et_app_exe_2015.jsp">Detail Advertisement & Application Form Link</a></h6>
     <br />
-    <div class="bar bar-footer bar-calm">
-        <div class="title"><a href="/questions/gk/set1.html">Click To Get Practice Papers</a></div>
-    </div>
+    <button id="btnRedirect" class="button button-block button-calm">
+        Click To Get Practice Papers
+    </button>
 </body>
 </html>

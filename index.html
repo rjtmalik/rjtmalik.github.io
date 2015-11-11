@@ -8,6 +8,7 @@
 
     <link href="http://code.ionicframework.com/1.1.0/css/ionic.min.css" rel="stylesheet">
     <script src="http://code.ionicframework.com/1.1.0/js/ionic.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <style type="text/css">
         a {
             text-decoration: none;
@@ -17,6 +18,13 @@
             color: grey;
         }
     </style>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#btnRedirect').on('click', function () {
+                location.href = '/questions/gk/set1.html';
+            });
+        });
+    </script>
 </head>
 <body>
     <div class="bar bar-header bar-calm">
@@ -62,8 +70,8 @@
         </a>
     </div>
     <br/>
-    <div class="bar bar-footer bar-calm">
-        <div class="title"><a href="/questions/gk/set1.html">Click To Get Practice Papers</a></div>
-    </div>
+    <button id="btnRedirect" class="button button-block button-calm">
+        Click To Get Practice Papers
+    </button>
 </body>
 </html>

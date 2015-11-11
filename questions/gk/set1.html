@@ -29,12 +29,12 @@
                 $('#btnShowAnswer').toggle();
             });
             $('#btnRedirect').on('click', function () {
-                window.open('set2.html','_parent');
+                location.href = 'set2.html';
             });
 
             $('#btnBack').on('click', function () {
                 var ref = document.referrer;
-                window.open(ref, '_parent');
+                location.href = ref;
             });
         });
     </script>
@@ -79,11 +79,11 @@
         </li>
     </ul>
     <br />
-    <div id="btnShowAnswer" class="bar bar-footer bar-calm">
-        <div class="title"><a id="showAnswers">Click To Check Answers</a></div>
-    </div>
-    <div id="btnRedirect" class="bar bar-footer bar-balanced">
-        <div class="title"><a id="showAnswers">Ready For More Questions ?</a></div>
-    </div>
+    <button id="btnShowAnswer" class="button button-block button-calm">
+        Click To Check Answers
+    </button>
+    <button id="btnRedirect" class="button button-block button-calm">
+        Ready For More Questions ?
+    </button>
 </body>
 </html>
