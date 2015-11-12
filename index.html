@@ -1,21 +1,27 @@
-﻿<html>
+﻿<!DOCTYPE html>
 
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-
-    <title>Job Listings</title>
-
-    <link href="http://code.ionicframework.com/1.1.0/css/ionic.min.css" rel="stylesheet">
-    <script src="http://code.ionicframework.com/1.1.0/js/ionic.min.js"></script>
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <meta charset="utf-8" />
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <title></title>
     <style type="text/css">
-        a {
-            text-decoration: none;
+        .panel {
+            border-bottom: none;
         }
-
-        .item-icon-left .icon:before, .item-icon-right .icon:before {
-            color: grey;
+        .glyphicon-menu-right:before{
+            color:grey;
+        }
+        .jobTitle{
+            color:grey;
+        }
+        .Institution{
+            color:darkgray;
         }
     </style>
     <script type="text/javascript">
@@ -24,54 +30,85 @@
                 location.href = '/questions/gk/set1.html';
             });
         });
+        $(document).ready(function () {
+            $('#btnRedirectToHome').on('click', function () {
+                location.href = '#';
+            });
+        });
     </script>
 </head>
 <body>
-    <div class="bar bar-header bar-calm">
-        <h1 class="title">GyaanCheck</h1>
+    <button id="btnRedirectToHome" style="display: block; width: 100%;" class="btn btn-primary btn-success">
+        Gyaancheck - Job Listings
+    </button>
+    <div class="panel panel-success">
+        <div class="panel-body">
+            <ul class="list-group">
+                <li class="row list-group-item">
+                    <div class="col-sm-1 col-xs-1 col-md-1 pull-left"><img src="gsl.jpg" /></div>
+                    <div class="col-sm-10 col-xs-10 col-md-10 pull-left">
+                        <h4 class="Institution">Goa Shipyard Limited (GSL)</h4>
+                        <i class="jobTitle">Office Assistant</i>
+                    </div>
+                    <div class="col-sm-1 col-xs-1 col-md-1 pull-left">
+                        <h1><a href="/Goa/gsl_nov_2015.html"><span class="glyphicon glyphicon-menu-right"></span></a></h1>
+                    </div>
+                </li>
+                <li class="row list-group-item">
+                    <div class="col-sm-1 col-xs-1 col-md-1 pull-left"><img src="bhel.jpg" /></div>
+                    <div class="col-sm-10 col-xs-10 col-md-10 pull-left">
+                        <h4 class="Institution">Bharat Heavy Electricals Ltd (BHEL)</h4>
+                        <i class="jobTitle">Executive Trainee (HR)</i>
+                    </div>
+                    <div class="col-sm-1 col-xs-1 col-md-1 pull-left">
+                        <h1><a href="/Bhel/hr_nov_2015.html"><span class="glyphicon glyphicon-menu-right"></span></a></h1>
+                    </div>
+                </li>
+                <li class="row list-group-item">
+                    <div class="col-sm-1 col-xs-1 col-md-1 pull-left"><img src="bhel.jpg" /></div>
+                    <div class="col-sm-10 col-xs-10 col-md-10 pull-left">
+                        <h4 class="Institution">Bharat Heavy Electricals Ltd (BHEL)</h4>
+                        <i class="jobTitle">Engineer Trainee</i>
+                    </div>
+                    <div class="col-sm-1 col-xs-1 col-md-1 pull-left">
+                        <h1><a href="/Bhel/engineer_trainee_nov_2015.html"><span class="glyphicon glyphicon-menu-right"></span></a></h1>
+                    </div>
+                </li>
+                <li class="row list-group-item">
+                    <div class="col-sm-1 col-xs-1 col-md-1 pull-left"><img src="bhel.jpg" /></div>
+                    <div class="col-sm-10 col-xs-10 col-md-10 pull-left">
+                        <h4 class="Institution">Bharat Heavy Electricals Ltd (BHEL)</h4>
+                        <i class="jobTitle">229 Graduate Apprentices & Diploma Apprentices</i>
+                    </div>
+                    <div class="col-sm-1 col-xs-1 col-md-1 pull-left">
+                        <h1><a href="/Bhel/apprentice_nov_2015.html"><span class="glyphicon glyphicon-menu-right"></span></a></h1>
+                    </div>
+                </li>
+                <li class="row list-group-item">
+                    <div class="col-sm-1 col-xs-1 col-md-1 pull-left"><img src="rims.jpg" /></div>
+                    <div class="col-sm-10 col-xs-10 col-md-10 pull-left">
+                        <h4 class="Institution">Rajendra Institute OF Medical Sciences, Ranchi</h4>
+                        <i class="jobTitle">Faculty Recruitment</i>
+                    </div>
+                    <div class="col-sm-1 col-xs-1 col-md-1 pull-left">
+                        <h1><a href="/jharkhand_Government/rims_faculty_nov_2015.html"><span class="glyphicon glyphicon-menu-right"></span></a></h1>
+                    </div>
+                </li>
+                <li class="row list-group-item">
+                    <div class="col-sm-1 col-xs-1 col-md-1 pull-left"><img src="chattisgarh_govt.png" /></div>
+                    <div class="col-sm-10 col-xs-10 col-md-10 pull-left">
+                        <h4 class="Institution">Collector Office, Jashpur (Chhattisgarh)</h4>
+                        <i class="jobTitle">Assistant Grade-III Recruitment</i>
+                    </div>
+                    <div class="col-sm-1 col-xs-1 col-md-1 pull-left">
+                        <h1><a href="/chattisgarh_Government/jashpur_panchayat_collector_office.html"><span class="glyphicon glyphicon-menu-right"></span></a></h1>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </div>
-    <br /><br />
-    <div class="list">
-        <a class="item item-avatar-left item-icon-right" href="/Goa/gsl_nov_2015.html">
-            <img src="gsl.jpg" />
-            <h2>Goa Shipyard Limited (GSL)</h2>
-            <p> Office Assistant</p>
-            <i class="icon ion-chevron-right"></i>
-        </a>
-        <a class="item item-avatar-left item-icon-right" href="/Bhel/hr_nov_2015.html">
-            <img src="bhel.jpg" />
-            <h2>Bharat Heavy Electricals Ltd</h2>
-            <p>Executive Trainee (HR)</p>
-            <i class="icon ion-chevron-right"></i>
-        </a>
-        <a class="item item-avatar-left item-icon-right" href="/Bhel/engineer_trainee_nov_2015.html">
-            <img src="bhel.jpg" />
-            <h2>Bharat Heavy Electricals Ltd</h2>
-            <p>Engineer Trainee</p>
-            <i class="icon ion-chevron-right"></i>
-        </a>
-        <a class="item item-avatar-left item-icon-right" href="/Bhel/apprentice_nov_2015.html">
-            <img src="bhel.jpg" />
-            <h2>Bharat Heavy Electricals Ltd</h2>
-            <p>229 Graduate Apprentices & Diploma Apprentices</p>
-            <i class="icon ion-chevron-right"></i>
-        </a>
-        <a class="item item-avatar-left item-icon-right" href="/jharkhand_Government/rims_faculty_nov_2015.html">
-            <img src="rims.jpg" />
-            <h2>Rajendra Institute OF Medical Sciences, Ranchi</h2>
-            <p>Faculty Recruitment</p>
-            <i class="icon ion-chevron-right"></i>
-        </a>
-        <a class="item item-avatar-left item-icon-right" href="/chattisgarh_Government/jashpur_panchayat_collector_office.html">
-            <img src="chattisgarh_govt.png" />
-            <h2>Collector Office, Jashpur (Chhattisgarh)</h2>
-            <p>Assistant Grade-III Recruitment</p>
-            <i class="icon ion-chevron-right"></i>
-        </a>
-    </div>
-    <br/>
-    <button id="btnRedirect" class="button button-block button-calm">
-        Click To Get Practice Papers
+    <button id="btnRedirect" style="display: block; width: 100%;" class="btn btn-primary btn-success">
+        Get Practice Questions
     </button>
 </body>
 </html>
