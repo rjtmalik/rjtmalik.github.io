@@ -6,56 +6,98 @@
 
     <title>BHEL Recruitment 2015</title>
 
-    <link href="http://code.ionicframework.com/1.1.0/css/ionic.min.css" rel="stylesheet">
-    <script src="http://code.ionicframework.com/1.1.0/js/ionic.min.js"></script>
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <style type="text/css">
         a {
             text-decoration: none;
         }
 
-        .item-icon-left .icon:before, .item-icon-right .icon:before {
-            color: grey;
+            a:focus, a:hover {
+                text-decoration: none;
+                text-decoration-color: none;
+            }
+
+        .company {
+            text-align: center;
+            background-color: #11c1f3;
+            color: white;
+            margin-top: 0px;
+            margin-bottom: 5px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+
+        #btnRedirect {
+            background-color: #11c1f3;
+            border-color: #11c1f3;
+        }
+
+        .jobTitle {
+            background-color: #f5f5f5;
+        }
+
+        .institute {
+            font-weight: bold;
+            background-color: white;
+        }
+
+        .panel {
+            border: none;
+        }
+
+        .panel-default > .panel-heading {
+            border: none;
+            background-color: white;
         }
     </style>
     <script type="text/javascript">
-        $('#btnBack').on('click', function () {
-            var ref = document.referrer;
-            window.open(ref, '_parent');
-        });
-        $('#btnRedirect').on('click', function () {
+        function RedirectToQuestions() {
             location.href = '/questions/gk/set1.html';
-        });
+            return false;
+        }
     </script>
 </head>
 <body>
-    <div class="bar bar-header bar-calm">
-        <button id="btnBack" class="button button-icon icon ion-chevron-left"></button>
-        <h1 class="title">Gyaancheck</h1>
-    </div>
-    <br /><br />
-    <div class="padding">
-        <h4>BHEL invites application for the post of 10 Executive Trainee (HR) under Special Recruitment Drive for PwD</h4>
-        <div class="list">
-            <div class="item item-divider">
-                Executive Trainee (HR)
+    <a href="#"><h1 class="company">Gyaancheck</h1></a>
+    <div class="container">
+        <div class="row">
+            <ol class="breadcrumb">
+                <li><a href="#">Home</a></li>
+                <li><a href="/Bhel/allJobs.html">All BHEL Jobs</a></li>
+                <li class="active">...</li>
+            </ol>
+            <div class="panel panel-default">
+                <div class="panel-heading institute">
+                    Bharat Heavy Electricals Ltd
+                </div>
+                <div class="panel-body">
+                    <ul class="list-group">
+                        <li class="list-group-item jobTitle">
+                            Executive Trainee (HR)
+                        </li>
+                        <li class="list-group-item">
+                            Eligibility : Full time regular Bachelor’s degree from a recognized Indian University with atleast 60% marks in aggregate in all years With Two years full-time regular Post Graduate Degree/ Diploma in Human Resource Management/ Personnel Management and Industrial Relations, Social Work or Business Administration with specialization in Personnel Management & Labour Welfare or HRM from a recognized Indian University/ Institute** with minimum 55% marks in aggregate of all years/semesters.
+                        </li>
+                        <li class="list-group-item">
+                            Age Limit : 39 years as on 01.09.2015
+                        </li>
+                        <li class="list-group-item">
+                            No. Of Posts : 10
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <label class="item">
-                Eligibility : Full time regular Bachelor’s degree from a recognized Indian University with atleast 60% marks in aggregate in all years With Two years full-time regular Post Graduate Degree/ Diploma in Human Resource Management/ Personnel Management and Industrial Relations, Social Work or Business Administration with specialization in Personnel Management & Labour Welfare or HRM from a recognized Indian University/ Institute** with minimum 55% marks in aggregate of all years/semesters.
-            </label>
-            <label class="item">
-                Age Limit : 39 years as on 01.09.2015
-            </label>
-            <label class="item">
-                No. Of Posts : 10
-            </label>
+            <h5>How To Apply</h5>
+            <p>Interested candidates may apply online on or before 26.11.2015.</p>
+            <h6><a href="http://careers.bhel.in/et_srd2015/jsp/et_app_exe_2015.jsp">Detail Advertisement & Application Form Link</a></h6>
         </div>
-        <h5>How To Apply</h5>
-        <p>Interested candidates may apply online on or before 26.11.2015.</p>
     </div>
-    <h6><a href="http://careers.bhel.in/et_srd2015/jsp/et_app_exe_2015.jsp">Detail Advertisement & Application Form Link</a></h6>
-    <br />
-    <button id="btnRedirect" class="button button-block button-calm">
+    <button id="btnRedirect" onclick="return RedirectToQuestions();" style="display: block; width: 100%; font-size:xx-large" class="btn btn-primary">
         Click To Get Practice Papers
     </button>
 </body>
