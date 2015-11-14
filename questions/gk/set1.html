@@ -12,10 +12,6 @@
     <!-- Bootstrap JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <style type=" text/css">
-       a:focus, a:hover {
-                text-decoration: none;
-                text-decoration-color: none;
-       }
         #btnShowAnswer {
             background-color: #11c1f3;
             border-color: #11c1f3;
@@ -91,6 +87,9 @@
             $('#btnBack').on('click', function () {
                 var ref = document.referrer;
                 location.href = ref;
+            });
+            $('a').on('mouseover', function () {
+                $(this).css('text-decoration','none');
             });
         });
     </script>
