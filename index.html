@@ -31,22 +31,25 @@
         .Institution {
             color: darkgray;
         }
-        a{
-            color:gray;
+
+        a {
+            color: gray;
         }
-        a:focus, a:hover {
-            color:gray;
-            text-decoration: none;
-            text-decoration-color:none;
-        }
+
+            a:focus, a:hover {
+                color: gray;
+                text-decoration: none;
+                text-decoration-color: none;
+            }
+
         .company {
             text-align: center;
             background-color: #11c1f3;
             color: white;
             margin-top: 0px;
             margin-bottom: 0px;
-            padding-bottom:10px;
-            padding-top:10px;
+            padding-bottom: 10px;
+            padding-top: 10px;
         }
 
         #btnRedirect {
@@ -64,7 +67,14 @@
             $('#btnRedirectToHome').on('click', function () {
                 location.href = '#';
             });
+            $('.list-group-item').on('mouseover', function () {
+                $(this).css('cursor','pointer');
+            });
         });
+        function GoTo(link) {
+            location.href = link;
+            return false;
+        }
     </script>
 </head>
 <body>
@@ -72,64 +82,64 @@
     <div class="panel panel-success">
         <div class="panel-body">
             <ul class="list-group">
-                <li class="row list-group-item">
+                <li class="row list-group-item" onclick="return GoTo('/Goa/gsl_nov_2015.html');">
                     <div class="col-sm-1 col-xs-1 col-md-1"><h1><img src="gsl.jpg" /></h1></div>
                     <div class="col-sm-10 col-xs-10 col-md-10 pull-left">
-                        <h1 class="Institution"><a href="/Goa/gsl_nov_2015.html">Goa Shipyard Limited (GSL)</a></h1>
-                        <h4 class="jobTitle"><a href="/Goa/gsl_nov_2015.html">Office Assistant</a></h4>
+                        <h1 class="Institution">Goa Shipyard Limited (GSL)</h1>
+                        <h4 class="jobTitle">Office Assistant</h4>
                     </div>
                     <div class="col-sm-1 col-xs-1 col-md-1 pull-left">
-                        <h1><a href="/Goa/gsl_nov_2015.html"><span class="glyphicon glyphicon-menu-right"></span></a></h1>
+                        <h1><span class="glyphicon glyphicon-menu-right"></span></h1>
                     </div>
                 </li>
-                <li class="row list-group-item">
+                <li class="row list-group-item" onclick="return GoTo('/Bhel/hr_nov_2015.html');">
                     <div class="col-sm-1 col-xs-1 col-md-1"><h1><img src="bhel.jpg" /></h1></div>
                     <div class="col-sm-10 col-xs-10 col-md-10 pull-left">
-                        <h1 class="Institution"><a href="/Bhel/hr_nov_2015.html">Bharat Heavy Electricals Ltd (BHEL)</a></h1>
-                        <h4 class="jobTitle"><a href="/Bhel/hr_nov_2015.html">Executive Trainee (HR)</a></h4>
+                        <h1 class="Institution">Bharat Heavy Electricals Ltd (BHEL)</h1>
+                        <h4 class="jobTitle">Executive Trainee (HR)</h4>
                     </div>
                     <div class="col-sm-1 col-xs-1 col-md-1 pull-left">
-                        <h1><a href="/Bhel/hr_nov_2015.html"><span class="glyphicon glyphicon-menu-right"></span></a></h1>
+                        <h1><span class="glyphicon glyphicon-menu-right"></span></h1>
                     </div>
                 </li>
-                <li class="row list-group-item">
+                <li class="row list-group-item" onclick="return GoTo('/Bhel/apprentice_nov_2015.html');">
                     <div class="col-sm-1 col-xs-1 col-md-1"><h1><img src="bhel.jpg" /></h1></div>
                     <div class="col-sm-10 col-xs-10 col-md-10 pull-left">
-                        <h1 class="Institution"><a href="/Bhel/apprentice_nov_2015.html">Bharat Heavy Electricals Ltd (BHEL)</a></h1>
-                        <h4 class="jobTitle"><a href="/Bhel/apprentice_nov_2015.html">Engineer Trainee</a></h4>
+                        <h1 class="Institution">Bharat Heavy Electricals Ltd (BHEL)</h1>
+                        <h4 class="jobTitle">Engineer Trainee</h4>
                     </div>
                     <div class="col-sm-1 col-xs-1 col-md-1 pull-left">
-                        <h1><a href="/Bhel/engineer_trainee_nov_2015.html"><span class="glyphicon glyphicon-menu-right"></span></a></h1>
+                        <h1><span class="glyphicon glyphicon-menu-right"></span></h1>
                     </div>
                 </li>
-                <li class="row list-group-item">
+                <li class="row list-group-item" onclick="return GoTo('/Bhel/apprentice_nov_2015.html');">
                     <div class="col-sm-1 col-xs-1 col-md-1"><h1><img src="bhel.jpg" /></h1></div>
                     <div class="col-sm-10 col-xs-10 col-md-10 pull-left">
-                        <h1 class="Institution"><a href="/Bhel/apprentice_nov_2015.html">Bharat Heavy Electricals Ltd (BHEL)</a></h1>
-                        <h4 class="jobTitle"><a href="/Bhel/apprentice_nov_2015.html">229 Graduate Apprentices & Diploma Apprentices</a></h4>
+                        <h1 class="Institution">Bharat Heavy Electricals Ltd (BHEL)</h1>
+                        <h4 class="jobTitle">229 Graduate Apprentices & Diploma Apprentices</h4>
                     </div>
                     <div class="col-sm-1 col-xs-1 col-md-1 pull-left">
-                        <h1><a href="/Bhel/apprentice_nov_2015.html"><span class="glyphicon glyphicon-menu-right"></span></a></h1>
+                        <h1><span class="glyphicon glyphicon-menu-right"></span></h1>
                     </div>
                 </li>
-                <li class="row list-group-item">
+                <li class="row list-group-item" onclick="return GoTo('/jharkhand_Government/rims_faculty_nov_2015.html');">
                     <div class="col-sm-1 col-xs-1 col-md-1"><h1><img src="rims.jpg" /></h1></div>
                     <div class="col-sm-10 col-xs-10 col-md-10 pull-left">
-                        <h1 class="Institution"><a href="/jharkhand_Government/rims_faculty_nov_2015.html">Rajendra Institute Of Medical Sciences, Ranchi</a></h1>
-                        <h4 class="jobTitle"><a href="/jharkhand_Government/rims_faculty_nov_2015.html">Faculty Recruitment</a></h4>
+                        <h1 class="Institution">Rajendra Institute Of Medical Sciences, Ranchi</h1>
+                        <h4 class="jobTitle">Faculty Recruitment</h4>
                     </div>
                     <div class="col-sm-1 col-xs-1 col-md-1 pull-left">
-                        <h1><a href="/jharkhand_Government/rims_faculty_nov_2015.html"><span class="glyphicon glyphicon-menu-right"></span></a></h1>
+                        <h1><span class="glyphicon glyphicon-menu-right"></span></h1>
                     </div>
                 </li>
-                <li class="row list-group-item">
+                <li class="row list-group-item" onclick="return GoTo('/chattisgarh_Government/jashpur_panchayat_collector_office.html');">
                     <div class="col-sm-1 col-xs-1 col-md-1"><h1><img src="chattisgarh_govt.png" /></h1></div>
                     <div class="col-sm-10 col-xs-10 col-md-10 pull-left">
-                        <h1 class="Institution"><a href="/chattisgarh_Government/jashpur_panchayat_collector_office.html">Collector Office, Jashpur (Chhattisgarh)</a></h1>
-                        <h4 class="jobTitle"><a href="/chattisgarh_Government/jashpur_panchayat_collector_office.html">Assistant Grade-III Recruitment</a></h4>
+                        <h1 class="Institution">Collector Office, Jashpur (Chhattisgarh)</h1>
+                        <h4 class="jobTitle">Assistant Grade-III Recruitment</h4>
                     </div>
                     <div class="col-sm-1 col-xs-1 col-md-1 pull-left">
-                        <h1><a href="/chattisgarh_Government/jashpur_panchayat_collector_office.html"><span class="glyphicon glyphicon-menu-right"></span></a></h1>
+                        <h1><span class="glyphicon glyphicon-menu-right"></span></h1>
                     </div>
                 </li>
             </ul>
