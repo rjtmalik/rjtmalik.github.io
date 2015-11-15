@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>Computers Questions</title>
+
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style type=" text/css">
+        #btnShowAnswer {
+            background-color: #11c1f3;
+            border-color: #11c1f3;
+        }
+
+        .company {
+            text-align: center;
+            background-color: #11c1f3;
+            color: white;
+            margin-top: 0px;
+            margin-bottom: 5px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <a href="/"><h1 style="text-align: center; background-color: #11c1f3; color: white; margin-top: 0px; margin-bottom: 5px; padding-bottom: 10px; padding-top: 10px">Computers Quiz 10</h1></a>
+            <ul class="list-group">
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>List Some Examples of Magnetic storage media<span style="color:#33cd5f" class="answer pull-right"> hard disks, floppy disks and magnetic tapes</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>? storage devices are based on electronic circuits with no moving parts (no reels of tape, no spinning discs, no laser beams, etc.) <span style="color:#33cd5f" class="answer pull-right">Solid-state</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Pen Drive is an ? based flash memory which can be repeatedly erased and written using electric signals. <span style="color:#33cd5f" class="answer pull-right">EEPROM</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Creator of the first mouse ?<span style="color:#33cd5f" class="answer pull-right">Douglas Engelbart</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>USB stands for ?<span style="color:#33cd5f" class="answer pull-right">Universal Serial Bus</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>? is a step-by-step process of solving a well-defined computational problem<span style="color:#33cd5f" class="answer pull-right">Algorithm</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>CAD stands for :<span style="color:#33cd5f" class="answer pull-right">Computer Aided Design</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>? is the act of designing and writing programs as functions (a large program is divided into the small individual components) that each one performs, a single well-defined function, which has minimal interaction between the sub-programs<span style="color:#33cd5f" class="answer pull-right">Modular Programming </span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>A ? error is an error that causes abnormal termination of program during running time<span style="color:#33cd5f" class="answer pull-right">Runtime</span></p>
+                </li>
+            </ul>
+            <button id="btnShowAnswer" class="btn btn-primary btn-default" style="display: block; width: 100%; font-size:xx-large; background-color:#11c1f3; border-color:#11c1f3">
+                Check Answers
+            </button>
+            <button id="btnRedirect" class="btn btn-warning" style="display: block; width: 100%; font-size:xx-large">
+                More Questions ?
+            </button>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.answer').hide();
+            $('#btnRedirect').hide();
+            $('#btnShowAnswer').on('click', function () {
+                $('.answer').toggle();
+                $('#btnRedirect').toggle();
+                $('#btnShowAnswer').toggle();
+            });
+            $('#btnRedirect').on('click', function () {
+                location.href = '/questions/computers/set10.html';
+            });
+
+            $('#btnBack').on('click', function () {
+                var ref = document.referrer;
+                location.href = ref;
+            });
+            $('a').on('mouseover', function () {
+                $(this).css('text-decoration','none');
+            });
+        });
+    </script>
+</body>
+</html>

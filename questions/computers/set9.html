@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>Computers Questions</title>
+
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style type=" text/css">
+        #btnShowAnswer {
+            background-color: #11c1f3;
+            border-color: #11c1f3;
+        }
+
+        .company {
+            text-align: center;
+            background-color: #11c1f3;
+            color: white;
+            margin-top: 0px;
+            margin-bottom: 5px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <a href="/"><h1 style="text-align: center; background-color: #11c1f3; color: white; margin-top: 0px; margin-bottom: 5px; padding-bottom: 10px; padding-top: 10px">Computers Quiz 9</h1></a>
+            <ul class="list-group">
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>? is a new universal coding standard adopted by all new platforms<span style="color:#33cd5f" class="answer pull-right">Unicode</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>The number of bits processed in a single instruction is called ?<span style="color:#33cd5f" class="answer pull-right">word length or word size</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>32 bit processor is about ? times faster than an 8 bit processor<span style="color:#33cd5f" class="answer pull-right">4</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>The ? is an electronic circuit that generates pulses which are measured in million of cycles per second (MHz)<span style="color:#33cd5f" class="answer pull-right">System Clock</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>RISC stands for ?<span style="color:#33cd5f" class="answer pull-right">Reduced Instruction Set Computer</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>CISC stands for ?<span style="color:#33cd5f" class="answer pull-right">Complex Instruction Set Computer</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>EPIC stands for :<span style="color:#33cd5f" class="answer pull-right">Explicitly Parallel Instruction Computing</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>A nibble is a collection of ? bits<span style="color:#33cd5f" class="answer pull-right">4</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>? memory is a special high speed memory made up of high speed static RAMs<span style="color:#33cd5f" class="answer pull-right">Cache</span></p>
+                </li>
+            </ul>
+            <button id="btnShowAnswer" class="btn btn-primary btn-default" style="display: block; width: 100%; font-size:xx-large; background-color:#11c1f3; border-color:#11c1f3">
+                Check Answers
+            </button>
+            <button id="btnRedirect" class="btn btn-warning" style="display: block; width: 100%; font-size:xx-large">
+                More Questions ?
+            </button>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.answer').hide();
+            $('#btnRedirect').hide();
+            $('#btnShowAnswer').on('click', function () {
+                $('.answer').toggle();
+                $('#btnRedirect').toggle();
+                $('#btnShowAnswer').toggle();
+            });
+            $('#btnRedirect').on('click', function () {
+                location.href = '/questions/computers/set10.html';
+            });
+
+            $('#btnBack').on('click', function () {
+                var ref = document.referrer;
+                location.href = ref;
+            });
+            $('a').on('mouseover', function () {
+                $(this).css('text-decoration','none');
+            });
+        });
+    </script>
+</body>
+</html>

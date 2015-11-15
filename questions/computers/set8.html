@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>Computers Questions</title>
+
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style type=" text/css">
+        #btnShowAnswer {
+            background-color: #11c1f3;
+            border-color: #11c1f3;
+        }
+
+        .company {
+            text-align: center;
+            background-color: #11c1f3;
+            color: white;
+            margin-top: 0px;
+            margin-bottom: 5px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <a href="/"><h1 style="text-align: center; background-color: #11c1f3; color: white; margin-top: 0px; margin-bottom: 5px; padding-bottom: 10px; padding-top: 10px">Computers Quiz 8</h1></a>
+            <ul class="list-group">
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>? is a utility scans for file that have not been accessed/used since long. Such files might be occupying huge amount of memory space<span style="color:#33cd5f" class="answer pull-right">Disk Cleaner Utility</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>? is basically a software for trial purpose that the user is allowed to try for free, for a specified period of time.<span style="color:#33cd5f" class="answer pull-right">Shareware</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>? software is free of cost and is usually bundled up with some operating system or any other software<span style="color:#33cd5f" class="answer pull-right">Freeware</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>? is the software which gives the users freedom to run/use the software for any purpose and in any manner<span style="color:#33cd5f" class="answer pull-right">Open Source Software (OSS)</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Convert the Binary number 1001 to its Decimal equivalent. <span style="color:#33cd5f" class="answer pull-right">1 * 23 + 0 * 22 + 0 * 21 + 1 * 20 </span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>ASCII stands for ?<span style="color:#33cd5f" class="answer pull-right">American Standard Code for Information Interchange</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>ASCII-7 can represent ? characters<span style="color:#33cd5f" class="answer pull-right">128</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>ASCII-8 can represent ? characters.<span style="color:#33cd5f" class="answer pull-right">256</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>ISCII stands for ?<span style="color:#33cd5f" class="answer pull-right">Indian Standard Code for Information Interchange</span></p>
+                </li>
+            </ul>
+            <button id="btnShowAnswer" class="btn btn-primary btn-default" style="display: block; width: 100%; font-size:xx-large; background-color:#11c1f3; border-color:#11c1f3">
+                Check Answers
+            </button>
+            <button id="btnRedirect" class="btn btn-warning" style="display: block; width: 100%; font-size:xx-large">
+                More Questions ?
+            </button>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.answer').hide();
+            $('#btnRedirect').hide();
+            $('#btnShowAnswer').on('click', function () {
+                $('.answer').toggle();
+                $('#btnRedirect').toggle();
+                $('#btnShowAnswer').toggle();
+            });
+            $('#btnRedirect').on('click', function () {
+                location.href = '/questions/computers/set8.html';
+            });
+
+            $('#btnBack').on('click', function () {
+                var ref = document.referrer;
+                location.href = ref;
+            });
+            $('a').on('mouseover', function () {
+                $(this).css('text-decoration','none');
+            });
+        });
+    </script>
+</body>
+</html>
