@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>Computers Questions</title>
+
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style type=" text/css">
+        #btnShowAnswer {
+            background-color: #11c1f3;
+            border-color: #11c1f3;
+        }
+
+        .company {
+            text-align: center;
+            background-color: #11c1f3;
+            color: white;
+            margin-top: 0px;
+            margin-bottom: 5px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <a href="/"><h1 style="text-align: center; background-color: #11c1f3; color: white; margin-top: 0px; margin-bottom: 5px; padding-bottom: 10px; padding-top: 10px">Computers Quiz 4</h1></a>
+            <ul class="list-group">
+                <li class="list-group-item" style="line-height:20px;">
+                    <p> When the system starts from initial state i.e. it is switched on, we call it ?<span style="color:#33cd5f" class="answer pull-right">cold booting or Hard Booting</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>When the system restarts or when Reset button is pressed, we call it ?<span style="color:#33cd5f" class="answer pull-right">Warm Booting or Soft Booting</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>? is a set of programs that control and supervise the hardware of a computer and also provide services to application software, programmers and users<span style="color:#33cd5f" class="answer pull-right">Operating System</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>? is a device management technique used for processing of different tasks on the same input/output device.<span style="color:#33cd5f" class="answer pull-right">Spooling (Simultaneous Peripheral Operation on Line)</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>? is a technique used by the operating system by virtue of which the user can load the programs which are larger than the main memory of the computer. In this technique the program is executed even if the complete program is not loaded on to the main memory<span style="color:#33cd5f" class="answer pull-right">Virtual Memory</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>FAT<span style="color:#33cd5f" class="answer pull-right"> File Allocation Table</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>MS-DOS is an example of ?<span style="color:#33cd5f" class="answer pull-right">Single User Operating System</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>GUI<span style="color:#33cd5f" class="answer pull-right">Graphic User Interface</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>BOSS<span style="color:#33cd5f" class="answer pull-right">Bharat Operating System Solutions</span></p>
+                </li>
+            </ul>
+            <button id="btnShowAnswer" class="btn btn-primary btn-default" style="display: block; width: 100%; font-size:xx-large; background-color:#11c1f3; border-color:#11c1f3">
+                Check Answers
+            </button>
+            <button id="btnRedirect" class="btn btn-warning" style="display: block; width: 100%; font-size:xx-large">
+                More Questions ?
+            </button>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.answer').hide();
+            $('#btnRedirect').hide();
+            $('#btnShowAnswer').on('click', function () {
+                $('.answer').toggle();
+                $('#btnRedirect').toggle();
+                $('#btnShowAnswer').toggle();
+            });
+            $('#btnRedirect').on('click', function () {
+                location.href = '/questions/computers/set6.html';
+            });
+
+            $('#btnBack').on('click', function () {
+                var ref = document.referrer;
+                location.href = ref;
+            });
+            $('a').on('mouseover', function () {
+                $(this).css('text-decoration','none');
+            });
+        });
+    </script>
+</body>
+</html>
