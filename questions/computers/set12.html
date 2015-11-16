@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>Computers Questions</title>
+
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style type=" text/css">
+        #btnShowAnswer {
+            background-color: #11c1f3;
+            border-color: #11c1f3;
+        }
+
+        .company {
+            text-align: center;
+            background-color: #11c1f3;
+            color: white;
+            margin-top: 0px;
+            margin-bottom: 5px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <a href="/"><h1 style="text-align: center; background-color: #11c1f3; color: white; margin-top: 0px; margin-bottom: 5px; padding-bottom: 10px; padding-top: 10px">Microsoft Excel Shortcuts - 1</h1></a>
+            <ul class="list-group">
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Edit the selected cell.<span style="color:#33cd5f" class="answer pull-right">F2</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Spell check selected text or document.<span style="color:#33cd5f" class="answer pull-right">F7</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Create chart from selected data.<span style="color:#33cd5f" class="answer pull-right">F11</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Bold highlighted selection.<span style="color:#33cd5f" class="answer pull-right">Ctrl + B</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Italic highlighted selection.<span style="color:#33cd5f" class="answer pull-right">Ctrl + I</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Save the open worksheet.<span style="color:#33cd5f" class="answer pull-right">Ctrl + S</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Underline highlighted selection.<span style="color:#33cd5f" class="answer pull-right">Ctrl + U</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Change the format of selected cells.<span style="color:#33cd5f" class="answer pull-right">Ctrl + 1</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>In Python, ? are a sequence of values of any type, and are indexed by integers<span style="color:#33cd5f" class="answer pull-right">Tuples</span></p>
+                </li>
+            </ul>
+            <button id="btnShowAnswer" class="btn btn-primary btn-default" style="display: block; width: 100%; font-size:xx-large; background-color:#11c1f3; border-color:#11c1f3">
+                Check Answers
+            </button>
+            <button id="btnRedirect" class="btn btn-warning" style="display: block; width: 100%; font-size:xx-large">
+                More Questions ?
+            </button>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.answer').hide();
+            $('#btnRedirect').hide();
+            $('#btnShowAnswer').on('click', function () {
+                $('.answer').toggle();
+                $('#btnRedirect').toggle();
+                $('#btnShowAnswer').toggle();
+            });
+            $('#btnRedirect').on('click', function () {
+                location.href = '/questions/computers/set13.html';
+            });
+
+            $('#btnBack').on('click', function () {
+                var ref = document.referrer;
+                location.href = ref;
+            });
+            $('a').on('mouseover', function () {
+                $(this).css('text-decoration','none');
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>Computers Questions</title>
+
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style type=" text/css">
+        #btnShowAnswer {
+            background-color: #11c1f3;
+            border-color: #11c1f3;
+        }
+
+        .company {
+            text-align: center;
+            background-color: #11c1f3;
+            color: white;
+            margin-top: 0px;
+            margin-bottom: 5px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <a href="/"><h1 style="text-align: center; background-color: #11c1f3; color: white; margin-top: 0px; margin-bottom: 5px; padding-bottom: 10px; padding-top: 10px">Microsoft Excel Shortcuts - 2</h1></a>
+            <ul class="list-group">
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Switch between open workbooks or windows.<span style="color:#33cd5f" class="answer pull-right">Ctrl + F6</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Move between work sheets in the same document.<span style="color:#33cd5f" class="answer pull-right">Ctrl + Page up</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Move between Two or more open Excel files.<span style="color:#33cd5f" class="answer pull-right">Ctrl + Tab</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Create a formula to sum all of the above cells.<span style="color:#33cd5f" class="answer pull-right">Alt + =</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Select entire column.<span style="color:#33cd5f" class="answer pull-right">Ctrl + Space</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Format number in comma format.<span style="color:#33cd5f" class="answer pull-right">Ctrl + Shift + 1</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Format number in currency format.<span style="color:#33cd5f" class="answer pull-right">Ctrl + Shift + 4</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Move to cell A1.<span style="color:#33cd5f" class="answer pull-right">Ctrl + Home</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Delete the selected column or row.<span style="color:#33cd5f" class="answer pull-right">Ctrl + -</span></p>
+                </li>
+            </ul>
+            <button id="btnShowAnswer" class="btn btn-primary btn-default" style="display: block; width: 100%; font-size:xx-large; background-color:#11c1f3; border-color:#11c1f3">
+                Check Answers
+            </button>
+            <button id="btnRedirect" class="btn btn-warning" style="display: block; width: 100%; font-size:xx-large">
+                More Questions ?
+            </button>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.answer').hide();
+            $('#btnRedirect').hide();
+            $('#btnShowAnswer').on('click', function () {
+                $('.answer').toggle();
+                $('#btnRedirect').toggle();
+                $('#btnShowAnswer').toggle();
+            });
+            $('#btnRedirect').on('click', function () {
+                location.href = '/questions/computers/set14.html';
+            });
+
+            $('#btnBack').on('click', function () {
+                var ref = document.referrer;
+                location.href = ref;
+            });
+            $('a').on('mouseover', function () {
+                $(this).css('text-decoration','none');
+            });
+        });
+    </script>
+</body>
+</html>
