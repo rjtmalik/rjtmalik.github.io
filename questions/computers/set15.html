@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>Computers Questions</title>
+
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style type=" text/css">
+        #btnShowAnswer {
+            background-color: #11c1f3;
+            border-color: #11c1f3;
+        }
+
+        .company {
+            text-align: center;
+            background-color: #11c1f3;
+            color: white;
+            margin-top: 0px;
+            margin-bottom: 5px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <a href="/"><h1 style="text-align: center; background-color: #11c1f3; color: white; margin-top: 0px; margin-bottom: 5px; padding-bottom: 10px; padding-top: 10px">Microsoft Word Shortcuts - 2</h1></a>
+            <ul class="list-group">
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Paste the most recent addition to the Office Clipboard.<span style="color:#33cd5f" class="answer pull-right">Ctrl + V</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Format all letters as capitals<span style="color:#33cd5f" class="answer pull-right">Ctrl + Shift + A</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Applies or removes bold formatting.<span style="color:#33cd5f" class="answer pull-right">Ctrl + B</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Applies or removes italic formatting.<span style="color:#33cd5f" class="answer pull-right">Ctrl + I</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Apply subscript formatting (automatic spacing).<span style="color:#33cd5f" class="answer pull-right">Ctrl + =</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Save As.<span style="color:#33cd5f" class="answer pull-right">Alt, F, A</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Insert Table of Contents<span style="color:#33cd5f" class="answer pull-right">Alt, S, T, I</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Remove Table of Contents.<span style="color:#33cd5f" class="answer pull-right">Alt, S, T, R</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Full Screen Reading – View > Document Views > Full Screen Reading<span style="color:#33cd5f" class="answer pull-right">Alt, W, F</span></p>
+                </li>
+            </ul>
+            <button id="btnShowAnswer" class="btn btn-primary btn-default" style="display: block; width: 100%; font-size:xx-large; background-color:#11c1f3; border-color:#11c1f3">
+                Check Answers
+            </button>
+            <button id="btnRedirect" class="btn btn-warning" style="display: block; width: 100%; font-size:xx-large">
+                More Questions ?
+            </button>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.answer').hide();
+            $('#btnRedirect').hide();
+            $('#btnShowAnswer').on('click', function () {
+                $('.answer').toggle();
+                $('#btnRedirect').toggle();
+                $('#btnShowAnswer').toggle();
+            });
+            $('#btnRedirect').on('click', function () {
+                location.href = '/questions/computers/set16.html';
+            });
+
+            $('#btnBack').on('click', function () {
+                var ref = document.referrer;
+                location.href = ref;
+            });
+            $('a').on('mouseover', function () {
+                $(this).css('text-decoration','none');
+            });
+        });
+    </script>
+</body>
+</html>
