@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>Computers Questions</title>
+
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style type=" text/css">
+        #btnShowAnswer {
+            background-color: #11c1f3;
+            border-color: #11c1f3;
+        }
+
+        .company {
+            text-align: center;
+            background-color: #11c1f3;
+            color: white;
+            margin-top: 0px;
+            margin-bottom: 5px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <a href="/"><h1 style="text-align: center; background-color: #11c1f3; color: white; margin-top: 0px; margin-bottom: 5px; padding-bottom: 10px; padding-top: 10px">General Keyboard-Only Commands</h1></a>
+            <ul class="list-group">
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Starts Windows Help<span style="color:#33cd5f" class="answer pull-right">F1</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Activates menu bar options<span style="color:#33cd5f" class="answer pull-right">F10</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Opens a shortcut menu for the selected item (this is the same as right-clicking an object<span style="color:#33cd5f" class="answer pull-right">SHIFT + F10</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Opens the Start menu (use the ARROW keys to select an item)<span style="color:#33cd5f" class="answer pull-right">CTRL + ESC</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Selects the Start button (press TAB to select the taskbar, or press SHIFT+F10 for a context menu)<span style="color:#33cd5f" class="answer pull-right">CTRL + ESC or ESC</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Opens Windows Task Manager<span style="color:#33cd5f" class="answer pull-right">CTRL + SHIFT + ESC</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Opens a drop-down list box<span style="color:#33cd5f" class="answer pull-right">ALT + DOWN ARROW</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Switch to another running program (hold down the ALT key and then press the TAB key to view the task-switching window)<span style="color:#33cd5f" class="answer pull-right">ALT + TAB</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Press and hold down the SHIFT key while you insert a CD-ROM to bypass the automatic-run feature<span style="color:#33cd5f" class="answer pull-right">SHIFT</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Displays the main window's System menu (from the System menu, you can restore, move, resize, minimize, maximize, or close the window)<span style="color:#33cd5f" class="answer pull-right">ALT + SPACE</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Displays the Multiple Document Interface (MDI) child window's System menu (from the MDI child window's System menu, you can restore, move, resize, minimize, maximize, or close the child window)<span style="color:#33cd5f" class="answer pull-right">ALT+- (ALT+hyphen)</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Switch to the next child window of a Multiple Document Interface (MDI) program<span style="color:#33cd5f" class="answer pull-right">CTRL + TAB</span></p>
+                </li>
+            </ul>
+            <button id="btnShowAnswer" class="btn btn-primary btn-default" style="display: block; width: 100%; font-size:xx-large; background-color:#11c1f3; border-color:#11c1f3">
+                Check Answers
+            </button>
+            <button id="btnRedirect" class="btn btn-warning" style="display: block; width: 100%; font-size:xx-large">
+                More Questions ?
+            </button>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.answer').hide();
+            $('#btnRedirect').hide();
+            $('#btnShowAnswer').on('click', function () {
+                $('.answer').toggle();
+                $('#btnRedirect').toggle();
+                $('#btnShowAnswer').toggle();
+            });
+            $('#btnRedirect').on('click', function () {
+                location.href = '/questions/computers/set20.html';
+            });
+
+            $('#btnBack').on('click', function () {
+                var ref = document.referrer;
+                location.href = ref;
+            });
+            $('a').on('mouseover', function () {
+                $(this).css('text-decoration','none');
+            });
+        });
+    </script>
+</body>
+</html>

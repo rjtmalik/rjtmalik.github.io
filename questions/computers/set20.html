@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>Computers Questions</title>
+
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style type=" text/css">
+        #btnShowAnswer {
+            background-color: #11c1f3;
+            border-color: #11c1f3;
+        }
+
+        .company {
+            text-align: center;
+            background-color: #11c1f3;
+            color: white;
+            margin-top: 0px;
+            margin-bottom: 5px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <a href="/"><h1 style="text-align: center; background-color: #11c1f3; color: white; margin-top: 0px; margin-bottom: 5px; padding-bottom: 10px; padding-top: 10px">Microsoft Natural Keyboard Shortcuts</h1></a>
+            <ul class="list-group">
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Log off Windows<span style="color:#33cd5f" class="answer pull-right">Windows Logo + L</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Starts Print Manager<span style="color:#33cd5f" class="answer pull-right">Windows Logo + P</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Opens Control Panel<span style="color:#33cd5f" class="answer pull-right">Windows Logo + C</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Starts Clipboard<span style="color:#33cd5f" class="answer pull-right">Windows Logo + V</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Opens Keyboard Properties dialog box<span style="color:#33cd5f" class="answer pull-right">Windows Logo + K</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Opens Mouse Properties dialog box<span style="color:#33cd5f" class="answer pull-right">Windows Logo + I</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Starts Accessibility Options (if installed)<span style="color:#33cd5f" class="answer pull-right">Windows Logo + A</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Displays the list of Microsoft IntelliType shortcut key<span style="color:#33cd5f" class="answer pull-right">Windows Logo + SPACEBAR</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Toggles CAPS LOCK on and off<span style="color:#33cd5f" class="answer pull-right">Windows Logo+S</span></p>
+                </li>
+            </ul>
+            <button id="btnShowAnswer" class="btn btn-primary btn-default" style="display: block; width: 100%; font-size:xx-large; background-color:#11c1f3; border-color:#11c1f3">
+                Check Answers
+            </button>
+            <button id="btnRedirect" class="btn btn-warning" style="display: block; width: 100%; font-size:xx-large">
+                More Questions ?
+            </button>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.answer').hide();
+            $('#btnRedirect').hide();
+            $('#btnShowAnswer').on('click', function () {
+                $('.answer').toggle();
+                $('#btnRedirect').toggle();
+                $('#btnShowAnswer').toggle();
+            });
+            $('#btnRedirect').on('click', function () {
+                location.href = '/questions/computers/set21.html';
+            });
+
+            $('#btnBack').on('click', function () {
+                var ref = document.referrer;
+                location.href = ref;
+            });
+            $('a').on('mouseover', function () {
+                $(this).css('text-decoration','none');
+            });
+        });
+    </script>
+</body>
+</html>
