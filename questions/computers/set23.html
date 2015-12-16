@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>Computers Questions</title>
+
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style type=" text/css">
+        #btnShowAnswer {
+            background-color: #11c1f3;
+            border-color: #11c1f3;
+        }
+
+        .company {
+            text-align: center;
+            background-color: #11c1f3;
+            color: white;
+            margin-top: 0px;
+            margin-bottom: 5px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <a href="/"><h1 style="text-align: center; background-color: #11c1f3; color: white; margin-top: 0px; margin-bottom: 5px; padding-bottom: 10px; padding-top: 10px">Computers Quiz Set 23</h1></a>
+            <ul class="list-group">
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>The reliability of computer components often is measured in ?<span style="color:#33cd5f" class="answer pull-right">MTBF (mean time between failure, in hours)</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>What is the full form of DNS?<span style="color:#33cd5f" class="answer pull-right">Domain Name System</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>What is the full form of IP?<span style="color:#33cd5f" class="answer pull-right">Internet Protocol</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>What is the full form of WSP?<span style="color:#33cd5f" class="answer pull-right">Wireless Service Provider</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Full form of DSL ?<span style="color:#33cd5f" class="answer pull-right">Digital Subscriber Line</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Full form of ISP<span style="color:#33cd5f" class="answer pull-right">Internet service Provider</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>What is the full form of URL ?<span style="color:#33cd5f" class="answer pull-right">Uniform Resource Locator</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>What is the full form of URL ?<span style="color:#33cd5f" class="answer pull-right">Uniform Resource Locator</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>What is the full form of HTTP ? <span style="color:#33cd5f" class="answer pull-right">Hypertext Transfer Protocol</span></p>
+                </li>
+            </ul>
+            <button id="btnShowAnswer" class="btn btn-primary btn-default" style="display: block; width: 100%; font-size:xx-large; background-color:#11c1f3; border-color:#11c1f3">
+                Check Answers
+            </button>
+            <button id="btnRedirect" class="btn btn-warning" style="display: block; width: 100%; font-size:xx-large">
+                More Questions ?
+            </button>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.answer').hide();
+            $('#btnRedirect').hide();
+            $('#btnShowAnswer').on('click', function () {
+                $('.answer').toggle();
+                $('#btnRedirect').toggle();
+                $('#btnShowAnswer').toggle();
+            });
+            $('#btnRedirect').on('click', function () {
+                location.href = '/questions/computers/set24.html';
+            });
+
+            $('#btnBack').on('click', function () {
+                var ref = document.referrer;
+                location.href = ref;
+            });
+            $('a').on('mouseover', function () {
+                $(this).css('text-decoration','none');
+            });
+        });
+    </script>
+</body>
+</html>

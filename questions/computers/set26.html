@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>Computers Questions</title>
+
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style type=" text/css">
+        #btnShowAnswer {
+            background-color: #11c1f3;
+            border-color: #11c1f3;
+        }
+
+        .company {
+            text-align: center;
+            background-color: #11c1f3;
+            color: white;
+            margin-top: 0px;
+            margin-bottom: 5px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <a href="/"><h1 style="text-align: center; background-color: #11c1f3; color: white; margin-top: 0px; margin-bottom: 5px; padding-bottom: 10px; padding-top: 10px">Computers Quiz Set 26</h1></a>
+            <ul class="list-group">
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>What is the full form of SEC ?<span style="color:#33cd5f" class="answer pull-right">Single edge contact (SEC) cartridge</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>What is the full form of SIMMs ?<span style="color:#33cd5f" class="answer pull-right">Single Inline Memory Modules</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>What is access time?<span style="color:#33cd5f" class="answer pull-right">The amount of time it takes the processor to read data from memory is called access time</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>What is the full form of MIDI ?<span style="color:#33cd5f" class="answer pull-right">Musical Instrumental Digital Interface</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>What is the full form of SCSI ?<span style="color:#33cd5f" class="answer pull-right">Small Computer System Interface</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>What is the full form of ISA ?<span style="color:#33cd5f" class="answer pull-right">Industry Standard Architecture</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>A ? bus is a high-speed expansion bus used to connect higher speed devices such as hard disks<span style="color:#33cd5f" class="answer pull-right">Local</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>What is the full form of AGP ?<span style="color:#33cd5f" class="answer pull-right">Accelerated Graphics Port</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>What is the full form of FC-PGA ?<span style="color:#33cd5f" class="answer pull-right">Flip chip-PGA (FC-PGA) package</span></p>
+                </li>
+            </ul>
+            <button id="btnShowAnswer" class="btn btn-primary btn-default" style="display: block; width: 100%; font-size:xx-large; background-color:#11c1f3; border-color:#11c1f3">
+                Check Answers
+            </button>
+            <button id="btnRedirect" class="btn btn-warning" style="display: block; width: 100%; font-size:xx-large">
+                More Questions ?
+            </button>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.answer').hide();
+            $('#btnRedirect').hide();
+            $('#btnShowAnswer').on('click', function () {
+                $('.answer').toggle();
+                $('#btnRedirect').toggle();
+                $('#btnShowAnswer').toggle();
+            });
+            $('#btnRedirect').on('click', function () {
+                location.href = '/questions/computers/set27.html';
+            });
+
+            $('#btnBack').on('click', function () {
+                var ref = document.referrer;
+                location.href = ref;
+            });
+            $('a').on('mouseover', function () {
+                $(this).css('text-decoration','none');
+            });
+        });
+    </script>
+</body>
+</html>

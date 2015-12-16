@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>Computers Questions</title>
+
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style type=" text/css">
+        #btnShowAnswer {
+            background-color: #11c1f3;
+            border-color: #11c1f3;
+        }
+
+        .company {
+            text-align: center;
+            background-color: #11c1f3;
+            color: white;
+            margin-top: 0px;
+            margin-bottom: 5px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <a href="/"><h1 style="text-align: center; background-color: #11c1f3; color: white; margin-top: 0px; margin-bottom: 5px; padding-bottom: 10px; padding-top: 10px">Computers Quiz Set 21</h1></a>
+            <ul class="list-group">
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>? is a collection of raw unprocessed facts, figures, and symbols<span style="color:#33cd5f" class="answer pull-right">Data</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>? is data that is organized, meaningful, and useful<span style="color:#33cd5f" class="answer pull-right">Information</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>? is the electric, electronic, and mechanical equipment that makes up a computer<span style="color:#33cd5f" class="answer pull-right">Hardware</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>? is the series of instructions that tells the hardware how to perform tasks.<span style="color:#33cd5f" class="answer pull-right">Software</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>A ? records and retrieves data to and from a storage medium<span style="color:#33cd5f" class="answer pull-right">storage device</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>A ? enables computer users to communicate and exchange items such as data, instructions, and information with another computer.<span style="color:#33cd5f" class="answer pull-right">communications device</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>A ? is a communications device that enables computers to communicate usually via telephone lines or cable.<span style="color:#33cd5f" class="answer pull-right">Modem</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>The ? is a box-like case made from metal or plastic that protects the internal electronic components of the computer from damage.<span style="color:#33cd5f" class="answer pull-right">system unit</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>? is a temporary holding place for data and instructions<span style="color:#33cd5f" class="answer pull-right">Memory</span></p>
+                </li>
+            </ul>
+            <button id="btnShowAnswer" class="btn btn-primary btn-default" style="display: block; width: 100%; font-size:xx-large; background-color:#11c1f3; border-color:#11c1f3">
+                Check Answers
+            </button>
+            <button id="btnRedirect" class="btn btn-warning" style="display: block; width: 100%; font-size:xx-large">
+                More Questions ?
+            </button>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.answer').hide();
+            $('#btnRedirect').hide();
+            $('#btnShowAnswer').on('click', function () {
+                $('.answer').toggle();
+                $('#btnRedirect').toggle();
+                $('#btnShowAnswer').toggle();
+            });
+            $('#btnRedirect').on('click', function () {
+                location.href = '/questions/computers/set22.html';
+            });
+
+            $('#btnBack').on('click', function () {
+                var ref = document.referrer;
+                location.href = ref;
+            });
+            $('a').on('mouseover', function () {
+                $(this).css('text-decoration','none');
+            });
+        });
+    </script>
+</body>
+</html>

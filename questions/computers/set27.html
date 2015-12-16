@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>Computers Questions</title>
+
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style type=" text/css">
+        #btnShowAnswer {
+            background-color: #11c1f3;
+            border-color: #11c1f3;
+        }
+
+        .company {
+            text-align: center;
+            background-color: #11c1f3;
+            color: white;
+            margin-top: 0px;
+            margin-bottom: 5px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <a href="/"><h1 style="text-align: center; background-color: #11c1f3; color: white; margin-top: 0px; margin-bottom: 5px; padding-bottom: 10px; padding-top: 10px">Computers Quiz Set 27</h1></a>
+            <ul class="list-group">
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>What is the full form of OCR ?<span style="color:#33cd5f" class="answer pull-right">Optical Character Recognition</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>What is the full form of OMR ?<span style="color:#33cd5f" class="answer pull-right">Optical Mark Recognition</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>What is the full form of MICR?<span style="color:#33cd5f" class="answer pull-right">Magnetic-ink Character Recognition</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>What is the full form of DPI ?<span style="color:#33cd5f" class="answer pull-right">Dots per inch</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>What is optical resolution?<span style="color:#33cd5f" class="answer pull-right">The actual photographed resolution is called the optical resolution</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>What is a pixel?<span style="color:#33cd5f" class="answer pull-right">A pixel is a single point in an electronic image.</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>What is the full form of CRT?<span style="color:#33cd5f" class="answer pull-right">Cathode ray tube</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>What is the full form of LCD ?<span style="color:#33cd5f" class="answer pull-right">Liquid Crystal Display</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>What is the full form of EMR ?<span style="color:#33cd5f" class="answer pull-right">Electromagnetic Radiation</span></p>
+                </li>
+            </ul>
+            <button id="btnShowAnswer" class="btn btn-primary btn-default" style="display: block; width: 100%; font-size:xx-large; background-color:#11c1f3; border-color:#11c1f3">
+                Check Answers
+            </button>
+            <button id="btnRedirect" class="btn btn-warning" style="display: block; width: 100%; font-size:xx-large">
+                More Questions ?
+            </button>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.answer').hide();
+            $('#btnRedirect').hide();
+            $('#btnShowAnswer').on('click', function () {
+                $('.answer').toggle();
+                $('#btnRedirect').toggle();
+                $('#btnShowAnswer').toggle();
+            });
+            $('#btnRedirect').on('click', function () {
+                location.href = '/questions/computers/set28.html';
+            });
+
+            $('#btnBack').on('click', function () {
+                var ref = document.referrer;
+                location.href = ref;
+            });
+            $('a').on('mouseover', function () {
+                $(this).css('text-decoration','none');
+            });
+        });
+    </script>
+</body>
+</html>

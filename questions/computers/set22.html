@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>Computers Questions</title>
+
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style type=" text/css">
+        #btnShowAnswer {
+            background-color: #11c1f3;
+            border-color: #11c1f3;
+        }
+
+        .company {
+            text-align: center;
+            background-color: #11c1f3;
+            color: white;
+            margin-top: 0px;
+            margin-bottom: 5px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <a href="/"><h1 style="text-align: center; background-color: #11c1f3; color: white; margin-top: 0px; margin-bottom: 5px; padding-bottom: 10px; padding-top: 10px">Computers Quiz Set 22</h1></a>
+            <ul class="list-group">
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>? software refers to copyrighted software that meets the needs of a variety of users<span style="color:#33cd5f" class="answer pull-right">Packaged</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>? software refers to a tailor-made software developed at a user’s request<span style="color:#33cd5f" class="answer pull-right">Custom</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>? refers to a copyrighted software distributed free for a trial period<span style="color:#33cd5f" class="answer pull-right">Shareware</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>rerfers to a software donated for public use with no copyright restrictions<span style="color:#33cd5f" class="answer pull-right">Public-Domain Software</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Full form of OSP<span style="color:#33cd5f" class="answer pull-right">Online Service Provider</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Full form of ISP<span style="color:#33cd5f" class="answer pull-right">Internet service Provider</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>What is the full form of PDA?<span style="color:#33cd5f" class="answer pull-right">Personal Digital Assistant</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>A ? is a large, expensive, very powerful computer that can handle hundreds or thousands of connected users simultaneously.<span style="color:#33cd5f" class="answer pull-right">Mainframe</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>? a Web page is the process of making it available on the Internet.<span style="color:#33cd5f" class="answer pull-right">Publishing</span></p>
+                </li>
+            </ul>
+            <button id="btnShowAnswer" class="btn btn-primary btn-default" style="display: block; width: 100%; font-size:xx-large; background-color:#11c1f3; border-color:#11c1f3">
+                Check Answers
+            </button>
+            <button id="btnRedirect" class="btn btn-warning" style="display: block; width: 100%; font-size:xx-large">
+                More Questions ?
+            </button>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.answer').hide();
+            $('#btnRedirect').hide();
+            $('#btnShowAnswer').on('click', function () {
+                $('.answer').toggle();
+                $('#btnRedirect').toggle();
+                $('#btnShowAnswer').toggle();
+            });
+            $('#btnRedirect').on('click', function () {
+                location.href = '/questions/computers/set23.html';
+            });
+
+            $('#btnBack').on('click', function () {
+                var ref = document.referrer;
+                location.href = ref;
+            });
+            $('a').on('mouseover', function () {
+                $(this).css('text-decoration','none');
+            });
+        });
+    </script>
+</body>
+</html>
