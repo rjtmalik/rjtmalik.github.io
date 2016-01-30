@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>Sentence Correction</title>
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style type=" text/css">
+        #btnShowAnswer {
+            background-color: #11c1f3;
+            border-color: #11c1f3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <a href="/"><h1 style="text-align: center; background-color: #11c1f3; color: white; margin-top: 0px; margin-bottom: 5px; padding-bottom: 10px; padding-top: 10px">Sentence Correction 2</h1></a>
+            <span id="Q1">In addition to providing more course offerings than Sach High School, <u>the teachers at Men High School are better trained than those at </u>Sach, having received more information on instructing a multilingual and culturally diverse student body</span>
+            <div>
+                <input name="options" type="radio"/><span class="blur">the teachers at Men High School are better trained than those at </span>
+            </div>
+            <div>
+                <input name="options" type="radio" /><span>Men High School has teachers who are better trained than those at</span>&nbsp;<span id="answer" class="glyphicon glyphicon-ok"></span>
+            </div>
+            <div>
+                <input name="options" type="radio"/><span class="blur">Men High School Teachers are better trained than they are at</span>
+            </div>
+            <div>
+                <input name="options" type="radio"/><span class="blur">the teachers at Men High School are better than training than those at</span>
+            </div>
+            <div>
+                <input name="options" type="radio" /><span class="blur">Men High School has teachers who are better trained than at</span>
+            </div>
+            <button id="btnShowAnswer" class="btn btn-primary btn-default" style="display: block; width: 100%; font-size:xx-large; background-color:#11c1f3; border-color:#11c1f3">
+                Check Answers
+            </button>
+            <button id="btnRedirect" class="btn btn-warning" style="display: block; width: 100%; font-size:xx-large">
+                More Questions ?
+            </button>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#answer').hide();
+            $('body').css('line-height', '2.428571');
+            $('.row div').css('padding-left', '10px');
+            $('#Q1').css('padding-left', '8px');
+            $('#btnRedirect').hide();
+            $('#btnShowAnswer').on('click', function () {
+                $('.blur').css('color', 'gray');
+                $('#answer').toggle();
+                $('#btnRedirect').toggle();
+                $('#btnShowAnswer').toggle();
+            });
+            $('#btnRedirect').on('click', function () {
+                location.href = '/questions/english/sentence_correction/set3.html';
+            });
+
+            $('#btnBack').on('click', function () {
+                var ref = document.referrer;
+                location.href = ref;
+            });
+            $('a').on('mouseover', function () {
+                $(this).css('text-decoration', 'none');
+            });
+        });
+    </script>
+</body>
+</html>

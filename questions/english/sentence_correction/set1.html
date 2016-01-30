@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>Sentence Correction</title>
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style type=" text/css">
+        #btnShowAnswer {
+            background-color: #11c1f3;
+            border-color: #11c1f3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <a href="/"><h1 style="text-align: center; background-color: #11c1f3; color: white; margin-top: 0px; margin-bottom: 5px; padding-bottom: 10px; padding-top: 10px">Sentence Correction 1</h1></a>
+            <span id="Q1">Of all the countried countigous to China, <u>the Soviet Union's borders were the most strongly defended.</u></span>
+            <div>
+                <input name="options" type="radio"/><span class="blur">the Soviet Union's borders were the most strongly defended</span>
+            </div>
+            <div>
+                <input name="options" type="radio" /><span class="blur">the borders of the Soviet Unions's were defended more strongly than any of the others</span>
+            </div>
+            <div>
+                <input name="options" type="radio"/><span class="blur">the Soviet Union's borders stood out for the strength of their defensive capabilites</span>
+            </div>
+            <div>
+                <input name="options" type="radio"/><span >the Soviet Union had the most strongly defended borders</span>&nbsp;<span id="answer" class="glyphicon glyphicon-ok"></span>
+            </div>
+            <div>
+                <input name="options" type="radio" /><span class="blur">the Soviet Union's were the borders most strongly defended</span>
+            </div>
+            <button id="btnShowAnswer" class="btn btn-primary btn-default" style="display: block; width: 100%; font-size:xx-large; background-color:#11c1f3; border-color:#11c1f3">
+                Check Answers
+            </button>
+            <button id="btnRedirect" class="btn btn-warning" style="display: block; width: 100%; font-size:xx-large">
+                More Questions ?
+            </button>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#answer').hide();
+            $('body').css('line-height', '2.428571');
+            $('.row div').css('padding-left', '10px');
+            $('#Q1').css('padding-left', '8px');
+            $('#btnRedirect').hide();
+            $('#btnShowAnswer').on('click', function () {
+                $('.blur').css('color', 'gray');
+                $('#answer').toggle();
+                $('#btnRedirect').toggle();
+                $('#btnShowAnswer').toggle();
+            });
+            $('#btnRedirect').on('click', function () {
+                location.href = '/questions/english/sentence_correction/set2.html';
+            });
+
+            $('#btnBack').on('click', function () {
+                var ref = document.referrer;
+                location.href = ref;
+            });
+            $('a').on('mouseover', function () {
+                $(this).css('text-decoration', 'none');
+            });
+        });
+    </script>
+</body>
+</html>
