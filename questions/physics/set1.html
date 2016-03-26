@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>Physics Questions</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <meta property="og:url" content="http://gyaancheck.com/questions/physics/set1.html" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Physics :  SI Units you must know" />
+    <meta property="og:description" content="List of SI Units frequently asked in SSC" />
+    <meta property="og:image" content="http://www.gyaancheck.com/images/og/physics.jpg" />
+    <meta property="og:site_name" content="GyaanCheck" />
+    <meta property="fb:app_id" content="411625832337640" />
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        #btnShowAnswer {
+            background-color: #11c1f3;
+            border-color: #11c1f3;
+        }
+
+        .company {
+            text-align: center;
+            background-color: #11c1f3;
+            color: white;
+            margin-top: 0px;
+            margin-bottom: 5px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <a href="/"><h1 style="text-align: center; background-color: #11c1f3; color: white; margin-top: 0px; margin-bottom: 5px; padding-bottom: 10px; padding-top: 10px">Fundamental Physical Quantities : SI Units</h1></a>
+            <ul class="list-group">
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Mass<span style="color:#33cd5f" class="answer pull-right">Kg</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Length<span style="color:#33cd5f" class="answer pull-right">meter</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Time<span style="color:#33cd5f" class="answer pull-right">seconds</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Electric current<span style="color:#33cd5f" class="answer pull-right">Ampere</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Amount of substance<span style="color:#33cd5f" class="answer pull-right">Mole(mol)</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Luminous intensity<span style="color:#33cd5f" class="answer pull-right">Candela(cd)</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Temperature<span style="color:#33cd5f" class="answer pull-right">Kelvin</span></p>
+                </li>
+            </ul>
+            <button id="btnShowAnswer" class="btn btn-primary btn-default" style="display: block; width: 100%; font-size:xx-large; background-color:#11c1f3; border-color:#11c1f3">
+                Check Answers
+            </button>
+            <button id="btnRedirect" class="btn btn-warning" style="display: block; width: 100%; font-size:xx-large">
+                More Questions ?
+            </button>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.answer').hide();
+            $('#btnRedirect').hide();
+            $('#btnShowAnswer').on('click', function () {
+                $('.answer').toggle();
+                $('#btnRedirect').toggle();
+                $('#btnShowAnswer').toggle();
+            });
+            $('#btnRedirect').on('click', function () {
+                location.href = '/questions/physics/set2.html';
+            });
+
+            $('#btnBack').on('click', function () {
+                var ref = document.referrer;
+                location.href = ref;
+            });
+            $('a').on('mouseover', function () {
+                $(this).css('text-decoration','none');
+            });
+        });
+    </script>
+</body>
+</html>
