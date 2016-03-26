@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>Biology Questions</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <meta property="og:url" content="http://gyaancheck.com/questions/biology/set1.html" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Biology : Crop Production and Management" />
+    <meta property="og:description" content="SSC may ask you these questions related to crops" />
+    <meta property="og:image" content="http://www.gyaancheck.com/images/og/crops.jpg" />
+    <meta property="og:site_name" content="GyaanCheck" />
+    <meta property="fb:app_id" content="411625832337640" />
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        #btnShowAnswer {
+            background-color: #11c1f3;
+            border-color: #11c1f3;
+        }
+
+        .company {
+            text-align: center;
+            background-color: #11c1f3;
+            color: white;
+            margin-top: 0px;
+            margin-bottom: 5px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <a href="/"><h1 style="text-align: center; background-color: #11c1f3; color: white; margin-top: 0px; margin-bottom: 5px; padding-bottom: 10px; padding-top: 10px">Crop Production and Management</h1></a>
+            <ul class="list-group">
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>The process of loosening and turning the soil is called ______<span style="color:#33cd5f" class="answer pull-right">Tilling</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>The organic substance obtained from dead plants an animal wastes is _________<span style="color:#33cd5f" class="answer pull-right">Manure</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Is Rice a Rabi Crop?<span style="color:#33cd5f" class="answer pull-right">No</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Is Pea a kharif crop?<span style="color:#33cd5f" class="answer pull-right">No</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>In which method of irrigation rotating nozzles are used?<span style="color:#33cd5f" class="answer pull-right">Sprinkler Nozzle</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Which of the following nutrient replenish the soil after growing leguminous plants?<span style="color:#33cd5f" class="answer pull-right">Nitrogen</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>The management of  rearing animals for food and other products is known as _______<span style="color:#33cd5f" class="answer pull-right">Animal Husbandry</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>The process of separating the grain from the chaff is?<span style="color:#33cd5f" class="answer pull-right">Threshing</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Weeds can be removed by using?<span style="color:#33cd5f" class="answer pull-right">Weedicides</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Which leaves are used by farmers to protect their crops from weeds and insects?<span style="color:#33cd5f" class="answer pull-right">Neem Leaves</span></p>
+                </li>
+            </ul>
+            <button id="btnShowAnswer" class="btn btn-primary btn-default" style="display: block; width: 100%; font-size:xx-large; background-color:#11c1f3; border-color:#11c1f3">
+                Check Answers
+            </button>
+            <button id="btnRedirect" class="btn btn-warning" style="display: block; width: 100%; font-size:xx-large">
+                More Questions ?
+            </button>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.answer').hide();
+            $('#btnRedirect').hide();
+            $('#btnShowAnswer').on('click', function () {
+                $('.answer').toggle();
+                $('#btnRedirect').toggle();
+                $('#btnShowAnswer').toggle();
+            });
+            $('#btnRedirect').on('click', function () {
+                location.href = '/questions/biology/set2.html';
+            });
+
+            $('#btnBack').on('click', function () {
+                var ref = document.referrer;
+                location.href = ref;
+            });
+            $('a').on('mouseover', function () {
+                $(this).css('text-decoration','none');
+            });
+        });
+    </script>
+</body>
+</html>
