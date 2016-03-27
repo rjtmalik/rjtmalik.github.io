@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>Physics Questions</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <meta property="og:url" content="http://gyaancheck.com/questions/physics/set7.html" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Physics : Universe" />
+    <meta property="og:description" content="Twinkle Twinle Little Star, o yes, I wonder which star you are" />
+    <meta property="og:image" content="http://www.gyaancheck.com/images/og/venus.jpg" />
+    <meta property="og:site_name" content="GyaanCheck" />
+    <meta property="fb:app_id" content="411625832337640" />
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        #btnShowAnswer {
+            background-color: #11c1f3;
+            border-color: #11c1f3;
+        }
+
+        .company {
+            text-align: center;
+            background-color: #11c1f3;
+            color: white;
+            margin-top: 0px;
+            margin-bottom: 5px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <a href="/"><h1 style="text-align: center; background-color: #11c1f3; color: white; margin-top: 0px; margin-bottom: 5px; padding-bottom: 10px; padding-top: 10px">Universe</h1></a>
+            <ul class="list-group">
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Name the biggest planet.<span style="color:#33cd5f" class="answer pull-right">Jupiter</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Name the smallest planet in our solar system.<span style="color:#33cd5f" class="answer pull-right">Mercury</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Name the natural satellite of the Earth.<span style="color:#33cd5f" class="answer pull-right">Moon</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Which is the nearest planet from the sun?<span style="color:#33cd5f" class="answer pull-right">Mercury</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Which is the farthest planet from the sun?<span style="color:#33cd5f" class="answer pull-right">Neptune</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Which is the farthest planet from the sun?<span style="color:#33cd5f" class="answer pull-right">False(It depends on amplitude)</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Which planet is nearest to the earth?<span style="color:#33cd5f" class="answer pull-right">Venus</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Which planet is called twin sister of the earth?<span style="color:#33cd5f" class="answer pull-right">Venus</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Which planet is the coldest?<span style="color:#33cd5f" class="answer pull-right">Neptune</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Which planet is the brightest?<span style="color:#33cd5f" class="answer pull-right">Venus</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Which is the heaviest planet in our solar system?<span style="color:#33cd5f" class="answer pull-right">Jupiter</span></p>
+                </li>
+            </ul>
+            <button id="btnShowAnswer" class="btn btn-primary btn-default" style="display: block; width: 100%; font-size:xx-large; background-color:#11c1f3; border-color:#11c1f3">
+                Check Answers
+            </button>
+            <button id="btnRedirect" class="btn btn-warning" style="display: block; width: 100%; font-size:xx-large">
+                More Questions ?
+            </button>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.answer').hide();
+            $('#btnRedirect').hide();
+            $('#btnShowAnswer').on('click', function () {
+                $('.answer').toggle();
+                $('#btnRedirect').toggle();
+                $('#btnShowAnswer').toggle();
+            });
+            $('#btnRedirect').on('click', function () {
+                location.href = '/questions/physics/set8.html';
+            });
+
+            $('#btnBack').on('click', function () {
+                var ref = document.referrer;
+                location.href = ref;
+            });
+            $('a').on('mouseover', function () {
+                $(this).css('text-decoration','none');
+            });
+        });
+    </script>
+</body>
+</html>

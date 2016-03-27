@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>Physics Questions</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <meta property="og:url" content="http://gyaancheck.com/questions/physics/set8.html" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Physics : Universe 2" />
+    <meta property="og:description" content="The mysteries of the universe have become a good playground the the paper setter." />
+    <meta property="og:image" content="http://www.gyaancheck.com/images/og/earth.jpg" />
+    <meta property="og:site_name" content="GyaanCheck" />
+    <meta property="fb:app_id" content="411625832337640" />
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        #btnShowAnswer {
+            background-color: #11c1f3;
+            border-color: #11c1f3;
+        }
+
+        .company {
+            text-align: center;
+            background-color: #11c1f3;
+            color: white;
+            margin-top: 0px;
+            margin-bottom: 5px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <a href="/"><h1 style="text-align: center; background-color: #11c1f3; color: white; margin-top: 0px; margin-bottom: 5px; padding-bottom: 10px; padding-top: 10px">Universe 2</h1></a>
+            <ul class="list-group">
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Which planet is called the red planet?<span style="color:#33cd5f" class="answer pull-right">Mars</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Which planet is known as the blue planet?<span style="color:#33cd5f" class="answer pull-right">Earth</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Which is known as the morning star or evening star?<span style="color:#33cd5f" class="answer pull-right">Venus</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Which planet has the maximum number of satellites?<span style="color:#33cd5f" class="answer pull-right">Jupiter (64 moons)</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Name the smallest satellite in our solar system.<span style="color:#33cd5f" class="answer pull-right">Deimos (6.2 km radius, satellite of Mars)</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Name the biggest satellite of solar system.<span style="color:#33cd5f" class="answer pull-right">Ganymede (satellite of Jupiter, second largest is Saturn's Titan)</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>What is the age of the sun?<span style="color:#33cd5f" class="answer pull-right">Nearly 5 billion years.</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Which planet has density lighter than water?<span style="color:#33cd5f" class="answer pull-right">Saturn (if there is a bath tub enough to Saturn, it will float )</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>How long does it take sunlight reach earth from sun?<span style="color:#33cd5f" class="answer pull-right">8.33 minutes (8 minutes and 20 seconds).</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>How long does it take light reach earth from moon?<span style="color:#33cd5f" class="answer pull-right">1.3 seconds</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>What is the age of the earth?<span style="color:#33cd5f" class="answer pull-right">Nearly 4.6 billion years.</span></p>
+                </li>
+            </ul>
+            <button id="btnShowAnswer" class="btn btn-primary btn-default" style="display: block; width: 100%; font-size:xx-large; background-color:#11c1f3; border-color:#11c1f3">
+                Check Answers
+            </button>
+            <button id="btnRedirect" class="btn btn-warning" style="display: block; width: 100%; font-size:xx-large">
+                More Questions ?
+            </button>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.answer').hide();
+            $('#btnRedirect').hide();
+            $('#btnShowAnswer').on('click', function () {
+                $('.answer').toggle();
+                $('#btnRedirect').toggle();
+                $('#btnShowAnswer').toggle();
+            });
+            $('#btnRedirect').on('click', function () {
+                location.href = '/questions/physics/set9.html';
+            });
+
+            $('#btnBack').on('click', function () {
+                var ref = document.referrer;
+                location.href = ref;
+            });
+            $('a').on('mouseover', function () {
+                $(this).css('text-decoration','none');
+            });
+        });
+    </script>
+</body>
+</html>
