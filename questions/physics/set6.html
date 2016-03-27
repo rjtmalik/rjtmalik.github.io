@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>Physics Questions</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <meta property="og:url" content="http://gyaancheck.com/questions/physics/set6.html" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Physics : Sound" />
+    <meta property="og:description" content="Sound has been asked time and again in SSC. It's best you go through these questions'" />
+    <meta property="og:image" content="http://www.gyaancheck.com/images/og/woofer.jpg" />
+    <meta property="og:site_name" content="GyaanCheck" />
+    <meta property="fb:app_id" content="411625832337640" />
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        #btnShowAnswer {
+            background-color: #11c1f3;
+            border-color: #11c1f3;
+        }
+
+        .company {
+            text-align: center;
+            background-color: #11c1f3;
+            color: white;
+            margin-top: 0px;
+            margin-bottom: 5px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <a href="/"><h1 style="text-align: center; background-color: #11c1f3; color: white; margin-top: 0px; margin-bottom: 5px; padding-bottom: 10px; padding-top: 10px">Sound : True/False Type Question</h1></a>
+            <ul class="list-group">
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Sound is a mechanical wave.<span style="color:#33cd5f" class="answer pull-right">True</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Sound can travel through vacuum.<span style="color:#33cd5f" class="answer pull-right">False</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Sound is produced by a vibrating body.<span style="color:#33cd5f" class="answer pull-right">True</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>The maximum displacement of a body from its mean position is called amplitude of oscillation.<span style="color:#33cd5f" class="answer pull-right">True</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Loudness of a sound is measured in Hertz.<span style="color:#33cd5f" class="answer pull-right">False(It is Decibel dB)</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Loudness of a sound depends on the frequency of the sound wave.<span style="color:#33cd5f" class="answer pull-right">False(It depends on amplitude)</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Sound can travel through metals.<span style="color:#33cd5f" class="answer pull-right">True</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>In humans, sound is produced by larynx.<span style="color:#33cd5f" class="answer pull-right">True</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Television and transistor radio at high volumes, some kitchen appliances, desert coolers, air conditioners, all contribute to noise pollution.<span style="color:#33cd5f" class="answer pull-right">True</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Plantation on roadside can increase noise pollution.<span style="color:#33cd5f" class="answer pull-right">False(Decrease)</span></p>
+                </li>
+            </ul>
+            <button id="btnShowAnswer" class="btn btn-primary btn-default" style="display: block; width: 100%; font-size:xx-large; background-color:#11c1f3; border-color:#11c1f3">
+                Check Answers
+            </button>
+            <button id="btnRedirect" class="btn btn-warning" style="display: block; width: 100%; font-size:xx-large">
+                More Questions ?
+            </button>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.answer').hide();
+            $('#btnRedirect').hide();
+            $('#btnShowAnswer').on('click', function () {
+                $('.answer').toggle();
+                $('#btnRedirect').toggle();
+                $('#btnShowAnswer').toggle();
+            });
+            $('#btnRedirect').on('click', function () {
+                location.href = '/questions/physics/set7.html';
+            });
+
+            $('#btnBack').on('click', function () {
+                var ref = document.referrer;
+                location.href = ref;
+            });
+            $('a').on('mouseover', function () {
+                $(this).css('text-decoration','none');
+            });
+        });
+    </script>
+</body>
+</html>
