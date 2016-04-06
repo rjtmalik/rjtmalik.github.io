@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>Physics Questions</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <meta property="og:url" content="http://gyaancheck.com/questions/physics/set9.html" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Physics : Sound" />
+    <meta property="og:description" content="SSC may question you these facts related to class 8th Physics" />
+    <meta property="og:image" content="http://www.gyaancheck.com/images/og/Mridanga.jpg" />
+    <meta property="og:site_name" content="GyaanCheck" />
+    <meta property="fb:app_id" content="411625832337640" />
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        #btnShowAnswer {
+            background-color: #11c1f3;
+            border-color: #11c1f3;
+        }
+
+        .company {
+            text-align: center;
+            background-color: #11c1f3;
+            color: white;
+            margin-top: 0px;
+            margin-bottom: 5px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <a href="/"><h1 style="text-align: center; background-color: #11c1f3; color: white; margin-top: 0px; margin-bottom: 5px; padding-bottom: 10px; padding-top: 10px">Sound</h1></a>
+            <ul class="list-group">
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>In dholak sound is produced due to (stretched membrane / stretched strings / air column / vibration of air)<span style="color:#33cd5f" class="answer pull-right">Stretched Membrane</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>The pitch of sound depends on the (amplitude / noise / frequency / medium of propagation) of the vibrating body.<span style="color:#33cd5f" class="answer pull-right">Frequency</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Speed of sound in solids is (same as / greater than / less than / sometimes greater and sometimes less than) the speed of sound in liquids.<span style="color:#33cd5f" class="answer pull-right">Greater Than</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>The human ear can hear sounds having frequency in range between (200 - 20,000 Hz / 20 - 2000 Hz / 200 - 2000 Hz / 20 - 20,000 Hz)<span style="color:#33cd5f" class="answer pull-right">Between 20 - 20,000 Hz</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>The time taken to complete (one / ten / two / hundred) oscillation(s) is called time period.<span style="color:#33cd5f" class="answer pull-right">One</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>To and fro or back and forth motion of an object is termed as (frequency / amplitude / vibration / time period).<span style="color:#33cd5f" class="answer pull-right">Vibration</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Vocal cords in men are about (20 mm / 20 cm / 2 mm / 2 cm) long.<span style="color:#33cd5f" class="answer pull-right">20 mm</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Length of vocal cords of women is (greater than / less than / same as / slightly greater than) men.<span style="color:#33cd5f" class="answer pull-right">Less than</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Sound cannot travel in (solids / liquids / gases / vacuum).<span style="color:#33cd5f" class="answer pull-right">Vacuum</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>The sound above (20 dB / 40 dB / 60 dB / 80 dB) is physically painful.<span style="color:#33cd5f" class="answer pull-right">80 dB</span></p>
+                </li>
+            </ul>
+            <button id="btnShowAnswer" class="btn btn-primary btn-default" style="display: block; width: 100%; font-size:xx-large; background-color:#11c1f3; border-color:#11c1f3">
+                Check Answers
+            </button>
+            <button id="btnRedirect" class="btn btn-warning" style="display: block; width: 100%; font-size:xx-large">
+                More Questions ?
+            </button>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.answer').hide();
+            $('#btnRedirect').hide();
+            $('#btnShowAnswer').on('click', function () {
+                $('.answer').toggle();
+                $('#btnRedirect').toggle();
+                $('#btnShowAnswer').toggle();
+            });
+            $('#btnRedirect').on('click', function () {
+                location.href = '/questions/physics/set10.html';
+            });
+
+            $('#btnBack').on('click', function () {
+                var ref = document.referrer;
+                location.href = ref;
+            });
+            $('a').on('mouseover', function () {
+                $(this).css('text-decoration','none');
+            });
+        });
+    </script>
+</body>
+</html>
