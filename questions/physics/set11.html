@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>Physics Questions</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <meta property="og:url" content="http://gyaancheck.com/questions/physics/set10.html" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Physics : Light" />
+    <meta property="og:description" content="Do you know which part of eye controls the amount of eye entering the eye by contracting or dilating?" />
+    <meta property="og:image" content="http://www.gyaancheck.com/images/og/lightbulb.jpg" />
+    <meta property="og:site_name" content="GyaanCheck" />
+    <meta property="fb:app_id" content="411625832337640" />
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        #btnShowAnswer {
+            background-color: #11c1f3;
+            border-color: #11c1f3;
+        }
+
+        .company {
+            text-align: center;
+            background-color: #11c1f3;
+            color: white;
+            margin-top: 0px;
+            margin-bottom: 5px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <a href="/"><h1 style="text-align: center; background-color: #11c1f3; color: white; margin-top: 0px; margin-bottom: 5px; padding-bottom: 10px; padding-top: 10px">Light</h1></a>
+            <ul class="list-group">
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Image formed by the plane mirror is (Always real / Always virtual / Sometimes real sometimes virtual / None of these)<span style="color:#33cd5f" class="answer pull-right">Always virtual</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>The light ray, which strikes any surface, is called (Reflected Ray / Normal / Incident Ray / Refracted Ray)<span style="color:#33cd5f" class="answer pull-right">Incident Ray</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>The ray that comes back from the surface after reflection is called (Reflected Ray / Normal / Incident Ray / Refracted Ray)<span style="color:#33cd5f" class="answer pull-right">Reflected Ray</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Angle of incidence is( never equal to / always greater than / always smaller than / always equal to ) angle of reflection.<span style="color:#33cd5f" class="answer pull-right">Angle of incidence is always equal to angle of reflection.</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>The property of plane mirror to make 'right appear as left' and vice versa, is called ?<span style="color:#33cd5f" class="answer pull-right">Lateral inversion</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>We can see ourselves in mirror or polished surface but not on walls because the reflection from walls is ?<span style="color:#33cd5f" class="answer pull-right">Irregular reflection</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>(Kaleidoscope / Periscope / Microscope / telescope)can make beautiful patterns due to the formation of multiple images.<span style="color:#33cd5f" class="answer pull-right">Kaleidoscope</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>How many images will be formed when two plane mirrors are placed parallel to each other ?<span style="color:#33cd5f" class="answer pull-right">Infinite</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>The phenomenon of breaking up of light into its seven constituent colours is known as ?<span style="color:#33cd5f" class="answer pull-right">Dispersion of light</span></p>
+                </li>
+                <li class="list-group-item" style="line-height:20px;">
+                    <p>Which part of eye controls the amount of light entering the eye by contracting or dilating ?<span style="color:#33cd5f" class="answer pull-right">Iris</span></p>
+                </li>
+            </ul>
+            <button id="btnShowAnswer" class="btn btn-primary btn-default" style="display: block; width: 100%; font-size:xx-large; background-color:#11c1f3; border-color:#11c1f3">
+                Check Answers
+            </button>
+            <button id="btnRedirect" class="btn btn-warning" style="display: block; width: 100%; font-size:xx-large">
+                More Questions ?
+            </button>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.answer').hide();
+            $('#btnRedirect').hide();
+            $('#btnShowAnswer').on('click', function () {
+                $('.answer').toggle();
+                $('#btnRedirect').toggle();
+                $('#btnShowAnswer').toggle();
+            });
+            $('#btnRedirect').on('click', function () {
+                location.href = '/questions/physics/set12.html';
+            });
+
+            $('#btnBack').on('click', function () {
+                var ref = document.referrer;
+                location.href = ref;
+            });
+            $('a').on('mouseover', function () {
+                $(this).css('text-decoration','none');
+            });
+        });
+    </script>
+</body>
+</html>
