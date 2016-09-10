@@ -65,6 +65,9 @@
             $('.list-group-item').on('mouseover', function () {
                 $(this).css('cursor', 'pointer');
             });
+            $('#btnRedirect').on('click', function () {
+                location.href = '/interview/sample.html';
+            });
         });
         function GoTo(link) {
             location.href = link;
@@ -124,6 +127,9 @@
                 </li>
             </ul>
         </div>
+        <button id="btnRedirect" style="display: block; width: 100%; font-size:xx-large" class="btn btn-primary col-sm-12 col-xs-12 col-md-12">
+            Preparing for Interview. Here's some sample Questions.
+        </button>
     </div>
 </body>
 </html>
