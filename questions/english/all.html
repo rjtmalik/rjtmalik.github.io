@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- Bootstrap JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <title>GyaanCheck Job Listings</title>
+    <title>English</title>
     <style type="text/css">
         .panel {
             border-bottom: none;
@@ -59,11 +59,16 @@
     </style>
     <script type="text/javascript">
         $(document).ready(function () {
+            $('#btnRedirect').on('click', function () {
+                location.href = '/interview/sample.html';
+            });
+        });
+        $(document).ready(function () {
             $('#btnRedirectToHome').on('click', function () {
                 location.href = '#';
             });
             $('.list-group-item').on('mouseover', function () {
-                $(this).css('cursor', 'pointer');
+                $(this).css('cursor','pointer');
             });
         });
         function GoTo(link) {
@@ -75,54 +80,28 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-            <h1 class="company">Gyaancheck</h1>
+            <h1 class="company">Sentence Correction</h1>
             <ul class="list-group">
-                <li class="row list-group-item" onclick="return GoTo('/questions/english/all.html');">
+                <li class="row list-group-item" onclick="return GoTo('sentence_correction/set1.html');">
                     <div class="col-sm-10 col-xs-10 col-md-10 pull-left">
-                        <h1 class="Institution">Sentrence Correction</h1>
-                        <h4 class="jobTitle">Prepare yourself with the toughest questions in English</h4>
+                        <h1 class="Institution">Question 1</h1>
                     </div>
                     <div class="col-sm-2 col-xs-2 col-md-2 pull-left">
                         <h1><span class="glyphicon glyphicon-menu-right"></span></h1>
                     </div>
                 </li>
-                <li class="row list-group-item" onclick="return GoTo('/questions/computers/all.html');">
+                <li class="row list-group-item" onclick="return GoTo('word_meaning/set1.html');">
                     <div class="col-sm-10 col-xs-10 col-md-10 pull-left">
-                        <h1 class="Institution">Computer Knowledge Questions</h1>
-                        <h4 class="jobTitle">Computer Knowledge that will help you score high</h4>
-                    </div>
-                    <div class="col-sm-2 col-xs-2 col-md-2 pull-left">
-                        <h1><span class="glyphicon glyphicon-menu-right"></span></h1>
-                    </div>
-                </li>
-                <li class="row list-group-item" onclick="return GoTo('/questions/chemistry/all.html');">
-                    <div class="col-sm-10 col-xs-10 col-md-10 pull-left">
-                        <h1 class="Institution">Chemistry</h1>
-                        <h4 class="jobTitle">Chemistry Questions that are most frequently asked</h4>
-                    </div>
-                    <div class="col-sm-2 col-xs-2 col-md-2 pull-left">
-                        <h1><span class="glyphicon glyphicon-menu-right"></span></h1>
-                    </div>
-                </li>
-                <li class="row list-group-item" onclick="return GoTo('/questions/biology/all.html');">
-                    <div class="col-sm-10 col-xs-10 col-md-10 pull-left">
-                        <h1 class="Institution">Biology</h1>
-                        <h4 class="jobTitle">questions that are guaranteed to make a difference</h4>
-                    </div>
-                    <div class="col-sm-2 col-xs-2 col-md-2 pull-left">
-                        <h1><span class="glyphicon glyphicon-menu-right"></span></h1>
-                    </div>
-                </li>
-                <li class="row list-group-item" onclick="return GoTo('/questions/physics/all.html');">
-                    <div class="col-sm-10 col-xs-10 col-md-10 pull-left">
-                        <h1 class="Institution">Physics</h1>
-                        <h4 class="jobTitle">Questions that every examinee must know</h4>
+                        <h1 class="Institution">Question 2</h1>
                     </div>
                     <div class="col-sm-2 col-xs-2 col-md-2 pull-left">
                         <h1><span class="glyphicon glyphicon-menu-right"></span></h1>
                     </div>
                 </li>
             </ul>
+            <button id="btnRedirect" style="display: block; width: 100%; font-size:xx-large" class="btn btn-primary col-sm-12 col-xs-12 col-md-12">
+                Prepating for Interview. Here's some sample Questions.
+            </button>
         </div>
     </div>
 </body>
