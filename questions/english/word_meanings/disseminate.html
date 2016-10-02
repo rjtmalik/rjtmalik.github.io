@@ -3,7 +3,7 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta name=viewport content="width=device-width, initial-scale=1">
-    <title>Word Meanings</title>
+    <title>Disseminate</title>
 
     <!-- jQuery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -11,96 +11,53 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- Bootstrap JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <style type=" text/css">
-        #btnShowAnswer {
-            background-color: #11c1f3;
-            border-color: #11c1f3;
-        }
-
-        .company {
-            text-align: center;
-            background-color: #11c1f3;
-            color: white;
-            margin-top: 0px;
-            margin-bottom: 5px;
-            padding-bottom: 10px;
-            padding-top: 10px;
+    <style type="text/css">
+        .bs-callout {
+            padding: 20px;
+            margin: 20px 20px;
+            border: 1px solid #eee;
+            border-left-width: 5px;
+            border-radius: 3px;
+            border-left-color: #aa6708;
         }
     </style>
 </head>
 <body>
     <div class="container-fluid">
         <div class="row">
-            <a href="/"><h1 style="text-align: center; background-color: #11c1f3; color: white; margin-top: 0px; margin-bottom: 5px; padding-bottom: 10px; padding-top: 10px">English Word Meanings 1</h1></a>
-            <ul class="list-group">
-                <li class="list-group-item" style="line-height:20px;">
-                    <p><span style="text-transform:uppercase">enigma</span><span style="color:#33cd5f" class="answer pull-right">mystery, puzzle</span><br/>
-                    <span style="color:#33cd5f" class="answer">The old man who lived on the corner was an enigma in many ways and his death was very baffling.</span></p>
-                </li>
-                <li class="list-group-item" style="line-height:20px;">
-                    <p>
-                        <span style="text-transform:uppercase">invincible</span><span style="color:#33cd5f" class="answer pull-right">Too Powerful to be defeated</span><br />
-                        <span style="color:#33cd5f" class="answer">Prussia has always declared that Buonaparte is invincible, and that all Europe is powerless before him...</span>
-                    </p>
-                </li>
-                <li class="list-group-item" style="line-height:20px;">
-                    <p>
-                        <span style="text-transform:uppercase">imperil</span><span style="color:#33cd5f" class="answer pull-right">Put at risk of being harmed or destroyed.</span><br />
-                        <span style="color:#33cd5f" class="answer">In the summer of 1857 these events seemed to imperil British rule in India.</span>
-                    </p>
-                </li>
-                <li class="list-group-item" style="line-height:20px;">
-                    <p>
-                        <span style="text-transform:uppercase">erstwhile</span><span style="color:#33cd5f" class="answer pull-right">Former</span><br />
-                        <span style="color:#33cd5f" class="answer">It is true that the Teutonic states succeeded everywhere in establishing themselves; but only in England and in the erstwhile Roman Germany did the Roman nationality succumb to the Teutonic</span>
-                    </p>
-                </li>
-                <li class="list-group-item" style="line-height:20px;">
-                    <p>
-                        <span style="text-transform:uppercase">Expeditious</span><span style="color:#33cd5f" class="answer pull-right">Fast With Speed and Efficiency</span><br />
-                        <span style="color:#33cd5f" class="answer">Volumetric methods are more expeditious and require less apparatus.</span>
-                    </p>
-                </li>
-                <li class="list-group-item" style="line-height:20px;">
-                    <p>
-                        <span style="text-transform:uppercase">Cynic</span><span style="color:#33cd5f" class="answer pull-right">A Person who is always negative</span><br />
-                        <span style="color:#33cd5f" class="answer">Finally it is necessary to point out two flaws in the Cynic philosophy.</span>
-                    </p>
-                </li>
-                <li class="list-group-item" style="line-height:20px;">
-                    <p>
-                        <span style="text-transform:uppercase">Disseminate</span><span style="color:#33cd5f" class="answer pull-right">The act of spreading something</span><br />
-                        <span style="color:#33cd5f" class="answer">The answers will be disseminated in other ways.</span>
-                    </p>
-                </li>
-            </ul>
-            <button id="btnShowAnswer" class="btn btn-primary btn-default" style="display: block; width: 100%; font-size:xx-large; background-color:#11c1f3; border-color:#11c1f3">
-                Check Answers
-            </button>
-            <button id="btnRedirect" class="btn btn-warning" style="display: block; width: 100%; font-size:xx-large">
-                More Questions ?
+            <a href="/"><h1 style="text-align: center; background-color: #11c1f3; color: white; margin-top: 0px; margin-bottom: 5px; padding-bottom: 10px; padding-top: 10px">Disseminate</h1></a>
+            <ol class="breadcrumb">
+                <li><a href="/">Home</a></li>
+                <li><a href="/questions/english/all.html">English</a></li>
+                <li><a href="/questions/english/word_meanings/all.html">All Word Meanings</a></li>
+                <li class="active">...</li>
+            </ol>
+            <div class="bs-callout">
+                <h4>
+                    The act of spreading something
+                </h4>
+                <h6>Example Sentence</h6>
+                <p>
+                    The farmer disseminated the seeds with his hands.
+                </p>
+            </div>
+            <button id="btnRedirect" class="btn btn-primary btn-default" style="display: block; width: 100%; font-size:xx-large; background-color:#11c1f3; border-color:#11c1f3">
+                Next Word - Enigma
             </button>
         </div>
     </div>
     <script type="text/javascript">
         $(document).ready(function () {
             $('.answer').hide();
-            $('#btnRedirect').hide();
-            $('#btnShowAnswer').on('click', function () {
-                $('.answer').toggle();
-                $('#btnRedirect').toggle();
-                $('#btnShowAnswer').toggle();
-            });
             $('#btnRedirect').on('click', function () {
-                location.href = '/questions/english/set2.html';
+                location.href = '/questions/english/word_meanings/enigma.html';
             });
-
             $('#btnBack').on('click', function () {
                 var ref = document.referrer;
                 location.href = ref;
             });
             $('a').on('mouseover', function () {
-                $(this).css('text-decoration','none');
+                $(this).css('text-decoration', 'none');
             });
         });
     </script>
