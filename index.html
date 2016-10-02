@@ -30,10 +30,12 @@
 
         .Institution-mustard {
             color: #aa6708;
+            font-size:80px;
         }
 
         .Institution-olive {
             color: olive;
+            font-size:80px;
         }
 
         a {
@@ -45,7 +47,16 @@
                 text-decoration: none;
                 text-decoration-color: none;
             }
-
+            .footer {
+            text-align: center;
+            background-color: #11c1f3;
+            color: white;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            font-size:100px;
+        }
         .company {
             text-align: center;
             background-color: #11c1f3;
@@ -54,6 +65,7 @@
             margin-bottom: 0px;
             padding-bottom: 10px;
             padding-top: 10px;
+            font-size:100px;
         }
 
         #btnRedirect {
@@ -67,6 +79,7 @@
             border: 1px solid #eee;
             border-left-width: 5px;
             border-radius: 3px;
+            font-size:x-large;
         }
 
         .bs-callout-mustard {
@@ -151,8 +164,6 @@
             </div>
         </div>
     </div>
-    <button id="btnRedirect" style="display: block; width: 100%; font-size:xx-large" class="btn btn-primary col-sm-12 col-xs-12 col-md-12">
-        Preparing for Interview. Here's some sample Questions.
-    </button>
+    <h1 class="footer" onclick="return GoTo('/interview/sample.html');">Preparing for Interview.</h1>
 </body>
 </html>
