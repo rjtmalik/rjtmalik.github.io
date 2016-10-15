@@ -20,16 +20,22 @@
             padding: 0px;
         }
 
-        .glyphicon-menu-right:before {
+        /*.glyphicon-menu-right:before {
             color: grey;
-        }
+        }*/
 
         .jobTitle {
             color: grey;
         }
 
-        .Institution {
-            color: darkgray;
+        .Institution-mustard {
+            color: #aa6708;
+            font-size:80px;
+        }
+
+        .Institution-olive {
+            color: olive;
+            font-size:80px;
         }
 
         a {
@@ -50,11 +56,33 @@
             margin-bottom: 0px;
             padding-bottom: 10px;
             padding-top: 10px;
+            font-size:100px;
         }
 
         #btnRedirect {
             background-color: #11c1f3;
             border-color: #11c1f3;
+        }
+        .bs-callout {
+            padding: 20px;
+            margin: 20px 20px;
+            border: 1px solid #eee;
+            border-left-width: 5px;
+            border-radius: 3px;
+            font-size:x-large;
+        }
+
+        .bs-callout-mustard {
+            border-left-color: #aa6708;
+            color: #aa6708;
+        }
+
+        .bs-callout-olive {
+            border-left-color: olive;
+        }
+
+        .glyphicon-menu-right:before {
+            font-size: 80px;
         }
     </style>
     <script type="text/javascript">
@@ -70,6 +98,9 @@
             $('.list-group-item').on('mouseover', function () {
                 $(this).css('cursor','pointer');
             });
+            $('.bs-callout').on('mouseover', function () {
+                $(this).css('cursor', 'pointer');
+            });
         });
         function GoTo(link) {
             location.href = link;
@@ -81,24 +112,22 @@
     <div class="container-fluid">
         <div class="row">
             <h1 class="company">English</h1>
-            <ul class="list-group">
-                <li class="row list-group-item" onclick="return GoTo('sentence_correction/set1.html');">
-                    <div class="col-sm-10 col-xs-10 col-md-10 pull-left">
-                        <h1 class="Institution">Sentence Correction</h1>
-                    </div>
-                    <div class="col-sm-2 col-xs-2 col-md-2 pull-left">
-                        <h1><span class="glyphicon glyphicon-menu-right"></span></h1>
-                    </div>
-                </li>
-                <li class="row list-group-item" onclick="return GoTo('word_meanings/all.html');">
-                    <div class="col-sm-10 col-xs-10 col-md-10 pull-left">
-                        <h1 class="Institution">Word Meaning</h1>
-                    </div>
-                    <div class="col-sm-2 col-xs-2 col-md-2 pull-left">
-                        <h1><span class="glyphicon glyphicon-menu-right"></span></h1>
-                    </div>
-                </li>
-            </ul>
+            <div class="row bs-callout bs-callout-mustard" onclick="return GoTo('sentence_correction/set1.html');">
+                <div class="col-sm-10 col-xs-10 col-md-10 pull-left">
+                    <h1 class="Institution-mustard">Sentence Correction</h1>
+                </div>
+                <div class="col-sm-2 col-xs-2 col-md-2 pull-left">
+                    <h1><span class="glyphicon glyphicon-menu-right"></span></h1>
+                </div>
+            </div>
+            <div class="row bs-callout bs-callout-olive" onclick="return GoTo('word_meanings/all.html');">
+                <div class="col-sm-10 col-xs-10 col-md-10 pull-left">
+                    <h1 class="Institution-olive">Word Meaning</h1>
+                </div>
+                <div class="col-sm-2 col-xs-2 col-md-2 pull-left" style="color:olive;">
+                    <h1><span class="glyphicon glyphicon-menu-right"></span></h1>
+                </div>
+            </div>
             <button id="btnRedirect" style="display: block; width: 100%; font-size:xx-large" class="btn btn-primary col-sm-12 col-xs-12 col-md-12">
                 Preparing for Interview. Here's some sample Questions.
             </button>
